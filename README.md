@@ -15,7 +15,7 @@ If the user is using a Maven project the first step is to put the `jmh-core-1.37
     -DgroupId=org.openjdk.jmh \
     -DartifactId=jmh-core \
     -Dversion=1.37-extended \
-    -Dpackaging=jar
+    -Dpackaging=jar```
 
 After this, you must modify the `pom.xml` file, adding
 ```<dependencies>
@@ -73,7 +73,7 @@ After this, you must modify the `pom.xml` file, adding
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build>```
 
 Now, your benchmarks' classes can be developed also in the `src/main/java/` folder and you just have to reload the Maven project and run `mvn clean install`.
 You are ready to run the microbenchmarks, and to have a look at all the possible options run `java -jar target/projectname-1.0-SNAPSHOT.jar -h`. The dynamic halt can be configured both in the command line options and annotations.
