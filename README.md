@@ -6,6 +6,8 @@ This repository contains:
 - `jpt-service`: the dockerized Flask web application exposing the TSC models
 - `jmh-core-1.37-all.jar`: the ready to use .jar file of AMBER
 
+Please, consider that in order to use AMBER you have to run the docker service. In order to to that, follow the instructions in the `jpt-service` folder.
+
 ## Configuring AMBER
 To regenerate the AMBER jar file, the only step is to run `mvn clean install` in the `jmh-core folder`.
 
