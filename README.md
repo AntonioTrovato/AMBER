@@ -2,17 +2,19 @@
 AMBER is an AI-enabled extension of JMH.
 
 This repository contains: 
-- `jmh-1.37:` the folder contained the extended version of the `jmh-core` module
+- `jmh-1.37`: the folder contained the extended version of the `jmh-core` module
 - `jpt-service`: the dockerized Flask web application exposing the TSC models
 - `jmh-core-1.37-all.jar`: the ready to use .jar file of AMBER
 
 Please, consider that in order to use AMBER you have to run the docker service. In order to to that, follow the instructions in the `jpt-service` folder.
 
-## Configuring AMBER
-To regenerate the AMBER jar file, the only step is to run `mvn clean install` in the `jmh-core folder`.
+## AMBER Jar File Generation
+To regenerate the AMBER jar file, the only step is to run in the `jmh-core` module of the `jmh-1.37` folder `mvn clean install`.
 
-## Maven
-If the user is using a Maven project the first step is to put the `jmh-core-1.37-all.jar` in a folder inside the project, for example `libs/jmh-core-1.37-all.jar`. Then, run:
+Once the `.jar` has been generated and the `jpt-service` is running, you can configure AMBER in your Java Projects. In the following, the instructions to setup AMBER in both Maven and Gradle Projects.
+
+## Setup AMBER in Your Maven Projects
+To include AMBER in your Maven project the first step is to put the `jmh-core-1.37-all.jar` in a folder inside your project, for example `libs/jmh-core-1.37-all.jar`. Then, run:
 ```
   mvn install:install-file -Dfile=/path/to/jmh-core-1.37-all.jar \
     -DgroupId=org.openjdk.jmh \
@@ -84,8 +86,8 @@ After this, you must modify the `pom.xml` file, adding
 Now, your benchmarks' classes can be developed also in the `src/main/java/` folder and you just have to reload the Maven project and run `mvn clean install`.
 You are ready to run the microbenchmarks, and to have a look at all the possible options run `java -jar target/projectname-1.0-SNAPSHOT.jar -h`. The dynamic halt can be configured both in the command line options and annotations.
 
-## GRADLE
-If the user is using a Gradle project the first step is to put the `jmh-core-1.37-all.jar` in a folder inside the project, for example `libs/jmh-core-1.37-all.jar`.
+## Setup AMBER in Your Gradle Projects
+If you are using a Gradle project and you want to use AMBER, the first step is to put the `jmh-core-1.37-all.jar` in a folder inside the project, for example `libs/jmh-core-1.37-all.jar`.
 Then, in the `build.gradle` file, the following plugin and dependencies must be added:
 ```
     id("me.champeau.jmh") version "0.7.2"
