@@ -1,0 +1,62 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< org.openjdk.jmh:jmh-java-benchmark-archetype-test >----------
+[INFO] Building JMH benchmark sample: Java 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.pom (5.0 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.17/surefire-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.17/surefire-2.17.pom (17 kB at 412 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.17/maven-surefire-plugin-2.17.jar (34 kB at 815 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 224 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 1.1 MB/s)
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ jmh-java-benchmark-archetype-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ jmh-java-benchmark-archetype-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/classes
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ jmh-java-benchmark-archetype-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ jmh-java-benchmark-archetype-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:2.17:test (default-test) @ jmh-java-benchmark-archetype-test ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.pom (6.1 kB at 218 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.pom (2.3 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.pom (2.8 kB at 113 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.17/maven-surefire-common-2.17.jar (265 kB at 3.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.17/surefire-booter-2.17.jar (40 kB at 1.3 MB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.17/surefire-api-2.17.jar (147 kB at 1.2 MB/s)
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:2.4:jar (default-jar) @ jmh-java-benchmark-archetype-test ---
+[INFO] Building jar: /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/jmh-java-benchmark-archetype-test-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- shade:3.2.1:shade (default) @ jmh-java-benchmark-archetype-test ---
+[INFO] Including org.openjdk.jmh:jmh-core:jar:1.37 in the shaded jar.
+[INFO] Including net.sf.jopt-simple:jopt-simple:jar:5.0.4 in the shaded jar.
+[INFO] Including org.apache.commons:commons-math3:jar:3.6.1 in the shaded jar.
+[INFO] Replacing /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/benchmarks.jar with /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-archetypes/jmh-java-benchmark-archetype/target/test-classes/projects/test/project/jmh-java-benchmark-archetype-test/target/jmh-java-benchmark-archetype-test-1.0-SNAPSHOT-shaded.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.838 s
+[INFO] Finished at: 2024-12-03T17:41:30+01:00
+[INFO] ------------------------------------------------------------------------

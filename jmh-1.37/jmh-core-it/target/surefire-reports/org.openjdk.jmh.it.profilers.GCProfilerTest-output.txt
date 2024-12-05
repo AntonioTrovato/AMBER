@@ -1,0 +1,1571 @@
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject
+
+# Run progress: 0,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 5,311 ns/op
+# Warmup Iteration   2: 5,159 ns/op
+Iteration   1: 4,831 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          3182,438 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     16,132 B/op
+                 gc.churn.PS_Survivor_Space:      0,093 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: ≈ 10⁻³ B/op
+                 gc.count:                        76,000 counts
+                 gc.time:                         188,000 ms
+
+Iteration   2: 4,264 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          3557,703 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     15,938 B/op
+                 gc.churn.PS_Survivor_Space:      0,016 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: ≈ 10⁻⁴ B/op
+                 gc.count:                        85,000 counts
+                 gc.time:                         176,000 ms
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject":
+  4,548 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate":
+  0,007 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space":
+  3370,071 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space.norm":
+  16,035 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space":
+  0,055 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.count":
+  80,500 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.time":
+  182,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 10 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup
+
+# Run progress: 59,36% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 7,720 ns/op
+                 gc.alloc.rate:      561,731 MB/sec
+                 gc.alloc.rate.norm: 7,258 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 6,018 ns/op
+                 gc.alloc.rate:      1,121 MB/sec
+                 gc.alloc.rate.norm: 0,007 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 4,658 ns/op
+                 gc.alloc.rate:               1,197 MB/sec
+                 gc.alloc.rate.norm:          0,006 B/op
+                 gc.churn.PS_Eden_Space:      4994,505 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 24,832 B/op
+                 gc.count:                    1,000 counts
+                 gc.time:                     2,000 ms
+
+Iteration   4: 4,271 ns/op
+                 gc.alloc.rate:                   1,120 MB/sec
+                 gc.alloc.rate.norm:              0,005 B/op
+                 gc.churn.PS_Eden_Space:          5053,296 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     23,113 B/op
+                 gc.churn.PS_Survivor_Space:      59,898 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,274 B/op
+                 gc.count:                        1,000 counts
+                 gc.time:                         2,000 ms
+
+Iteration   5: 4,192 ns/op
+                 gc.alloc.rate:               1,272 MB/sec
+                 gc.alloc.rate.norm:          0,006 B/op
+                 gc.churn.PS_Eden_Space:      5738,581 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 26,180 B/op
+                 gc.count:                    1,000 counts
+                 gc.time:                     1,000 ms
+
+Iteration   6: 3,104 ns/op
+                 gc.alloc.rate:      1,060 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   7: 3,812 ns/op
+                 gc.alloc.rate:                   1,181 MB/sec
+                 gc.alloc.rate.norm:              0,005 B/op
+                 gc.churn.PS_Eden_Space:          5326,583 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     21,690 B/op
+                 gc.churn.PS_Survivor_Space:      3,900 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,016 B/op
+                 gc.count:                        1,000 counts
+                 gc.time:                         2,000 ms
+
+Iteration   8: 4,098 ns/op
+                 gc.alloc.rate:               1,258 MB/sec
+                 gc.alloc.rate.norm:          0,006 B/op
+                 gc.churn.PS_Eden_Space:      5705,117 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 25,158 B/op
+                 gc.count:                    1,000 counts
+                 gc.time:                     1,000 ms
+
+Iteration   9: 3,885 ns/op
+                 gc.alloc.rate:                   1,320 MB/sec
+                 gc.alloc.rate.norm:              0,006 B/op
+                 gc.churn.PS_Eden_Space:          5952,981 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     25,037 B/op
+                 gc.churn.PS_Survivor_Space:      4,362 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,018 B/op
+                 gc.count:                        1,000 counts
+                 gc.time:                         2,000 ms
+
+Iteration  10: 3,299 ns/op
+                 gc.alloc.rate:      1,041 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup":
+  4,506 ±(99.9%) 2,093 ns/op [Average]
+  (min, avg, max) = (3,104, 4,506, 7,720), stdev = 1,385
+  CI (99.9%): [2,412, 6,599] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate":
+  57,230 ±(99.9%) 267,997 MB/sec [Average]
+  (min, avg, max) = (1,041, 57,230, 561,731), stdev = 177,264
+  CI (99.9%): [≈ 0, 325,227] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm":
+  0,731 ±(99.9%) 3,468 B/op [Average]
+  (min, avg, max) = (0,004, 0,731, 7,258), stdev = 2,294
+  CI (99.9%): [≈ 0, 4,198] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space":
+  3277,106 ±(99.9%) 4287,352 MB/sec [Average]
+  (min, avg, max) = (≈ 0, 3277,106, 5952,981), stdev = 2835,818
+  CI (99.9%): [≈ 0, 7564,458] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space.norm":
+  14,601 ±(99.9%) 19,088 B/op [Average]
+  (min, avg, max) = (≈ 0, 14,601, 26,180), stdev = 12,625
+  CI (99.9%): [≈ 0, 33,689] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space":
+  6,816 ±(99.9%) 28,318 MB/sec [Average]
+  (min, avg, max) = (≈ 0, 6,816, 59,898), stdev = 18,730
+  CI (99.9%): [≈ 0, 35,134] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space.norm":
+  0,031 ±(99.9%) 0,130 B/op [Average]
+  (min, avg, max) = (≈ 0, 0,031, 0,274), stdev = 0,086
+  CI (99.9%): [≈ 0, 0,160] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.count":
+  6,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,600, 1,000), stdev = 0,516
+  CI (99.9%): [6,000, 6,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.time":
+  10,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 1,000, 2,000), stdev = 0,943
+  CI (99.9%): [10,000, 10,000] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 1 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime
+
+# Run progress: 60,35% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 39,338 ±(99.9%) 15,622 ns/op
+# Warmup Iteration   2: 51,917 ±(99.9%) 19,151 ns/op
+Iteration   1: 107,842 ±(99.9%) 124,363 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          1803,448 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     15,830 B/op
+                 gc.churn.PS_Survivor_Space:      0,078 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,001 B/op
+                 gc.count:                        43,000 counts
+                 gc.time:                         52,000 ms
+                 p0.00:                           ≈ 0 ns/op
+                 p0.50:                           41,000 ns/op
+                 p0.90:                           42,000 ns/op
+                 p0.95:                           42,000 ns/op
+                 p0.99:                           125,000 ns/op
+                 p0.999:                          334,000 ns/op
+                 p0.9999:                         132485,658 ns/op
+                 p1.00:                           1579008,000 ns/op
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime":
+  N = 58438
+  mean =    107,842 ±(99.9%) 124,363 ns/op
+
+  Histogram, ns/op:
+    [      0,000,  125000,000) = 58432 
+    [ 125000,000,  250000,000) = 3 
+    [ 250000,000,  375000,000) = 0 
+    [ 375000,000,  500000,000) = 0 
+    [ 500000,000,  625000,000) = 0 
+    [ 625000,000,  750000,000) = 0 
+    [ 750000,000,  875000,000) = 1 
+    [ 875000,000, 1000000,000) = 0 
+    [1000000,000, 1125000,000) = 0 
+    [1125000,000, 1250000,000) = 0 
+    [1250000,000, 1375000,000) = 1 
+    [1375000,000, 1500000,000) = 0 
+    [1500000,000, 1625000,000) = 1 
+    [1625000,000, 1750000,000) = 0 
+    [1750000,000, 1875000,000) = 0 
+
+  Percentiles, ns/op:
+      p(0,0000) =        ≈ 0 ns/op
+     p(50,0000) =     41,000 ns/op
+     p(90,0000) =     42,000 ns/op
+     p(95,0000) =     42,000 ns/op
+     p(99,0000) =    125,000 ns/op
+     p(99,9000) =    334,000 ns/op
+     p(99,9900) = 132485,658 ns/op
+     p(99,9990) = 1579008,000 ns/op
+     p(99,9999) = 1579008,000 ns/op
+    p(100,0000) = 1579008,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate":
+  0,007 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space":
+  1803,448 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space.norm":
+  15,830 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space":
+  0,078 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space.norm":
+  0,001 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.count":
+  43,000 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.time":
+  52,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot
+
+# Run progress: 99,93% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 21666,000 ns/op
+# Warmup Iteration   2: 3625,000 ns/op
+Iteration   1: 3000,000 ns/op
+                 gc.alloc.rate:      40,234 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 2583,000 ns/op
+                 gc.alloc.rate:      49,522 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 2875,000 ns/op
+                 gc.alloc.rate:      96,469 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 4250,000 ns/op
+                 gc.alloc.rate:      44,754 MB/sec
+                 gc.alloc.rate.norm: 12080,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   5: 3167,000 ns/op
+                 gc.alloc.rate:      41,294 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot":
+  N = 5
+  mean =   3175,000 ±(99.9%) 2455,656 ns/op
+
+  Histogram, ns/op:
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 0 
+    [2500,000, 2750,000) = 1 
+    [2750,000, 3000,000) = 1 
+    [3000,000, 3250,000) = 2 
+    [3250,000, 3500,000) = 0 
+    [3500,000, 3750,000) = 0 
+    [3750,000, 4000,000) = 0 
+    [4000,000, 4250,000) = 0 
+    [4250,000, 4500,000) = 1 
+    [4500,000, 4750,000) = 0 
+
+  Percentiles, ns/op:
+      p(0,0000) =   2583,000 ns/op
+     p(50,0000) =   3000,000 ns/op
+     p(90,0000) =   4250,000 ns/op
+     p(95,0000) =   4250,000 ns/op
+     p(99,0000) =   4250,000 ns/op
+     p(99,9000) =   4250,000 ns/op
+     p(99,9900) =   4250,000 ns/op
+     p(99,9990) =   4250,000 ns/op
+     p(99,9999) =   4250,000 ns/op
+    p(100,0000) =   4250,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate":
+  54,455 ±(99.9%) 91,510 MB/sec [Average]
+  (min, avg, max) = (40,234, 54,455, 96,469), stdev = 23,765
+  CI (99.9%): [≈ 0, 145,965] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm":
+  12336,000 ±(99.9%) 551,059 B/op [Average]
+  (min, avg, max) = (12080,000, 12336,000, 12400,000), stdev = 143,108
+  CI (99.9%): [11784,941, 12887,059] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.count":
+  ≈ 0 counts
+
+
+# Run complete. Total time: 00:00:11
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                                  Mode    Cnt        Score      Error   Units
+GCProfilerTest.allocateObject                                              avgt      2        4,548              ns/op
+GCProfilerTest.allocateObject:gc.alloc.rate                                avgt      2        0,007             MB/sec
+GCProfilerTest.allocateObject:gc.alloc.rate.norm                           avgt      2       ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space                       avgt      2     3370,071             MB/sec
+GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space.norm                  avgt      2       16,035               B/op
+GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space                   avgt      2        0,055             MB/sec
+GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space.norm              avgt      2       ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObject:gc.count                                     avgt      2      161,000             counts
+GCProfilerTest.allocateObject:gc.time                                      avgt      2      364,000                 ms
+GCProfilerTest.allocateObjectNoWarmup                                      avgt     10        4,506 ±    2,093   ns/op
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate                        avgt     10       57,230 ±  267,997  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm                   avgt     10        0,731 ±    3,468    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space               avgt     10     3277,106 ± 4287,352  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space.norm          avgt     10       14,601 ±   19,088    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space           avgt     10        6,816 ±   28,318  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space.norm      avgt     10        0,031 ±    0,130    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.count                             avgt     10        6,000             counts
+GCProfilerTest.allocateObjectNoWarmup:gc.time                              avgt     10       10,000                 ms
+GCProfilerTest.allocateObjectSampleTime                                  sample  58438      107,842 ±  124,363   ns/op
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate                    sample               0,007             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm               sample              ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space           sample            1803,448             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space.norm      sample              15,830               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space       sample               0,078             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space.norm  sample               0,001               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.count                         sample              43,000             counts
+GCProfilerTest.allocateObjectSampleTime:gc.time                          sample              52,000                 ms
+GCProfilerTest.allocateObjectSampleTime:p0.00                            sample                 ≈ 0              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.50                            sample              41,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.90                            sample              42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.95                            sample              42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.99                            sample             125,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.999                           sample             334,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.9999                          sample          132485,658              ns/op
+GCProfilerTest.allocateObjectSampleTime:p1.00                            sample         1579008,000              ns/op
+GCProfilerTest.allocateObjectSingleShot                                      ss      5     3175,000 ± 2455,656   ns/op
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate                        ss      5       54,455 ±   91,510  MB/sec
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm                   ss      5    12336,000 ±  551,059    B/op
+GCProfilerTest.allocateObjectSingleShot:gc.count                             ss      5          ≈ 0             counts
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject
+
+# Run progress: 0,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 4,355 ns/op
+# Warmup Iteration   2: 3,977 ns/op
+Iteration   1: 3,588 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁵ B/op
+                 gc.count:           101,000 counts
+                 gc.time:            89,000 ms
+
+Iteration   2: 3,464 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁵ B/op
+                 gc.count:           105,000 counts
+                 gc.time:            56,000 ms
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject":
+  3,526 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate":
+  0,006 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate.norm":
+  ≈ 10⁻⁵ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.count":
+  103,000 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.time":
+  72,500 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 10 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup
+
+# Run progress: 59,36% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 6,518 ns/op
+                 gc.alloc.rate:      550,491 MB/sec
+                 gc.alloc.rate.norm: 4,977 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 7,370 ns/op
+                 gc.alloc.rate:      1,029 MB/sec
+                 gc.alloc.rate.norm: 0,008 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            1,000 ms
+
+Iteration   3: 3,822 ns/op
+                 gc.alloc.rate:      0,914 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 3,908 ns/op
+                 gc.alloc.rate:      1,089 MB/sec
+                 gc.alloc.rate.norm: 0,005 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            2,000 ms
+
+Iteration   5: 3,538 ns/op
+                 gc.alloc.rate:      1,076 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            1,000 ms
+
+Iteration   6: 3,607 ns/op
+                 gc.alloc.rate:      1,130 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            1,000 ms
+
+Iteration   7: 3,416 ns/op
+                 gc.alloc.rate:      0,904 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   8: 6,149 ns/op
+                 gc.alloc.rate:      0,991 MB/sec
+                 gc.alloc.rate.norm: 0,007 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            4,000 ms
+
+Iteration   9: 5,893 ns/op
+                 gc.alloc.rate:      0,753 MB/sec
+                 gc.alloc.rate.norm: 0,005 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            7,000 ms
+
+Iteration  10: 4,032 ns/op
+                 gc.alloc.rate:      0,780 MB/sec
+                 gc.alloc.rate.norm: 0,003 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup":
+  4,825 ±(99.9%) 2,245 ns/op [Average]
+  (min, avg, max) = (3,416, 4,825, 7,370), stdev = 1,485
+  CI (99.9%): [2,580, 7,070] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate":
+  55,916 ±(99.9%) 262,725 MB/sec [Average]
+  (min, avg, max) = (0,753, 55,916, 550,491), stdev = 173,776
+  CI (99.9%): [≈ 0, 318,640] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm":
+  0,502 ±(99.9%) 2,377 B/op [Average]
+  (min, avg, max) = (0,003, 0,502, 4,977), stdev = 1,572
+  CI (99.9%): [≈ 0, 2,879] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.count":
+  6,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,600, 1,000), stdev = 0,516
+  CI (99.9%): [6,000, 6,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.time":
+  16,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 1,600, 7,000), stdev = 2,271
+  CI (99.9%): [16,000, 16,000] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 1 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime
+
+# Run progress: 60,35% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 36,404 ±(99.9%) 3,480 ns/op
+# Warmup Iteration   2: 46,439 ±(99.9%) 17,249 ns/op
+Iteration   1: 33,856 ±(99.9%) 17,134 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁴ B/op
+                 gc.count:           51,000 counts
+                 gc.time:            56,000 ms
+                 p0.00:              ≈ 0 ns/op
+                 p0.50:              41,000 ns/op
+                 p0.90:              42,000 ns/op
+                 p0.95:              42,000 ns/op
+                 p0.99:              42,000 ns/op
+                 p0.999:             209,000 ns/op
+                 p0.9999:            12971,338 ns/op
+                 p1.00:              351232,000 ns/op
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime":
+  N = 68233
+  mean =     33,856 ±(99.9%) 17,134 ns/op
+
+  Histogram, ns/op:
+    [     0,000,  25000,000) = 68231 
+    [ 25000,000,  50000,000) = 1 
+    [ 50000,000,  75000,000) = 0 
+    [ 75000,000, 100000,000) = 0 
+    [100000,000, 125000,000) = 0 
+    [125000,000, 150000,000) = 0 
+    [150000,000, 175000,000) = 0 
+    [175000,000, 200000,000) = 0 
+    [200000,000, 225000,000) = 0 
+    [225000,000, 250000,000) = 0 
+    [250000,000, 275000,000) = 0 
+    [275000,000, 300000,000) = 0 
+    [300000,000, 325000,000) = 0 
+    [325000,000, 350000,000) = 0 
+    [350000,000, 375000,000) = 1 
+
+  Percentiles, ns/op:
+      p(0,0000) =        ≈ 0 ns/op
+     p(50,0000) =     41,000 ns/op
+     p(90,0000) =     42,000 ns/op
+     p(95,0000) =     42,000 ns/op
+     p(99,0000) =     42,000 ns/op
+     p(99,9000) =    209,000 ns/op
+     p(99,9900) =  12971,338 ns/op
+     p(99,9990) = 351232,000 ns/op
+     p(99,9999) = 351232,000 ns/op
+    p(100,0000) = 351232,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate":
+  0,006 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.count":
+  51,000 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.time":
+  56,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot
+
+# Run progress: 99,93% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 9375,000 ns/op
+# Warmup Iteration   2: 15708,000 ns/op
+Iteration   1: 1042,000 ns/op
+                 gc.alloc.rate:      58,199 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 1000,000 ns/op
+                 gc.alloc.rate:      54,400 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 792,000 ns/op
+                 gc.alloc.rate:      75,390 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 3125,000 ns/op
+                 gc.alloc.rate:      52,520 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   5: 1333,000 ns/op
+                 gc.alloc.rate:      49,086 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot":
+  N = 5
+  mean =   1458,400 ±(99.9%) 3663,625 ns/op
+
+  Histogram, ns/op:
+    [   0,000,  250,000) = 0 
+    [ 250,000,  500,000) = 0 
+    [ 500,000,  750,000) = 0 
+    [ 750,000, 1000,000) = 1 
+    [1000,000, 1250,000) = 2 
+    [1250,000, 1500,000) = 1 
+    [1500,000, 1750,000) = 0 
+    [1750,000, 2000,000) = 0 
+    [2000,000, 2250,000) = 0 
+    [2250,000, 2500,000) = 0 
+    [2500,000, 2750,000) = 0 
+    [2750,000, 3000,000) = 0 
+    [3000,000, 3250,000) = 1 
+    [3250,000, 3500,000) = 0 
+    [3500,000, 3750,000) = 0 
+
+  Percentiles, ns/op:
+      p(0,0000) =    792,000 ns/op
+     p(50,0000) =   1042,000 ns/op
+     p(90,0000) =   3125,000 ns/op
+     p(95,0000) =   3125,000 ns/op
+     p(99,0000) =   3125,000 ns/op
+     p(99,9000) =   3125,000 ns/op
+     p(99,9900) =   3125,000 ns/op
+     p(99,9990) =   3125,000 ns/op
+     p(99,9999) =   3125,000 ns/op
+    p(100,0000) =   3125,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate":
+  57,919 ±(99.9%) 39,685 MB/sec [Average]
+  (min, avg, max) = (49,086, 57,919, 75,390), stdev = 10,306
+  CI (99.9%): [18,234, 97,604] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm":
+  10560,000 ±(99.9%) 0,001 B/op [Average]
+  (min, avg, max) = (10560,000, 10560,000, 10560,000), stdev = 0,001
+  CI (99.9%): [10560,000, 10560,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.count":
+  ≈ 0 counts
+
+
+# Run complete. Total time: 00:00:11
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                     Mode    Cnt       Score      Error   Units
+GCProfilerTest.allocateObject                                 avgt      2       3,526              ns/op
+GCProfilerTest.allocateObject:gc.alloc.rate                   avgt      2       0,006             MB/sec
+GCProfilerTest.allocateObject:gc.alloc.rate.norm              avgt      2      ≈ 10⁻⁵               B/op
+GCProfilerTest.allocateObject:gc.count                        avgt      2     206,000             counts
+GCProfilerTest.allocateObject:gc.time                         avgt      2     145,000                 ms
+GCProfilerTest.allocateObjectNoWarmup                         avgt     10       4,825 ±    2,245   ns/op
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate           avgt     10      55,916 ±  262,725  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm      avgt     10       0,502 ±    2,377    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.count                avgt     10       6,000             counts
+GCProfilerTest.allocateObjectNoWarmup:gc.time                 avgt     10      16,000                 ms
+GCProfilerTest.allocateObjectSampleTime                     sample  68233      33,856 ±   17,134   ns/op
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate       sample              0,006             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm  sample             ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.count            sample             51,000             counts
+GCProfilerTest.allocateObjectSampleTime:gc.time             sample             56,000                 ms
+GCProfilerTest.allocateObjectSampleTime:p0.00               sample                ≈ 0              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.50               sample             41,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.90               sample             42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.95               sample             42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.99               sample             42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.999              sample            209,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.9999             sample          12971,338              ns/op
+GCProfilerTest.allocateObjectSampleTime:p1.00               sample         351232,000              ns/op
+GCProfilerTest.allocateObjectSingleShot                         ss      5    1458,400 ± 3663,625   ns/op
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate           ss      5      57,919 ±   39,685  MB/sec
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm      ss      5   10560,000 ±    0,001    B/op
+GCProfilerTest.allocateObjectSingleShot:gc.count                ss      5         ≈ 0             counts
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject
+
+# Run progress: 0,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 4,281 ns/op
+# Warmup Iteration   2: 4,105 ns/op
+Iteration   1: 4,456 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          3430,690 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     16,041 B/op
+                 gc.churn.PS_Survivor_Space:      0,093 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: ≈ 10⁻³ B/op
+                 gc.count:                        82,000 counts
+                 gc.time:                         142,000 ms
+
+Iteration   2: 5,036 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          3020,638 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     15,961 B/op
+                 gc.churn.PS_Survivor_Space:      0,016 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: ≈ 10⁻⁴ B/op
+                 gc.count:                        73,000 counts
+                 gc.time:                         204,000 ms
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject":
+  4,746 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate":
+  0,007 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space":
+  3225,664 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space.norm":
+  16,001 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space":
+  0,054 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.count":
+  77,500 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.time":
+  173,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 10 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup
+
+# Run progress: 59,36% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 8,622 ns/op
+                 gc.alloc.rate:      381,612 MB/sec
+                 gc.alloc.rate.norm: 6,564 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 8,730 ns/op
+                 gc.alloc.rate:      0,749 MB/sec
+                 gc.alloc.rate.norm: 0,009 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 53,891 ns/op
+                 gc.alloc.rate:      0,866 MB/sec
+                 gc.alloc.rate.norm: 0,055 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            12,000 ms
+
+Iteration   4: 3,678 ns/op
+                 gc.alloc.rate:               0,997 MB/sec
+                 gc.alloc.rate.norm:          0,004 B/op
+                 gc.churn.PS_Eden_Space:      4670,666 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 20,737 B/op
+                 gc.count:                    ≈ 0 counts
+
+Iteration   5: 5,810 ns/op
+                 gc.alloc.rate:                   1,079 MB/sec
+                 gc.alloc.rate.norm:              0,007 B/op
+                 gc.churn.PS_Eden_Space:          4867,013 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     30,837 B/op
+                 gc.churn.PS_Survivor_Space:      53,091 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,336 B/op
+                 gc.count:                        1,000 counts
+                 gc.time:                         4,000 ms
+
+Iteration   6: 5,855 ns/op
+                 gc.alloc.rate:               0,880 MB/sec
+                 gc.alloc.rate.norm:          0,006 B/op
+                 gc.churn.PS_Eden_Space:      3970,613 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 24,974 B/op
+                 gc.count:                    1,000 counts
+                 gc.time:                     5,000 ms
+
+Iteration   7: 3,671 ns/op
+                 gc.alloc.rate:      1,039 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   8: 3,591 ns/op
+                 gc.alloc.rate:               1,029 MB/sec
+                 gc.alloc.rate.norm:          0,004 B/op
+                 gc.churn.PS_Eden_Space:      4565,070 MB/sec
+                 gc.churn.PS_Eden_Space.norm: 17,578 B/op
+                 gc.count:                    1,000 counts
+                 gc.time:                     1,000 ms
+
+Iteration   9: 6,631 ns/op
+                 gc.alloc.rate:                   1,143 MB/sec
+                 gc.alloc.rate.norm:              0,008 B/op
+                 gc.churn.PS_Eden_Space:          5156,924 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     36,450 B/op
+                 gc.churn.PS_Survivor_Space:      5,039 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,036 B/op
+                 gc.count:                        1,000 counts
+                 gc.time:                         4,000 ms
+
+Iteration  10: 4,824 ns/op
+                 gc.alloc.rate:      1,011 MB/sec
+                 gc.alloc.rate.norm: 0,005 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup":
+  10,530 ±(99.9%) 23,210 ns/op [Average]
+  (min, avg, max) = (3,591, 10,530, 53,891), stdev = 15,352
+  CI (99.9%): [≈ 0, 33,740] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate":
+  39,041 ±(99.9%) 181,979 MB/sec [Average]
+  (min, avg, max) = (0,749, 39,041, 381,612), stdev = 120,368
+  CI (99.9%): [≈ 0, 221,019] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm":
+  0,667 ±(99.9%) 3,133 B/op [Average]
+  (min, avg, max) = (0,004, 0,667, 6,564), stdev = 2,072
+  CI (99.9%): [≈ 0, 3,799] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space":
+  2323,029 ±(99.9%) 3728,492 MB/sec [Average]
+  (min, avg, max) = (≈ 0, 2323,029, 5156,924), stdev = 2466,167
+  CI (99.9%): [≈ 0, 6051,521] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space.norm":
+  13,058 ±(99.9%) 22,181 B/op [Average]
+  (min, avg, max) = (≈ 0, 13,058, 36,450), stdev = 14,671
+  CI (99.9%): [≈ 0, 35,239] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space":
+  5,813 ±(99.9%) 25,228 MB/sec [Average]
+  (min, avg, max) = (≈ 0, 5,813, 53,091), stdev = 16,687
+  CI (99.9%): [≈ 0, 31,041] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space.norm":
+  0,037 ±(99.9%) 0,160 B/op [Average]
+  (min, avg, max) = (≈ 0, 0,037, 0,336), stdev = 0,106
+  CI (99.9%): [≈ 0, 0,197] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.count":
+  5,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,500, 1,000), stdev = 0,527
+  CI (99.9%): [5,000, 5,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.time":
+  26,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 2,600, 12,000), stdev = 3,864
+  CI (99.9%): [26,000, 26,000] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 1 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime
+
+# Run progress: 60,35% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 61,688 ±(99.9%) 98,469 ns/op
+# Warmup Iteration   2: 62,667 ±(99.9%) 27,791 ns/op
+Iteration   1: 26,263 ±(99.9%) 2,257 ns/op
+                 gc.alloc.rate:                   0,007 MB/sec
+                 gc.alloc.rate.norm:              ≈ 10⁻⁴ B/op
+                 gc.churn.PS_Eden_Space:          2350,389 MB/sec
+                 gc.churn.PS_Eden_Space.norm:     16,042 B/op
+                 gc.churn.PS_Survivor_Space:      0,078 MB/sec
+                 gc.churn.PS_Survivor_Space.norm: 0,001 B/op
+                 gc.count:                        56,000 counts
+                 gc.time:                         36,000 ms
+                 p0.00:                           ≈ 0 ns/op
+                 p0.50:                           41,000 ns/op
+                 p0.90:                           42,000 ns/op
+                 p0.95:                           42,000 ns/op
+                 p0.99:                           83,000 ns/op
+                 p0.999:                          208,000 ns/op
+                 p0.9999:                         9070,928 ns/op
+                 p1.00:                           36032,000 ns/op
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime":
+  N = 75089
+  mean =     26,263 ±(99.9%) 2,257 ns/op
+
+  Histogram, ns/op:
+    [    0,000,  2500,000) = 75075 
+    [ 2500,000,  5000,000) = 4 
+    [ 5000,000,  7500,000) = 2 
+    [ 7500,000, 10000,000) = 2 
+    [10000,000, 12500,000) = 3 
+    [12500,000, 15000,000) = 1 
+    [15000,000, 17500,000) = 0 
+    [17500,000, 20000,000) = 0 
+    [20000,000, 22500,000) = 1 
+    [22500,000, 25000,000) = 0 
+    [25000,000, 27500,000) = 0 
+    [27500,000, 30000,000) = 0 
+    [30000,000, 32500,000) = 0 
+    [32500,000, 35000,000) = 0 
+    [35000,000, 37500,000) = 1 
+
+  Percentiles, ns/op:
+      p(0,0000) =        ≈ 0 ns/op
+     p(50,0000) =     41,000 ns/op
+     p(90,0000) =     42,000 ns/op
+     p(95,0000) =     42,000 ns/op
+     p(99,0000) =     83,000 ns/op
+     p(99,9000) =    208,000 ns/op
+     p(99,9900) =   9070,928 ns/op
+     p(99,9990) =  36032,000 ns/op
+     p(99,9999) =  36032,000 ns/op
+    p(100,0000) =  36032,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate":
+  0,007 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space":
+  2350,389 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space.norm":
+  16,042 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space":
+  0,078 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space.norm":
+  0,001 B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.count":
+  56,000 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.time":
+  36,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot
+
+# Run progress: 99,93% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 23167,000 ns/op
+# Warmup Iteration   2: 2833,000 ns/op
+Iteration   1: 1291,000 ns/op
+                 gc.alloc.rate:      108,491 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 1375,000 ns/op
+                 gc.alloc.rate:      25,318 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 5334,000 ns/op
+                 gc.alloc.rate:      37,090 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 2667,000 ns/op
+                 gc.alloc.rate:      13,399 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   5: 6375,000 ns/op
+                 gc.alloc.rate:      38,959 MB/sec
+                 gc.alloc.rate.norm: 12400,000 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot":
+  N = 5
+  mean =   3408,400 ±(99.9%) 8963,904 ns/op
+
+  Histogram, ns/op:
+    [1000,000, 1500,000) = 2 
+    [1500,000, 2000,000) = 0 
+    [2000,000, 2500,000) = 0 
+    [2500,000, 3000,000) = 1 
+    [3000,000, 3500,000) = 0 
+    [3500,000, 4000,000) = 0 
+    [4000,000, 4500,000) = 0 
+    [4500,000, 5000,000) = 0 
+    [5000,000, 5500,000) = 1 
+    [5500,000, 6000,000) = 0 
+    [6000,000, 6500,000) = 1 
+
+  Percentiles, ns/op:
+      p(0,0000) =   1291,000 ns/op
+     p(50,0000) =   2667,000 ns/op
+     p(90,0000) =   6375,000 ns/op
+     p(95,0000) =   6375,000 ns/op
+     p(99,0000) =   6375,000 ns/op
+     p(99,9000) =   6375,000 ns/op
+     p(99,9900) =   6375,000 ns/op
+     p(99,9990) =   6375,000 ns/op
+     p(99,9999) =   6375,000 ns/op
+    p(100,0000) =   6375,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate":
+  44,652 ±(99.9%) 142,988 MB/sec [Average]
+  (min, avg, max) = (13,399, 44,652, 108,491), stdev = 37,134
+  CI (99.9%): [≈ 0, 187,639] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm":
+  12400,000 ±(99.9%) 0,001 B/op [Average]
+  (min, avg, max) = (12400,000, 12400,000, 12400,000), stdev = 0,001
+  CI (99.9%): [12400,000, 12400,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.count":
+  ≈ 0 counts
+
+
+# Run complete. Total time: 00:00:11
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                                  Mode    Cnt      Score      Error   Units
+GCProfilerTest.allocateObject                                              avgt      2      4,746              ns/op
+GCProfilerTest.allocateObject:gc.alloc.rate                                avgt      2      0,007             MB/sec
+GCProfilerTest.allocateObject:gc.alloc.rate.norm                           avgt      2     ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space                       avgt      2   3225,664             MB/sec
+GCProfilerTest.allocateObject:gc.churn.PS_Eden_Space.norm                  avgt      2     16,001               B/op
+GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space                   avgt      2      0,054             MB/sec
+GCProfilerTest.allocateObject:gc.churn.PS_Survivor_Space.norm              avgt      2     ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObject:gc.count                                     avgt      2    155,000             counts
+GCProfilerTest.allocateObject:gc.time                                      avgt      2    346,000                 ms
+GCProfilerTest.allocateObjectNoWarmup                                      avgt     10     10,530 ±   23,210   ns/op
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate                        avgt     10     39,041 ±  181,979  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm                   avgt     10      0,667 ±    3,133    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space               avgt     10   2323,029 ± 3728,492  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Eden_Space.norm          avgt     10     13,058 ±   22,181    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space           avgt     10      5,813 ±   25,228  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.churn.PS_Survivor_Space.norm      avgt     10      0,037 ±    0,160    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.count                             avgt     10      5,000             counts
+GCProfilerTest.allocateObjectNoWarmup:gc.time                              avgt     10     26,000                 ms
+GCProfilerTest.allocateObjectSampleTime                                  sample  75089     26,263 ±    2,257   ns/op
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate                    sample             0,007             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm               sample            ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space           sample          2350,389             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Eden_Space.norm      sample            16,042               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space       sample             0,078             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.churn.PS_Survivor_Space.norm  sample             0,001               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.count                         sample            56,000             counts
+GCProfilerTest.allocateObjectSampleTime:gc.time                          sample            36,000                 ms
+GCProfilerTest.allocateObjectSampleTime:p0.00                            sample               ≈ 0              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.50                            sample            41,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.90                            sample            42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.95                            sample            42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.99                            sample            83,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.999                           sample           208,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.9999                          sample          9070,928              ns/op
+GCProfilerTest.allocateObjectSampleTime:p1.00                            sample         36032,000              ns/op
+GCProfilerTest.allocateObjectSingleShot                                      ss      5   3408,400 ± 8963,904   ns/op
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate                        ss      5     44,652 ±  142,988  MB/sec
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm                   ss      5  12400,000 ±    0,001    B/op
+GCProfilerTest.allocateObjectSingleShot:gc.count                             ss      5        ≈ 0             counts
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 2 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject
+
+# Run progress: 0,00% complete, ETA 00:00:10
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 4,170 ns/op
+# Warmup Iteration   2: 3,970 ns/op
+Iteration   1: 3,564 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁵ B/op
+                 gc.count:           102,000 counts
+                 gc.time:            89,000 ms
+
+Iteration   2: 4,221 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁵ B/op
+                 gc.count:           87,000 counts
+                 gc.time:            154,000 ms
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject":
+  3,893 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate":
+  0,006 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.alloc.rate.norm":
+  ≈ 10⁻⁵ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.count":
+  94,500 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObject:gc.time":
+  121,500 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 10 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup
+
+# Run progress: 59,36% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 7,653 ns/op
+                 gc.alloc.rate:      573,572 MB/sec
+                 gc.alloc.rate.norm: 6,444 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 6,936 ns/op
+                 gc.alloc.rate:      1,042 MB/sec
+                 gc.alloc.rate.norm: 0,008 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            1,000 ms
+
+Iteration   3: 3,881 ns/op
+                 gc.alloc.rate:      1,061 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 3,653 ns/op
+                 gc.alloc.rate:      0,972 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            2,000 ms
+
+Iteration   5: 5,466 ns/op
+                 gc.alloc.rate:      1,058 MB/sec
+                 gc.alloc.rate.norm: 0,007 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            1,000 ms
+
+Iteration   6: 3,586 ns/op
+                 gc.alloc.rate:      0,870 MB/sec
+                 gc.alloc.rate.norm: 0,003 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   7: 4,771 ns/op
+                 gc.alloc.rate:      1,048 MB/sec
+                 gc.alloc.rate.norm: 0,005 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            2,000 ms
+
+Iteration   8: 4,044 ns/op
+                 gc.alloc.rate:      0,872 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            2,000 ms
+
+Iteration   9: 4,216 ns/op
+                 gc.alloc.rate:      0,940 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration  10: 3,763 ns/op
+                 gc.alloc.rate:      0,986 MB/sec
+                 gc.alloc.rate.norm: 0,004 B/op
+                 gc.count:           1,000 counts
+                 gc.time:            2,000 ms
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup":
+  4,797 ±(99.9%) 2,183 ns/op [Average]
+  (min, avg, max) = (3,586, 4,797, 7,653), stdev = 1,444
+  CI (99.9%): [2,614, 6,980] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate":
+  58,242 ±(99.9%) 273,750 MB/sec [Average]
+  (min, avg, max) = (0,870, 58,242, 573,572), stdev = 181,068
+  CI (99.9%): [≈ 0, 331,992] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm":
+  0,649 ±(99.9%) 3,078 B/op [Average]
+  (min, avg, max) = (0,003, 0,649, 6,444), stdev = 2,036
+  CI (99.9%): [≈ 0, 3,727] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.count":
+  6,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (≈ 0, 0,600, 1,000), stdev = 0,516
+  CI (99.9%): [6,000, 6,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectNoWarmup:gc.time":
+  10,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 1,000, 2,000), stdev = 0,943
+  CI (99.9%): [10,000, 10,000] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 1 s each
+# Measurement: 1 iterations, 2 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime
+
+# Run progress: 60,35% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 28,962 ±(99.9%) 3,656 ns/op
+# Warmup Iteration   2: 24,976 ±(99.9%) 6,450 ns/op
+Iteration   1: 26,518 ±(99.9%) 1,240 ns/op
+                 gc.alloc.rate:      0,006 MB/sec
+                 gc.alloc.rate.norm: ≈ 10⁻⁴ B/op
+                 gc.count:           48,000 counts
+                 gc.time:            55,000 ms
+                 p0.00:              ≈ 0 ns/op
+                 p0.50:              41,000 ns/op
+                 p0.90:              42,000 ns/op
+                 p0.95:              42,000 ns/op
+                 p0.99:              42,000 ns/op
+                 p0.999:             221,587 ns/op
+                 p0.9999:            2414,892 ns/op
+                 p1.00:              14832,000 ns/op
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime":
+  N = 64692
+  mean =     26,518 ±(99.9%) 1,240 ns/op
+
+  Histogram, ns/op:
+    [    0,000,  1250,000) = 64684 
+    [ 1250,000,  2500,000) = 2 
+    [ 2500,000,  3750,000) = 2 
+    [ 3750,000,  5000,000) = 0 
+    [ 5000,000,  6250,000) = 0 
+    [ 6250,000,  7500,000) = 1 
+    [ 7500,000,  8750,000) = 1 
+    [ 8750,000, 10000,000) = 0 
+    [10000,000, 11250,000) = 0 
+    [11250,000, 12500,000) = 0 
+    [12500,000, 13750,000) = 0 
+    [13750,000, 15000,000) = 2 
+    [15000,000, 16250,000) = 0 
+    [16250,000, 17500,000) = 0 
+    [17500,000, 18750,000) = 0 
+
+  Percentiles, ns/op:
+      p(0,0000) =        ≈ 0 ns/op
+     p(50,0000) =     41,000 ns/op
+     p(90,0000) =     42,000 ns/op
+     p(95,0000) =     42,000 ns/op
+     p(99,0000) =     42,000 ns/op
+     p(99,9000) =    221,587 ns/op
+     p(99,9900) =   2414,892 ns/op
+     p(99,9990) =  14832,000 ns/op
+     p(99,9999) =  14832,000 ns/op
+    p(100,0000) =  14832,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate":
+  0,006 MB/sec
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm":
+  ≈ 10⁻⁴ B/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.count":
+  48,000 counts
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSampleTime:gc.time":
+  55,000 ms
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot
+
+# Run progress: 99,93% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 21792,000 ns/op
+# Warmup Iteration   2: 23583,000 ns/op
+Iteration   1: 1667,000 ns/op
+                 gc.alloc.rate:      12,441 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   2: 3000,000 ns/op
+                 gc.alloc.rate:      14,014 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   3: 1750,000 ns/op
+                 gc.alloc.rate:      54,646 MB/sec
+                 gc.alloc.rate.norm: 10240,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   4: 1792,000 ns/op
+                 gc.alloc.rate:      23,836 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+Iteration   5: 1792,000 ns/op
+                 gc.alloc.rate:      39,123 MB/sec
+                 gc.alloc.rate.norm: 10560,000 B/op
+                 gc.count:           ≈ 0 counts
+
+
+
+Result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot":
+  N = 5
+  mean =   2000,200 ±(99.9%) 2161,097 ns/op
+
+  Histogram, ns/op:
+    [1000,000, 1125,000) = 0 
+    [1125,000, 1250,000) = 0 
+    [1250,000, 1375,000) = 0 
+    [1375,000, 1500,000) = 0 
+    [1500,000, 1625,000) = 0 
+    [1625,000, 1750,000) = 1 
+    [1750,000, 1875,000) = 3 
+    [1875,000, 2000,000) = 0 
+    [2000,000, 2125,000) = 0 
+    [2125,000, 2250,000) = 0 
+    [2250,000, 2375,000) = 0 
+    [2375,000, 2500,000) = 0 
+    [2500,000, 2625,000) = 0 
+    [2625,000, 2750,000) = 0 
+    [2750,000, 2875,000) = 0 
+
+  Percentiles, ns/op:
+      p(0,0000) =   1667,000 ns/op
+     p(50,0000) =   1792,000 ns/op
+     p(90,0000) =   3000,000 ns/op
+     p(95,0000) =   3000,000 ns/op
+     p(99,0000) =   3000,000 ns/op
+     p(99,9000) =   3000,000 ns/op
+     p(99,9900) =   3000,000 ns/op
+     p(99,9990) =   3000,000 ns/op
+     p(99,9999) =   3000,000 ns/op
+    p(100,0000) =   3000,000 ns/op
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate":
+  28,812 ±(99.9%) 69,028 MB/sec [Average]
+  (min, avg, max) = (12,441, 28,812, 54,646), stdev = 17,926
+  CI (99.9%): [≈ 0, 97,840] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm":
+  10496,000 ±(99.9%) 551,059 B/op [Average]
+  (min, avg, max) = (10240,000, 10496,000, 10560,000), stdev = 143,108
+  CI (99.9%): [9944,941, 11047,059] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.GCProfilerTest.allocateObjectSingleShot:gc.count":
+  ≈ 0 counts
+
+
+# Run complete. Total time: 00:00:11
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                     Mode    Cnt      Score      Error   Units
+GCProfilerTest.allocateObject                                 avgt      2      3,893              ns/op
+GCProfilerTest.allocateObject:gc.alloc.rate                   avgt      2      0,006             MB/sec
+GCProfilerTest.allocateObject:gc.alloc.rate.norm              avgt      2     ≈ 10⁻⁵               B/op
+GCProfilerTest.allocateObject:gc.count                        avgt      2    189,000             counts
+GCProfilerTest.allocateObject:gc.time                         avgt      2    243,000                 ms
+GCProfilerTest.allocateObjectNoWarmup                         avgt     10      4,797 ±    2,183   ns/op
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate           avgt     10     58,242 ±  273,750  MB/sec
+GCProfilerTest.allocateObjectNoWarmup:gc.alloc.rate.norm      avgt     10      0,649 ±    3,078    B/op
+GCProfilerTest.allocateObjectNoWarmup:gc.count                avgt     10      6,000             counts
+GCProfilerTest.allocateObjectNoWarmup:gc.time                 avgt     10     10,000                 ms
+GCProfilerTest.allocateObjectSampleTime                     sample  64692     26,518 ±    1,240   ns/op
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate       sample             0,006             MB/sec
+GCProfilerTest.allocateObjectSampleTime:gc.alloc.rate.norm  sample            ≈ 10⁻⁴               B/op
+GCProfilerTest.allocateObjectSampleTime:gc.count            sample            48,000             counts
+GCProfilerTest.allocateObjectSampleTime:gc.time             sample            55,000                 ms
+GCProfilerTest.allocateObjectSampleTime:p0.00               sample               ≈ 0              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.50               sample            41,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.90               sample            42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.95               sample            42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.99               sample            42,000              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.999              sample           221,587              ns/op
+GCProfilerTest.allocateObjectSampleTime:p0.9999             sample          2414,892              ns/op
+GCProfilerTest.allocateObjectSampleTime:p1.00               sample         14832,000              ns/op
+GCProfilerTest.allocateObjectSingleShot                         ss      5   2000,200 ± 2161,097   ns/op
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate           ss      5     28,812 ±   69,028  MB/sec
+GCProfilerTest.allocateObjectSingleShot:gc.alloc.rate.norm      ss      5  10496,000 ±  551,059    B/op
+GCProfilerTest.allocateObjectSingleShot:gc.count                ss      5        ≈ 0             counts

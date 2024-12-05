@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openjdk.jmh.it.fork.ForkedJvmArgs1_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.249 sec - in org.openjdk.jmh.it.fork.ForkedJvmArgs1_Test

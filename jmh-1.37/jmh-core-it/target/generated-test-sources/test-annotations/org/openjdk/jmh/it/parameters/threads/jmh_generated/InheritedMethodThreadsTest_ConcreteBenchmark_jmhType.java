@@ -1,0 +1,4 @@
+package org.openjdk.jmh.it.parameters.threads.jmh_generated;
+public class InheritedMethodThreadsTest_ConcreteBenchmark_jmhType extends InheritedMethodThreadsTest_ConcreteBenchmark_jmhType_B3 {
+}
+

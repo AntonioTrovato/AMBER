@@ -1,0 +1,373 @@
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test00_normal
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 696,587 ops/s
+Iteration   1: 743,430 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test00_normal":
+  743,430 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test01_exceptional
+
+# Run progress: 9,09% complete, ETA 00:00:04
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: <failure>
+
+java.lang.IllegalStateException
+	at org.openjdk.jmh.it.errors.ForkedErrorsTest.test01_exceptional(ForkedErrorsTest.java:55)
+	at org.openjdk.jmh.it.errors.jmh_generated.ForkedErrorsTest_test01_exceptional_jmhTest.test01_exceptional_thrpt_jmhStub(ForkedErrorsTest_test01_exceptional_jmhTest.java:121)
+	at org.openjdk.jmh.it.errors.jmh_generated.ForkedErrorsTest_test01_exceptional_jmhTest.test01_exceptional_Throughput(ForkedErrorsTest_test01_exceptional_jmhTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test02_normal
+
+# Run progress: 18,18% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 778,912 ops/s
+Iteration   1: 608,254 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test02_normal":
+  608,254 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test03_exit
+
+# Run progress: 27,27% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: <failure: VM prematurely exited before JMH had finished with it, explicit System.exit was called?>
+<forked VM failed with exit code 1>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test04_normal
+
+# Run progress: 27,27% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 777,359 ops/s
+Iteration   1: 585,070 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test04_normal":
+  585,070 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test05_crash
+
+# Run progress: 36,36% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: #
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000000106112da4, pid=9160, tid=0x0000000000007f03
+#
+# JRE version: OpenJDK Runtime Environment (8.0_432-b06) (build 1.8.0_432-b06)
+# Java VM: OpenJDK 64-Bit Server VM (25.432-b06 mixed mode bsd-aarch64 compressed oops)
+# Problematic frame:
+# V  [libjvm.dylib+0x502da4]  Unsafe_GetNativeInt+0x5c
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# An error report file with more information is saved as:
+# /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-core-it/hs_err_pid9160.log
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/corretto/corretto-8/issues/
+#
+<forked VM failed with exit code 134>
+<stdout last='20 lines'>
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000000106112da4, pid=9160, tid=0x0000000000007f03
+#
+# JRE version: OpenJDK Runtime Environment (8.0_432-b06) (build 1.8.0_432-b06)
+# Java VM: OpenJDK 64-Bit Server VM (25.432-b06 mixed mode bsd-aarch64 compressed oops)
+# Problematic frame:
+# V  [libjvm.dylib+0x502da4]  Unsafe_GetNativeInt+0x5c
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# An error report file with more information is saved as:
+# /Users/antoniotrovato/Documents/GitHub/jmh-1.37/jmh-core-it/hs_err_pid9160.log
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/corretto/corretto-8/issues/
+#
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test06_normal
+
+# Run progress: 36,36% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 785,102 ops/s
+Iteration   1: 743,471 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test06_normal":
+  743,471 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test07_runtimeExit
+
+# Run progress: 45,45% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: <failure: VM prematurely exited before JMH had finished with it, explicit System.exit was called?>
+<forked VM failed with exit code 1>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test08_normal
+
+# Run progress: 45,45% complete, ETA 00:00:03
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 795,538 ops/s
+Iteration   1: 795,387 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test08_normal":
+  795,387 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test09_runtimeHalt
+
+# Run progress: 54,55% complete, ETA 00:00:02
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: <forked VM failed with exit code 1>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test10_normal
+
+# Run progress: 54,55% complete, ETA 00:00:02
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 800,354 ops/s
+Iteration   1: 796,816 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test10_normal":
+  796,816 ops/s
+
+
+# Run complete. Total time: 00:00:03
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                        Mode  Cnt    Score   Error  Units
+ForkedErrorsTest.test00_normal  thrpt       743,430          ops/s
+ForkedErrorsTest.test02_normal  thrpt       608,254          ops/s
+ForkedErrorsTest.test04_normal  thrpt       585,070          ops/s
+ForkedErrorsTest.test06_normal  thrpt       743,471          ops/s
+ForkedErrorsTest.test08_normal  thrpt       795,387          ops/s
+ForkedErrorsTest.test10_normal  thrpt       796,816          ops/s
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test00_normal
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 793,349 ops/s
+Iteration   1: 794,836 ops/s
+
+
+Result "org.openjdk.jmh.it.errors.ForkedErrorsTest.test00_normal":
+  794,836 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 ms each
+# Measurement: 1 iterations, 10 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.errors.ForkedErrorsTest.test01_exceptional
+
+# Run progress: 9,09% complete, ETA 00:00:01
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: <failure>
+
+java.lang.IllegalStateException
+	at org.openjdk.jmh.it.errors.ForkedErrorsTest.test01_exceptional(ForkedErrorsTest.java:55)
+	at org.openjdk.jmh.it.errors.jmh_generated.ForkedErrorsTest_test01_exceptional_jmhTest.test01_exceptional_thrpt_jmhStub(ForkedErrorsTest_test01_exceptional_jmhTest.java:121)
+	at org.openjdk.jmh.it.errors.jmh_generated.ForkedErrorsTest_test01_exceptional_jmhTest.test01_exceptional_Throughput(ForkedErrorsTest_test01_exceptional_jmhTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+Benchmark had encountered error, and fail on error was requested

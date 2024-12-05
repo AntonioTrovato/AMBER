@@ -1,0 +1,4 @@
+package org.openjdk.jmh.it.params.jmh_generated;
+public class EnumStateParamImplicitSequenceTest_MyState_jmhType extends EnumStateParamImplicitSequenceTest_MyState_jmhType_B3 {
+}
+

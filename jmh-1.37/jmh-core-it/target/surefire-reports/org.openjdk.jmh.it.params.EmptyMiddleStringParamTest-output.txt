@@ -1,0 +1,170 @@
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = val1)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 80,271 ops/s
+Iteration   1: 81,472 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  81,472 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = )
+
+# Run progress: 33,33% complete, ETA 00:00:01
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 78,946 ops/s
+Iteration   1: 84,912 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  84,912 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = val2)
+
+# Run progress: 66,67% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 82,015 ops/s
+Iteration   1: 81,525 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  81,525 ops/s
+
+
+# Run complete. Total time: 00:00:01
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                         (x)   Mode  Cnt   Score   Error  Units
+EmptyMiddleStringParamTest.test  val1  thrpt       81,472          ops/s
+EmptyMiddleStringParamTest.test        thrpt       84,912          ops/s
+EmptyMiddleStringParamTest.test  val2  thrpt       81,525          ops/s
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = val1)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 79,796 ops/s
+Iteration   1: 82,197 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  82,197 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = )
+
+# Run progress: 33,33% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 80,811 ops/s
+Iteration   1: 80,827 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  80,827 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 ms each
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test
+# Parameters: (x = val2)
+
+# Run progress: 66,67% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 83,005 ops/s
+Iteration   1: 84,832 ops/s
+
+
+Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
+  84,832 ops/s
+
+
+# Run complete. Total time: 00:00:01
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                         (x)   Mode  Cnt   Score   Error  Units
+EmptyMiddleStringParamTest.test  val1  thrpt       82,197          ops/s
+EmptyMiddleStringParamTest.test        thrpt       80,827          ops/s
+EmptyMiddleStringParamTest.test  val2  thrpt       84,832          ops/s

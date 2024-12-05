@@ -1,0 +1,4 @@
+package org.openjdk.jmh.it.times.statemerge.jmh_generated;
+public class BenchmarkStateMergeHelperTimesTest_MyState_jmhType extends BenchmarkStateMergeHelperTimesTest_MyState_jmhType_B3 {
+}
+

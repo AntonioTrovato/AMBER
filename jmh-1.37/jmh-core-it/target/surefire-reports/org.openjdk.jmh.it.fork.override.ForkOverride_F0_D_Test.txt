@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openjdk.jmh.it.fork.override.ForkOverride_F0_D_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.86 sec - in org.openjdk.jmh.it.fork.override.ForkOverride_F0_D_Test

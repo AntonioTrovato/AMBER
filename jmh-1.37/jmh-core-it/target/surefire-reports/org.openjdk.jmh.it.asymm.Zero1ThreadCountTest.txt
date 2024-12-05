@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openjdk.jmh.it.asymm.Zero1ThreadCountTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.036 sec - in org.openjdk.jmh.it.asymm.Zero1ThreadCountTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openjdk.jmh.it.profilers.StackProfilerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.864 sec - in org.openjdk.jmh.it.profilers.StackProfilerTest

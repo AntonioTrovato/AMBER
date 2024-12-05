@@ -1,0 +1,2 @@
+WARNING: Not a HotSpot compiler command compatible VM ("Zing-1.7.0-zing_5.9.2.0"), compiler hints are disabled.
+WARNING: Not a HotSpot compiler command compatible VM ("StupidVmCantTakeAHint-1.7.0-zing_5.10.2.0"), compiler hints are disabled.

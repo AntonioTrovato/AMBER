@@ -1,0 +1,1096 @@
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 0,019 ops/ms
+                 ops:  19,000 #
+                 time: 1007624625,000 #
+
+Iteration   2: 0,019 ops/ms
+                 ops:  19,000 #
+                 time: 1016330542,000 #
+
+Iteration   3: 0,018 ops/ms
+                 ops:  19,000 #
+                 time: 1029109250,000 #
+
+Iteration   4: 0,019 ops/ms
+                 ops:  19,000 #
+                 time: 1013860958,000 #
+
+Iteration   5: 0,019 ops/ms
+                 ops:  19,000 #
+                 time: 1009792291,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  0,019 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,018, 0,019, 0,019), stdev = 0,001
+  CI (99.9%): [0,018, 0,019] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5076717666,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1007624625,000, 1015343533,200, 1029109250,000), stdev = 8412267,952
+  CI (99.9%): [5076717666,000, 5076717666,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       Mode  Cnt           Score   Error   Units
+OpsPerInvSanityTest.test       thrpt    5           0,019 ± 0,001  ops/ms
+OpsPerInvSanityTest.test:ops   thrpt    5          95,000               #
+OpsPerInvSanityTest.test:time  thrpt    5  5076717666,000               #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 53,431 ms/op
+                 ops:  19,000 #
+                 time: 1015342750,000 #
+
+Iteration   2: 53,840 ms/op
+                 ops:  19,000 #
+                 time: 1022978917,000 #
+
+Iteration   3: 53,937 ms/op
+                 ops:  19,000 #
+                 time: 1024828458,000 #
+
+Iteration   4: 52,928 ms/op
+                 ops:  20,000 #
+                 time: 1058597666,000 #
+
+Iteration   5: 53,313 ms/op
+                 ops:  19,000 #
+                 time: 1012972667,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  53,490 ±(99.9%) 1,579 ms/op [Average]
+  (min, avg, max) = (52,928, 53,490, 53,937), stdev = 0,410
+  CI (99.9%): [51,911, 55,069] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  96,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
+  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5134720458,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1012972667,000, 1026944091,600, 1058597666,000), stdev = 18384362,375
+  CI (99.9%): [5134720458,000, 5134720458,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test       avgt    5          53,490 ± 1,579  ms/op
+OpsPerInvSanityTest.test:ops   avgt    5          96,000              #
+OpsPerInvSanityTest.test:time  avgt    5  5134720458,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 53,729 ±(99.9%) 1,306 ms/op
+                 ops:     19,000 #
+                 p0.00:   50,528 ms/op
+                 p0.50:   53,805 ms/op
+                 p0.90:   55,312 ms/op
+                 p0.95:   55,706 ms/op
+                 p0.99:   55,706 ms/op
+                 p0.999:  55,706 ms/op
+                 p0.9999: 55,706 ms/op
+                 p1.00:   55,706 ms/op
+                 time:    1025516458,000 #
+
+Iteration   2: 54,122 ±(99.9%) 0,925 ms/op
+                 ops:     19,000 #
+                 p0.00:   51,708 ms/op
+                 p0.50:   54,133 ms/op
+                 p0.90:   55,050 ms/op
+                 p0.95:   55,050 ms/op
+                 p0.99:   55,050 ms/op
+                 p0.999:  55,050 ms/op
+                 p0.9999: 55,050 ms/op
+                 p1.00:   55,050 ms/op
+                 time:    1029266833,000 #
+
+Iteration   3: 53,232 ±(99.9%) 1,371 ms/op
+                 ops:     19,000 #
+                 p0.00:   51,053 ms/op
+                 p0.50:   53,412 ms/op
+                 p0.90:   54,985 ms/op
+                 p0.95:   54,985 ms/op
+                 p0.99:   54,985 ms/op
+                 p0.999:  54,985 ms/op
+                 p0.9999: 54,985 ms/op
+                 p1.00:   54,985 ms/op
+                 time:    1012556917,000 #
+
+Iteration   4: 53,457 ±(99.9%) 1,480 ms/op
+                 ops:     19,000 #
+                 p0.00:   50,463 ms/op
+                 p0.50:   53,805 ms/op
+                 p0.90:   55,116 ms/op
+                 p0.95:   55,640 ms/op
+                 p0.99:   55,640 ms/op
+                 p0.999:  55,640 ms/op
+                 p0.9999: 55,640 ms/op
+                 p1.00:   55,640 ms/op
+                 time:    1016491958,000 #
+
+Iteration   5: 53,964 ±(99.9%) 1,399 ms/op
+                 ops:     19,000 #
+                 p0.00:   50,594 ms/op
+                 p0.50:   54,133 ms/op
+                 p0.90:   55,443 ms/op
+                 p0.95:   57,082 ms/op
+                 p0.99:   57,082 ms/op
+                 p0.999:  57,082 ms/op
+                 p0.9999: 57,082 ms/op
+                 p1.00:   57,082 ms/op
+                 time:    1026257500,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 95
+  mean =     53,701 ±(99.9%) 0,510 ms/op
+
+  Histogram, ms/op:
+    [50,000, 50,500) = 1 
+    [50,500, 51,000) = 2 
+    [51,000, 51,500) = 8 
+    [51,500, 52,000) = 4 
+    [52,000, 52,500) = 6 
+    [52,500, 53,000) = 11 
+    [53,000, 53,500) = 8 
+    [53,500, 54,000) = 7 
+    [54,000, 54,500) = 9 
+    [54,500, 55,000) = 22 
+    [55,000, 55,500) = 14 
+    [55,500, 56,000) = 2 
+    [56,000, 56,500) = 0 
+    [56,500, 57,000) = 0 
+    [57,000, 57,500) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =     50,463 ms/op
+     p(50,0000) =     54,002 ms/op
+     p(90,0000) =     55,116 ms/op
+     p(95,0000) =     55,339 ms/op
+     p(99,0000) =     57,082 ms/op
+     p(99,9000) =     57,082 ms/op
+     p(99,9900) =     57,082 ms/op
+     p(99,9990) =     57,082 ms/op
+     p(99,9999) =     57,082 ms/op
+    p(100,0000) =     57,082 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5110089666,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1012556917,000, 1022017933,200, 1029266833,000), stdev = 7120522,807
+  CI (99.9%): [5110089666,000, 5110089666,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                           Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test          sample   95          53,701 ± 0,510  ms/op
+OpsPerInvSanityTest.test:ops      sample    5          95,000              #
+OpsPerInvSanityTest.test:p0.00    sample               50,463          ms/op
+OpsPerInvSanityTest.test:p0.50    sample               54,002          ms/op
+OpsPerInvSanityTest.test:p0.90    sample               55,116          ms/op
+OpsPerInvSanityTest.test:p0.95    sample               55,339          ms/op
+OpsPerInvSanityTest.test:p0.99    sample               57,082          ms/op
+OpsPerInvSanityTest.test:p0.999   sample               57,082          ms/op
+OpsPerInvSanityTest.test:p0.9999  sample               57,082          ms/op
+OpsPerInvSanityTest.test:p1.00    sample               57,082          ms/op
+OpsPerInvSanityTest.test:time     sample    5  5110089666,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 54,521 ms/op
+                 ops:  1,000 #
+                 time: 54596333,000 #
+
+Iteration   2: 55,031 ms/op
+                 ops:  1,000 #
+                 time: 55051875,000 #
+
+Iteration   3: 50,852 ms/op
+                 ops:  1,000 #
+                 time: 50880834,000 #
+
+Iteration   4: 55,366 ms/op
+                 ops:  1,000 #
+                 time: 55407375,000 #
+
+Iteration   5: 51,696 ms/op
+                 ops:  1,000 #
+                 time: 51729791,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 5
+  mean =     53,493 ±(99.9%) 7,970 ms/op
+
+  Histogram, ms/op:
+    [50,000, 50,500) = 0 
+    [50,500, 51,000) = 1 
+    [51,000, 51,500) = 0 
+    [51,500, 52,000) = 1 
+    [52,000, 52,500) = 0 
+    [52,500, 53,000) = 0 
+    [53,000, 53,500) = 0 
+    [53,500, 54,000) = 0 
+    [54,000, 54,500) = 0 
+    [54,500, 55,000) = 1 
+    [55,000, 55,500) = 2 
+
+  Percentiles, ms/op:
+      p(0,0000) =     50,852 ms/op
+     p(50,0000) =     54,521 ms/op
+     p(90,0000) =     55,366 ms/op
+     p(95,0000) =     55,366 ms/op
+     p(99,0000) =     55,366 ms/op
+     p(99,9000) =     55,366 ms/op
+     p(99,9900) =     55,366 ms/op
+     p(99,9990) =     55,366 ms/op
+     p(99,9999) =     55,366 ms/op
+    p(100,0000) =     55,366 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  5,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1,000, 1,000, 1,000), stdev = 0,001
+  CI (99.9%): [5,000, 5,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  267666208,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (50880834,000, 53533241,600, 55407375,000), stdev = 2075842,412
+  CI (99.9%): [267666208,000, 267666208,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:00
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt          Score   Error  Units
+OpsPerInvSanityTest.test         ss    5         53,493 ± 7,970  ms/op
+OpsPerInvSanityTest.test:ops     ss    5          5,000              #
+OpsPerInvSanityTest.test:time    ss    5  267666208,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 0,188 ops/ms
+                 ops:  19,000 #
+                 time: 1013407958,000 #
+
+Iteration   2: 0,184 ops/ms
+                 ops:  19,000 #
+                 time: 1029916292,000 #
+
+Iteration   3: 0,184 ops/ms
+                 ops:  19,000 #
+                 time: 1030509000,000 #
+
+Iteration   4: 0,188 ops/ms
+                 ops:  19,000 #
+                 time: 1009619708,000 #
+
+Iteration   5: 0,188 ops/ms
+                 ops:  19,000 #
+                 time: 1008604042,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  0,187 ±(99.9%) 0,008 ops/ms [Average]
+  (min, avg, max) = (0,184, 0,187, 0,188), stdev = 0,002
+  CI (99.9%): [0,179, 0,194] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5092057000,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1008604042,000, 1018411400,000, 1030509000,000), stdev = 10922763,120
+  CI (99.9%): [5092057000,000, 5092057000,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       Mode  Cnt           Score   Error   Units
+OpsPerInvSanityTest.test       thrpt    5           0,187 ± 0,008  ops/ms
+OpsPerInvSanityTest.test:ops   thrpt    5          95,000               #
+OpsPerInvSanityTest.test:time  thrpt    5  5092057000,000               #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 5,408 ms/op
+                 ops:  19,000 #
+                 time: 1028008750,000 #
+
+Iteration   2: 5,362 ms/op
+                 ops:  19,000 #
+                 time: 1018811958,000 #
+
+Iteration   3: 5,331 ms/op
+                 ops:  19,000 #
+                 time: 1012923000,000 #
+
+Iteration   4: 5,292 ms/op
+                 ops:  20,000 #
+                 time: 1058515250,000 #
+
+Iteration   5: 5,350 ms/op
+                 ops:  19,000 #
+                 time: 1016503792,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  5,349 ±(99.9%) 0,162 ms/op [Average]
+  (min, avg, max) = (5,292, 5,349, 5,408), stdev = 0,042
+  CI (99.9%): [5,186, 5,511] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  96,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
+  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5134762750,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1012923000,000, 1026952550,000, 1058515250,000), stdev = 18504010,679
+  CI (99.9%): [5134762750,000, 5134762750,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test       avgt    5           5,349 ± 0,162  ms/op
+OpsPerInvSanityTest.test:ops   avgt    5          96,000              #
+OpsPerInvSanityTest.test:time  avgt    5  5134762750,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 5,350 ±(99.9%) 0,160 ms/op
+                 ops:     19,000 #
+                 p0.00:   5,014 ms/op
+                 p0.50:   5,415 ms/op
+                 p0.90:   5,513 ms/op
+                 p0.95:   5,579 ms/op
+                 p0.99:   5,579 ms/op
+                 p0.999:  5,579 ms/op
+                 p0.9999: 5,579 ms/op
+                 p1.00:   5,579 ms/op
+                 time:    1021859083,000 #
+
+Iteration   2: 5,349 ±(99.9%) 0,137 ms/op
+                 ops:     19,000 #
+                 p0.00:   5,054 ms/op
+                 p0.50:   5,349 ms/op
+                 p0.90:   5,513 ms/op
+                 p0.95:   5,571 ms/op
+                 p0.99:   5,571 ms/op
+                 p0.999:  5,571 ms/op
+                 p0.9999: 5,571 ms/op
+                 p1.00:   5,571 ms/op
+                 time:    1017468333,000 #
+
+Iteration   3: 5,389 ±(99.9%) 0,175 ms/op
+                 ops:     19,000 #
+                 p0.00:   5,079 ms/op
+                 p0.50:   5,464 ms/op
+                 p0.90:   5,562 ms/op
+                 p0.95:   5,816 ms/op
+                 p0.99:   5,816 ms/op
+                 p0.999:  5,816 ms/op
+                 p0.9999: 5,816 ms/op
+                 p1.00:   5,816 ms/op
+                 time:    1025221334,000 #
+
+Iteration   4: 5,321 ±(99.9%) 0,148 ms/op
+                 ops:     19,000 #
+                 p0.00:   5,046 ms/op
+                 p0.50:   5,333 ms/op
+                 p0.90:   5,497 ms/op
+                 p0.95:   5,513 ms/op
+                 p0.99:   5,513 ms/op
+                 p0.999:  5,513 ms/op
+                 p0.9999: 5,513 ms/op
+                 p1.00:   5,513 ms/op
+                 time:    1012025583,000 #
+
+Iteration   5: 5,313 ±(99.9%) 0,188 ms/op
+                 ops:     19,000 #
+                 p0.00:   5,005 ms/op
+                 p0.50:   5,374 ms/op
+                 p0.90:   5,513 ms/op
+                 p0.95:   5,538 ms/op
+                 p0.99:   5,538 ms/op
+                 p0.999:  5,538 ms/op
+                 p0.9999: 5,538 ms/op
+                 p1.00:   5,538 ms/op
+                 time:    1010627583,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 95
+  mean =      5,344 ±(99.9%) 0,062 ms/op
+
+  Histogram, ms/op:
+    [5,000, 5,050) = 7 
+    [5,050, 5,100) = 7 
+    [5,100, 5,150) = 8 
+    [5,150, 5,200) = 4 
+    [5,200, 5,250) = 4 
+    [5,250, 5,300) = 3 
+    [5,300, 5,350) = 11 
+    [5,350, 5,400) = 6 
+    [5,400, 5,450) = 7 
+    [5,450, 5,500) = 21 
+    [5,500, 5,550) = 13 
+    [5,550, 5,600) = 3 
+    [5,600, 5,650) = 0 
+    [5,650, 5,700) = 0 
+    [5,700, 5,750) = 0 
+    [5,750, 5,800) = 0 
+    [5,800, 5,850) = 1 
+    [5,850, 5,900) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =      5,005 ms/op
+     p(50,0000) =      5,399 ms/op
+     p(90,0000) =      5,513 ms/op
+     p(95,0000) =      5,543 ms/op
+     p(99,0000) =      5,816 ms/op
+     p(99,9000) =      5,816 ms/op
+     p(99,9900) =      5,816 ms/op
+     p(99,9990) =      5,816 ms/op
+     p(99,9999) =      5,816 ms/op
+    p(100,0000) =      5,816 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5087201916,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1010627583,000, 1017440383,200, 1025221334,000), stdev = 6241057,447
+  CI (99.9%): [5087201916,000, 5087201916,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                           Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test          sample   95           5,344 ± 0,062  ms/op
+OpsPerInvSanityTest.test:ops      sample    5          95,000              #
+OpsPerInvSanityTest.test:p0.00    sample                5,005          ms/op
+OpsPerInvSanityTest.test:p0.50    sample                5,399          ms/op
+OpsPerInvSanityTest.test:p0.90    sample                5,513          ms/op
+OpsPerInvSanityTest.test:p0.95    sample                5,543          ms/op
+OpsPerInvSanityTest.test:p0.99    sample                5,816          ms/op
+OpsPerInvSanityTest.test:p0.999   sample                5,816          ms/op
+OpsPerInvSanityTest.test:p0.9999  sample                5,816          ms/op
+OpsPerInvSanityTest.test:p1.00    sample                5,816          ms/op
+OpsPerInvSanityTest.test:time     sample    5  5087201916,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 5,568 ms/op
+                 ops:  1,000 #
+                 time: 55743791,000 #
+
+Iteration   2: 5,150 ms/op
+                 ops:  1,000 #
+                 time: 51521250,000 #
+
+Iteration   3: 5,495 ms/op
+                 ops:  1,000 #
+                 time: 54995209,000 #
+
+Iteration   4: 5,503 ms/op
+                 ops:  1,000 #
+                 time: 55053916,000 #
+
+Iteration   5: 5,482 ms/op
+                 ops:  1,000 #
+                 time: 54845541,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 5
+  mean =      5,440 ±(99.9%) 0,637 ms/op
+
+  Histogram, ms/op:
+    [5,100, 5,150) = 0 
+    [5,150, 5,200) = 1 
+    [5,200, 5,250) = 0 
+    [5,250, 5,300) = 0 
+    [5,300, 5,350) = 0 
+    [5,350, 5,400) = 0 
+    [5,400, 5,450) = 0 
+    [5,450, 5,500) = 2 
+    [5,500, 5,550) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =      5,150 ms/op
+     p(50,0000) =      5,495 ms/op
+     p(90,0000) =      5,568 ms/op
+     p(95,0000) =      5,568 ms/op
+     p(99,0000) =      5,568 ms/op
+     p(99,9000) =      5,568 ms/op
+     p(99,9900) =      5,568 ms/op
+     p(99,9990) =      5,568 ms/op
+     p(99,9999) =      5,568 ms/op
+    p(100,0000) =      5,568 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  5,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1,000, 1,000, 1,000), stdev = 0,001
+  CI (99.9%): [5,000, 5,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  272159707,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (51521250,000, 54431941,400, 55743791,000), stdev = 1663449,820
+  CI (99.9%): [272159707,000, 272159707,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:00
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt          Score   Error  Units
+OpsPerInvSanityTest.test         ss    5          5,440 ± 0,637  ms/op
+OpsPerInvSanityTest.test:ops     ss    5          5,000              #
+OpsPerInvSanityTest.test:time    ss    5  272159707,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 1,895 ops/ms
+                 ops:  20,000 #
+                 time: 1055702500,000 #
+
+Iteration   2: 1,874 ops/ms
+                 ops:  19,000 #
+                 time: 1013684459,000 #
+
+Iteration   3: 1,851 ops/ms
+                 ops:  19,000 #
+                 time: 1026305875,000 #
+
+Iteration   4: 1,891 ops/ms
+                 ops:  20,000 #
+                 time: 1057773666,000 #
+
+Iteration   5: 1,863 ops/ms
+                 ops:  19,000 #
+                 time: 1019710958,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  1,875 ±(99.9%) 0,070 ops/ms [Average]
+  (min, avg, max) = (1,851, 1,875, 1,895), stdev = 0,018
+  CI (99.9%): [1,805, 1,945] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  97,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,400, 20,000), stdev = 0,548
+  CI (99.9%): [97,000, 97,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5173177458,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1013684459,000, 1034635491,600, 1057773666,000), stdev = 20677668,754
+  CI (99.9%): [5173177458,000, 5173177458,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                       Mode  Cnt           Score   Error   Units
+OpsPerInvSanityTest.test       thrpt    5           1,875 ± 0,070  ops/ms
+OpsPerInvSanityTest.test:ops   thrpt    5          97,000               #
+OpsPerInvSanityTest.test:time  thrpt    5  5173177458,000               #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Average time, time/op
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 0,533 ms/op
+                 ops:  19,000 #
+                 time: 1012637875,000 #
+
+Iteration   2: 0,532 ms/op
+                 ops:  19,000 #
+                 time: 1010785375,000 #
+
+Iteration   3: 0,536 ms/op
+                 ops:  19,000 #
+                 time: 1017905167,000 #
+
+Iteration   4: 0,538 ms/op
+                 ops:  19,000 #
+                 time: 1021358875,000 #
+
+Iteration   5: 0,531 ms/op
+                 ops:  19,000 #
+                 time: 1008874000,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  0,534 ±(99.9%) 0,011 ms/op [Average]
+  (min, avg, max) = (0,531, 0,534, 0,538), stdev = 0,003
+  CI (99.9%): [0,523, 0,544] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5071561292,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1008874000,000, 1014312258,400, 1021358875,000), stdev = 5181238,231
+  CI (99.9%): [5071561292,000, 5071561292,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test       avgt    5           0,534 ± 0,011  ms/op
+OpsPerInvSanityTest.test:ops   avgt    5          95,000              #
+OpsPerInvSanityTest.test:time  avgt    5  5071561292,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, ***WARNING: Synchronize iterations are disabled!***
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:05
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 0,540 ±(99.9%) 0,018 ms/op
+                 ops:     19,000 #
+                 p0.00:   0,507 ms/op
+                 p0.50:   0,549 ms/op
+                 p0.90:   0,569 ms/op
+                 p0.95:   0,583 ms/op
+                 p0.99:   0,583 ms/op
+                 p0.999:  0,583 ms/op
+                 p0.9999: 0,583 ms/op
+                 p1.00:   0,583 ms/op
+                 time:    1028327625,000 #
+
+Iteration   2: 0,540 ±(99.9%) 0,015 ms/op
+                 ops:     19,000 #
+                 p0.00:   0,509 ms/op
+                 p0.50:   0,550 ms/op
+                 p0.90:   0,557 ms/op
+                 p0.95:   0,561 ms/op
+                 p0.99:   0,561 ms/op
+                 p0.999:  0,561 ms/op
+                 p0.9999: 0,561 ms/op
+                 p1.00:   0,561 ms/op
+                 time:    1026510750,000 #
+
+Iteration   3: 0,538 ±(99.9%) 0,019 ms/op
+                 ops:     19,000 #
+                 p0.00:   0,501 ms/op
+                 p0.50:   0,550 ms/op
+                 p0.90:   0,560 ms/op
+                 p0.95:   0,575 ms/op
+                 p0.99:   0,575 ms/op
+                 p0.999:  0,575 ms/op
+                 p0.9999: 0,575 ms/op
+                 p1.00:   0,575 ms/op
+                 time:    1022277042,000 #
+
+Iteration   4: 0,536 ±(99.9%) 0,014 ms/op
+                 ops:     19,000 #
+                 p0.00:   0,508 ms/op
+                 p0.50:   0,545 ms/op
+                 p0.90:   0,550 ms/op
+                 p0.95:   0,552 ms/op
+                 p0.99:   0,552 ms/op
+                 p0.999:  0,552 ms/op
+                 p0.9999: 0,552 ms/op
+                 p1.00:   0,552 ms/op
+                 time:    1018715500,000 #
+
+Iteration   5: 0,535 ±(99.9%) 0,018 ms/op
+                 ops:     19,000 #
+                 p0.00:   0,501 ms/op
+                 p0.50:   0,548 ms/op
+                 p0.90:   0,551 ms/op
+                 p0.95:   0,553 ms/op
+                 p0.99:   0,553 ms/op
+                 p0.999:  0,553 ms/op
+                 p0.9999: 0,553 ms/op
+                 p1.00:   0,553 ms/op
+                 time:    1017130375,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 95
+  mean =      0,537 ±(99.9%) 0,007 ms/op
+
+  Histogram, ms/op:
+    [0,500, 0,505) = 5 
+    [0,505, 0,510) = 6 
+    [0,510, 0,515) = 7 
+    [0,515, 0,520) = 5 
+    [0,520, 0,525) = 8 
+    [0,525, 0,530) = 2 
+    [0,530, 0,535) = 2 
+    [0,535, 0,540) = 3 
+    [0,540, 0,545) = 6 
+    [0,545, 0,550) = 38 
+    [0,550, 0,555) = 7 
+    [0,555, 0,560) = 1 
+    [0,560, 0,565) = 2 
+    [0,565, 0,570) = 1 
+    [0,570, 0,575) = 0 
+    [0,575, 0,580) = 1 
+    [0,580, 0,585) = 1 
+
+  Percentiles, ms/op:
+      p(0,0000) =      0,501 ms/op
+     p(50,0000) =      0,548 ms/op
+     p(90,0000) =      0,552 ms/op
+     p(95,0000) =      0,560 ms/op
+     p(99,0000) =      0,583 ms/op
+     p(99,9000) =      0,583 ms/op
+     p(99,9900) =      0,583 ms/op
+     p(99,9990) =      0,583 ms/op
+     p(99,9999) =      0,583 ms/op
+    p(100,0000) =      0,583 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  5112961292,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1017130375,000, 1022592258,400, 1028327625,000), stdev = 4827260,968
+  CI (99.9%): [5112961292,000, 5112961292,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                           Mode  Cnt           Score   Error  Units
+OpsPerInvSanityTest.test          sample   95           0,537 ± 0,007  ms/op
+OpsPerInvSanityTest.test:ops      sample    5          95,000              #
+OpsPerInvSanityTest.test:p0.00    sample                0,501          ms/op
+OpsPerInvSanityTest.test:p0.50    sample                0,548          ms/op
+OpsPerInvSanityTest.test:p0.90    sample                0,552          ms/op
+OpsPerInvSanityTest.test:p0.95    sample                0,560          ms/op
+OpsPerInvSanityTest.test:p0.99    sample                0,583          ms/op
+OpsPerInvSanityTest.test:p0.999   sample                0,583          ms/op
+OpsPerInvSanityTest.test:p0.9999  sample                0,583          ms/op
+OpsPerInvSanityTest.test:p1.00    sample                0,583          ms/op
+OpsPerInvSanityTest.test:time     sample    5  5112961292,000              #
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+Iteration   1: 0,551 ms/op
+                 ops:  1,000 #
+                 time: 55164667,000 #
+
+Iteration   2: 0,527 ms/op
+                 ops:  1,000 #
+                 time: 52763792,000 #
+
+Iteration   3: 0,550 ms/op
+                 ops:  1,000 #
+                 time: 55037791,000 #
+
+Iteration   4: 0,508 ms/op
+                 ops:  1,000 #
+                 time: 50819833,000 #
+
+Iteration   5: 0,541 ms/op
+                 ops:  1,000 #
+                 time: 54152208,000 #
+
+
+
+Result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test":
+  N = 5
+  mean =      0,535 ±(99.9%) 0,070 ms/op
+
+  Histogram, ms/op:
+    [0,500, 0,505) = 0 
+    [0,505, 0,510) = 1 
+    [0,510, 0,515) = 0 
+    [0,515, 0,520) = 0 
+    [0,520, 0,525) = 0 
+    [0,525, 0,530) = 1 
+    [0,530, 0,535) = 0 
+    [0,535, 0,540) = 0 
+    [0,540, 0,545) = 1 
+    [0,545, 0,550) = 0 
+    [0,550, 0,555) = 2 
+    [0,555, 0,560) = 0 
+
+  Percentiles, ms/op:
+      p(0,0000) =      0,508 ms/op
+     p(50,0000) =      0,541 ms/op
+     p(90,0000) =      0,551 ms/op
+     p(95,0000) =      0,551 ms/op
+     p(99,0000) =      0,551 ms/op
+     p(99,9000) =      0,551 ms/op
+     p(99,9900) =      0,551 ms/op
+     p(99,9990) =      0,551 ms/op
+     p(99,9999) =      0,551 ms/op
+    p(100,0000) =      0,551 ms/op
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:ops":
+  5,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1,000, 1,000, 1,000), stdev = 0,001
+  CI (99.9%): [5,000, 5,000] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.batchsize.OpsPerInvSanityTest.test:time":
+  267938291,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (50819833,000, 53587658,200, 55164667,000), stdev = 1819901,798
+  CI (99.9%): [267938291,000, 267938291,000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:00
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                      Mode  Cnt          Score   Error  Units
+OpsPerInvSanityTest.test         ss    5          0,535 ± 0,070  ms/op
+OpsPerInvSanityTest.test:ops     ss    5          5,000              #
+OpsPerInvSanityTest.test:time    ss    5  267938291,000              #

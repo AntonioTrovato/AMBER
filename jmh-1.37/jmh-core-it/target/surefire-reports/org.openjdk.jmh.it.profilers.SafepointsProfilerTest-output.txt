@@ -1,0 +1,79 @@
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default -Xms1g -Xmx1g
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 3 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.profilers.SafepointsProfilerTest.allocate
+
+# Run progress: 0,00% complete, ETA 00:00:06
+# Fork: 1 of 1
+# Preparing profilers: SafepointsProfiler 
+# Profilers consume stdout from target VM, use -v EXTRA to copy to console
+The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Warmup Iteration   1: 4914,092 ops/s
+# Warmup Iteration   2: 4117,121 ops/s
+# Warmup Iteration   3: 4725,355 ops/s
+Iteration   1: 3946,854 ops/s
+Iteration   2: 3419,159 ops/s
+Iteration   3: 3676,805 ops/s
+# Processing profiler results: SafepointsProfiler 
+
+
+Result "org.openjdk.jmh.it.profilers.SafepointsProfilerTest.allocate":
+  3680,940 ±(99.9%) 4814,004 ops/s [Average]
+  (min, avg, max) = (3419,159, 3680,940, 3946,854), stdev = 263,872
+  CI (99.9%): [≈ 0, 8494,943] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.SafepointsProfilerTest.allocate:safepoints.interval":
+  3019,000 ms
+
+Secondary result "org.openjdk.jmh.it.profilers.SafepointsProfilerTest.allocate:safepoints.pause":
+  235,147 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (0,481, 1,866, 11,698), stdev = 1,979
+  CI (99.9%): [235,147, 235,147] (assumes normal distribution)
+
+Secondary result "org.openjdk.jmh.it.profilers.SafepointsProfilerTest.allocate:safepoints.ttsp":
+  2,327 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (0,006, 0,018, 0,505), stdev = 0,045
+  CI (99.9%): [2,327, 2,327] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                                  Mode  Cnt     Score      Error  Units
+SafepointsProfilerTest.allocate                           thrpt    3  3680,940 ± 4814,004  ops/s
+SafepointsProfilerTest.allocate:safepoints.interval       thrpt       3019,000                ms
+SafepointsProfilerTest.allocate:safepoints.pause          thrpt  126   235,147                ms
+SafepointsProfilerTest.allocate:safepoints.pause.avg      thrpt          1,866                ms
+SafepointsProfilerTest.allocate:safepoints.pause.count    thrpt        126,000                 #
+SafepointsProfilerTest.allocate:safepoints.pause.p0.00    thrpt          0,481                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.50    thrpt          1,035                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.90    thrpt          4,112                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.95    thrpt          6,433                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.99    thrpt         11,459                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.999   thrpt         11,698                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p0.9999  thrpt         11,698                ms
+SafepointsProfilerTest.allocate:safepoints.pause.p1.00    thrpt         11,698                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp           thrpt  126     2,327                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.avg       thrpt          0,018                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.count     thrpt        126,000                 #
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.00     thrpt          0,006                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.50     thrpt          0,013                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.90     thrpt          0,019                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.95     thrpt          0,026                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.99     thrpt          0,389                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.999    thrpt          0,505                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p0.9999   thrpt          0,505                ms
+SafepointsProfilerTest.allocate:safepoints.ttsp.p1.00     thrpt          0,505                ms
