@@ -81,3 +81,24 @@ After this, you must modify the `pom.xml` file, adding
 
 Now, your benchmarks' classes can be developed also in the `src/main/java/` folder and you just have to reload the Maven project and run `mvn clean install`.
 You are ready to run the microbenchmarks, and to have a look at all the possible options run `java -jar target/projectname-1.0-SNAPSHOT.jar -h`. The dynamic halt can be configured both in the command line options and annotations.
+
+## GRADLE
+If the user is using a Gradle project the first step is to put the `jmh-core-1.37-all.jar` in a folder inside the project, for example `libs/jmh-core-1.37-all.jar`.
+Then, in the `build.gradle` file, the following plugin and dependencies must be added:
+```
+    id("me.champeau.jmh") version "0.7.2"
+
+    jmh files("libs/jmh-core-1.37-all.jar")
+    jmhImplementation files("libs/jmh-core-1.37-all.jar")
+```
+
+Then reload the project. The JMH Gradle plugin needs for the benchmarks to be collocated in the `src/jmh/java` folder. Now, run the following commands in order:
+```
+    Clean
+    Build (if not run in the past)
+    jmhClasses
+    jmhRunBytecodeGenerator
+    jmhCompileGeneratedClasses
+    jmhJar
+```
+You are ready to run the microbenchmarks, and to have a look at all the possible options run `java -cp "libs/jmh-core-1.37-all.jar:build/libs/rxjava-3.0.0-SNAPSHOT-jmh.jar" org.openjdk.jmh.Main -h`. The dynamic halt can be configured both in the command line options and annotations.
