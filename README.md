@@ -18,7 +18,8 @@ If the user is using a Maven project the first step is to put the `jmh-core-1.37
     -Dpackaging=jar```
 
 After this, you must modify the `pom.xml` file, adding
-```<dependencies>
+```
+    <dependencies>
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
