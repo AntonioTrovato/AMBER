@@ -113,7 +113,7 @@ The first one consists in using the following annotation:
 ```
 @DynamicHalt(model = "model_name")
 ```
-The `model_name` could be one of `oscnn`, `fcn` or `rocket`.
+The `model_name` could be one of `oscnn`, `fcn` or `rocket`. This annotation works both at method-level and class-level.
 
 Otherwise, you can use the command line option:
 ```
