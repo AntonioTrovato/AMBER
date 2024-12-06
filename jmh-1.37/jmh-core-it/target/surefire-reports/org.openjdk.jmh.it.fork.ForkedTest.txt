@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.fork.ForkedTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.101 sec - in org.openjdk.jmh.it.fork.ForkedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.159 sec - in org.openjdk.jmh.it.fork.ForkedTest

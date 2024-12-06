@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.util.TestUtil" time="1.046" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.util.TestUtil" time="1.044" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -62,5 +62,5 @@
   </properties>
   <testcase name="testSplit" classname="org.openjdk.jmh.util.TestUtil" time="0"/>
   <testcase name="testPID_Current" classname="org.openjdk.jmh.util.TestUtil" time="0.03"/>
-  <testcase name="testPID_Other" classname="org.openjdk.jmh.util.TestUtil" time="1.016"/>
+  <testcase name="testPID_Other" classname="org.openjdk.jmh.util.TestUtil" time="1.014"/>
 </testsuite>

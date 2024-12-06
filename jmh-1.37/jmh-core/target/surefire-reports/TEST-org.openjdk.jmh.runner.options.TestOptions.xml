@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.runner.options.TestOptions" time="0.055" tests="98" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.runner.options.TestOptions" time="0.054" tests="98" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -60,25 +60,25 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testWarmupIterations" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.003"/>
-  <testcase name="testWarmupFork_MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreads_Minus42_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupIterations" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.004"/>
+  <testcase name="testWarmupFork_MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreads_Minus42_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testJvm_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testJvmArgsAppend_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreadGroups_AllZero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.002"/>
+  <testcase name="testJvmArgsAppend_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreadGroups_AllZero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testWarmupFork_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testBatchSize_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testTimeout_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testTimeout" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testSerializable_Builder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.006"/>
-  <testcase name="testSynchIterations_False" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testSerializable_Builder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.005"/>
+  <testcase name="testSynchIterations_False" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.002"/>
   <testcase name="testJvmArgs" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testBenchModes_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testExcludes" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testBenchModes" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testGC_True" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testBenchModes" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testGC_True" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testProfilers_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testJvmArgsPrepend" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testJvmArgsPrepend" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testJvm" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testOPI" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testTimeunit" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
@@ -88,70 +88,70 @@
   <testcase name="testParam" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testJvmArgsPrepend_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testVerbose_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testSerializable_Cmdline" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.002"/>
+  <testcase name="testSerializable_Cmdline" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testThreadGroups_WithZero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testExcludes_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testIncludes_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testThreads_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testThreadGroups_WithNegative_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testParam_EmptyString" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testRuntimeIterations_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testParam_EmptyString" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testRuntimeIterations_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testFork_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testProfilers" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testBatchSize" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreadGroups_AllZero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testFork_MinusOne" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupBatchSize" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testProfilers" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testBatchSize" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreadGroups_AllZero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testFork_MinusOne" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupBatchSize" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testSFOE_True" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testVerbose" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testParam_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreadGroups" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testWarmupBatchSize_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testOPI_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testParam_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreadGroups" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testWarmupBatchSize_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testOPI_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testRuntime_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testSFOE_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testResultFormats" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testSFOE_False" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testResultFormats" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.002"/>
+  <testcase name="testSFOE_False" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testThreadGroups_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupIterations_MinusOne" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupTime" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupIterations_MinusOne" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupTime" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testBatchSize_Zero_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupIterations_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testSynchIterations_True" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupIterations_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testSynchIterations_True" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testIncludes" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testFork__MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreadGroups_WithNegative" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testVerbose_LC" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testFork__MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreadGroups_WithNegative" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testVerbose_LC" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testVerbose_UC" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testJvmArgsAppend" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testWarmupFork_MinusOne" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testGC_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testGC_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testWarmupTime_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testOPI_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
-  <testcase name="testWarmupFork_0" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupFork_1" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testOPI_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testWarmupFork_0" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupFork_1" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testTimeunit_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testRuntime" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testJvmArgs_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreads_Max" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testJvmArgs_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreads_Max" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testThreads_Set" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testWarmupMicros" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testSynchIterations_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testThreads_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testThreads_Minus42" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testFork_0" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testFork_1" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
+  <testcase name="testFork_1" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testOPI_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testRuntimeIterations_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testRuntimeIterations_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testRuntimeIterations" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testWarmupIterations_MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testOutput" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testWarmupIterations_MinusOne_OptionsBuilder" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testOutput" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testResultFormats_LC" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testResultFormats_UC" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
   <testcase name="testResult" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testWarmupMicros_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testOutput_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
-  <testcase name="testThreads_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testOutput_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0.001"/>
+  <testcase name="testThreads_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testResult_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testBatchSize_Zero" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>
   <testcase name="testRuntimeIterations_Default" classname="org.openjdk.jmh.runner.options.TestOptions" time="0"/>

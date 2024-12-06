@@ -13,15 +13,15 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 64,204 ops/s
-# Warmup Iteration   2: 81,334 ops/s
-# Warmup Iteration   3: 83,492 ops/s
-Iteration   1: 83,248 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 84,316 ops/s
+# Warmup Iteration   2: 82,791 ops/s
+# Warmup Iteration   3: 85,663 ops/s
+Iteration   1: 86,512 ops/s
 
 
 Result "org.openjdk.jmh.it.WarmupIterationCountAnnTest.test":
-  83,248 ops/s
+  86,512 ops/s
 
 
 # JMH version: 1.37
@@ -38,8 +38,8 @@ Result "org.openjdk.jmh.it.WarmupIterationCountAnnTest.test":
 
 # Run progress: 33,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,011 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,012 s/op
 # Warmup Iteration   2: 0,012 s/op
 # Warmup Iteration   3: 0,012 s/op
 Iteration   1: 0,012 s/op
@@ -63,12 +63,12 @@ Result "org.openjdk.jmh.it.WarmupIterationCountAnnTest.test":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-# Warmup Iteration   2: 0,012 ±(99.9%) 0,002 s/op
-# Warmup Iteration   3: 0,012 ±(99.9%) 0,001 s/op
-Iteration   1: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,010 s/op
+# Warmup Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+# Warmup Iteration   3: 0,013 ±(99.9%) 0,001 s/op
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -81,24 +81,24 @@ Iteration   1: 0,012 ±(99.9%) 0,002 s/op
 
 Result "org.openjdk.jmh.it.WarmupIterationCountAnnTest.test":
   N = 9
-  mean =      0,012 ±(99.9%) 0,002 s/op
+  mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
-    [0,010, 0,011) = 1 
+    [0,010, 0,011) = 0 
     [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
-    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
+    [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 1 
     [0,012, 0,013) = 0 
-    [0,013, 0,013) = 5 
+    [0,013, 0,013) = 6 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
+      p(0,0000) =      0,011 s/op
      p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
@@ -124,11 +124,11 @@ Result "org.openjdk.jmh.it.WarmupIterationCountAnnTest.test":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,013 s/op
-# Warmup Iteration   2: 0,013 s/op
-# Warmup Iteration   3: 0,011 s/op
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,014 s/op
+# Warmup Iteration   2: 0,010 s/op
+# Warmup Iteration   3: 0,013 s/op
+Iteration   1: 0,012 s/op
 
 
 
@@ -141,10 +141,10 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                   Mode  Cnt   Score   Error  Units
-WarmupIterationCountAnnTest.test           thrpt       83,248          ops/s
+WarmupIterationCountAnnTest.test           thrpt       86,512          ops/s
 WarmupIterationCountAnnTest.test            avgt        0,012           s/op
-WarmupIterationCountAnnTest.test          sample    9   0,012 ± 0,002   s/op
-WarmupIterationCountAnnTest.test:p0.00    sample        0,010           s/op
+WarmupIterationCountAnnTest.test          sample    9   0,012 ± 0,001   s/op
+WarmupIterationCountAnnTest.test:p0.00    sample        0,011           s/op
 WarmupIterationCountAnnTest.test:p0.50    sample        0,013           s/op
 WarmupIterationCountAnnTest.test:p0.90    sample        0,013           s/op
 WarmupIterationCountAnnTest.test:p0.95    sample        0,013           s/op
@@ -152,4 +152,4 @@ WarmupIterationCountAnnTest.test:p0.99    sample        0,013           s/op
 WarmupIterationCountAnnTest.test:p0.999   sample        0,013           s/op
 WarmupIterationCountAnnTest.test:p0.9999  sample        0,013           s/op
 WarmupIterationCountAnnTest.test:p1.00    sample        0,013           s/op
-WarmupIterationCountAnnTest.test              ss        0,013           s/op
+WarmupIterationCountAnnTest.test              ss        0,012           s/op

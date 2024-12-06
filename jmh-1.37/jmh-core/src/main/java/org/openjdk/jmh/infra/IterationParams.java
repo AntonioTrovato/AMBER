@@ -30,6 +30,7 @@ import org.openjdk.jmh.util.Utils;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Iteration parameters.
@@ -130,7 +131,7 @@ abstract class IterationParamsL2 extends IterationParamsL1 implements Serializab
     /**
      * iteration runtime
      */
-    protected final TimeValue timeValue;
+    protected TimeValue timeValue;
 
     /**
      * batch size (method invocations inside the single op)
@@ -166,6 +167,13 @@ abstract class IterationParamsL2 extends IterationParamsL1 implements Serializab
      */
     public TimeValue getTime() {
         return timeValue;
+    }
+
+    /**
+     * Set time for iteration.
+     */
+    public void setTime(long time, TimeUnit unit) {
+        timeValue = new TimeValue(time,unit);
     }
 
     /**

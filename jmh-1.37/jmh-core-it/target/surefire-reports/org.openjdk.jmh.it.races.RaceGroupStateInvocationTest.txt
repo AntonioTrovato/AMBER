@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.races.RaceGroupStateInvocationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.837 sec - in org.openjdk.jmh.it.races.RaceGroupStateInvocationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.822 sec - in org.openjdk.jmh.it.races.RaceGroupStateInvocationTest

@@ -13,33 +13,33 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 84,269 ops/s
-# Warmup Iteration   2: 80,721 ops/s
-# Warmup Iteration   3: 81,235 ops/s
-# Warmup Iteration   4: 81,114 ops/s
-# Warmup Iteration   5: 80,195 ops/s
-Iteration   1: 83,768 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,238 ops/s
+# Warmup Iteration   2: 81,383 ops/s
+# Warmup Iteration   3: 83,673 ops/s
+# Warmup Iteration   4: 81,316 ops/s
+# Warmup Iteration   5: 83,226 ops/s
+Iteration   1: 80,838 ops/s
                  cnt: 42,000 #
 
-Iteration   2: 81,321 ops/s
+Iteration   2: 81,631 ops/s
                  cnt: 42,000 #
 
-Iteration   3: 81,813 ops/s
+Iteration   3: 83,452 ops/s
                  cnt: 42,000 #
 
-Iteration   4: 82,837 ops/s
+Iteration   4: 83,813 ops/s
                  cnt: 42,000 #
 
-Iteration   5: 83,094 ops/s
+Iteration   5: 84,033 ops/s
                  cnt: 42,000 #
 
 
 
 Result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test":
-  82,567 ±(99.9%) 3,810 ops/s [Average]
-  (min, avg, max) = (81,321, 82,567, 83,768), stdev = 0,989
-  CI (99.9%): [78,757, 86,376] (assumes normal distribution)
+  82,754 ±(99.9%) 5,506 ops/s [Average]
+  (min, avg, max) = (80,838, 82,754, 84,033), stdev = 1,430
+  CI (99.9%): [77,248, 88,259] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test:cnt":
   210,000 ±(99.9%) 0,001 # [Sum]
@@ -56,7 +56,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                        Mode  Cnt    Score   Error  Units
-AuxCountersEventsTest.test      thrpt    5   82,567 ± 3,810  ops/s
+AuxCountersEventsTest.test      thrpt    5   82,754 ± 5,506  ops/s
 AuxCountersEventsTest.test:cnt  thrpt    5  210,000              #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
@@ -73,7 +73,7 @@ AuxCountersEventsTest.test:cnt  thrpt    5  210,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,012 s/op
 # Warmup Iteration   2: 0,012 s/op
 # Warmup Iteration   3: 0,012 s/op
@@ -88,7 +88,7 @@ Iteration   2: 0,012 s/op
 Iteration   3: 0,012 s/op
                  cnt: 42,000 #
 
-Iteration   4: 0,012 s/op
+Iteration   4: 0,011 s/op
                  cnt: 42,000 #
 
 Iteration   5: 0,012 s/op
@@ -98,8 +98,8 @@ Iteration   5: 0,012 s/op
 
 Result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test":
   0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
-  CI (99.9%): [0,011, 0,013] (assumes normal distribution)
+  (min, avg, max) = (0,011, 0,012, 0,012), stdev = 0,001
+  CI (99.9%): [0,011, 0,014] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test:cnt":
   210,000 ±(99.9%) 0,001 # [Sum]
@@ -133,10 +133,10 @@ AuxCountersEventsTest.test:cnt  avgt    5  210,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,012 ±(99.9%) 0,001 s/op
 # Warmup Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-# Warmup Iteration   3: 0,012 ±(99.9%) 0,003 s/op
+# Warmup Iteration   3: 0,012 ±(99.9%) 0,001 s/op
 # Warmup Iteration   4: 0,012 ±(99.9%) 0,001 s/op
 # Warmup Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
@@ -150,10 +150,10 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+Iteration   2: 0,012 ±(99.9%) 0,002 s/op
                  cnt:     42,000 #
                  p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
+                 p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -163,8 +163,8 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  cnt:     42,000 #
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -183,51 +183,51 @@ Iteration   4: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration   5: 0,013 ±(99.9%) 0,002 s/op
+Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  cnt:     42,000 #
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,014 s/op
-                 p0.95:   0,014 s/op
-                 p0.99:   0,014 s/op
-                 p0.999:  0,014 s/op
-                 p0.9999: 0,014 s/op
-                 p1.00:   0,014 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
 
 
 
 Result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test":
-  N = 46
+  N = 45
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 1 
-    [0,010, 0,011) = 1 
-    [0,011, 0,011) = 0 
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 2 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 2 
-    [0,011, 0,011) = 2 
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 2 
+    [0,011, 0,011) = 8 
+    [0,011, 0,012) = 1 
     [0,012, 0,012) = 3 
-    [0,012, 0,013) = 1 
-    [0,013, 0,013) = 26 
-    [0,013, 0,013) = 1 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 2 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 20 
     [0,013, 0,013) = 0 
-    [0,013, 0,014) = 2 
-    [0,014, 0,014) = 1 
+    [0,013, 0,013) = 1 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
+     p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 Secondary result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test:cnt":
   210,000 ±(99.9%) 0,001 # [Sum]
@@ -244,16 +244,16 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                             Mode  Cnt    Score    Error  Units
-AuxCountersEventsTest.test          sample   46    0,012 ±  0,001   s/op
+AuxCountersEventsTest.test          sample   45    0,012 ±  0,001   s/op
 AuxCountersEventsTest.test:cnt      sample    5  210,000               #
 AuxCountersEventsTest.test:p0.00    sample         0,010            s/op
-AuxCountersEventsTest.test:p0.50    sample         0,013            s/op
+AuxCountersEventsTest.test:p0.50    sample         0,012            s/op
 AuxCountersEventsTest.test:p0.90    sample         0,013            s/op
 AuxCountersEventsTest.test:p0.95    sample         0,013            s/op
-AuxCountersEventsTest.test:p0.99    sample         0,014            s/op
-AuxCountersEventsTest.test:p0.999   sample         0,014            s/op
-AuxCountersEventsTest.test:p0.9999  sample         0,014            s/op
-AuxCountersEventsTest.test:p1.00    sample         0,014            s/op
+AuxCountersEventsTest.test:p0.99    sample         0,013            s/op
+AuxCountersEventsTest.test:p0.999   sample         0,013            s/op
+AuxCountersEventsTest.test:p0.9999  sample         0,013            s/op
+AuxCountersEventsTest.test:p1.00    sample         0,013            s/op
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -269,22 +269,22 @@ AuxCountersEventsTest.test:p1.00    sample         0,014            s/op
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,012 s/op
-# Warmup Iteration   2: 0,012 s/op
-# Warmup Iteration   3: 0,013 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,013 s/op
+# Warmup Iteration   2: 0,013 s/op
+# Warmup Iteration   3: 0,010 s/op
 # Warmup Iteration   4: 0,013 s/op
-# Warmup Iteration   5: 0,013 s/op
-Iteration   1: 0,010 s/op
+# Warmup Iteration   5: 0,011 s/op
+Iteration   1: 0,012 s/op
                  cnt: 42,000 #
 
-Iteration   2: 0,013 s/op
+Iteration   2: 0,011 s/op
                  cnt: 42,000 #
 
-Iteration   3: 0,011 s/op
+Iteration   3: 0,013 s/op
                  cnt: 42,000 #
 
-Iteration   4: 0,012 s/op
+Iteration   4: 0,013 s/op
                  cnt: 42,000 #
 
 Iteration   5: 0,013 s/op
@@ -294,25 +294,25 @@ Iteration   5: 0,013 s/op
 
 Result "org.openjdk.jmh.it.auxcounters.AuxCountersEventsTest.test":
   N = 5
-  mean =      0,012 ±(99.9%) 0,004 s/op
+  mean =      0,012 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 1 
+    [0,010, 0,010) = 0 
     [0,010, 0,011) = 0 
     [0,011, 0,011) = 0 
     [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
+    [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 1 
-    [0,013, 0,013) = 2 
+    [0,012, 0,013) = 0 
+    [0,013, 0,013) = 3 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
+      p(0,0000) =      0,011 s/op
+     p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
      p(99,0000) =      0,013 s/op
@@ -337,5 +337,5 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                       Mode  Cnt    Score   Error  Units
-AuxCountersEventsTest.test        ss    5    0,012 ± 0,004   s/op
+AuxCountersEventsTest.test        ss    5    0,012 ± 0,003   s/op
 AuxCountersEventsTest.test:cnt    ss    5  210,000              #

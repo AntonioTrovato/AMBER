@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.profile.PerfParseTest" time="0" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.profile.PerfParseTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -60,7 +60,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="parseOptionalTag" classname="org.openjdk.jmh.profile.PerfParseTest" time="0"/>
+  <testcase name="parseOptionalTag" classname="org.openjdk.jmh.profile.PerfParseTest" time="0.001"/>
   <testcase name="stripEvents" classname="org.openjdk.jmh.profile.PerfParseTest" time="0"/>
   <testcase name="parsePerf_4_4" classname="org.openjdk.jmh.profile.PerfParseTest" time="0"/>
   <testcase name="parseRaggedSymbols" classname="org.openjdk.jmh.profile.PerfParseTest" time="0"/>

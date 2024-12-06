@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 69,335 ops/s
-Iteration   1: 78,215 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,373 ops/s
+Iteration   1: 92,931 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumParamToStringOverridingTest.test":
-  78,215 ops/s
+  92,931 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.EnumParamToStringOverridingTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 70,099 ops/s
-Iteration   1: 81,497 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,616 ops/s
+Iteration   1: 79,625 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumParamToStringOverridingTest.test":
-  81,497 ops/s
+  79,625 ops/s
 
 
 # JMH version: 1.37
@@ -62,13 +62,13 @@ Result "org.openjdk.jmh.it.params.EnumParamToStringOverridingTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 71,558 ops/s
-Iteration   1: 94,985 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,737 ops/s
+Iteration   1: 79,884 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumParamToStringOverridingTest.test":
-  94,985 ops/s
+  79,884 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -80,6 +80,6 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 (a)   Mode  Cnt   Score   Error  Units
-EnumParamToStringOverridingTest.test  VALUE_A  thrpt       78,215          ops/s
-EnumParamToStringOverridingTest.test  VALUE_B  thrpt       81,497          ops/s
-EnumParamToStringOverridingTest.test  VALUE_C  thrpt       94,985          ops/s
+EnumParamToStringOverridingTest.test  VALUE_A  thrpt       92,931          ops/s
+EnumParamToStringOverridingTest.test  VALUE_B  thrpt       79,625          ops/s
+EnumParamToStringOverridingTest.test  VALUE_C  thrpt       79,884          ops/s

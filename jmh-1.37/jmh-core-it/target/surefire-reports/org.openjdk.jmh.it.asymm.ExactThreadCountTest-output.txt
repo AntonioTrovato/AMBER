@@ -13,43 +13,43 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 251,938 ops/s
-                 test1: 83,804 ops/s
-                 test2: 168,134 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 246,210 ops/s
+                 test1: 82,932 ops/s
+                 test2: 163,279 ops/s
 
-Iteration   2: 252,482 ops/s
-                 test1: 83,477 ops/s
-                 test2: 169,005 ops/s
+Iteration   2: 253,672 ops/s
+                 test1: 85,879 ops/s
+                 test2: 167,793 ops/s
 
-Iteration   3: 249,475 ops/s
-                 test1: 83,322 ops/s
-                 test2: 166,153 ops/s
+Iteration   3: 245,851 ops/s
+                 test1: 81,945 ops/s
+                 test2: 163,906 ops/s
 
-Iteration   4: 249,221 ops/s
-                 test1: 81,162 ops/s
-                 test2: 168,058 ops/s
+Iteration   4: 246,402 ops/s
+                 test1: 82,509 ops/s
+                 test2: 163,893 ops/s
 
-Iteration   5: 246,576 ops/s
-                 test1: 83,399 ops/s
-                 test2: 163,177 ops/s
+Iteration   5: 248,446 ops/s
+                 test1: 83,188 ops/s
+                 test2: 165,258 ops/s
 
 
 
 Result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test":
-  249,938 ±(99.9%) 9,133 ops/s [Average]
-  (min, avg, max) = (246,576, 249,938, 252,482), stdev = 2,372
-  CI (99.9%): [240,806, 259,071] (assumes normal distribution)
+  248,116 ±(99.9%) 12,577 ops/s [Average]
+  (min, avg, max) = (245,851, 248,116, 253,672), stdev = 3,266
+  CI (99.9%): [235,539, 260,694] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
-  83,033 ±(99.9%) 4,088 ops/s [Average]
-  (min, avg, max) = (81,162, 83,033, 83,804), stdev = 1,062
-  CI (99.9%): [78,944, 87,121] (assumes normal distribution)
+  83,290 ±(99.9%) 5,859 ops/s [Average]
+  (min, avg, max) = (81,945, 83,290, 85,879), stdev = 1,521
+  CI (99.9%): [77,432, 89,149] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
-  166,906 ±(99.9%) 8,971 ops/s [Average]
-  (min, avg, max) = (163,177, 166,906, 169,005), stdev = 2,330
-  CI (99.9%): [157,934, 175,877] (assumes normal distribution)
+  164,826 ±(99.9%) 6,969 ops/s [Average]
+  (min, avg, max) = (163,279, 164,826, 167,793), stdev = 1,810
+  CI (99.9%): [157,857, 171,795] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -66,43 +66,43 @@ Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
 
 # Run progress: 33,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,004 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,008 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   4: 0,012 ±(99.9%) 0,009 s/op
-                 test1: 0,011 s/op
-                 test2: 0,012 s/op
-
-Iteration   5: 0,012 ±(99.9%) 0,010 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,002 s/op
                  test1: 0,013 s/op
+                 test2: 0,013 s/op
+
+Iteration   2: 0,013 ±(99.9%) 0,003 s/op
+                 test1: 0,013 s/op
+                 test2: 0,013 s/op
+
+Iteration   3: 0,012 ±(99.9%) 0,005 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   4: 0,012 ±(99.9%) 0,005 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   5: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
                  test2: 0,012 s/op
 
 
 
 Result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test":
-  0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
-  CI (99.9%): [0,011, 0,013] (assumes normal distribution)
+  0,012 ±(99.9%) 0,002 s/op [Average]
+  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
+  CI (99.9%): [0,011, 0,014] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
-  0,012 ±(99.9%) 0,002 s/op [Average]
-  (min, avg, max) = (0,011, 0,012, 0,013), stdev = 0,001
-  CI (99.9%): [0,010, 0,014] (assumes normal distribution)
+  0,012 ±(99.9%) 0,001 s/op [Average]
+  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
+  CI (99.9%): [0,011, 0,014] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
-  0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
-  CI (99.9%): [0,011, 0,013] (assumes normal distribution)
+  0,012 ±(99.9%) 0,002 s/op [Average]
+  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
+  CI (99.9%): [0,010, 0,014] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -119,8 +119,120 @@ Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,011 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,015 s/op
+                 p0.95:         0,015 s/op
+                 p0.99:         0,015 s/op
+                 p0.999:        0,015 s/op
+                 p0.9999:       0,015 s/op
+                 p1.00:         0,015 s/op
+                 test1:         0,012 ±(99.9%) 0,002 s/op
+                 test1:p0.00:   0,011 s/op
+                 test1:p0.50:   0,013 s/op
+                 test1:p0.90:   0,014 s/op
+                 test1:p0.95:   0,014 s/op
+                 test1:p0.99:   0,014 s/op
+                 test1:p0.999:  0,014 s/op
+                 test1:p0.9999: 0,014 s/op
+                 test1:p1.00:   0,014 s/op
+                 test2:         0,013 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,015 s/op
+                 test2:p0.95:   0,015 s/op
+                 test2:p0.99:   0,015 s/op
+                 test2:p0.999:  0,015 s/op
+                 test2:p0.9999: 0,015 s/op
+                 test2:p1.00:   0,015 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,012 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,013 s/op
+                 p0.99:         0,013 s/op
+                 p0.999:        0,013 s/op
+                 p0.9999:       0,013 s/op
+                 p1.00:         0,013 s/op
+                 test1:         0,012 ±(99.9%) 0,002 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,012 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,010 s/op
+                 test2:p0.50:   0,012 s/op
+                 test2:p0.90:   0,013 s/op
+                 test2:p0.95:   0,013 s/op
+                 test2:p0.99:   0,013 s/op
+                 test2:p0.999:  0,013 s/op
+                 test2:p0.9999: 0,013 s/op
+                 test2:p1.00:   0,013 s/op
+
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,014 s/op
+                 p0.95:         0,014 s/op
+                 p0.99:         0,014 s/op
+                 p0.999:        0,014 s/op
+                 p0.9999:       0,014 s/op
+                 p1.00:         0,014 s/op
+                 test1:         0,012 ±(99.9%) 0,002 s/op
+                 test1:p0.00:   0,011 s/op
+                 test1:p0.50:   0,012 s/op
+                 test1:p0.90:   0,014 s/op
+                 test1:p0.95:   0,014 s/op
+                 test1:p0.99:   0,014 s/op
+                 test1:p0.999:  0,014 s/op
+                 test1:p0.9999: 0,014 s/op
+                 test1:p1.00:   0,014 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,010 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,014 s/op
+                 test2:p0.95:   0,014 s/op
+                 test2:p0.99:   0,014 s/op
+                 test2:p0.999:  0,014 s/op
+                 test2:p0.9999: 0,014 s/op
+                 test2:p1.00:   0,014 s/op
+
+Iteration   4: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,012 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,013 s/op
+                 p0.99:         0,013 s/op
+                 p0.999:        0,013 s/op
+                 p0.9999:       0,013 s/op
+                 p1.00:         0,013 s/op
+                 test1:         0,012 ±(99.9%) 0,002 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,012 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,010 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,013 s/op
+                 test2:p0.95:   0,013 s/op
+                 test2:p0.99:   0,013 s/op
+                 test2:p0.999:  0,013 s/op
+                 test2:p0.9999: 0,013 s/op
+                 test2:p1.00:   0,013 s/op
+
+Iteration   5: 0,013 ±(99.9%) 0,001 s/op
                  p0.00:         0,011 s/op
                  p0.50:         0,013 s/op
                  p0.90:         0,013 s/op
@@ -142,176 +254,43 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  test2:p0.00:   0,011 s/op
                  test2:p0.50:   0,013 s/op
                  test2:p0.90:   0,013 s/op
-                 test2:p0.95:   0,014 s/op
-                 test2:p0.99:   0,014 s/op
-                 test2:p0.999:  0,014 s/op
-                 test2:p0.9999: 0,014 s/op
-                 test2:p1.00:   0,014 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,014 s/op
-                 p0.99:         0,014 s/op
-                 p0.999:        0,014 s/op
-                 p0.9999:       0,014 s/op
-                 p1.00:         0,014 s/op
-                 test1:         0,013 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,012 s/op
-                 test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,014 s/op
-                 test1:p0.95:   0,014 s/op
-                 test1:p0.99:   0,014 s/op
-                 test1:p0.999:  0,014 s/op
-                 test1:p0.9999: 0,014 s/op
-                 test1:p1.00:   0,014 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,013 s/op
                  test2:p0.95:   0,013 s/op
                  test2:p0.99:   0,013 s/op
                  test2:p0.999:  0,013 s/op
                  test2:p0.9999: 0,013 s/op
                  test2:p1.00:   0,013 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,014 s/op
-                 p0.99:         0,014 s/op
-                 p0.999:        0,014 s/op
-                 p0.9999:       0,014 s/op
-                 p1.00:         0,014 s/op
-                 test1:         0,012 ±(99.9%) 0,003 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,012 s/op
-                 test1:p0.90:   0,014 s/op
-                 test1:p0.95:   0,014 s/op
-                 test1:p0.99:   0,014 s/op
-                 test1:p0.999:  0,014 s/op
-                 test1:p0.9999: 0,014 s/op
-                 test1:p1.00:   0,014 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,013 s/op
-                 test2:p0.95:   0,013 s/op
-                 test2:p0.99:   0,013 s/op
-                 test2:p0.999:  0,013 s/op
-                 test2:p0.9999: 0,013 s/op
-                 test2:p1.00:   0,013 s/op
-
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,013 s/op
-                 p0.99:         0,013 s/op
-                 p0.999:        0,013 s/op
-                 p0.9999:       0,013 s/op
-                 p1.00:         0,013 s/op
-                 test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,012 s/op
-                 test1:p0.90:   0,013 s/op
-                 test1:p0.95:   0,013 s/op
-                 test1:p0.99:   0,013 s/op
-                 test1:p0.999:  0,013 s/op
-                 test1:p0.9999: 0,013 s/op
-                 test1:p1.00:   0,013 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,013 s/op
-                 test2:p0.95:   0,013 s/op
-                 test2:p0.99:   0,013 s/op
-                 test2:p0.999:  0,013 s/op
-                 test2:p0.9999: 0,013 s/op
-                 test2:p1.00:   0,013 s/op
-
-Iteration   5: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,015 s/op
-                 p0.95:         0,016 s/op
-                 p0.99:         0,016 s/op
-                 p0.999:        0,016 s/op
-                 p0.9999:       0,016 s/op
-                 p1.00:         0,016 s/op
-                 test1:         0,013 ±(99.9%) 0,004 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,014 s/op
-                 test1:p0.90:   0,015 s/op
-                 test1:p0.95:   0,015 s/op
-                 test1:p0.99:   0,015 s/op
-                 test1:p0.999:  0,015 s/op
-                 test1:p0.9999: 0,015 s/op
-                 test1:p1.00:   0,015 s/op
-                 test2:         0,013 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,015 s/op
-                 test2:p0.95:   0,016 s/op
-                 test2:p0.99:   0,016 s/op
-                 test2:p0.999:  0,016 s/op
-                 test2:p0.9999: 0,016 s/op
-                 test2:p1.00:   0,016 s/op
 
 
 
 Result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test":
-  N = 122
+  N = 126
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 8 
-    [0,011, 0,011) = 5 
-    [0,011, 0,012) = 9 
+    [0,010, 0,010) = 2 
+    [0,010, 0,011) = 5 
+    [0,011, 0,011) = 9 
+    [0,011, 0,011) = 6 
+    [0,011, 0,011) = 4 
+    [0,011, 0,012) = 4 
+    [0,012, 0,012) = 7 
     [0,012, 0,012) = 9 
-    [0,012, 0,013) = 12 
-    [0,013, 0,013) = 59 
-    [0,013, 0,014) = 5 
-    [0,014, 0,014) = 6 
-    [0,014, 0,015) = 6 
-    [0,015, 0,015) = 0 
-    [0,015, 0,016) = 2 
-
-  Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,016 s/op
-     p(99,9900) =      0,016 s/op
-     p(99,9990) =      0,016 s/op
-     p(99,9999) =      0,016 s/op
-    p(100,0000) =      0,016 s/op
-
-Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
-  N = 40
-  mean =      0,012 ±(99.9%) 0,001 s/op
-
-  Histogram, s/op:
-    [0,010, 0,011) = 3 
-    [0,011, 0,011) = 1 
-    [0,011, 0,012) = 1 
-    [0,012, 0,012) = 4 
-    [0,012, 0,013) = 4 
-    [0,013, 0,013) = 20 
-    [0,013, 0,014) = 0 
+    [0,012, 0,012) = 3 
+    [0,012, 0,013) = 5 
+    [0,013, 0,013) = 56 
+    [0,013, 0,013) = 3 
+    [0,013, 0,013) = 3 
+    [0,013, 0,014) = 3 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 1 
     [0,014, 0,014) = 3 
-    [0,014, 0,015) = 3 
+    [0,014, 0,015) = 1 
     [0,015, 0,015) = 0 
-    [0,015, 0,016) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,014 s/op
+     p(90,0000) =      0,013 s/op
      p(95,0000) =      0,014 s/op
      p(99,0000) =      0,015 s/op
      p(99,9000) =      0,015 s/op
@@ -320,34 +299,79 @@ Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
      p(99,9999) =      0,015 s/op
     p(100,0000) =      0,015 s/op
 
-Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
-  N = 82
+Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
+  N = 41
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 5 
+    [0,010, 0,010) = 1 
+    [0,010, 0,011) = 3 
     [0,011, 0,011) = 4 
-    [0,011, 0,012) = 8 
-    [0,012, 0,012) = 5 
-    [0,012, 0,013) = 8 
-    [0,013, 0,013) = 39 
-    [0,013, 0,014) = 5 
-    [0,014, 0,014) = 3 
-    [0,014, 0,015) = 3 
+    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 2 
+    [0,011, 0,012) = 0 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 1 
+    [0,012, 0,013) = 3 
+    [0,013, 0,013) = 15 
+    [0,013, 0,013) = 2 
+    [0,013, 0,013) = 2 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 1 
+    [0,014, 0,014) = 1 
+    [0,014, 0,015) = 1 
     [0,015, 0,015) = 0 
-    [0,015, 0,016) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,014 s/op
+     p(90,0000) =      0,013 s/op
      p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,016 s/op
-     p(99,9900) =      0,016 s/op
-     p(99,9990) =      0,016 s/op
-     p(99,9999) =      0,016 s/op
-    p(100,0000) =      0,016 s/op
+     p(99,0000) =      0,014 s/op
+     p(99,9000) =      0,014 s/op
+     p(99,9900) =      0,014 s/op
+     p(99,9990) =      0,014 s/op
+     p(99,9999) =      0,014 s/op
+    p(100,0000) =      0,014 s/op
+
+Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
+  N = 85
+  mean =      0,012 ±(99.9%) 0,001 s/op
+
+  Histogram, s/op:
+    [0,010, 0,010) = 1 
+    [0,010, 0,011) = 2 
+    [0,011, 0,011) = 5 
+    [0,011, 0,011) = 5 
+    [0,011, 0,011) = 2 
+    [0,011, 0,012) = 4 
+    [0,012, 0,012) = 5 
+    [0,012, 0,012) = 7 
+    [0,012, 0,012) = 2 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 41 
+    [0,013, 0,013) = 1 
+    [0,013, 0,013) = 1 
+    [0,013, 0,014) = 3 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 2 
+    [0,014, 0,015) = 0 
+    [0,015, 0,015) = 0 
+
+  Percentiles, s/op:
+      p(0,0000) =      0,010 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,014 s/op
+     p(99,0000) =      0,015 s/op
+     p(99,9000) =      0,015 s/op
+     p(99,9900) =      0,015 s/op
+     p(99,9990) =      0,015 s/op
+     p(99,9999) =      0,015 s/op
+    p(100,0000) =      0,015 s/op
 
 
 # JMH version: 1.37
@@ -364,26 +388,26 @@ Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,011 ±(99.9%) 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,009 s/op
+                 test1: 0,013 s/op
+                 test2: 0,013 s/op
+
+Iteration   2: 0,011 ±(99.9%) 0,014 s/op
                  test1: 0,012 s/op
                  test2: 0,011 s/op
 
-Iteration   2: 0,012 ±(99.9%) 0,016 s/op
+Iteration   3: 0,012 ±(99.9%) 0,009 s/op
                  test1: 0,013 s/op
                  test2: 0,012 s/op
 
-Iteration   3: 0,012 ±(99.9%) 0,009 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   4: 0,011 ±(99.9%) 0,018 s/op
-                 test1: 0,011 s/op
-                 test2: 0,012 s/op
-
-Iteration   5: 0,012 ±(99.9%) 0,002 s/op
-                 test1: 0,012 s/op
+Iteration   4: 0,013 ±(99.9%) 0,001 s/op
+                 test1: 0,013 s/op
                  test2: 0,013 s/op
+
+Iteration   5: 0,012 ±(99.9%) 0,010 s/op
+                 test1: 0,013 s/op
+                 test2: 0,012 s/op
 
 
 
@@ -392,50 +416,20 @@ Result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test":
   mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-
-  Percentiles, s/op:
-      p(0,0000) =      0,011 s/op
-     p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,012 s/op
-     p(95,0000) =      0,012 s/op
-     p(99,0000) =      0,012 s/op
-     p(99,9000) =      0,012 s/op
-     p(99,9900) =      0,012 s/op
-     p(99,9990) =      0,012 s/op
-     p(99,9999) =      0,012 s/op
-    p(100,0000) =      0,012 s/op
-
-Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
-  N = 5
-  mean =      0,012 ±(99.9%) 0,003 s/op
-
-  Histogram, s/op:
-    [0,010, 0,010) = 0 
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 0 
     [0,011, 0,011) = 1 
+    [0,011, 0,011) = 0 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
-    [0,012, 0,013) = 2 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 1 
+    [0,013, 0,013) = 0 
     [0,013, 0,013) = 1 
     [0,013, 0,013) = 0 
 
@@ -451,26 +445,52 @@ Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
      p(99,9999) =      0,013 s/op
     p(100,0000) =      0,013 s/op
 
-Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
+Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test1":
   N = 5
-  mean =      0,012 ±(99.9%) 0,002 s/op
+  mean =      0,013 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
-    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
+    [0,011, 0,012) = 0 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 3 
+    [0,013, 0,013) = 0 
+    [0,013, 0,013) = 0 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
+
+  Percentiles, s/op:
+      p(0,0000) =      0,012 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
+
+Secondary result "org.openjdk.jmh.it.asymm.ExactThreadCountTest.test:test2":
+  N = 5
+  mean =      0,012 ±(99.9%) 0,003 s/op
+
+  Histogram, s/op:
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
     [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 1 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
+    [0,012, 0,013) = 0 
+    [0,013, 0,013) = 2 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
@@ -495,39 +515,39 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                  Mode  Cnt    Score    Error  Units
-ExactThreadCountTest.test                 thrpt    5  249,938 ±  9,133  ops/s
-ExactThreadCountTest.test:test1           thrpt    5   83,033 ±  4,088  ops/s
-ExactThreadCountTest.test:test2           thrpt    5  166,906 ±  8,971  ops/s
-ExactThreadCountTest.test                  avgt    5    0,012 ±  0,001   s/op
-ExactThreadCountTest.test:test1            avgt    5    0,012 ±  0,002   s/op
-ExactThreadCountTest.test:test2            avgt    5    0,012 ±  0,001   s/op
-ExactThreadCountTest.test                sample  122    0,012 ±  0,001   s/op
+ExactThreadCountTest.test                 thrpt    5  248,116 ± 12,577  ops/s
+ExactThreadCountTest.test:test1           thrpt    5   83,290 ±  5,859  ops/s
+ExactThreadCountTest.test:test2           thrpt    5  164,826 ±  6,969  ops/s
+ExactThreadCountTest.test                  avgt    5    0,012 ±  0,002   s/op
+ExactThreadCountTest.test:test1            avgt    5    0,012 ±  0,001   s/op
+ExactThreadCountTest.test:test2            avgt    5    0,012 ±  0,002   s/op
+ExactThreadCountTest.test                sample  126    0,012 ±  0,001   s/op
 ExactThreadCountTest.test:p0.00          sample         0,010            s/op
 ExactThreadCountTest.test:p0.50          sample         0,013            s/op
-ExactThreadCountTest.test:p0.90          sample         0,014            s/op
+ExactThreadCountTest.test:p0.90          sample         0,013            s/op
 ExactThreadCountTest.test:p0.95          sample         0,014            s/op
-ExactThreadCountTest.test:p0.99          sample         0,016            s/op
-ExactThreadCountTest.test:p0.999         sample         0,016            s/op
-ExactThreadCountTest.test:p0.9999        sample         0,016            s/op
-ExactThreadCountTest.test:p1.00          sample         0,016            s/op
-ExactThreadCountTest.test:test1          sample   40    0,012 ±  0,001   s/op
+ExactThreadCountTest.test:p0.99          sample         0,015            s/op
+ExactThreadCountTest.test:p0.999         sample         0,015            s/op
+ExactThreadCountTest.test:p0.9999        sample         0,015            s/op
+ExactThreadCountTest.test:p1.00          sample         0,015            s/op
+ExactThreadCountTest.test:test1          sample   41    0,012 ±  0,001   s/op
 ExactThreadCountTest.test:test1:p0.00    sample         0,010            s/op
 ExactThreadCountTest.test:test1:p0.50    sample         0,013            s/op
-ExactThreadCountTest.test:test1:p0.90    sample         0,014            s/op
+ExactThreadCountTest.test:test1:p0.90    sample         0,013            s/op
 ExactThreadCountTest.test:test1:p0.95    sample         0,014            s/op
-ExactThreadCountTest.test:test1:p0.99    sample         0,015            s/op
-ExactThreadCountTest.test:test1:p0.999   sample         0,015            s/op
-ExactThreadCountTest.test:test1:p0.9999  sample         0,015            s/op
-ExactThreadCountTest.test:test1:p1.00    sample         0,015            s/op
-ExactThreadCountTest.test:test2          sample   82    0,012 ±  0,001   s/op
+ExactThreadCountTest.test:test1:p0.99    sample         0,014            s/op
+ExactThreadCountTest.test:test1:p0.999   sample         0,014            s/op
+ExactThreadCountTest.test:test1:p0.9999  sample         0,014            s/op
+ExactThreadCountTest.test:test1:p1.00    sample         0,014            s/op
+ExactThreadCountTest.test:test2          sample   85    0,012 ±  0,001   s/op
 ExactThreadCountTest.test:test2:p0.00    sample         0,010            s/op
 ExactThreadCountTest.test:test2:p0.50    sample         0,013            s/op
-ExactThreadCountTest.test:test2:p0.90    sample         0,014            s/op
+ExactThreadCountTest.test:test2:p0.90    sample         0,013            s/op
 ExactThreadCountTest.test:test2:p0.95    sample         0,014            s/op
-ExactThreadCountTest.test:test2:p0.99    sample         0,016            s/op
-ExactThreadCountTest.test:test2:p0.999   sample         0,016            s/op
-ExactThreadCountTest.test:test2:p0.9999  sample         0,016            s/op
-ExactThreadCountTest.test:test2:p1.00    sample         0,016            s/op
+ExactThreadCountTest.test:test2:p0.99    sample         0,015            s/op
+ExactThreadCountTest.test:test2:p0.999   sample         0,015            s/op
+ExactThreadCountTest.test:test2:p0.9999  sample         0,015            s/op
+ExactThreadCountTest.test:test2:p1.00    sample         0,015            s/op
 ExactThreadCountTest.test                    ss    5    0,012 ±  0,002   s/op
-ExactThreadCountTest.test:test1              ss    5    0,012 ±  0,003   s/op
-ExactThreadCountTest.test:test2              ss    5    0,012 ±  0,002   s/op
+ExactThreadCountTest.test:test1              ss    5    0,013 ±  0,003   s/op
+ExactThreadCountTest.test:test2              ss    5    0,012 ±  0,003   s/op

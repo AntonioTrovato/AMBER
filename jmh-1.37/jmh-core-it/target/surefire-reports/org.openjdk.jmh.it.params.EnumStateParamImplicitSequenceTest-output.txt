@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 86,557 ops/s
-Iteration   1: 78,400 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,774 ops/s
+Iteration   1: 79,895 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  78,400 ops/s
+  79,895 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 11,11% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,866 ops/s
-Iteration   1: 94,125 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 61,126 ops/s
+Iteration   1: 79,790 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  94,125 ops/s
+  79,790 ops/s
 
 
 # JMH version: 1.37
@@ -60,15 +60,15 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 # Benchmark: org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test
 # Parameters: (a = VALUE_A, b = VALUE_C)
 
-# Run progress: 22,22% complete, ETA 00:00:02
+# Run progress: 22,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,788 ops/s
-Iteration   1: 79,891 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,621 ops/s
+Iteration   1: 79,839 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,891 ops/s
+  79,839 ops/s
 
 
 # JMH version: 1.37
@@ -86,13 +86,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 58,278 ops/s
-Iteration   1: 79,804 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,478 ops/s
+Iteration   1: 79,842 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,804 ops/s
+  79,842 ops/s
 
 
 # JMH version: 1.37
@@ -110,13 +110,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 44,44% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,921 ops/s
-Iteration   1: 79,698 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 78,072 ops/s
+Iteration   1: 93,906 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,698 ops/s
+  93,906 ops/s
 
 
 # JMH version: 1.37
@@ -134,13 +134,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 55,56% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 73,915 ops/s
-Iteration   1: 97,560 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,940 ops/s
+Iteration   1: 79,856 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  97,560 ops/s
+  79,856 ops/s
 
 
 # JMH version: 1.37
@@ -158,13 +158,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 73,791 ops/s
-Iteration   1: 82,642 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,869 ops/s
+Iteration   1: 93,447 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  82,642 ops/s
+  93,447 ops/s
 
 
 # JMH version: 1.37
@@ -182,13 +182,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 77,78% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 61,756 ops/s
-Iteration   1: 79,827 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,780 ops/s
+Iteration   1: 79,788 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,827 ops/s
+  79,788 ops/s
 
 
 # JMH version: 1.37
@@ -206,13 +206,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 88,89% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,786 ops/s
-Iteration   1: 77,001 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 78,094 ops/s
+Iteration   1: 90,373 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  77,001 ops/s
+  90,373 ops/s
 
 
 # Run complete. Total time: 00:00:02
@@ -224,15 +224,15 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                    (a)      (b)   Mode  Cnt   Score   Error  Units
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       78,400          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_B  thrpt       94,125          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_C  thrpt       79,891          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_A  thrpt       79,804          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_B  thrpt       79,698          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_C  thrpt       97,560          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_A  thrpt       82,642          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_B  thrpt       79,827          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_C  thrpt       77,001          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       79,895          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_B  thrpt       79,790          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_C  thrpt       79,839          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_A  thrpt       79,842          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_B  thrpt       93,906          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_C  thrpt       79,856          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_A  thrpt       93,447          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_B  thrpt       79,788          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_C  thrpt       90,373          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -249,13 +249,13 @@ EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_C  thrpt       77,001   
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 78,086 ops/s
-Iteration   1: 79,759 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,967 ops/s
+Iteration   1: 85,491 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,759 ops/s
+  85,491 ops/s
 
 
 # JMH version: 1.37
@@ -273,13 +273,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,724 ops/s
-Iteration   1: 95,873 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 60,696 ops/s
+Iteration   1: 79,856 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  95,873 ops/s
+  79,856 ops/s
 
 
 # JMH version: 1.37
@@ -297,13 +297,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 64,686 ops/s
-Iteration   1: 87,372 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,834 ops/s
+Iteration   1: 79,840 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  87,372 ops/s
+  79,840 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -315,9 +315,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                    (a)      (b)   Mode  Cnt   Score   Error  Units
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       79,759          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_B  thrpt       95,873          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_C  thrpt       87,372          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       85,491          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_B  thrpt       79,856          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_C  thrpt       79,840          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -334,13 +334,13 @@ EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_C  thrpt       87,372   
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,871 ops/s
-Iteration   1: 79,847 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,368 ops/s
+Iteration   1: 79,866 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,847 ops/s
+  79,866 ops/s
 
 
 # JMH version: 1.37
@@ -358,13 +358,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 58,947 ops/s
-Iteration   1: 85,245 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,982 ops/s
+Iteration   1: 79,863 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  85,245 ops/s
+  79,863 ops/s
 
 
 # JMH version: 1.37
@@ -382,13 +382,13 @@ Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,688 ops/s
-Iteration   1: 79,780 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,579 ops/s
+Iteration   1: 78,425 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EnumStateParamImplicitSequenceTest.test":
-  79,780 ops/s
+  78,425 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -400,6 +400,6 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                    (a)      (b)   Mode  Cnt   Score   Error  Units
-EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       79,847          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_A  thrpt       85,245          ops/s
-EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_A  thrpt       79,780          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_A  VALUE_A  thrpt       79,866          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_B  VALUE_A  thrpt       79,863          ops/s
+EnumStateParamImplicitSequenceTest.test  VALUE_C  VALUE_A  thrpt       78,425          ops/s

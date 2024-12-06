@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.runner.TestBenchmarkList" time="0.027" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.runner.TestBenchmarkList" time="0.025" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -61,15 +61,15 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase name="testListFindSingleWithExcludes" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.005"/>
-  <testcase name="testListFindIncludeList" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.003"/>
+  <testcase name="testListFindIncludeList" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.002"/>
   <testcase name="testListFindSingleByTypical" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.002"/>
   <testcase name="testListFindSingleByPattern" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.002"/>
   <testcase name="testListFindAllWithEmpty" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.001"/>
   <testcase name="testListGetAll" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.001"/>
   <testcase name="testListGetNothing" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.001"/>
   <testcase name="testListFindAllWithSubstringExclude" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0"/>
-  <testcase name="testListFindSingleBySubstring" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0"/>
-  <testcase name="testListFindAnchored" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0"/>
+  <testcase name="testListFindSingleBySubstring" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.001"/>
+  <testcase name="testListFindAnchored" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.001"/>
   <testcase name="testListIsSorted" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.006"/>
-  <testcase name="testListFindWithIncludesAndExcludes" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.006"/>
+  <testcase name="testListFindWithIncludesAndExcludes" classname="org.openjdk.jmh.runner.TestBenchmarkList" time="0.003"/>
 </testsuite>

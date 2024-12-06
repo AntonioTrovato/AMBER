@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.runner.RunnerTest" time="0.007" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.runner.RunnerTest" time="0.008" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -60,7 +60,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testOptsWith2CompileCommandFilesResultInMergedCompileCommandFile" classname="org.openjdk.jmh.runner.RunnerTest" time="0.006"/>
+  <testcase name="testOptsWith2CompileCommandFilesResultInMergedCompileCommandFile" classname="org.openjdk.jmh.runner.RunnerTest" time="0.007"/>
   <testcase name="testEmptyOptsHaveCompileCommandFile" classname="org.openjdk.jmh.runner.RunnerTest" time="0"/>
   <testcase name="testNullCheck" classname="org.openjdk.jmh.runner.RunnerTest" time="0"/>
   <testcase name="testOptsWithCompileCommandFileResultInMergedCompileCommandFile" classname="org.openjdk.jmh.runner.RunnerTest" time="0.001"/>

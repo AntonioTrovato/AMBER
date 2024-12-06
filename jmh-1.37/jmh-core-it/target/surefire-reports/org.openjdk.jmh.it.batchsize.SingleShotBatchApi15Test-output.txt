@@ -13,10 +13,10 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,011 s/op
 # Warmup Iteration   2: 0,012 s/op
-Iteration   1: 0,060 s/op
+Iteration   1: 0,061 s/op
 
 
 
@@ -29,4 +29,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt  Score   Error  Units
-SingleShotBatchApi15Test.test    ss       0,060           s/op
+SingleShotBatchApi15Test.test    ss       0,061           s/op

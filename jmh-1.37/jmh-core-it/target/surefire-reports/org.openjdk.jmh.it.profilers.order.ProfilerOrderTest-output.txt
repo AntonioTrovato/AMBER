@@ -14,31 +14,31 @@
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
 # Preparing profilers: ExternalProfiler1 ExternalProfiler2 ExternalProfiler3 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 917701236,709 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 58803154,183 ops/s
 # Processing profiler results: ExternalProfiler3 ExternalProfiler2 ExternalProfiler1 
 
 
 Result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench":
-  917701236,709 ops/s
+  58803154,183 ops/s
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1start":
-  12253409461083,000 N/A
+  1047234076083,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1stop":
-  12254302231833,000 N/A
+  1047955304000,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2start":
-  12253513072541,000 N/A
+  1047339154375,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2stop":
-  12254197051416,000 N/A
+  1047850100875,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3start":
-  12253618296250,000 N/A
+  1047440387500,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3stop":
-  12254095301041,000 N/A
+  1047745961416,000 N/A
 
 
 # Run complete. Total time: 00:00:00
@@ -49,14 +49,14 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt               Score   Error  Units
-ProfilerOrderTest.bench             thrpt            917701236,709          ops/s
-ProfilerOrderTest.bench:prof1start  thrpt       12253409461083,000            N/A
-ProfilerOrderTest.bench:prof1stop   thrpt       12254302231833,000            N/A
-ProfilerOrderTest.bench:prof2start  thrpt       12253513072541,000            N/A
-ProfilerOrderTest.bench:prof2stop   thrpt       12254197051416,000            N/A
-ProfilerOrderTest.bench:prof3start  thrpt       12253618296250,000            N/A
-ProfilerOrderTest.bench:prof3stop   thrpt       12254095301041,000            N/A
+Benchmark                            Mode  Cnt              Score   Error  Units
+ProfilerOrderTest.bench             thrpt            58803154,183          ops/s
+ProfilerOrderTest.bench:prof1start  thrpt       1047234076083,000            N/A
+ProfilerOrderTest.bench:prof1stop   thrpt       1047955304000,000            N/A
+ProfilerOrderTest.bench:prof2start  thrpt       1047339154375,000            N/A
+ProfilerOrderTest.bench:prof2stop   thrpt       1047850100875,000            N/A
+ProfilerOrderTest.bench:prof3start  thrpt       1047440387500,000            N/A
+ProfilerOrderTest.bench:prof3stop   thrpt       1047745961416,000            N/A
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -73,31 +73,31 @@ ProfilerOrderTest.bench:prof3stop   thrpt       12254095301041,000            N/
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
 # Preparing profilers: ExternalProfiler1 ExternalProfiler2 ExternalProfiler3 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 9332758,920 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 40909982,874 ops/s
 # Processing profiler results: ExternalProfiler3 ExternalProfiler2 ExternalProfiler1 
 
 
 Result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench":
-  9332758,920 ops/s
+  40909982,874 ops/s
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1start":
-  12254457196583,000 N/A
+  1048096563875,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1stop":
-  12255304279166,000 N/A
+  1048861736666,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2start":
-  12254560782750,000 N/A
+  1048201272875,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2stop":
-  12255201852166,000 N/A
+  1048756555875,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3start":
-  12254665981708,000 N/A
+  1048301599500,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3stop":
-  12255099283041,000 N/A
+  1048651311625,000 N/A
 
 
 # Run complete. Total time: 00:00:00
@@ -108,14 +108,14 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt               Score   Error  Units
-ProfilerOrderTest.bench             thrpt              9332758,920          ops/s
-ProfilerOrderTest.bench:prof1start  thrpt       12254457196583,000            N/A
-ProfilerOrderTest.bench:prof1stop   thrpt       12255304279166,000            N/A
-ProfilerOrderTest.bench:prof2start  thrpt       12254560782750,000            N/A
-ProfilerOrderTest.bench:prof2stop   thrpt       12255201852166,000            N/A
-ProfilerOrderTest.bench:prof3start  thrpt       12254665981708,000            N/A
-ProfilerOrderTest.bench:prof3stop   thrpt       12255099283041,000            N/A
+Benchmark                            Mode  Cnt              Score   Error  Units
+ProfilerOrderTest.bench             thrpt            40909982,874          ops/s
+ProfilerOrderTest.bench:prof1start  thrpt       1048096563875,000            N/A
+ProfilerOrderTest.bench:prof1stop   thrpt       1048861736666,000            N/A
+ProfilerOrderTest.bench:prof2start  thrpt       1048201272875,000            N/A
+ProfilerOrderTest.bench:prof2stop   thrpt       1048756555875,000            N/A
+ProfilerOrderTest.bench:prof3start  thrpt       1048301599500,000            N/A
+ProfilerOrderTest.bench:prof3stop   thrpt       1048651311625,000            N/A
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -131,37 +131,37 @@ ProfilerOrderTest.bench:prof3stop   thrpt       12255099283041,000            N/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 13916436,903 ops/s
-                 prof1start: 12255764549458,000 N/A
-                 prof1stop:  12256305737041,000 N/A
-                 prof2start: 12255866048041,000 N/A
-                 prof2stop:  12256200541416,000 N/A
-                 prof3start: 12255970833625,000 N/A
-                 prof3stop:  12256094699791,000 N/A
+The Dynamic Halt is NOT Active
+Iteration   1: 45052989,836 ops/s
+                 prof1start: 1049254682416,000 N/A
+                 prof1stop:  1049791086000,000 N/A
+                 prof2start: 1049359772875,000 N/A
+                 prof2stop:  1049685938958,000 N/A
+                 prof3start: 1049464850958,000 N/A
+                 prof3stop:  1049579957000,000 N/A
 
 
 
 Result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench":
-  13916436,903 ops/s
+  45052989,836 ops/s
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1start":
-  12255764549458,000 N/A
+  1049254682416,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1stop":
-  12256305737041,000 N/A
+  1049791086000,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2start":
-  12255866048041,000 N/A
+  1049359772875,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2stop":
-  12256200541416,000 N/A
+  1049685938958,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3start":
-  12255970833625,000 N/A
+  1049464850958,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3stop":
-  12256094699791,000 N/A
+  1049579957000,000 N/A
 
 
 # Run complete. Total time: 00:00:00
@@ -172,14 +172,14 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt               Score   Error  Units
-ProfilerOrderTest.bench             thrpt             13916436,903          ops/s
-ProfilerOrderTest.bench:prof1start  thrpt       12255764549458,000            N/A
-ProfilerOrderTest.bench:prof1stop   thrpt       12256305737041,000            N/A
-ProfilerOrderTest.bench:prof2start  thrpt       12255866048041,000            N/A
-ProfilerOrderTest.bench:prof2stop   thrpt       12256200541416,000            N/A
-ProfilerOrderTest.bench:prof3start  thrpt       12255970833625,000            N/A
-ProfilerOrderTest.bench:prof3stop   thrpt       12256094699791,000            N/A
+Benchmark                            Mode  Cnt              Score   Error  Units
+ProfilerOrderTest.bench             thrpt            45052989,836          ops/s
+ProfilerOrderTest.bench:prof1start  thrpt       1049254682416,000            N/A
+ProfilerOrderTest.bench:prof1stop   thrpt       1049791086000,000            N/A
+ProfilerOrderTest.bench:prof2start  thrpt       1049359772875,000            N/A
+ProfilerOrderTest.bench:prof2stop   thrpt       1049685938958,000            N/A
+ProfilerOrderTest.bench:prof3start  thrpt       1049464850958,000            N/A
+ProfilerOrderTest.bench:prof3stop   thrpt       1049579957000,000            N/A
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -195,37 +195,37 @@ ProfilerOrderTest.bench:prof3stop   thrpt       12256094699791,000            N/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 44481310,853 ops/s
-                 prof1start: 12256747975041,000 N/A
-                 prof1stop:  12257282738666,000 N/A
-                 prof2start: 12256853140041,000 N/A
-                 prof2stop:  12257180361041,000 N/A
-                 prof3start: 12256953750500,000 N/A
-                 prof3stop:  12257074643500,000 N/A
+The Dynamic Halt is NOT Active
+Iteration   1: 44457637,862 ops/s
+                 prof1start: 1050223879541,000 N/A
+                 prof1stop:  1050753996333,000 N/A
+                 prof2start: 1050328967625,000 N/A
+                 prof2stop:  1050651755458,000 N/A
+                 prof3start: 1050432378250,000 N/A
+                 prof3stop:  1050546406875,000 N/A
 
 
 
 Result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench":
-  44481310,853 ops/s
+  44457637,862 ops/s
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1start":
-  12256747975041,000 N/A
+  1050223879541,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof1stop":
-  12257282738666,000 N/A
+  1050753996333,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2start":
-  12256853140041,000 N/A
+  1050328967625,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof2stop":
-  12257180361041,000 N/A
+  1050651755458,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3start":
-  12256953750500,000 N/A
+  1050432378250,000 N/A
 
 Secondary result "org.openjdk.jmh.it.profilers.order.ProfilerOrderTest.bench:prof3stop":
-  12257074643500,000 N/A
+  1050546406875,000 N/A
 
 
 # Run complete. Total time: 00:00:00
@@ -236,11 +236,11 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt               Score   Error  Units
-ProfilerOrderTest.bench             thrpt             44481310,853          ops/s
-ProfilerOrderTest.bench:prof1start  thrpt       12256747975041,000            N/A
-ProfilerOrderTest.bench:prof1stop   thrpt       12257282738666,000            N/A
-ProfilerOrderTest.bench:prof2start  thrpt       12256853140041,000            N/A
-ProfilerOrderTest.bench:prof2stop   thrpt       12257180361041,000            N/A
-ProfilerOrderTest.bench:prof3start  thrpt       12256953750500,000            N/A
-ProfilerOrderTest.bench:prof3stop   thrpt       12257074643500,000            N/A
+Benchmark                            Mode  Cnt              Score   Error  Units
+ProfilerOrderTest.bench             thrpt            44457637,862          ops/s
+ProfilerOrderTest.bench:prof1start  thrpt       1050223879541,000            N/A
+ProfilerOrderTest.bench:prof1stop   thrpt       1050753996333,000            N/A
+ProfilerOrderTest.bench:prof2start  thrpt       1050328967625,000            N/A
+ProfilerOrderTest.bench:prof2stop   thrpt       1050651755458,000            N/A
+ProfilerOrderTest.bench:prof3start  thrpt       1050432378250,000            N/A
+ProfilerOrderTest.bench:prof3stop   thrpt       1050546406875,000            N/A

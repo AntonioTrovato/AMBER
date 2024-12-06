@@ -13,34 +13,34 @@
 
 # Run progress: 0,00% complete, ETA 00:00:02
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 77,183 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 78,132 ops/s
 
-# Run progress: 4,75% complete, ETA 00:00:09
+# Run progress: 4,75% complete, ETA 00:00:12
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 75,433 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,889 ops/s
 
-# Run progress: 9,49% complete, ETA 00:00:09
+# Run progress: 9,49% complete, ETA 00:00:10
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 75,843 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 76,432 ops/s
 
-# Run progress: 14,24% complete, ETA 00:00:08
+# Run progress: 14,24% complete, ETA 00:00:09
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 75,485 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 76,726 ops/s
 
 # Run progress: 18,98% complete, ETA 00:00:08
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 74,961 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,364 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
-  75,781 ±(99.9%) 3,251 ops/s [Average]
-  (min, avg, max) = (74,961, 75,781, 77,183), stdev = 0,844
-  CI (99.9%): [72,530, 79,032] (assumes normal distribution)
+  77,909 ±(99.9%) 5,983 ops/s [Average]
+  (min, avg, max) = (76,432, 77,909, 80,364), stdev = 1,554
+  CI (99.9%): [71,925, 83,892] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -55,19 +55,19 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2
 
-# Run progress: 23,73% complete, ETA 00:00:07
+# Run progress: 23,73% complete, ETA 00:00:08
 # Fork: 1 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,480 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,200 ops/s
 
 # Run progress: 28,48% complete, ETA 00:00:07
 # Fork: 2 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 71,894 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,785 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
-  76,687 ops/s
+  78,993 ops/s
 
 
 # JMH version: 1.37
@@ -84,34 +84,34 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 33,22% complete, ETA 00:00:07
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 # Run progress: 37,97% complete, ETA 00:00:06
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
-# Run progress: 42,71% complete, ETA 00:00:06
+# Run progress: 42,71% complete, ETA 00:00:05
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 # Run progress: 47,46% complete, ETA 00:00:05
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
-# Run progress: 52,21% complete, ETA 00:00:05
+# Run progress: 52,21% complete, ETA 00:00:04
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,014 s/op
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
-  0,013 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,013, 0,013, 0,013), stdev = 0,001
-  CI (99.9%): [0,012, 0,014] (assumes normal distribution)
+  0,013 ±(99.9%) 0,002 s/op [Average]
+  (min, avg, max) = (0,013, 0,013, 0,014), stdev = 0,001
+  CI (99.9%): [0,011, 0,015] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -128,17 +128,17 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 56,95% complete, ETA 00:00:04
 # Fork: 1 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,014 s/op
 
 # Run progress: 61,70% complete, ETA 00:00:03
 # Fork: 2 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,014 s/op
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
-  0,013 s/op
+  0,014 s/op
 
 
 # JMH version: 1.37
@@ -155,24 +155,24 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 66,45% complete, ETA 00:00:03
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,002 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
-                 p0.90:   0,015 s/op
-                 p0.95:   0,015 s/op
-                 p0.99:   0,015 s/op
-                 p0.999:  0,015 s/op
-                 p0.9999: 0,015 s/op
-                 p1.00:   0,015 s/op
+                 p0.90:   0,017 s/op
+                 p0.95:   0,018 s/op
+                 p0.99:   0,018 s/op
+                 p0.999:  0,018 s/op
+                 p0.9999: 0,018 s/op
+                 p1.00:   0,018 s/op
 
 
 # Run progress: 71,19% complete, ETA 00:00:02
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,013 s/op
                  p0.90:   0,016 s/op
                  p0.95:   0,016 s/op
                  p0.99:   0,016 s/op
@@ -183,9 +183,9 @@ Iteration   1: 0,012 ±(99.9%) 0,003 s/op
 
 # Run progress: 75,94% complete, ETA 00:00:02
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,002 s/op
-                 p0.00:   0,011 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,002 s/op
+                 p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,015 s/op
                  p0.95:   0,015 s/op
@@ -197,64 +197,66 @@ Iteration   1: 0,013 ±(99.9%) 0,002 s/op
 
 # Run progress: 80,68% complete, ETA 00:00:01
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,002 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,004 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
-                 p0.90:   0,015 s/op
-                 p0.95:   0,015 s/op
-                 p0.99:   0,015 s/op
-                 p0.999:  0,015 s/op
-                 p0.9999: 0,015 s/op
-                 p1.00:   0,015 s/op
+                 p0.90:   0,017 s/op
+                 p0.95:   0,017 s/op
+                 p0.99:   0,017 s/op
+                 p0.999:  0,017 s/op
+                 p0.9999: 0,017 s/op
+                 p1.00:   0,017 s/op
 
 
 # Run progress: 85,43% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,010 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+                 p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
-                 p0.90:   0,016 s/op
-                 p0.95:   0,016 s/op
-                 p0.99:   0,016 s/op
-                 p0.999:  0,016 s/op
-                 p0.9999: 0,016 s/op
-                 p1.00:   0,016 s/op
+                 p0.90:   0,017 s/op
+                 p0.95:   0,017 s/op
+                 p0.99:   0,017 s/op
+                 p0.999:  0,017 s/op
+                 p0.9999: 0,017 s/op
+                 p1.00:   0,017 s/op
 
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
-  N = 47
+  N = 46
   mean =      0,013 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 2 
-    [0,011, 0,011) = 5 
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 2 
-    [0,012, 0,013) = 5 
+    [0,010, 0,011) = 3 
+    [0,011, 0,011) = 3 
+    [0,011, 0,012) = 3 
+    [0,012, 0,012) = 3 
+    [0,012, 0,013) = 1 
     [0,013, 0,013) = 22 
     [0,013, 0,014) = 3 
-    [0,014, 0,014) = 1 
+    [0,014, 0,014) = 2 
     [0,014, 0,015) = 0 
-    [0,015, 0,015) = 1 
-    [0,015, 0,016) = 2 
-    [0,016, 0,016) = 1 
+    [0,015, 0,015) = 2 
+    [0,015, 0,016) = 0 
+    [0,016, 0,016) = 0 
     [0,016, 0,017) = 1 
-    [0,017, 0,017) = 0 
+    [0,017, 0,017) = 1 
+    [0,017, 0,018) = 1 
+    [0,018, 0,018) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
      p(90,0000) =      0,015 s/op
-     p(95,0000) =      0,016 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,016 s/op
-     p(99,9900) =      0,016 s/op
-     p(99,9990) =      0,016 s/op
-     p(99,9999) =      0,016 s/op
-    p(100,0000) =      0,016 s/op
+     p(95,0000) =      0,017 s/op
+     p(99,0000) =      0,018 s/op
+     p(99,9000) =      0,018 s/op
+     p(99,9900) =      0,018 s/op
+     p(99,9990) =      0,018 s/op
+     p(99,9999) =      0,018 s/op
+    p(100,0000) =      0,018 s/op
 
 
 # JMH version: 1.37
@@ -271,10 +273,10 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 90,18% complete, ETA 00:00:00
 # Fork: 1 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,002 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
+                 p0.50:   0,013 s/op
                  p0.90:   0,015 s/op
                  p0.95:   0,015 s/op
                  p0.99:   0,015 s/op
@@ -285,50 +287,45 @@ Iteration   1: 0,012 ±(99.9%) 0,002 s/op
 
 # Run progress: 94,92% complete, ETA 00:00:00
 # Fork: 2 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,002 s/op
-                 p0.00:   0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,004 s/op
+                 p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
-                 p0.90:   0,016 s/op
-                 p0.95:   0,016 s/op
-                 p0.99:   0,016 s/op
-                 p0.999:  0,016 s/op
-                 p0.9999: 0,016 s/op
-                 p1.00:   0,016 s/op
+                 p0.90:   0,019 s/op
+                 p0.95:   0,019 s/op
+                 p0.99:   0,019 s/op
+                 p0.999:  0,019 s/op
+                 p0.9999: 0,019 s/op
+                 p1.00:   0,019 s/op
 
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
-  N = 18
-  mean =      0,013 ±(99.9%) 0,001 s/op
+  N = 19
+  mean =      0,013 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 2 
-    [0,011, 0,012) = 1 
-    [0,012, 0,012) = 1 
-    [0,012, 0,013) = 2 
-    [0,013, 0,013) = 9 
+    [0,010, 0,011) = 1 
+    [0,011, 0,012) = 5 
+    [0,012, 0,013) = 10 
     [0,013, 0,014) = 1 
-    [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
-    [0,015, 0,015) = 1 
-    [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 1 
-    [0,017, 0,017) = 0 
+    [0,015, 0,016) = 1 
+    [0,016, 0,017) = 0 
+    [0,017, 0,018) = 0 
+    [0,018, 0,019) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,011 s/op
+      p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
      p(90,0000) =      0,015 s/op
-     p(95,0000) =      0,016 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,016 s/op
-     p(99,9900) =      0,016 s/op
-     p(99,9990) =      0,016 s/op
-     p(99,9999) =      0,016 s/op
-    p(100,0000) =      0,016 s/op
+     p(95,0000) =      0,019 s/op
+     p(99,0000) =      0,019 s/op
+     p(99,9000) =      0,019 s/op
+     p(99,9900) =      0,019 s/op
+     p(99,9990) =      0,019 s/op
+     p(99,9999) =      0,019 s/op
+    p(100,0000) =      0,019 s/op
 
 
 # JMH version: 1.37
@@ -345,60 +342,57 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,015 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,017 s/op
 
 # Run progress: 99,72% complete, ETA 00:00:00
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,022 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,018 s/op
 
 # Run progress: 99,76% complete, ETA 00:00:00
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,022 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,019 s/op
 
 # Run progress: 99,81% complete, ETA 00:00:00
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,019 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,017 s/op
 
 # Run progress: 99,86% complete, ETA 00:00:00
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,017 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,020 s/op
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
   N = 5
-  mean =      0,019 ±(99.9%) 0,011 s/op
+  mean =      0,018 ±(99.9%) 0,005 s/op
 
   Histogram, s/op:
-    [0,015, 0,016) = 1 
-    [0,016, 0,016) = 0 
     [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
     [0,017, 0,017) = 1 
-    [0,017, 0,018) = 0 
-    [0,018, 0,019) = 0 
+    [0,017, 0,018) = 1 
+    [0,018, 0,018) = 0 
+    [0,018, 0,019) = 1 
     [0,019, 0,019) = 1 
     [0,019, 0,020) = 0 
     [0,020, 0,020) = 0 
-    [0,020, 0,020) = 0 
-    [0,020, 0,021) = 0 
-    [0,021, 0,022) = 0 
+    [0,020, 0,021) = 1 
+    [0,021, 0,021) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,015 s/op
-     p(50,0000) =      0,019 s/op
-     p(90,0000) =      0,022 s/op
-     p(95,0000) =      0,022 s/op
-     p(99,0000) =      0,022 s/op
-     p(99,9000) =      0,022 s/op
-     p(99,9900) =      0,022 s/op
-     p(99,9990) =      0,022 s/op
-     p(99,9999) =      0,022 s/op
-    p(100,0000) =      0,022 s/op
+      p(0,0000) =      0,017 s/op
+     p(50,0000) =      0,018 s/op
+     p(90,0000) =      0,020 s/op
+     p(95,0000) =      0,020 s/op
+     p(99,0000) =      0,020 s/op
+     p(99,9000) =      0,020 s/op
+     p(99,9900) =      0,020 s/op
+     p(99,9990) =      0,020 s/op
+     p(99,9999) =      0,020 s/op
+    p(100,0000) =      0,020 s/op
 
 
 # JMH version: 1.37
@@ -415,13 +409,13 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 99,91% complete, ETA 00:00:00
 # Fork: 1 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,019 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,017 s/op
 
 # Run progress: 99,95% complete, ETA 00:00:00
 # Fork: 2 of 2
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,024 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,021 s/op
 
 
 
@@ -434,30 +428,30 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                              Mode  Cnt   Score   Error  Units
-AnnotatedForked1_Test.test1           thrpt    5  75,781 ± 3,251  ops/s
-AnnotatedForked1_Test.test2           thrpt    2  76,687          ops/s
-AnnotatedForked1_Test.test1            avgt    5   0,013 ± 0,001   s/op
-AnnotatedForked1_Test.test2            avgt    2   0,013           s/op
-AnnotatedForked1_Test.test1          sample   47   0,013 ± 0,001   s/op
+AnnotatedForked1_Test.test1           thrpt    5  77,909 ± 5,983  ops/s
+AnnotatedForked1_Test.test2           thrpt    2  78,993          ops/s
+AnnotatedForked1_Test.test1            avgt    5   0,013 ± 0,002   s/op
+AnnotatedForked1_Test.test2            avgt    2   0,014           s/op
+AnnotatedForked1_Test.test1          sample   46   0,013 ± 0,001   s/op
 AnnotatedForked1_Test.test1:p0.00    sample        0,010           s/op
 AnnotatedForked1_Test.test1:p0.50    sample        0,013           s/op
 AnnotatedForked1_Test.test1:p0.90    sample        0,015           s/op
-AnnotatedForked1_Test.test1:p0.95    sample        0,016           s/op
-AnnotatedForked1_Test.test1:p0.99    sample        0,016           s/op
-AnnotatedForked1_Test.test1:p0.999   sample        0,016           s/op
-AnnotatedForked1_Test.test1:p0.9999  sample        0,016           s/op
-AnnotatedForked1_Test.test1:p1.00    sample        0,016           s/op
-AnnotatedForked1_Test.test2          sample   18   0,013 ± 0,001   s/op
-AnnotatedForked1_Test.test2:p0.00    sample        0,011           s/op
+AnnotatedForked1_Test.test1:p0.95    sample        0,017           s/op
+AnnotatedForked1_Test.test1:p0.99    sample        0,018           s/op
+AnnotatedForked1_Test.test1:p0.999   sample        0,018           s/op
+AnnotatedForked1_Test.test1:p0.9999  sample        0,018           s/op
+AnnotatedForked1_Test.test1:p1.00    sample        0,018           s/op
+AnnotatedForked1_Test.test2          sample   19   0,013 ± 0,002   s/op
+AnnotatedForked1_Test.test2:p0.00    sample        0,010           s/op
 AnnotatedForked1_Test.test2:p0.50    sample        0,013           s/op
 AnnotatedForked1_Test.test2:p0.90    sample        0,015           s/op
-AnnotatedForked1_Test.test2:p0.95    sample        0,016           s/op
-AnnotatedForked1_Test.test2:p0.99    sample        0,016           s/op
-AnnotatedForked1_Test.test2:p0.999   sample        0,016           s/op
-AnnotatedForked1_Test.test2:p0.9999  sample        0,016           s/op
-AnnotatedForked1_Test.test2:p1.00    sample        0,016           s/op
-AnnotatedForked1_Test.test1              ss    5   0,019 ± 0,011   s/op
-AnnotatedForked1_Test.test2              ss    2   0,022           s/op
+AnnotatedForked1_Test.test2:p0.95    sample        0,019           s/op
+AnnotatedForked1_Test.test2:p0.99    sample        0,019           s/op
+AnnotatedForked1_Test.test2:p0.999   sample        0,019           s/op
+AnnotatedForked1_Test.test2:p0.9999  sample        0,019           s/op
+AnnotatedForked1_Test.test2:p1.00    sample        0,019           s/op
+AnnotatedForked1_Test.test1              ss    5   0,018 ± 0,005   s/op
+AnnotatedForked1_Test.test2              ss    2   0,019           s/op
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -473,12 +467,12 @@ AnnotatedForked1_Test.test2              ss    2   0,022           s/op
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 80,105 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 79,661 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
-  80,105 ops/s
+  79,661 ops/s
 
 
 # JMH version: 1.37
@@ -495,12 +489,12 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 16,61% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 77,219 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,278 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
-  77,219 ops/s
+  77,278 ops/s
 
 
 # JMH version: 1.37
@@ -517,7 +511,7 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 33,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -539,7 +533,7 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 49,83% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -561,50 +555,51 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,004 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
-                 p0.90:   0,017 s/op
-                 p0.95:   0,017 s/op
-                 p0.99:   0,017 s/op
-                 p0.999:  0,017 s/op
-                 p0.9999: 0,017 s/op
-                 p1.00:   0,017 s/op
+                 p0.90:   0,015 s/op
+                 p0.95:   0,015 s/op
+                 p0.99:   0,015 s/op
+                 p0.999:  0,015 s/op
+                 p0.9999: 0,015 s/op
+                 p1.00:   0,015 s/op
 
 
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
-  N = 8
-  mean =      0,013 ±(99.9%) 0,004 s/op
+  N = 9
+  mean =      0,013 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 1 
-    [0,011, 0,012) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
     [0,012, 0,013) = 1 
-    [0,013, 0,013) = 3 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 1 
-    [0,014, 0,015) = 0 
-    [0,015, 0,015) = 0 
-    [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 0 
-    [0,017, 0,017) = 1 
+    [0,013, 0,013) = 1 
+    [0,013, 0,013) = 1 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
+    [0,014, 0,015) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
      p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,017 s/op
-     p(95,0000) =      0,017 s/op
-     p(99,0000) =      0,017 s/op
-     p(99,9000) =      0,017 s/op
-     p(99,9900) =      0,017 s/op
-     p(99,9990) =      0,017 s/op
-     p(99,9999) =      0,017 s/op
-    p(100,0000) =      0,017 s/op
+     p(90,0000) =      0,015 s/op
+     p(95,0000) =      0,015 s/op
+     p(99,0000) =      0,015 s/op
+     p(99,9000) =      0,015 s/op
+     p(99,9900) =      0,015 s/op
+     p(99,9990) =      0,015 s/op
+     p(99,9999) =      0,015 s/op
+    p(100,0000) =      0,015 s/op
 
 
 # JMH version: 1.37
@@ -621,8 +616,8 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test1":
 
 # Run progress: 83,06% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,016 s/op
@@ -636,23 +631,19 @@ Iteration   1: 0,013 ±(99.9%) 0,003 s/op
 
 Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
   N = 9
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,013 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 1 
-    [0,011, 0,012) = 1 
+    [0,011, 0,012) = 2 
     [0,012, 0,012) = 1 
-    [0,012, 0,013) = 1 
-    [0,013, 0,013) = 3 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 4 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
-    [0,015, 0,015) = 0 
     [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 1 
-    [0,017, 0,017) = 0 
+    [0,016, 0,016) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
@@ -681,7 +672,7 @@ Result "org.openjdk.jmh.it.fork.AnnotatedForked1_Test.test2":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,021 s/op
 
 
@@ -700,8 +691,8 @@ Iteration   1: 0,021 s/op
 
 # Run progress: 99,83% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,016 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,021 s/op
 
 
 
@@ -714,20 +705,20 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                              Mode  Cnt   Score   Error  Units
-AnnotatedForked1_Test.test1           thrpt       80,105          ops/s
-AnnotatedForked1_Test.test2           thrpt       77,219          ops/s
+AnnotatedForked1_Test.test1           thrpt       79,661          ops/s
+AnnotatedForked1_Test.test2           thrpt       77,278          ops/s
 AnnotatedForked1_Test.test1            avgt        0,013           s/op
 AnnotatedForked1_Test.test2            avgt        0,013           s/op
-AnnotatedForked1_Test.test1          sample    8   0,013 ± 0,004   s/op
+AnnotatedForked1_Test.test1          sample    9   0,013 ± 0,002   s/op
 AnnotatedForked1_Test.test1:p0.00    sample        0,011           s/op
 AnnotatedForked1_Test.test1:p0.50    sample        0,013           s/op
-AnnotatedForked1_Test.test1:p0.90    sample        0,017           s/op
-AnnotatedForked1_Test.test1:p0.95    sample        0,017           s/op
-AnnotatedForked1_Test.test1:p0.99    sample        0,017           s/op
-AnnotatedForked1_Test.test1:p0.999   sample        0,017           s/op
-AnnotatedForked1_Test.test1:p0.9999  sample        0,017           s/op
-AnnotatedForked1_Test.test1:p1.00    sample        0,017           s/op
-AnnotatedForked1_Test.test2          sample    9   0,013 ± 0,003   s/op
+AnnotatedForked1_Test.test1:p0.90    sample        0,015           s/op
+AnnotatedForked1_Test.test1:p0.95    sample        0,015           s/op
+AnnotatedForked1_Test.test1:p0.99    sample        0,015           s/op
+AnnotatedForked1_Test.test1:p0.999   sample        0,015           s/op
+AnnotatedForked1_Test.test1:p0.9999  sample        0,015           s/op
+AnnotatedForked1_Test.test1:p1.00    sample        0,015           s/op
+AnnotatedForked1_Test.test2          sample    9   0,013 ± 0,002   s/op
 AnnotatedForked1_Test.test2:p0.00    sample        0,011           s/op
 AnnotatedForked1_Test.test2:p0.50    sample        0,013           s/op
 AnnotatedForked1_Test.test2:p0.90    sample        0,016           s/op
@@ -737,4 +728,4 @@ AnnotatedForked1_Test.test2:p0.999   sample        0,016           s/op
 AnnotatedForked1_Test.test2:p0.9999  sample        0,016           s/op
 AnnotatedForked1_Test.test2:p1.00    sample        0,016           s/op
 AnnotatedForked1_Test.test1              ss        0,021           s/op
-AnnotatedForked1_Test.test2              ss        0,016           s/op
+AnnotatedForked1_Test.test2              ss        0,021           s/op

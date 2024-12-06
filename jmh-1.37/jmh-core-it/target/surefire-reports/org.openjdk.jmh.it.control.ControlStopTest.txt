@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.control.ControlStopTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.366 sec - in org.openjdk.jmh.it.control.ControlStopTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.414 sec - in org.openjdk.jmh.it.control.ControlStopTest

@@ -13,38 +13,38 @@
 
 # Run progress: 0,00% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,238 ops/s
-# Warmup Iteration   2: 82,814 ops/s
-# Warmup Iteration   3: 82,594 ops/s
-Iteration   1: 82,806 ops/s
-                 compiler.time.profiled: 2,000 ms
-                 compiler.time.total:    138,000 ms
-
-Iteration   2: 83,366 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,793 ops/s
+# Warmup Iteration   2: 82,508 ops/s
+# Warmup Iteration   3: 82,398 ops/s
+Iteration   1: 80,547 ops/s
                  compiler.time.profiled: 1,000 ms
-                 compiler.time.total:    139,000 ms
+                 compiler.time.total:    153,000 ms
 
-Iteration   3: 84,175 ops/s
+Iteration   2: 82,779 ops/s
+                 compiler.time.profiled: 1,000 ms
+                 compiler.time.total:    154,000 ms
+
+Iteration   3: 82,770 ops/s
                  compiler.time.profiled: ≈ 0 ms
-                 compiler.time.total:    139,000 ms
+                 compiler.time.total:    154,000 ms
 
 
 
 Result "org.openjdk.jmh.it.profilers.CompilerProfilerTest.work":
-  83,449 ±(99.9%) 12,560 ops/s [Average]
-  (min, avg, max) = (82,806, 83,449, 84,175), stdev = 0,688
-  CI (99.9%): [70,889, 96,009] (assumes normal distribution)
+  82,032 ±(99.9%) 23,460 ops/s [Average]
+  (min, avg, max) = (80,547, 82,032, 82,779), stdev = 1,286
+  CI (99.9%): [58,572, 105,492] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.CompilerProfilerTest.work:compiler.time.profiled":
-  3,000 ±(99.9%) 0,001 ms [Sum]
-  (min, avg, max) = (≈ 0, 1,000, 2,000), stdev = 1,000
-  CI (99.9%): [3,000, 3,000] (assumes normal distribution)
+  2,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (≈ 0, 0,667, 1,000), stdev = 0,577
+  CI (99.9%): [2,000, 2,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.CompilerProfilerTest.work:compiler.time.total":
-  139,000 ±(99.9%) 0,001 ms [Maximum]
-  (min, avg, max) = (138,000, 138,667, 139,000), stdev = 0,577
-  CI (99.9%): [139,000, 139,000] (assumes normal distribution)
+  154,000 ±(99.9%) 0,001 ms [Maximum]
+  (min, avg, max) = (153,000, 153,667, 154,000), stdev = 0,577
+  CI (99.9%): [154,000, 154,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:06
@@ -56,6 +56,6 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                          Mode  Cnt    Score    Error  Units
-CompilerProfilerTest.work                         thrpt    3   83,449 ± 12,560  ops/s
-CompilerProfilerTest.work:compiler.time.profiled  thrpt    3    3,000              ms
-CompilerProfilerTest.work:compiler.time.total     thrpt    3  139,000              ms
+CompilerProfilerTest.work                         thrpt    3   82,032 ± 23,460  ops/s
+CompilerProfilerTest.work:compiler.time.profiled  thrpt    3    2,000              ms
+CompilerProfilerTest.work:compiler.time.total     thrpt    3  154,000              ms

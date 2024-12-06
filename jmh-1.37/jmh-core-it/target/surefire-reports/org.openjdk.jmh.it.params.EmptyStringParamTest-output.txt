@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 78,278 ops/s
-Iteration   1: 80,812 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 84,149 ops/s
+Iteration   1: 80,458 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyStringParamTest.test":
-  80,812 ops/s
+  80,458 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -32,7 +32,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                  (x)   Mode  Cnt   Score   Error  Units
-EmptyStringParamTest.test       thrpt       80,812          ops/s
+EmptyStringParamTest.test       thrpt       80,458          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -49,13 +49,13 @@ EmptyStringParamTest.test       thrpt       80,812          ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 80,241 ops/s
-Iteration   1: 85,424 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,401 ops/s
+Iteration   1: 83,952 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyStringParamTest.test":
-  85,424 ops/s
+  83,952 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -67,4 +67,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                  (x)   Mode  Cnt   Score   Error  Units
-EmptyStringParamTest.test       thrpt       85,424          ops/s
+EmptyStringParamTest.test       thrpt       83,952          ops/s

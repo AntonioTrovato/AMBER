@@ -13,18 +13,18 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 336,402 ops/s
-Iteration   2: 336,666 ops/s
-Iteration   3: 339,916 ops/s
-Iteration   4: 332,673 ops/s
-Iteration   5: 325,471 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 331,340 ops/s
+Iteration   2: 338,116 ops/s
+Iteration   3: 336,508 ops/s
+Iteration   4: 337,181 ops/s
+Iteration   5: 339,246 ops/s
 
 
 Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
-  334,226 ±(99.9%) 21,277 ops/s [Average]
-  (min, avg, max) = (325,471, 334,226, 339,916), stdev = 5,526
-  CI (99.9%): [312,949, 355,502] (assumes normal distribution)
+  336,478 ±(99.9%) 11,749 ops/s [Average]
+  (min, avg, max) = (331,340, 336,478, 339,246), stdev = 3,051
+  CI (99.9%): [324,729, 348,228] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -39,11 +39,11 @@ Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test
 
-# Run progress: 33,22% complete, ETA 00:00:02
+# Run progress: 33,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-Iteration   2: 0,012 ±(99.9%) 0,002 s/op
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 Iteration   3: 0,012 ±(99.9%) 0,002 s/op
 Iteration   4: 0,012 ±(99.9%) 0,001 s/op
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
@@ -52,7 +52,7 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
   0,012 ±(99.9%) 0,001 s/op [Average]
   (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
-  CI (99.9%): [0,011, 0,012] (assumes normal distribution)
+  CI (99.9%): [0,011, 0,013] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -69,29 +69,9 @@ Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,015 s/op
-                 p0.99:   0,015 s/op
-                 p0.999:  0,015 s/op
-                 p0.9999: 0,015 s/op
-                 p1.00:   0,015 s/op
-
-Iteration   2: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,015 s/op
-                 p0.95:   0,016 s/op
-                 p0.99:   0,016 s/op
-                 p0.999:  0,016 s/op
-                 p0.9999: 0,016 s/op
-                 p1.00:   0,016 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,011 s/op
                  p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -100,15 +80,35 @@ Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
                  p0.999:  0,013 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
+
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,014 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
+
+Iteration   4: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,014 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
 
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
@@ -123,36 +123,41 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 
 
 Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
-  N = 170
+  N = 168
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
+    [0,010, 0,010) = 7 
     [0,010, 0,011) = 9 
-    [0,011, 0,011) = 14 
-    [0,011, 0,012) = 20 
-    [0,012, 0,012) = 26 
-    [0,012, 0,013) = 18 
-    [0,013, 0,013) = 72 
-    [0,013, 0,014) = 2 
+    [0,011, 0,011) = 9 
+    [0,011, 0,011) = 8 
+    [0,011, 0,011) = 5 
+    [0,011, 0,012) = 14 
+    [0,012, 0,012) = 7 
+    [0,012, 0,012) = 19 
+    [0,012, 0,012) = 5 
+    [0,012, 0,013) = 8 
+    [0,013, 0,013) = 71 
+    [0,013, 0,013) = 3 
+    [0,013, 0,013) = 1 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 1 
+    [0,014, 0,014) = 0 
     [0,014, 0,014) = 0 
     [0,014, 0,015) = 1 
-    [0,015, 0,015) = 6 
-    [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 2 
-    [0,017, 0,017) = 0 
+    [0,015, 0,015) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,016 s/op
-     p(99,9900) =      0,016 s/op
-     p(99,9990) =      0,016 s/op
-     p(99,9999) =      0,016 s/op
-    p(100,0000) =      0,016 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,014 s/op
+     p(99,9000) =      0,014 s/op
+     p(99,9900) =      0,014 s/op
+     p(99,9990) =      0,014 s/op
+     p(99,9999) =      0,014 s/op
+    p(100,0000) =      0,014 s/op
 
 
 # JMH version: 1.37
@@ -169,26 +174,26 @@ Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,006 s/op
-Iteration   2: 0,012 ±(99.9%) 0,003 s/op
-Iteration   3: 0,012 ±(99.9%) 0,004 s/op
-Iteration   4: 0,010 ±(99.9%) 0,001 s/op
-Iteration   5: 0,012 ±(99.9%) 0,007 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,001 s/op
+Iteration   2: 0,011 ±(99.9%) 0,002 s/op
+Iteration   3: 0,012 ±(99.9%) 0,002 s/op
+Iteration   4: 0,012 ±(99.9%) 0,007 s/op
+Iteration   5: 0,011 ±(99.9%) 0,005 s/op
 
 
 Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
   N = 5
-  mean =      0,012 ±(99.9%) 0,004 s/op
+  mean =      0,012 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 1 
+    [0,010, 0,010) = 0 
     [0,010, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
     [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
-    [0,012, 0,012) = 1 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 2 
     [0,012, 0,013) = 0 
@@ -196,7 +201,7 @@ Result "org.openjdk.jmh.it.threads.ThreadBenchSameThreadTest.test":
     [0,013, 0,013) = 1 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
+      p(0,0000) =      0,011 s/op
      p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
@@ -217,15 +222,15 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 Mode  Cnt    Score    Error  Units
-ThreadBenchSameThreadTest.test           thrpt    5  334,226 ± 21,277  ops/s
+ThreadBenchSameThreadTest.test           thrpt    5  336,478 ± 11,749  ops/s
 ThreadBenchSameThreadTest.test            avgt    5    0,012 ±  0,001   s/op
-ThreadBenchSameThreadTest.test          sample  170    0,012 ±  0,001   s/op
+ThreadBenchSameThreadTest.test          sample  168    0,012 ±  0,001   s/op
 ThreadBenchSameThreadTest.test:p0.00    sample         0,010            s/op
 ThreadBenchSameThreadTest.test:p0.50    sample         0,012            s/op
 ThreadBenchSameThreadTest.test:p0.90    sample         0,013            s/op
-ThreadBenchSameThreadTest.test:p0.95    sample         0,014            s/op
-ThreadBenchSameThreadTest.test:p0.99    sample         0,016            s/op
-ThreadBenchSameThreadTest.test:p0.999   sample         0,016            s/op
-ThreadBenchSameThreadTest.test:p0.9999  sample         0,016            s/op
-ThreadBenchSameThreadTest.test:p1.00    sample         0,016            s/op
-ThreadBenchSameThreadTest.test              ss    5    0,012 ±  0,004   s/op
+ThreadBenchSameThreadTest.test:p0.95    sample         0,013            s/op
+ThreadBenchSameThreadTest.test:p0.99    sample         0,014            s/op
+ThreadBenchSameThreadTest.test:p0.999   sample         0,014            s/op
+ThreadBenchSameThreadTest.test:p0.9999  sample         0,014            s/op
+ThreadBenchSameThreadTest.test:p1.00    sample         0,014            s/op
+ThreadBenchSameThreadTest.test              ss    5    0,012 ±  0,003   s/op

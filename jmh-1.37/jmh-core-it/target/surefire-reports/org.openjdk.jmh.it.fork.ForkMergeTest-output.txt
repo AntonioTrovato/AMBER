@@ -13,34 +13,34 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 78,286 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 72,946 ops/s
 
-# Run progress: 20,00% complete, ETA 00:00:01
+# Run progress: 20,00% complete, ETA 00:00:02
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 78,737 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 76,634 ops/s
 
 # Run progress: 40,00% complete, ETA 00:00:01
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 79,909 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 78,374 ops/s
 
-# Run progress: 60,00% complete, ETA 00:00:00
+# Run progress: 60,00% complete, ETA 00:00:01
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 78,467 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,794 ops/s
 
 # Run progress: 80,00% complete, ETA 00:00:00
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 74,988 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 79,475 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkMergeTest.test":
-  78,077 ±(99.9%) 7,082 ops/s [Average]
-  (min, avg, max) = (74,988, 78,077, 79,909), stdev = 1,839
-  CI (99.9%): [70,996, 85,159] (assumes normal distribution)
+  77,045 ±(99.9%) 9,666 ops/s [Average]
+  (min, avg, max) = (72,946, 77,045, 79,475), stdev = 2,510
+  CI (99.9%): [67,379, 86,710] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:02
@@ -52,4 +52,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark            Mode  Cnt   Score   Error  Units
-ForkMergeTest.test  thrpt    5  78,077 ± 7,082  ops/s
+ForkMergeTest.test  thrpt    5  77,045 ± 9,666  ops/s

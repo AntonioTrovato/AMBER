@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 77,454 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 81,244 ops/s
 
 
 Result "org.openjdk.jmh.it.StackTraceInThrowableTest.test":
-  77,454 ops/s
+  81,244 ops/s
 
 
 # JMH version: 1.37
@@ -35,7 +35,7 @@ Result "org.openjdk.jmh.it.StackTraceInThrowableTest.test":
 
 # Run progress: 25,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 s/op
 
 
@@ -57,7 +57,7 @@ Result "org.openjdk.jmh.it.StackTraceInThrowableTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
                  p0.00:   0,013 s/op
                  p0.50:   0,013 s/op
@@ -85,8 +85,8 @@ Iteration   1: 0,013 s/op
 
 # Run progress: 75,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,011 s/op
 
 
 
@@ -99,7 +99,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 Mode  Cnt   Score   Error  Units
-StackTraceInThrowableTest.test           thrpt       77,454          ops/s
+StackTraceInThrowableTest.test           thrpt       81,244          ops/s
 StackTraceInThrowableTest.test            avgt        0,012           s/op
 StackTraceInThrowableTest.test          sample        0,013           s/op
 StackTraceInThrowableTest.test:p0.00    sample        0,013           s/op
@@ -110,4 +110,4 @@ StackTraceInThrowableTest.test:p0.99    sample        0,013           s/op
 StackTraceInThrowableTest.test:p0.999   sample        0,013           s/op
 StackTraceInThrowableTest.test:p0.9999  sample        0,013           s/op
 StackTraceInThrowableTest.test:p1.00    sample        0,013           s/op
-StackTraceInThrowableTest.test              ss        0,013           s/op
+StackTraceInThrowableTest.test              ss        0,011           s/op

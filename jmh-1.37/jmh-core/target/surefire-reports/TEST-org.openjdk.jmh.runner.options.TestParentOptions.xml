@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.runner.options.TestParentOptions" time="0.007" tests="84" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.runner.options.TestParentOptions" time="0.01" tests="84" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -60,37 +60,37 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testRuntime_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testRuntime_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testRuntime_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testIncludes_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testIncludes_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testExcludes_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testExcludes_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testResultFormat_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testResultFormat_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testOPI_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVMArgsPrepend_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testVerbose_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testOutput_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testOutput_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testWarmupIters_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testOutput_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testWarmupIters_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testSyncIters_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testMeasureIters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
-  <testcase name="testSyncIters_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testMeasureIters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testSyncIters_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testJVMArgs_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVMArgsAppend_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVMArgsAppend_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testTimeout_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVMArgs_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testJVMArgs_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
+  <testcase name="testJVMArgs_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testTimeout_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testTimeout_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testBenchModes_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testSyncIters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testOPI_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testOPI_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testWarmupMicros_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
-  <testcase name="testWarmupMicros_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testWarmupMicros_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testWarmupMicros_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testTimeUnit_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testForks_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testForks_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
@@ -98,7 +98,7 @@
   <testcase name="testBenchModes_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVM_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVM_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testResult_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testResult_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testVerbose_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testResult_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testVerbose_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
@@ -111,7 +111,7 @@
   <testcase name="testIncludes_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testWarmupTime_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testGC_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testJVM_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testJVM_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testJVMArgsAppend_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testMeasureIters_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testResultFormat_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
@@ -119,14 +119,14 @@
   <testcase name="testMeasureIters_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testWarmupIters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testThreadGroups_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
-  <testcase name="testParameters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
+  <testcase name="testParameters_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testWarmupTime_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testProfiler_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testProfiler_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testThreadGroups_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testJVMArgsPrepend_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testWarmupTime_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testJVMArgsPrepend_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
+  <testcase name="testJVMArgsPrepend_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testResult_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testTimeUnit_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testExcludes_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
@@ -137,7 +137,7 @@
   <testcase name="testThreads_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testThreads_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testSFOE_Merged" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
-  <testcase name="testGC_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
+  <testcase name="testGC_Empty" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0.001"/>
   <testcase name="testGC_Merge" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testSFOE_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>
   <testcase name="testForks_Parent" classname="org.openjdk.jmh.runner.options.TestParentOptions" time="0"/>

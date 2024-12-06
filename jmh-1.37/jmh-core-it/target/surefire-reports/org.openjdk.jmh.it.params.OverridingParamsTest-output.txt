@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1500069646,383 ops/s
-Iteration   1: 1525166085,012 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1475852708,952 ops/s
+Iteration   1: 1628141430,900 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark1.test":
-  1525166085,012 ops/s
+  1628141430,900 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark1.test":
 
 # Run progress: 16,67% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1466082417,321 ops/s
-Iteration   1: 1576955656,717 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1554607239,234 ops/s
+Iteration   1: 1615490370,218 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark1.test":
-  1576955656,717 ops/s
+  1615490370,218 ops/s
 
 
 # JMH version: 1.37
@@ -60,15 +60,15 @@ Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark1.test":
 # Benchmark: org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.overtest
 # Parameters: (x = 2)
 
-# Run progress: 33,33% complete, ETA 00:00:02
+# Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1389091666,729 ops/s
-Iteration   1: 1496469326,737 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1548789108,221 ops/s
+Iteration   1: 1594195045,234 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.overtest":
-  1496469326,737 ops/s
+  1594195045,234 ops/s
 
 
 # JMH version: 1.37
@@ -86,13 +86,13 @@ Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.overtest":
 
 # Run progress: 50,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1350243700,440 ops/s
-Iteration   1: 1495150627,997 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1406699416,028 ops/s
+Iteration   1: 1585909574,968 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.overtest":
-  1495150627,997 ops/s
+  1585909574,968 ops/s
 
 
 # JMH version: 1.37
@@ -108,15 +108,15 @@ Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.overtest":
 # Benchmark: org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.test
 # Parameters: (x = 2)
 
-# Run progress: 66,67% complete, ETA 00:00:01
+# Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1460778574,453 ops/s
-Iteration   1: 1615004138,755 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1610048886,513 ops/s
+Iteration   1: 1647694725,612 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.test":
-  1615004138,755 ops/s
+  1647694725,612 ops/s
 
 
 # JMH version: 1.37
@@ -134,13 +134,13 @@ Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.test":
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1523456916,267 ops/s
-Iteration   1: 1447972809,512 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1526507936,436 ops/s
+Iteration   1: 1695750511,920 ops/s
 
 
 Result "org.openjdk.jmh.it.params.OverridingParamsTest.Benchmark2.test":
-  1447972809,512 ops/s
+  1695750511,920 ops/s
 
 
 # Run complete. Total time: 00:00:02
@@ -152,9 +152,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 (x)   Mode  Cnt           Score   Error  Units
-OverridingParamsTest.Benchmark1.test        2  thrpt       1525166085,012          ops/s
-OverridingParamsTest.Benchmark1.test        3  thrpt       1576955656,717          ops/s
-OverridingParamsTest.Benchmark2.overtest    2  thrpt       1496469326,737          ops/s
-OverridingParamsTest.Benchmark2.overtest    3  thrpt       1495150627,997          ops/s
-OverridingParamsTest.Benchmark2.test        2  thrpt       1615004138,755          ops/s
-OverridingParamsTest.Benchmark2.test        3  thrpt       1447972809,512          ops/s
+OverridingParamsTest.Benchmark1.test        2  thrpt       1628141430,900          ops/s
+OverridingParamsTest.Benchmark1.test        3  thrpt       1615490370,218          ops/s
+OverridingParamsTest.Benchmark2.overtest    2  thrpt       1594195045,234          ops/s
+OverridingParamsTest.Benchmark2.overtest    3  thrpt       1585909574,968          ops/s
+OverridingParamsTest.Benchmark2.test        2  thrpt       1647694725,612          ops/s
+OverridingParamsTest.Benchmark2.test        3  thrpt       1695750511,920          ops/s

@@ -13,11 +13,11 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 17,075 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 16,682 ops/s
 Iteration   2: <failure>
 
-java.lang.AssertionError: Test invocations and Setup3 agree expected:<38> but was:<36>
+java.lang.AssertionError: Test invocations and Setup3 agree expected:<39> but was:<34>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -53,11 +53,11 @@ java.lang.AssertionError: Test invocations and Setup3 agree expected:<38> but wa
 
 # Run progress: 33,22% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,119 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,125 s/op
 Iteration   2: <failure>
 
-java.lang.AssertionError: Test invocations and Setup3 agree expected:<38> but was:<35>
+java.lang.AssertionError: Test invocations and Setup3 agree expected:<38> but was:<34>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -93,10 +93,10 @@ java.lang.AssertionError: Test invocations and Setup3 agree expected:<38> but wa
 
 # Run progress: 66,45% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,121 s/op
-                 p0.00:   0,120 s/op
-                 p0.50:   0,121 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,122 s/op
+                 p0.00:   0,121 s/op
+                 p0.50:   0,122 s/op
                  p0.90:   0,122 s/op
                  p0.95:   0,122 s/op
                  p0.99:   0,122 s/op
@@ -106,7 +106,7 @@ Iteration   1: 0,121 s/op
 
 Iteration   2: <failure>
 
-java.lang.AssertionError: Test invocations and Setup3 agree expected:<44> but was:<6>
+java.lang.AssertionError: Test invocations and Setup3 agree expected:<45> but was:<7>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -142,11 +142,11 @@ java.lang.AssertionError: Test invocations and Setup3 agree expected:<44> but wa
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,120 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,124 s/op
 Iteration   2: <failure>
 
-java.lang.AssertionError: Test invocations and Setup3 agree expected:<40> but was:<35>
+java.lang.AssertionError: Test invocations and Setup3 agree expected:<40> but was:<36>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
 	at org.junit.Assert.assertEquals(Assert.java:647)
@@ -168,7 +168,7 @@ java.lang.AssertionError: Test invocations and Setup3 agree expected:<40> but wa
 
 
 
-# Run complete. Total time: 00:00:06
+# Run complete. Total time: 00:00:05
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial

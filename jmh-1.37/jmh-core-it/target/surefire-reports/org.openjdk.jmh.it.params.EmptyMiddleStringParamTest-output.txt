@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 80,271 ops/s
-Iteration   1: 81,472 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 79,927 ops/s
+Iteration   1: 80,396 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  81,472 ops/s
+  80,396 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 78,946 ops/s
-Iteration   1: 84,912 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 79,584 ops/s
+Iteration   1: 82,033 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  84,912 ops/s
+  82,033 ops/s
 
 
 # JMH version: 1.37
@@ -62,13 +62,13 @@ Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,015 ops/s
-Iteration   1: 81,525 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,266 ops/s
+Iteration   1: 83,267 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  81,525 ops/s
+  83,267 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -80,9 +80,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                         (x)   Mode  Cnt   Score   Error  Units
-EmptyMiddleStringParamTest.test  val1  thrpt       81,472          ops/s
-EmptyMiddleStringParamTest.test        thrpt       84,912          ops/s
-EmptyMiddleStringParamTest.test  val2  thrpt       81,525          ops/s
+EmptyMiddleStringParamTest.test  val1  thrpt       80,396          ops/s
+EmptyMiddleStringParamTest.test        thrpt       82,033          ops/s
+EmptyMiddleStringParamTest.test  val2  thrpt       83,267          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -99,13 +99,13 @@ EmptyMiddleStringParamTest.test  val2  thrpt       81,525          ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 79,796 ops/s
-Iteration   1: 82,197 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,847 ops/s
+Iteration   1: 83,333 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  82,197 ops/s
+  83,333 ops/s
 
 
 # JMH version: 1.37
@@ -123,13 +123,13 @@ Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 80,811 ops/s
-Iteration   1: 80,827 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 79,998 ops/s
+Iteration   1: 82,942 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  80,827 ops/s
+  82,942 ops/s
 
 
 # JMH version: 1.37
@@ -147,13 +147,13 @@ Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 83,005 ops/s
-Iteration   1: 84,832 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,891 ops/s
+Iteration   1: 80,257 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyMiddleStringParamTest.test":
-  84,832 ops/s
+  80,257 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -165,6 +165,6 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                         (x)   Mode  Cnt   Score   Error  Units
-EmptyMiddleStringParamTest.test  val1  thrpt       82,197          ops/s
-EmptyMiddleStringParamTest.test        thrpt       80,827          ops/s
-EmptyMiddleStringParamTest.test  val2  thrpt       84,832          ops/s
+EmptyMiddleStringParamTest.test  val1  thrpt       83,333          ops/s
+EmptyMiddleStringParamTest.test        thrpt       82,942          ops/s
+EmptyMiddleStringParamTest.test  val2  thrpt       80,257          ops/s

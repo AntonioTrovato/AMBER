@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,382 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 81,551 ops/s
 
 
 Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test1":
-  81,382 ops/s
+  81,551 ops/s
 
 
 # JMH version: 1.37
@@ -35,7 +35,7 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test1":
 
 # Run progress: 33,22% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 s/op
 
 
@@ -57,10 +57,10 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test1":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -72,25 +72,25 @@ Iteration   1: 0,012 ±(99.9%) 0,002 s/op
 
 Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test1":
   N = 9
-  mean =      0,012 ±(99.9%) 0,002 s/op
+  mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
-    [0,010, 0,011) = 1 
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 2 
     [0,011, 0,011) = 1 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 1 
+    [0,011, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,013) = 2 
-    [0,013, 0,013) = 2 
-    [0,013, 0,013) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 0 
+    [0,013, 0,013) = 5 
+    [0,013, 0,013) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
+      p(0,0000) =      0,011 s/op
+     p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
      p(99,0000) =      0,013 s/op
@@ -115,7 +115,7 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test1":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -129,11 +129,11 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt   Score   Error  Units
-OneThreadCountTest.test1           thrpt       81,382          ops/s
+OneThreadCountTest.test1           thrpt       81,551          ops/s
 OneThreadCountTest.test1            avgt        0,012           s/op
-OneThreadCountTest.test1          sample    9   0,012 ± 0,002   s/op
-OneThreadCountTest.test1:p0.00    sample        0,010           s/op
-OneThreadCountTest.test1:p0.50    sample        0,012           s/op
+OneThreadCountTest.test1          sample    9   0,012 ± 0,001   s/op
+OneThreadCountTest.test1:p0.00    sample        0,011           s/op
+OneThreadCountTest.test1:p0.50    sample        0,013           s/op
 OneThreadCountTest.test1:p0.90    sample        0,013           s/op
 OneThreadCountTest.test1:p0.95    sample        0,013           s/op
 OneThreadCountTest.test1:p0.99    sample        0,013           s/op
@@ -156,12 +156,12 @@ OneThreadCountTest.test1              ss        0,013           s/op
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 79,157 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,604 ops/s
 
 
 Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
-  79,157 ops/s
+  82,604 ops/s
 
 
 # JMH version: 1.37
@@ -178,12 +178,12 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
 
 # Run progress: 33,22% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 s/op
 
 
 Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
-  0,012 s/op
+  0,013 s/op
 
 
 # JMH version: 1.37
@@ -200,8 +200,8 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
@@ -215,21 +215,24 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
 
 Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
   N = 9
-  mean =      0,012 ±(99.9%) 0,001 s/op
+  mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
     [0,010, 0,011) = 0 
-    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 3 
     [0,011, 0,011) = 0 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 5 
-    [0,013, 0,013) = 2 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 1 
+    [0,013, 0,013) = 4 
+    [0,013, 0,013) = 0 
+    [0,013, 0,013) = 1 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
@@ -258,8 +261,8 @@ Result "org.openjdk.jmh.it.threads.OneThreadCountTest.test2":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,011 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 s/op
 
 
 
@@ -272,9 +275,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt   Score   Error  Units
-OneThreadCountTest.test2           thrpt       79,157          ops/s
-OneThreadCountTest.test2            avgt        0,012           s/op
-OneThreadCountTest.test2          sample    9   0,012 ± 0,001   s/op
+OneThreadCountTest.test2           thrpt       82,604          ops/s
+OneThreadCountTest.test2            avgt        0,013           s/op
+OneThreadCountTest.test2          sample    9   0,012 ± 0,002   s/op
 OneThreadCountTest.test2:p0.00    sample        0,011           s/op
 OneThreadCountTest.test2:p0.50    sample        0,013           s/op
 OneThreadCountTest.test2:p0.90    sample        0,013           s/op
@@ -283,4 +286,4 @@ OneThreadCountTest.test2:p0.99    sample        0,013           s/op
 OneThreadCountTest.test2:p0.999   sample        0,013           s/op
 OneThreadCountTest.test2:p0.9999  sample        0,013           s/op
 OneThreadCountTest.test2:p1.00    sample        0,013           s/op
-OneThreadCountTest.test2              ss        0,011           s/op
+OneThreadCountTest.test2              ss        0,013           s/op

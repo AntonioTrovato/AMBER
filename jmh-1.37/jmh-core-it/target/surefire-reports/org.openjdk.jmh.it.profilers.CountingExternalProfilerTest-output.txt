@@ -14,13 +14,13 @@
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 62827615,404 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 39258289,703 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  62827615,404 ops/s
+  39258289,703 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -32,7 +32,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            Mode  Cnt         Score   Error  Units
-CountingExternalProfilerTest.bench  thrpt       62827615,404          ops/s
+CountingExternalProfilerTest.bench  thrpt       39258289,703          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -49,43 +49,43 @@ CountingExternalProfilerTest.bench  thrpt       62827615,404          ops/s
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 23282476,662 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 240602225,647 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 20,00% complete, ETA 00:00:01
 # Fork: 2 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 49152465,473 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 213194590,488 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 40,00% complete, ETA 00:00:01
 # Fork: 3 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 129800465,959 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 140438401,922 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 60,00% complete, ETA 00:00:00
 # Fork: 4 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 176650677,672 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 368743118,979 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 80,00% complete, ETA 00:00:00
 # Fork: 5 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 539704524,945 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 849455439,873 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  183718122,142 ±(99.9%) 802032130,479 ops/s [Average]
-  (min, avg, max) = (23282476,662, 183718122,142, 539704524,945), stdev = 208285197,323
-  CI (99.9%): [≈ 0, 985750252,621] (assumes normal distribution)
+  362486755,382 ±(99.9%) 1095281639,513 ops/s [Average]
+  (min, avg, max) = (140438401,922, 362486755,382, 849455439,873), stdev = 284441163,566
+  CI (99.9%): [≈ 0, 1457768394,895] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:01
@@ -96,8 +96,8 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt          Score           Error  Units
-CountingExternalProfilerTest.bench  thrpt    5  183718122,142 ± 802032130,479  ops/s
+Benchmark                            Mode  Cnt          Score            Error  Units
+CountingExternalProfilerTest.bench  thrpt    5  362486755,382 ± 1095281639,513  ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -114,20 +114,20 @@ CountingExternalProfilerTest.bench  thrpt    5  183718122,142 ± 802032130,479  
 # Run progress: 0,00% complete, ETA 00:00:00
 # Warmup Fork: 1 of 1
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 117222260,819 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 38349768,363 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 38610773,283 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 42146194,044 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  38610773,283 ops/s
+  42146194,044 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -139,7 +139,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            Mode  Cnt         Score   Error  Units
-CountingExternalProfilerTest.bench  thrpt       38610773,283          ops/s
+CountingExternalProfilerTest.bench  thrpt       42146194,044          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -156,50 +156,50 @@ CountingExternalProfilerTest.bench  thrpt       38610773,283          ops/s
 # Run progress: 0,00% complete, ETA 00:00:00
 # Warmup Fork: 1 of 1
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 26280004,473 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 32329646,936 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 16,67% complete, ETA 00:00:01
 # Fork: 1 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 43477187,872 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 49258304,096 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 2 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 187437659,122 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 49350488,843 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 3 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 383402070,430 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 118531636,470 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 4 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 193934398,359 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 30263671,036 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 5 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 26432258,244 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 88961929,823 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  166936714,805 ±(99.9%) 554647033,921 ops/s [Average]
-  (min, avg, max) = (26432258,244, 166936714,805, 383402070,430), stdev = 144040073,352
-  CI (99.9%): [≈ 0, 721583748,726] (assumes normal distribution)
+  67273206,054 ±(99.9%) 137674570,466 ops/s [Average]
+  (min, avg, max) = (30263671,036, 67273206,054, 118531636,470), stdev = 35753648,746
+  CI (99.9%): [≈ 0, 204947776,520] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:01
@@ -210,8 +210,8 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt          Score           Error  Units
-CountingExternalProfilerTest.bench  thrpt    5  166936714,805 ± 554647033,921  ops/s
+Benchmark                            Mode  Cnt         Score           Error  Units
+CountingExternalProfilerTest.bench  thrpt    5  67273206,054 ± 137674570,466  ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -228,48 +228,48 @@ CountingExternalProfilerTest.bench  thrpt    5  166936714,805 ± 554647033,921  
 # Run progress: 0,00% complete, ETA 00:00:00
 # Warmup Fork: 1 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 109196174,439 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 97266572,395 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 16,67% complete, ETA 00:00:01
 # Warmup Fork: 2 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 112869517,607 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 47885467,111 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
-# Run progress: 33,33% complete, ETA 00:00:01
+# Run progress: 33,33% complete, ETA 00:00:00
 # Warmup Fork: 3 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 228631124,308 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 47480978,483 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Warmup Fork: 4 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 120711675,930 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 48369026,039 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Warmup Fork: 5 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 74882495,670 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 43815727,209 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 65794669,535 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 120524799,418 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  65794669,535 ops/s
+  120524799,418 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -280,8 +280,8 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                            Mode  Cnt         Score   Error  Units
-CountingExternalProfilerTest.bench  thrpt       65794669,535          ops/s
+Benchmark                            Mode  Cnt          Score   Error  Units
+CountingExternalProfilerTest.bench  thrpt       120524799,418          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -298,78 +298,78 @@ CountingExternalProfilerTest.bench  thrpt       65794669,535          ops/s
 # Run progress: 0,00% complete, ETA 00:00:00
 # Warmup Fork: 1 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 769067896,341 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 969581157,338 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 10,00% complete, ETA 00:00:02
 # Warmup Fork: 2 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 10533020,305 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 42599410,763 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 20,00% complete, ETA 00:00:02
 # Warmup Fork: 3 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 95718274,829 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 44030061,331 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 30,00% complete, ETA 00:00:01
 # Warmup Fork: 4 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 2126973,712 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 125695119,586 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 40,00% complete, ETA 00:00:01
 # Warmup Fork: 5 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 496061748,520 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 61429864,253 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 50,00% complete, ETA 00:00:01
 # Fork: 1 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 34224700,420 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 61286742,339 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
-# Run progress: 60,00% complete, ETA 00:00:01
+# Run progress: 60,00% complete, ETA 00:00:00
 # Fork: 2 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 53919797,342 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 93600210,716 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 70,00% complete, ETA 00:00:00
 # Fork: 3 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 42627732,618 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77432082,325 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 80,00% complete, ETA 00:00:00
 # Fork: 4 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 36894244,241 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 62271030,565 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 # Run progress: 90,00% complete, ETA 00:00:00
 # Fork: 5 of 5
 # Preparing profilers: CountingExternalProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 41220915,687 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 46725863,088 ops/s
 # Processing profiler results: CountingExternalProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.CountingExternalProfilerTest.bench":
-  41777478,062 ±(99.9%) 29158238,996 ops/s [Average]
-  (min, avg, max) = (34224700,420, 41777478,062, 53919797,342), stdev = 7572302,071
-  CI (99.9%): [12619239,065, 70935717,058] (assumes normal distribution)
+  68263185,807 ±(99.9%) 68733359,154 ops/s [Average]
+  (min, avg, max) = (46725863,088, 68263185,807, 93600210,716), stdev = 17849835,100
+  CI (99.9%): [≈ 0, 136996544,961] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:02
@@ -381,4 +381,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            Mode  Cnt         Score          Error  Units
-CountingExternalProfilerTest.bench  thrpt    5  41777478,062 ± 29158238,996  ops/s
+CountingExternalProfilerTest.bench  thrpt    5  68263185,807 ± 68733359,154  ops/s

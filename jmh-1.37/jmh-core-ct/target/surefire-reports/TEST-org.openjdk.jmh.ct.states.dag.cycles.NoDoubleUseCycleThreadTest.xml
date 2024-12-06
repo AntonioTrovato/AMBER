@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.ct.states.dag.cycles.NoDoubleUseCycleThreadTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.ct.states.dag.cycles.NoDoubleUseCycleThreadTest" time="0.041" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -66,5 +66,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="compileTest" classname="org.openjdk.jmh.ct.states.dag.cycles.NoDoubleUseCycleThreadTest" time="0.036"/>
+  <testcase name="compileTest" classname="org.openjdk.jmh.ct.states.dag.cycles.NoDoubleUseCycleThreadTest" time="0.041"/>
 </testsuite>

@@ -13,7 +13,7 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,200 ops/s
 Iteration   1: 0,200 ops/s
 
@@ -36,7 +36,7 @@ Result "org.openjdk.jmh.it.interrupts.NonInterruptibleInterruptTest.test":
 
 # Run progress: 33,22% complete, ETA 00:00:20
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 5,000 s/op
 Iteration   1: 5,000 s/op
 
@@ -59,17 +59,17 @@ Result "org.openjdk.jmh.it.interrupts.NonInterruptibleInterruptTest.test":
 
 # Run progress: 66,45% complete, ETA 00:00:10
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 4,991 s/op
-Iteration   1: 5,000 s/op
-                 p0.00:   5,000 s/op
-                 p0.50:   5,000 s/op
-                 p0.90:   5,000 s/op
-                 p0.95:   5,000 s/op
-                 p0.99:   5,000 s/op
-                 p0.999:  5,000 s/op
-                 p0.9999: 5,000 s/op
-                 p1.00:   5,000 s/op
+Iteration   1: 5,008 s/op
+                 p0.00:   5,008 s/op
+                 p0.50:   5,008 s/op
+                 p0.90:   5,008 s/op
+                 p0.95:   5,008 s/op
+                 p0.99:   5,008 s/op
+                 p0.999:  5,008 s/op
+                 p0.9999: 5,008 s/op
+                 p1.00:   5,008 s/op
 
 
 
@@ -88,9 +88,9 @@ Iteration   1: 5,000 s/op
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: (benchmark timed out, interrupted 39 times) 4,999 s/op
-Iteration   1: (benchmark timed out, interrupted 39 times) 5,000 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: (benchmark timed out, interrupted 40 times) 5,000 s/op
+Iteration   1: (benchmark timed out, interrupted 39 times) 5,002 s/op
 
 
 
@@ -105,13 +105,13 @@ Do not assume the numbers tell you what you want them to tell.
 Benchmark                                     Mode  Cnt  Score   Error  Units
 NonInterruptibleInterruptTest.test           thrpt       0,200          ops/s
 NonInterruptibleInterruptTest.test            avgt       5,000           s/op
-NonInterruptibleInterruptTest.test          sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.00    sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.50    sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.90    sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.95    sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.99    sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.999   sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p0.9999  sample       5,000           s/op
-NonInterruptibleInterruptTest.test:p1.00    sample       5,000           s/op
-NonInterruptibleInterruptTest.test              ss       5,000           s/op
+NonInterruptibleInterruptTest.test          sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.00    sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.50    sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.90    sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.95    sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.99    sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.999   sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p0.9999  sample       5,008           s/op
+NonInterruptibleInterruptTest.test:p1.00    sample       5,008           s/op
+NonInterruptibleInterruptTest.test              ss       5,002           s/op

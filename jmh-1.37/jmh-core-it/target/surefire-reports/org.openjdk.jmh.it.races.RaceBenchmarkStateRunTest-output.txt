@@ -15,17 +15,17 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 329,699 ops/s
-Iteration   2: 330,477 ops/s
-Iteration   3: 335,917 ops/s
-Iteration   4: 323,833 ops/s
-Iteration   5: 325,382 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 328,046 ops/s
+Iteration   2: 336,686 ops/s
+Iteration   3: 327,659 ops/s
+Iteration   4: 336,010 ops/s
+Iteration   5: 335,828 ops/s
 
 Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
-  329,062 ±(99.9%) 18,293 ops/s [Average]
-  (min, avg, max) = (323,833, 329,062, 335,917), stdev = 4,751
-  CI (99.9%): [310,768, 347,355] (assumes normal distribution)
+  332,846 ±(99.9%) 17,603 ops/s [Average]
+  (min, avg, max) = (327,659, 332,846, 336,686), stdev = 4,571
+  CI (99.9%): [315,243, 350,449] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -44,17 +44,17 @@ Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,002 s/op
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
-Iteration   4: 0,012 ±(99.9%) 0,002 s/op
-Iteration   5: 0,012 ±(99.9%) 0,002 s/op
+Iteration   4: 0,012 ±(99.9%) 0,001 s/op
+Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 
 Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
   0,012 ±(99.9%) 0,001 s/op [Average]
   (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
-  CI (99.9%): [0,011, 0,013] (assumes normal distribution)
+  CI (99.9%): [0,012, 0,013] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -73,10 +73,10 @@ Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
+                 p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -95,7 +95,7 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p1.00:   0,013 s/op
 
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,010 s/op
+                 p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -105,7 +105,7 @@ Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  p1.00:   0,013 s/op
 
 Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,012 s/op
+                 p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -115,7 +115,7 @@ Iteration   4: 0,012 ±(99.9%) 0,001 s/op
                  p1.00:   0,013 s/op
 
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,010 s/op
+                 p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -130,17 +130,17 @@ Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 7 
-    [0,010, 0,011) = 8 
-    [0,011, 0,011) = 11 
-    [0,011, 0,011) = 3 
-    [0,011, 0,011) = 2 
-    [0,011, 0,012) = 7 
-    [0,012, 0,012) = 5 
-    [0,012, 0,012) = 13 
-    [0,012, 0,012) = 5 
-    [0,012, 0,013) = 21 
-    [0,013, 0,013) = 83 
+    [0,010, 0,010) = 5 
+    [0,010, 0,011) = 3 
+    [0,011, 0,011) = 4 
+    [0,011, 0,011) = 9 
+    [0,011, 0,011) = 6 
+    [0,011, 0,012) = 5 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 6 
+    [0,012, 0,012) = 7 
+    [0,012, 0,013) = 24 
+    [0,013, 0,013) = 94 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
@@ -172,46 +172,42 @@ Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-Iteration   3: 0,012 ±(99.9%) 0,005 s/op
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-Iteration   5: 0,011 ±(99.9%) 0,001 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,001 s/op
+Iteration   2: 0,013 ±(99.9%) 0,001 s/op
+Iteration   3: 0,013 ±(99.9%) 0,001 s/op
+Iteration   4: 0,011 ±(99.9%) 0,001 s/op
+Iteration   5: 0,013 ±(99.9%) 0,001 s/op
 
 Result "org.openjdk.jmh.it.races.RaceBenchmarkStateRunTest.test":
   N = 5
-  mean =      0,012 ±(99.9%) 0,002 s/op
+  mean =      0,012 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
-    [0,011, 0,011) = 1 
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 0 
     [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
     [0,012, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
+    [0,013, 0,013) = 4 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
-     p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,012 s/op
-     p(95,0000) =      0,012 s/op
-     p(99,0000) =      0,012 s/op
-     p(99,9000) =      0,012 s/op
-     p(99,9900) =      0,012 s/op
-     p(99,9990) =      0,012 s/op
-     p(99,9999) =      0,012 s/op
-    p(100,0000) =      0,012 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 
 # Run complete. Total time: 00:00:02
@@ -223,7 +219,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 Mode  Cnt    Score    Error  Units
-RaceBenchmarkStateRunTest.test           thrpt    5  329,062 ± 18,293  ops/s
+RaceBenchmarkStateRunTest.test           thrpt    5  332,846 ± 17,603  ops/s
 RaceBenchmarkStateRunTest.test            avgt    5    0,012 ±  0,001   s/op
 RaceBenchmarkStateRunTest.test          sample  165    0,012 ±  0,001   s/op
 RaceBenchmarkStateRunTest.test:p0.00    sample         0,010            s/op
@@ -234,4 +230,4 @@ RaceBenchmarkStateRunTest.test:p0.99    sample         0,013            s/op
 RaceBenchmarkStateRunTest.test:p0.999   sample         0,013            s/op
 RaceBenchmarkStateRunTest.test:p0.9999  sample         0,013            s/op
 RaceBenchmarkStateRunTest.test:p1.00    sample         0,013            s/op
-RaceBenchmarkStateRunTest.test              ss    5    0,012 ±  0,002   s/op
+RaceBenchmarkStateRunTest.test              ss    5    0,012 ±  0,003   s/op

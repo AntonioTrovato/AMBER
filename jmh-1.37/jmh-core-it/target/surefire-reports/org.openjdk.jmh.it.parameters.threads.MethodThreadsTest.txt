@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.parameters.threads.MethodThreadsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 sec - in org.openjdk.jmh.it.parameters.threads.MethodThreadsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.187 sec - in org.openjdk.jmh.it.parameters.threads.MethodThreadsTest

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.intraorder.BenchmarkStateTearDownOrderTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.844 sec - in org.openjdk.jmh.it.intraorder.BenchmarkStateTearDownOrderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.783 sec - in org.openjdk.jmh.it.intraorder.BenchmarkStateTearDownOrderTest

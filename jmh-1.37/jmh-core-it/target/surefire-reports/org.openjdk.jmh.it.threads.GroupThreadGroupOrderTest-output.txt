@@ -13,53 +13,53 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 500,252 ops/s
-                 abc: 250,356 ops/s
-                 def: 81,488 ops/s
-                 ghi: 168,408 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 506,132 ops/s
+                 abc: 257,161 ops/s
+                 def: 79,851 ops/s
+                 ghi: 169,120 ops/s
 
-Iteration   2: 506,270 ops/s
-                 abc: 257,731 ops/s
-                 def: 86,299 ops/s
-                 ghi: 162,241 ops/s
+Iteration   2: 502,953 ops/s
+                 abc: 248,762 ops/s
+                 def: 86,412 ops/s
+                 ghi: 167,779 ops/s
 
-Iteration   3: 513,830 ops/s
-                 abc: 259,272 ops/s
-                 def: 86,365 ops/s
-                 ghi: 168,193 ops/s
+Iteration   3: 506,165 ops/s
+                 abc: 252,890 ops/s
+                 def: 84,426 ops/s
+                 ghi: 168,848 ops/s
 
-Iteration   4: 502,156 ops/s
-                 abc: 251,840 ops/s
-                 def: 81,215 ops/s
-                 ghi: 169,100 ops/s
+Iteration   4: 496,686 ops/s
+                 abc: 248,318 ops/s
+                 def: 81,239 ops/s
+                 ghi: 167,129 ops/s
 
-Iteration   5: 503,469 ops/s
-                 abc: 249,514 ops/s
-                 def: 84,993 ops/s
-                 ghi: 168,962 ops/s
+Iteration   5: 505,117 ops/s
+                 abc: 254,444 ops/s
+                 def: 83,333 ops/s
+                 ghi: 167,341 ops/s
 
 
 
 Result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T":
-  505,195 ±(99.9%) 20,409 ops/s [Average]
-  (min, avg, max) = (500,252, 505,195, 513,830), stdev = 5,300
-  CI (99.9%): [484,786, 525,605] (assumes normal distribution)
+  503,411 ±(99.9%) 15,322 ops/s [Average]
+  (min, avg, max) = (496,686, 503,411, 506,165), stdev = 3,979
+  CI (99.9%): [488,088, 518,733] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:abc":
-  253,743 ±(99.9%) 17,161 ops/s [Average]
-  (min, avg, max) = (249,514, 253,743, 259,272), stdev = 4,457
-  CI (99.9%): [236,582, 270,903] (assumes normal distribution)
+  252,315 ±(99.9%) 14,530 ops/s [Average]
+  (min, avg, max) = (248,318, 252,315, 257,161), stdev = 3,773
+  CI (99.9%): [237,785, 266,845] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:def":
-  84,072 ±(99.9%) 9,799 ops/s [Average]
-  (min, avg, max) = (81,215, 84,072, 86,365), stdev = 2,545
-  CI (99.9%): [74,273, 93,871] (assumes normal distribution)
+  83,052 ±(99.9%) 9,965 ops/s [Average]
+  (min, avg, max) = (79,851, 83,052, 86,412), stdev = 2,588
+  CI (99.9%): [73,087, 93,017] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
-  167,381 ±(99.9%) 11,159 ops/s [Average]
-  (min, avg, max) = (162,241, 167,381, 169,100), stdev = 2,898
-  CI (99.9%): [156,222, 178,539] (assumes normal distribution)
+  168,043 ±(99.9%) 3,447 ops/s [Average]
+  (min, avg, max) = (167,129, 168,043, 169,120), stdev = 0,895
+  CI (99.9%): [164,597, 171,490] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -76,10 +76,10 @@ Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
 
 # Run progress: 33,22% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 abc: 0,012 ±(99.9%) 0,001 s/op
-                 def: 0,013 s/op
+                 abc: 0,012 ±(99.9%) 0,005 s/op
+                 def: 0,012 s/op
                  ghi: 0,012 s/op
 
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
@@ -93,12 +93,12 @@ Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  ghi: 0,012 s/op
 
 Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 abc: 0,012 ±(99.9%) 0,002 s/op
+                 abc: 0,012 ±(99.9%) 0,003 s/op
                  def: 0,012 s/op
                  ghi: 0,012 s/op
 
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
-                 abc: 0,012 ±(99.9%) 0,008 s/op
+                 abc: 0,012 ±(99.9%) 0,001 s/op
                  def: 0,012 s/op
                  ghi: 0,012 s/op
 
@@ -116,7 +116,7 @@ Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:abc":
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:def":
   0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
+  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
   CI (99.9%): [0,011, 0,013] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
@@ -139,7 +139,7 @@ Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
 
 # Run progress: 66,45% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  abc:         0,012 ±(99.9%) 0,001 s/op
                  abc:p0.00:   0,010 s/op
@@ -150,9 +150,9 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  abc:p0.999:  0,013 s/op
                  abc:p0.9999: 0,013 s/op
                  abc:p1.00:   0,013 s/op
-                 def:         0,012 ±(99.9%) 0,001 s/op
-                 def:p0.00:   0,011 s/op
-                 def:p0.50:   0,012 s/op
+                 def:         0,012 ±(99.9%) 0,002 s/op
+                 def:p0.00:   0,010 s/op
+                 def:p0.50:   0,013 s/op
                  def:p0.90:   0,013 s/op
                  def:p0.95:   0,013 s/op
                  def:p0.99:   0,013 s/op
@@ -160,8 +160,8 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  def:p0.9999: 0,013 s/op
                  def:p1.00:   0,013 s/op
                  ghi:         0,012 ±(99.9%) 0,001 s/op
-                 ghi:p0.00:   0,011 s/op
-                 ghi:p0.50:   0,012 s/op
+                 ghi:p0.00:   0,010 s/op
+                 ghi:p0.50:   0,013 s/op
                  ghi:p0.90:   0,013 s/op
                  ghi:p0.95:   0,013 s/op
                  ghi:p0.99:   0,013 s/op
@@ -178,6 +178,43 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p1.00:       0,013 s/op
 
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 abc:         0,012 ±(99.9%) 0,001 s/op
+                 abc:p0.00:   0,011 s/op
+                 abc:p0.50:   0,012 s/op
+                 abc:p0.90:   0,013 s/op
+                 abc:p0.95:   0,013 s/op
+                 abc:p0.99:   0,013 s/op
+                 abc:p0.999:  0,013 s/op
+                 abc:p0.9999: 0,013 s/op
+                 abc:p1.00:   0,013 s/op
+                 def:         0,012 ±(99.9%) 0,002 s/op
+                 def:p0.00:   0,010 s/op
+                 def:p0.50:   0,013 s/op
+                 def:p0.90:   0,013 s/op
+                 def:p0.95:   0,013 s/op
+                 def:p0.99:   0,013 s/op
+                 def:p0.999:  0,013 s/op
+                 def:p0.9999: 0,013 s/op
+                 def:p1.00:   0,013 s/op
+                 ghi:         0,012 ±(99.9%) 0,001 s/op
+                 ghi:p0.00:   0,010 s/op
+                 ghi:p0.50:   0,012 s/op
+                 ghi:p0.90:   0,013 s/op
+                 ghi:p0.95:   0,013 s/op
+                 ghi:p0.99:   0,013 s/op
+                 ghi:p0.999:  0,013 s/op
+                 ghi:p0.9999: 0,013 s/op
+                 ghi:p1.00:   0,013 s/op
+                 p0.00:       0,010 s/op
+                 p0.50:       0,012 s/op
+                 p0.90:       0,013 s/op
+                 p0.95:       0,013 s/op
+                 p0.99:       0,013 s/op
+                 p0.999:      0,013 s/op
+                 p0.9999:     0,013 s/op
+                 p1.00:       0,013 s/op
+
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  abc:         0,012 ±(99.9%) 0,001 s/op
                  abc:p0.00:   0,010 s/op
                  abc:p0.50:   0,012 s/op
@@ -206,7 +243,7 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  ghi:p0.9999: 0,013 s/op
                  ghi:p1.00:   0,013 s/op
                  p0.00:       0,010 s/op
-                 p0.50:       0,012 s/op
+                 p0.50:       0,013 s/op
                  p0.90:       0,013 s/op
                  p0.95:       0,013 s/op
                  p0.99:       0,013 s/op
@@ -214,17 +251,17 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999:     0,013 s/op
                  p1.00:       0,013 s/op
 
-Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+Iteration   4: 0,012 ±(99.9%) 0,001 s/op
                  abc:         0,012 ±(99.9%) 0,001 s/op
-                 abc:p0.00:   0,011 s/op
-                 abc:p0.50:   0,013 s/op
+                 abc:p0.00:   0,010 s/op
+                 abc:p0.50:   0,012 s/op
                  abc:p0.90:   0,013 s/op
                  abc:p0.95:   0,013 s/op
                  abc:p0.99:   0,013 s/op
                  abc:p0.999:  0,013 s/op
                  abc:p0.9999: 0,013 s/op
                  abc:p1.00:   0,013 s/op
-                 def:         0,012 ±(99.9%) 0,001 s/op
+                 def:         0,012 ±(99.9%) 0,002 s/op
                  def:p0.00:   0,011 s/op
                  def:p0.50:   0,012 s/op
                  def:p0.90:   0,013 s/op
@@ -243,50 +280,13 @@ Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  ghi:p0.9999: 0,013 s/op
                  ghi:p1.00:   0,013 s/op
                  p0.00:       0,010 s/op
-                 p0.50:       0,013 s/op
+                 p0.50:       0,012 s/op
                  p0.90:       0,013 s/op
                  p0.95:       0,013 s/op
                  p0.99:       0,013 s/op
                  p0.999:      0,013 s/op
                  p0.9999:     0,013 s/op
                  p1.00:       0,013 s/op
-
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 abc:         0,012 ±(99.9%) 0,001 s/op
-                 abc:p0.00:   0,010 s/op
-                 abc:p0.50:   0,013 s/op
-                 abc:p0.90:   0,014 s/op
-                 abc:p0.95:   0,014 s/op
-                 abc:p0.99:   0,014 s/op
-                 abc:p0.999:  0,014 s/op
-                 abc:p0.9999: 0,014 s/op
-                 abc:p1.00:   0,014 s/op
-                 def:         0,012 ±(99.9%) 0,002 s/op
-                 def:p0.00:   0,010 s/op
-                 def:p0.50:   0,012 s/op
-                 def:p0.90:   0,015 s/op
-                 def:p0.95:   0,015 s/op
-                 def:p0.99:   0,015 s/op
-                 def:p0.999:  0,015 s/op
-                 def:p0.9999: 0,015 s/op
-                 def:p1.00:   0,015 s/op
-                 ghi:         0,012 ±(99.9%) 0,001 s/op
-                 ghi:p0.00:   0,010 s/op
-                 ghi:p0.50:   0,012 s/op
-                 ghi:p0.90:   0,014 s/op
-                 ghi:p0.95:   0,014 s/op
-                 ghi:p0.99:   0,014 s/op
-                 ghi:p0.999:  0,014 s/op
-                 ghi:p0.9999: 0,014 s/op
-                 ghi:p1.00:   0,014 s/op
-                 p0.00:       0,010 s/op
-                 p0.50:       0,013 s/op
-                 p0.90:       0,014 s/op
-                 p0.95:       0,014 s/op
-                 p0.99:       0,015 s/op
-                 p0.999:      0,015 s/op
-                 p0.9999:     0,015 s/op
-                 p1.00:       0,015 s/op
 
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  abc:         0,012 ±(99.9%) 0,001 s/op
@@ -298,26 +298,26 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  abc:p0.999:  0,013 s/op
                  abc:p0.9999: 0,013 s/op
                  abc:p1.00:   0,013 s/op
-                 def:         0,012 ±(99.9%) 0,003 s/op
+                 def:         0,012 ±(99.9%) 0,002 s/op
                  def:p0.00:   0,010 s/op
-                 def:p0.50:   0,012 s/op
-                 def:p0.90:   0,014 s/op
-                 def:p0.95:   0,014 s/op
-                 def:p0.99:   0,014 s/op
-                 def:p0.999:  0,014 s/op
-                 def:p0.9999: 0,014 s/op
-                 def:p1.00:   0,014 s/op
+                 def:p0.50:   0,013 s/op
+                 def:p0.90:   0,013 s/op
+                 def:p0.95:   0,013 s/op
+                 def:p0.99:   0,013 s/op
+                 def:p0.999:  0,013 s/op
+                 def:p0.9999: 0,013 s/op
+                 def:p1.00:   0,013 s/op
                  ghi:         0,012 ±(99.9%) 0,001 s/op
                  ghi:p0.00:   0,010 s/op
-                 ghi:p0.50:   0,013 s/op
+                 ghi:p0.50:   0,012 s/op
                  ghi:p0.90:   0,013 s/op
-                 ghi:p0.95:   0,013 s/op
-                 ghi:p0.99:   0,013 s/op
-                 ghi:p0.999:  0,013 s/op
-                 ghi:p0.9999: 0,013 s/op
-                 ghi:p1.00:   0,013 s/op
+                 ghi:p0.95:   0,014 s/op
+                 ghi:p0.99:   0,014 s/op
+                 ghi:p0.999:  0,014 s/op
+                 ghi:p0.9999: 0,014 s/op
+                 ghi:p1.00:   0,014 s/op
                  p0.00:       0,010 s/op
-                 p0.50:       0,013 s/op
+                 p0.50:       0,012 s/op
                  p0.90:       0,013 s/op
                  p0.95:       0,013 s/op
                  p0.99:       0,014 s/op
@@ -328,136 +328,118 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 
 
 Result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T":
-  N = 247
+  N = 246
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 5 
-    [0,010, 0,011) = 13 
-    [0,011, 0,011) = 9 
-    [0,011, 0,011) = 11 
-    [0,011, 0,011) = 14 
-    [0,011, 0,012) = 10 
-    [0,012, 0,012) = 11 
-    [0,012, 0,012) = 19 
-    [0,012, 0,012) = 9 
-    [0,012, 0,013) = 20 
-    [0,013, 0,013) = 109 
-    [0,013, 0,013) = 4 
-    [0,013, 0,013) = 4 
-    [0,013, 0,014) = 2 
-    [0,014, 0,014) = 1 
-    [0,014, 0,014) = 3 
+    [0,010, 0,010) = 12 
+    [0,010, 0,011) = 12 
+    [0,011, 0,011) = 16 
+    [0,011, 0,011) = 8 
+    [0,011, 0,011) = 15 
+    [0,011, 0,012) = 18 
+    [0,012, 0,012) = 12 
+    [0,012, 0,012) = 12 
+    [0,012, 0,012) = 6 
+    [0,012, 0,013) = 16 
+    [0,013, 0,013) = 111 
+    [0,013, 0,013) = 7 
+    [0,013, 0,013) = 0 
+    [0,013, 0,014) = 0 
     [0,014, 0,014) = 0 
-    [0,014, 0,015) = 2 
-    [0,015, 0,015) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
+     p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,015 s/op
-     p(99,9900) =      0,015 s/op
-     p(99,9990) =      0,015 s/op
-     p(99,9999) =      0,015 s/op
-    p(100,0000) =      0,015 s/op
-
-Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:abc":
-  N = 122
-  mean =      0,012 ±(99.9%) 0,001 s/op
-
-  Histogram, s/op:
-    [0,010, 0,010) = 1 
-    [0,010, 0,011) = 6 
-    [0,011, 0,011) = 5 
-    [0,011, 0,011) = 6 
-    [0,011, 0,011) = 7 
-    [0,011, 0,012) = 5 
-    [0,012, 0,012) = 5 
-    [0,012, 0,012) = 5 
-    [0,012, 0,012) = 5 
-    [0,012, 0,013) = 11 
-    [0,013, 0,013) = 59 
-    [0,013, 0,013) = 1 
-    [0,013, 0,013) = 2 
-    [0,013, 0,014) = 1 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 1 
-    [0,014, 0,014) = 0 
-    [0,014, 0,015) = 2 
-    [0,015, 0,015) = 0 
-
-  Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,013 s/op
-     p(99,0000) =      0,014 s/op
+     p(99,0000) =      0,013 s/op
      p(99,9000) =      0,014 s/op
      p(99,9900) =      0,014 s/op
      p(99,9990) =      0,014 s/op
      p(99,9999) =      0,014 s/op
     p(100,0000) =      0,014 s/op
 
+Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:abc":
+  N = 122
+  mean =      0,012 ±(99.9%) 0,001 s/op
+
+  Histogram, s/op:
+    [0,010, 0,010) = 7 
+    [0,010, 0,011) = 5 
+    [0,011, 0,011) = 9 
+    [0,011, 0,011) = 3 
+    [0,011, 0,011) = 8 
+    [0,011, 0,012) = 10 
+    [0,012, 0,012) = 5 
+    [0,012, 0,012) = 6 
+    [0,012, 0,012) = 2 
+    [0,012, 0,013) = 8 
+    [0,013, 0,013) = 56 
+    [0,013, 0,013) = 3 
+
+  Percentiles, s/op:
+      p(0,0000) =      0,010 s/op
+     p(50,0000) =      0,012 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
+
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:def":
-  N = 43
+  N = 41
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 2 
-    [0,010, 0,011) = 2 
+    [0,010, 0,011) = 1 
+    [0,011, 0,011) = 2 
     [0,011, 0,011) = 3 
-    [0,011, 0,011) = 3 
-    [0,011, 0,011) = 1 
-    [0,011, 0,012) = 2 
+    [0,011, 0,011) = 2 
+    [0,011, 0,012) = 3 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
-    [0,012, 0,012) = 3 
-    [0,012, 0,012) = 1 
-    [0,012, 0,013) = 3 
-    [0,013, 0,013) = 17 
-    [0,013, 0,013) = 2 
+    [0,012, 0,013) = 0 
+    [0,013, 0,013) = 24 
     [0,013, 0,013) = 1 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 1 
-    [0,014, 0,014) = 0 
-    [0,014, 0,015) = 0 
-    [0,015, 0,015) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,015 s/op
-     p(99,9000) =      0,015 s/op
-     p(99,9900) =      0,015 s/op
-     p(99,9990) =      0,015 s/op
-     p(99,9999) =      0,015 s/op
-    p(100,0000) =      0,015 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
-  N = 82
+  N = 83
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 2 
-    [0,010, 0,011) = 5 
-    [0,011, 0,011) = 1 
+    [0,010, 0,010) = 3 
+    [0,010, 0,011) = 6 
+    [0,011, 0,011) = 5 
     [0,011, 0,011) = 2 
-    [0,011, 0,011) = 6 
-    [0,011, 0,012) = 3 
+    [0,011, 0,011) = 5 
+    [0,011, 0,012) = 5 
     [0,012, 0,012) = 5 
-    [0,012, 0,012) = 11 
+    [0,012, 0,012) = 6 
     [0,012, 0,012) = 3 
-    [0,012, 0,013) = 6 
-    [0,013, 0,013) = 33 
-    [0,013, 0,013) = 1 
-    [0,013, 0,013) = 1 
-    [0,013, 0,014) = 1 
-    [0,014, 0,014) = 1 
+    [0,012, 0,013) = 8 
+    [0,013, 0,013) = 31 
+    [0,013, 0,013) = 3 
+    [0,013, 0,013) = 0 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
@@ -486,159 +468,153 @@ Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,014 ±(99.9%) 0,001 s/op
-                 abc: 0,014 ±(99.9%) 0,002 s/op
-                 def: 0,014 s/op
-                 ghi: 0,014 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,002 s/op
-                 abc: 0,012 ±(99.9%) 0,002 s/op
-                 def: 0,010 s/op
-                 ghi: 0,013 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,002 s/op
-                 abc: 0,012 ±(99.9%) 0,016 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,002 s/op
+                 abc: 0,012 ±(99.9%) 0,014 s/op
                  def: 0,012 s/op
                  ghi: 0,012 s/op
+
+Iteration   2: 0,011 ±(99.9%) 0,003 s/op
+                 abc: 0,012 ±(99.9%) 0,023 s/op
+                 def: 0,010 s/op
+                 ghi: 0,011 s/op
+
+Iteration   3: 0,011 ±(99.9%) 0,003 s/op
+                 abc: 0,011 ±(99.9%) 0,025 s/op
+                 def: 0,011 s/op
+                 ghi: 0,010 s/op
 
 Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-                 abc: 0,013 ±(99.9%) 0,001 s/op
-                 def: 0,013 s/op
-                 ghi: 0,012 s/op
-
-Iteration   5: 0,012 ±(99.9%) 0,001 s/op
-                 abc: 0,012 ±(99.9%) 0,004 s/op
+                 abc: 0,012 ±(99.9%) 0,001 s/op
                  def: 0,012 s/op
+                 ghi: 0,013 s/op
+
+Iteration   5: 0,012 ±(99.9%) 0,002 s/op
+                 abc: 0,012 ±(99.9%) 0,007 s/op
+                 def: 0,013 s/op
                  ghi: 0,012 s/op
 
 
 
 Result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T":
   N = 5
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,012) = 1 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 1 
     [0,012, 0,012) = 1 
-    [0,012, 0,012) = 2 
-    [0,012, 0,013) = 0 
+    [0,012, 0,013) = 1 
     [0,013, 0,013) = 0 
     [0,013, 0,013) = 0 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 1 
 
   Percentiles, s/op:
-      p(0,0000) =      0,012 s/op
+      p(0,0000) =      0,011 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
+     p(90,0000) =      0,012 s/op
+     p(95,0000) =      0,012 s/op
+     p(99,0000) =      0,012 s/op
+     p(99,9000) =      0,012 s/op
+     p(99,9900) =      0,012 s/op
+     p(99,9990) =      0,012 s/op
+     p(99,9999) =      0,012 s/op
+    p(100,0000) =      0,012 s/op
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:abc":
   N = 5
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 0 
+    [0,011, 0,012) = 0 
     [0,012, 0,012) = 1 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 2 
-    [0,013, 0,013) = 1 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 1 
+    [0,012, 0,013) = 1 
     [0,013, 0,013) = 0 
     [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,012 s/op
+      p(0,0000) =      0,011 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
+     p(90,0000) =      0,012 s/op
+     p(95,0000) =      0,012 s/op
+     p(99,0000) =      0,012 s/op
+     p(99,9000) =      0,012 s/op
+     p(99,9900) =      0,012 s/op
+     p(99,9990) =      0,012 s/op
+     p(99,9999) =      0,012 s/op
+    p(100,0000) =      0,012 s/op
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:def":
   N = 5
-  mean =      0,012 ±(99.9%) 0,005 s/op
+  mean =      0,012 ±(99.9%) 0,004 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
     [0,010, 0,011) = 1 
     [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 2 
-    [0,012, 0,013) = 0 
+    [0,012, 0,012) = 1 
+    [0,012, 0,013) = 1 
     [0,013, 0,013) = 1 
     [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 Secondary result "org.openjdk.jmh.it.threads.GroupThreadGroupOrderTest.T:ghi":
   N = 5
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,004 s/op
 
   Histogram, s/op:
+    [0,010, 0,010) = 1 
+    [0,010, 0,011) = 0 
     [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,012) = 1 
     [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 2 
-    [0,012, 0,013) = 1 
+    [0,012, 0,012) = 1 
+    [0,012, 0,013) = 0 
+    [0,013, 0,013) = 1 
     [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 1 
 
   Percentiles, s/op:
-      p(0,0000) =      0,012 s/op
+      p(0,0000) =      0,010 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 
 # Run complete. Total time: 00:00:03
@@ -650,34 +626,34 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                  Mode  Cnt    Score    Error  Units
-GroupThreadGroupOrderTest.T               thrpt    5  505,195 ± 20,409  ops/s
-GroupThreadGroupOrderTest.T:abc           thrpt    5  253,743 ± 17,161  ops/s
-GroupThreadGroupOrderTest.T:def           thrpt    5   84,072 ±  9,799  ops/s
-GroupThreadGroupOrderTest.T:ghi           thrpt    5  167,381 ± 11,159  ops/s
+GroupThreadGroupOrderTest.T               thrpt    5  503,411 ± 15,322  ops/s
+GroupThreadGroupOrderTest.T:abc           thrpt    5  252,315 ± 14,530  ops/s
+GroupThreadGroupOrderTest.T:def           thrpt    5   83,052 ±  9,965  ops/s
+GroupThreadGroupOrderTest.T:ghi           thrpt    5  168,043 ±  3,447  ops/s
 GroupThreadGroupOrderTest.T                avgt    5    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:abc            avgt    5    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:def            avgt    5    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:ghi            avgt    5    0,012 ±  0,001   s/op
-GroupThreadGroupOrderTest.T              sample  247    0,012 ±  0,001   s/op
+GroupThreadGroupOrderTest.T              sample  246    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:abc          sample  122    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:abc:p0.00    sample         0,010            s/op
-GroupThreadGroupOrderTest.T:abc:p0.50    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:abc:p0.50    sample         0,012            s/op
 GroupThreadGroupOrderTest.T:abc:p0.90    sample         0,013            s/op
 GroupThreadGroupOrderTest.T:abc:p0.95    sample         0,013            s/op
-GroupThreadGroupOrderTest.T:abc:p0.99    sample         0,014            s/op
-GroupThreadGroupOrderTest.T:abc:p0.999   sample         0,014            s/op
-GroupThreadGroupOrderTest.T:abc:p0.9999  sample         0,014            s/op
-GroupThreadGroupOrderTest.T:abc:p1.00    sample         0,014            s/op
-GroupThreadGroupOrderTest.T:def          sample   43    0,012 ±  0,001   s/op
+GroupThreadGroupOrderTest.T:abc:p0.99    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:abc:p0.999   sample         0,013            s/op
+GroupThreadGroupOrderTest.T:abc:p0.9999  sample         0,013            s/op
+GroupThreadGroupOrderTest.T:abc:p1.00    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:def          sample   41    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:def:p0.00    sample         0,010            s/op
 GroupThreadGroupOrderTest.T:def:p0.50    sample         0,013            s/op
 GroupThreadGroupOrderTest.T:def:p0.90    sample         0,013            s/op
-GroupThreadGroupOrderTest.T:def:p0.95    sample         0,014            s/op
-GroupThreadGroupOrderTest.T:def:p0.99    sample         0,015            s/op
-GroupThreadGroupOrderTest.T:def:p0.999   sample         0,015            s/op
-GroupThreadGroupOrderTest.T:def:p0.9999  sample         0,015            s/op
-GroupThreadGroupOrderTest.T:def:p1.00    sample         0,015            s/op
-GroupThreadGroupOrderTest.T:ghi          sample   82    0,012 ±  0,001   s/op
+GroupThreadGroupOrderTest.T:def:p0.95    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:def:p0.99    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:def:p0.999   sample         0,013            s/op
+GroupThreadGroupOrderTest.T:def:p0.9999  sample         0,013            s/op
+GroupThreadGroupOrderTest.T:def:p1.00    sample         0,013            s/op
+GroupThreadGroupOrderTest.T:ghi          sample   83    0,012 ±  0,001   s/op
 GroupThreadGroupOrderTest.T:ghi:p0.00    sample         0,010            s/op
 GroupThreadGroupOrderTest.T:ghi:p0.50    sample         0,012            s/op
 GroupThreadGroupOrderTest.T:ghi:p0.90    sample         0,013            s/op
@@ -687,14 +663,14 @@ GroupThreadGroupOrderTest.T:ghi:p0.999   sample         0,014            s/op
 GroupThreadGroupOrderTest.T:ghi:p0.9999  sample         0,014            s/op
 GroupThreadGroupOrderTest.T:ghi:p1.00    sample         0,014            s/op
 GroupThreadGroupOrderTest.T:p0.00        sample         0,010            s/op
-GroupThreadGroupOrderTest.T:p0.50        sample         0,013            s/op
+GroupThreadGroupOrderTest.T:p0.50        sample         0,012            s/op
 GroupThreadGroupOrderTest.T:p0.90        sample         0,013            s/op
 GroupThreadGroupOrderTest.T:p0.95        sample         0,013            s/op
-GroupThreadGroupOrderTest.T:p0.99        sample         0,014            s/op
-GroupThreadGroupOrderTest.T:p0.999       sample         0,015            s/op
-GroupThreadGroupOrderTest.T:p0.9999      sample         0,015            s/op
-GroupThreadGroupOrderTest.T:p1.00        sample         0,015            s/op
-GroupThreadGroupOrderTest.T                  ss    5    0,013 ±  0,003   s/op
-GroupThreadGroupOrderTest.T:abc              ss    5    0,013 ±  0,003   s/op
-GroupThreadGroupOrderTest.T:def              ss    5    0,012 ±  0,005   s/op
-GroupThreadGroupOrderTest.T:ghi              ss    5    0,013 ±  0,003   s/op
+GroupThreadGroupOrderTest.T:p0.99        sample         0,013            s/op
+GroupThreadGroupOrderTest.T:p0.999       sample         0,014            s/op
+GroupThreadGroupOrderTest.T:p0.9999      sample         0,014            s/op
+GroupThreadGroupOrderTest.T:p1.00        sample         0,014            s/op
+GroupThreadGroupOrderTest.T                  ss    5    0,012 ±  0,003   s/op
+GroupThreadGroupOrderTest.T:abc              ss    5    0,012 ±  0,002   s/op
+GroupThreadGroupOrderTest.T:def              ss    5    0,012 ±  0,004   s/op
+GroupThreadGroupOrderTest.T:ghi              ss    5    0,012 ±  0,004   s/op

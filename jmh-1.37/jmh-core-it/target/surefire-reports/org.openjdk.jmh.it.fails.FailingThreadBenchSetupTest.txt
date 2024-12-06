@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.fails.FailingThreadBenchSetupTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.346 sec - in org.openjdk.jmh.it.fails.FailingThreadBenchSetupTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 sec - in org.openjdk.jmh.it.fails.FailingThreadBenchSetupTest

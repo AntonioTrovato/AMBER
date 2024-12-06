@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.security.GroupSecurityManagerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.894 sec - in org.openjdk.jmh.it.security.GroupSecurityManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.022 sec - in org.openjdk.jmh.it.security.GroupSecurityManagerTest

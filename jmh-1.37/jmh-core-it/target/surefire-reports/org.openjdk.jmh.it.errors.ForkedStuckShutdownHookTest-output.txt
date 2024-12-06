@@ -13,9 +13,9 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,188 ops/s
-Iteration   1: 84,587 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,431 ops/s
+Iteration   1: 79,786 ops/s
 <JMH had finished, but forked VM did not exit, are there stray running threads? Waiting 24 seconds more...>
 
 Non-finished threads:
@@ -104,7 +104,7 @@ Thread[DestroyJavaVM,5,main]
 
 
 Result "org.openjdk.jmh.it.errors.ForkedStuckShutdownHookTest.bench":
-  84,587 ops/s
+  79,786 ops/s
 
 
 # Run complete. Total time: 00:00:30
@@ -116,4 +116,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt   Score   Error  Units
-ForkedStuckShutdownHookTest.bench  thrpt       84,587          ops/s
+ForkedStuckShutdownHookTest.bench  thrpt       79,786          ops/s

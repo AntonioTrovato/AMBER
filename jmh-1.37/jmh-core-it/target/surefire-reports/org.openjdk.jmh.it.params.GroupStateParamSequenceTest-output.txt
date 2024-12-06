@@ -14,22 +14,22 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 143,635 ops/s
-Iteration   1: 159,594 ops/s
-                 test1: 79,836 ops/s
-                 test2: 79,758 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 146,916 ops/s
+Iteration   1: 180,992 ops/s
+                 test1: 83,103 ops/s
+                 test2: 97,889 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  159,594 ops/s
+  180,992 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,836 ops/s
+  83,103 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,758 ops/s
+  97,889 ops/s
 
 
 # JMH version: 1.37
@@ -45,24 +45,24 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 # Benchmark: org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s
 # Parameters: (x = 1, y = b)
 
-# Run progress: 11,11% complete, ETA 00:00:02
+# Run progress: 11,11% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 154,764 ops/s
-Iteration   1: 174,628 ops/s
-                 test1: 79,729 ops/s
-                 test2: 94,899 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 142,850 ops/s
+Iteration   1: 159,864 ops/s
+                 test1: 79,874 ops/s
+                 test2: 79,990 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  174,628 ops/s
+  159,864 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,729 ops/s
+  79,874 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  94,899 ops/s
+  79,990 ops/s
 
 
 # JMH version: 1.37
@@ -80,22 +80,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 22,22% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 136,316 ops/s
-Iteration   1: 163,561 ops/s
-                 test1: 83,692 ops/s
-                 test2: 79,869 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 156,458 ops/s
+Iteration   1: 159,526 ops/s
+                 test1: 79,862 ops/s
+                 test2: 79,664 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  163,561 ops/s
+  159,526 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  83,692 ops/s
+  79,862 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,869 ops/s
+  79,664 ops/s
 
 
 # JMH version: 1.37
@@ -113,22 +113,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 33,33% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 171,200 ops/s
-Iteration   1: 178,249 ops/s
-                 test1: 79,844 ops/s
-                 test2: 98,405 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 130,430 ops/s
+Iteration   1: 160,319 ops/s
+                 test1: 79,798 ops/s
+                 test2: 80,521 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  178,249 ops/s
+  160,319 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,844 ops/s
+  79,798 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  98,405 ops/s
+  80,521 ops/s
 
 
 # JMH version: 1.37
@@ -146,22 +146,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 44,44% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 161,610 ops/s
-Iteration   1: 149,382 ops/s
-                 test1: 76,844 ops/s
-                 test2: 72,538 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 153,101 ops/s
+Iteration   1: 171,002 ops/s
+                 test1: 80,382 ops/s
+                 test2: 90,620 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  149,382 ops/s
+  171,002 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  76,844 ops/s
+  80,382 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  72,538 ops/s
+  90,620 ops/s
 
 
 # JMH version: 1.37
@@ -179,22 +179,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 55,56% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 149,558 ops/s
-Iteration   1: 159,565 ops/s
-                 test1: 79,879 ops/s
-                 test2: 79,686 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 111,565 ops/s
+Iteration   1: 178,877 ops/s
+                 test1: 99,058 ops/s
+                 test2: 79,819 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  159,565 ops/s
+  178,877 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,879 ops/s
+  99,058 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,686 ops/s
+  79,819 ops/s
 
 
 # JMH version: 1.37
@@ -212,22 +212,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 66,67% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 156,567 ops/s
-Iteration   1: 167,214 ops/s
-                 test1: 80,415 ops/s
-                 test2: 86,800 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 118,964 ops/s
+Iteration   1: 176,999 ops/s
+                 test1: 91,586 ops/s
+                 test2: 85,413 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  167,214 ops/s
+  176,999 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  80,415 ops/s
+  91,586 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  86,800 ops/s
+  85,413 ops/s
 
 
 # JMH version: 1.37
@@ -245,22 +245,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 77,78% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 143,806 ops/s
-Iteration   1: 168,239 ops/s
-                 test1: 88,385 ops/s
-                 test2: 79,854 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 164,042 ops/s
+Iteration   1: 165,735 ops/s
+                 test1: 83,679 ops/s
+                 test2: 82,056 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  168,239 ops/s
+  165,735 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  88,385 ops/s
+  83,679 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,854 ops/s
+  82,056 ops/s
 
 
 # JMH version: 1.37
@@ -278,22 +278,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 88,89% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 149,267 ops/s
-Iteration   1: 174,398 ops/s
-                 test1: 79,783 ops/s
-                 test2: 94,615 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 157,083 ops/s
+Iteration   1: 165,579 ops/s
+                 test1: 84,389 ops/s
+                 test2: 81,190 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  174,398 ops/s
+  165,579 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,783 ops/s
+  84,389 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  94,615 ops/s
+  81,190 ops/s
 
 
 # Run complete. Total time: 00:00:03
@@ -305,33 +305,33 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            (x)  (y)   Mode  Cnt    Score   Error  Units
-GroupStateParamSequenceTest.s          1    a  thrpt       159,594          ops/s
-GroupStateParamSequenceTest.s:test1    1    a  thrpt        79,836          ops/s
-GroupStateParamSequenceTest.s:test2    1    a  thrpt        79,758          ops/s
-GroupStateParamSequenceTest.s          1    b  thrpt       174,628          ops/s
-GroupStateParamSequenceTest.s:test1    1    b  thrpt        79,729          ops/s
-GroupStateParamSequenceTest.s:test2    1    b  thrpt        94,899          ops/s
-GroupStateParamSequenceTest.s          1    c  thrpt       163,561          ops/s
-GroupStateParamSequenceTest.s:test1    1    c  thrpt        83,692          ops/s
-GroupStateParamSequenceTest.s:test2    1    c  thrpt        79,869          ops/s
-GroupStateParamSequenceTest.s          2    a  thrpt       178,249          ops/s
-GroupStateParamSequenceTest.s:test1    2    a  thrpt        79,844          ops/s
-GroupStateParamSequenceTest.s:test2    2    a  thrpt        98,405          ops/s
-GroupStateParamSequenceTest.s          2    b  thrpt       149,382          ops/s
-GroupStateParamSequenceTest.s:test1    2    b  thrpt        76,844          ops/s
-GroupStateParamSequenceTest.s:test2    2    b  thrpt        72,538          ops/s
-GroupStateParamSequenceTest.s          2    c  thrpt       159,565          ops/s
-GroupStateParamSequenceTest.s:test1    2    c  thrpt        79,879          ops/s
-GroupStateParamSequenceTest.s:test2    2    c  thrpt        79,686          ops/s
-GroupStateParamSequenceTest.s          3    a  thrpt       167,214          ops/s
-GroupStateParamSequenceTest.s:test1    3    a  thrpt        80,415          ops/s
-GroupStateParamSequenceTest.s:test2    3    a  thrpt        86,800          ops/s
-GroupStateParamSequenceTest.s          3    b  thrpt       168,239          ops/s
-GroupStateParamSequenceTest.s:test1    3    b  thrpt        88,385          ops/s
-GroupStateParamSequenceTest.s:test2    3    b  thrpt        79,854          ops/s
-GroupStateParamSequenceTest.s          3    c  thrpt       174,398          ops/s
-GroupStateParamSequenceTest.s:test1    3    c  thrpt        79,783          ops/s
-GroupStateParamSequenceTest.s:test2    3    c  thrpt        94,615          ops/s
+GroupStateParamSequenceTest.s          1    a  thrpt       180,992          ops/s
+GroupStateParamSequenceTest.s:test1    1    a  thrpt        83,103          ops/s
+GroupStateParamSequenceTest.s:test2    1    a  thrpt        97,889          ops/s
+GroupStateParamSequenceTest.s          1    b  thrpt       159,864          ops/s
+GroupStateParamSequenceTest.s:test1    1    b  thrpt        79,874          ops/s
+GroupStateParamSequenceTest.s:test2    1    b  thrpt        79,990          ops/s
+GroupStateParamSequenceTest.s          1    c  thrpt       159,526          ops/s
+GroupStateParamSequenceTest.s:test1    1    c  thrpt        79,862          ops/s
+GroupStateParamSequenceTest.s:test2    1    c  thrpt        79,664          ops/s
+GroupStateParamSequenceTest.s          2    a  thrpt       160,319          ops/s
+GroupStateParamSequenceTest.s:test1    2    a  thrpt        79,798          ops/s
+GroupStateParamSequenceTest.s:test2    2    a  thrpt        80,521          ops/s
+GroupStateParamSequenceTest.s          2    b  thrpt       171,002          ops/s
+GroupStateParamSequenceTest.s:test1    2    b  thrpt        80,382          ops/s
+GroupStateParamSequenceTest.s:test2    2    b  thrpt        90,620          ops/s
+GroupStateParamSequenceTest.s          2    c  thrpt       178,877          ops/s
+GroupStateParamSequenceTest.s:test1    2    c  thrpt        99,058          ops/s
+GroupStateParamSequenceTest.s:test2    2    c  thrpt        79,819          ops/s
+GroupStateParamSequenceTest.s          3    a  thrpt       176,999          ops/s
+GroupStateParamSequenceTest.s:test1    3    a  thrpt        91,586          ops/s
+GroupStateParamSequenceTest.s:test2    3    a  thrpt        85,413          ops/s
+GroupStateParamSequenceTest.s          3    b  thrpt       165,735          ops/s
+GroupStateParamSequenceTest.s:test1    3    b  thrpt        83,679          ops/s
+GroupStateParamSequenceTest.s:test2    3    b  thrpt        82,056          ops/s
+GroupStateParamSequenceTest.s          3    c  thrpt       165,579          ops/s
+GroupStateParamSequenceTest.s:test1    3    c  thrpt        84,389          ops/s
+GroupStateParamSequenceTest.s:test2    3    c  thrpt        81,190          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -348,22 +348,22 @@ GroupStateParamSequenceTest.s:test2    3    c  thrpt        94,615          ops/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 140,418 ops/s
-Iteration   1: 177,114 ops/s
-                 test1: 97,223 ops/s
-                 test2: 79,891 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 148,105 ops/s
+Iteration   1: 174,171 ops/s
+                 test1: 92,300 ops/s
+                 test2: 81,871 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  177,114 ops/s
+  174,171 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  97,223 ops/s
+  92,300 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,891 ops/s
+  81,871 ops/s
 
 
 # JMH version: 1.37
@@ -381,22 +381,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 16,67% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 151,953 ops/s
-Iteration   1: 191,295 ops/s
-                 test1: 92,418 ops/s
-                 test2: 98,877 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 142,317 ops/s
+Iteration   1: 164,292 ops/s
+                 test1: 79,884 ops/s
+                 test2: 84,408 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  191,295 ops/s
+  164,292 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  92,418 ops/s
+  79,884 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  98,877 ops/s
+  84,408 ops/s
 
 
 # JMH version: 1.37
@@ -414,22 +414,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 144,608 ops/s
-Iteration   1: 172,871 ops/s
-                 test1: 86,006 ops/s
-                 test2: 86,866 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 139,494 ops/s
+Iteration   1: 175,983 ops/s
+                 test1: 91,726 ops/s
+                 test2: 84,257 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  172,871 ops/s
+  175,983 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  86,006 ops/s
+  91,726 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  86,866 ops/s
+  84,257 ops/s
 
 
 # JMH version: 1.37
@@ -447,22 +447,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 156,000 ops/s
-Iteration   1: 163,446 ops/s
-                 test1: 83,531 ops/s
-                 test2: 79,916 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 125,018 ops/s
+Iteration   1: 174,164 ops/s
+                 test1: 94,399 ops/s
+                 test2: 79,765 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  163,446 ops/s
+  174,164 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  83,531 ops/s
+  94,399 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,916 ops/s
+  79,765 ops/s
 
 
 # JMH version: 1.37
@@ -480,22 +480,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 138,222 ops/s
-Iteration   1: 172,135 ops/s
-                 test1: 80,516 ops/s
-                 test2: 91,618 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 158,711 ops/s
+Iteration   1: 159,691 ops/s
+                 test1: 79,911 ops/s
+                 test2: 79,780 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  172,135 ops/s
+  159,691 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  80,516 ops/s
+  79,911 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  91,618 ops/s
+  79,780 ops/s
 
 
 # JMH version: 1.37
@@ -513,25 +513,25 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 157,271 ops/s
-Iteration   1: 159,587 ops/s
-                 test1: 79,811 ops/s
-                 test2: 79,776 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 136,439 ops/s
+Iteration   1: 162,638 ops/s
+                 test1: 82,811 ops/s
+                 test2: 79,828 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  159,587 ops/s
+  162,638 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,811 ops/s
+  82,811 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,776 ops/s
+  79,828 ops/s
 
 
-# Run complete. Total time: 00:00:02
+# Run complete. Total time: 00:00:01
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -540,24 +540,24 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            (x)  (y)   Mode  Cnt    Score   Error  Units
-GroupStateParamSequenceTest.s          2    a  thrpt       177,114          ops/s
-GroupStateParamSequenceTest.s:test1    2    a  thrpt        97,223          ops/s
-GroupStateParamSequenceTest.s:test2    2    a  thrpt        79,891          ops/s
-GroupStateParamSequenceTest.s          2    b  thrpt       191,295          ops/s
-GroupStateParamSequenceTest.s:test1    2    b  thrpt        92,418          ops/s
-GroupStateParamSequenceTest.s:test2    2    b  thrpt        98,877          ops/s
-GroupStateParamSequenceTest.s          2    c  thrpt       172,871          ops/s
-GroupStateParamSequenceTest.s:test1    2    c  thrpt        86,006          ops/s
-GroupStateParamSequenceTest.s:test2    2    c  thrpt        86,866          ops/s
-GroupStateParamSequenceTest.s          3    a  thrpt       163,446          ops/s
-GroupStateParamSequenceTest.s:test1    3    a  thrpt        83,531          ops/s
-GroupStateParamSequenceTest.s:test2    3    a  thrpt        79,916          ops/s
-GroupStateParamSequenceTest.s          3    b  thrpt       172,135          ops/s
-GroupStateParamSequenceTest.s:test1    3    b  thrpt        80,516          ops/s
-GroupStateParamSequenceTest.s:test2    3    b  thrpt        91,618          ops/s
-GroupStateParamSequenceTest.s          3    c  thrpt       159,587          ops/s
-GroupStateParamSequenceTest.s:test1    3    c  thrpt        79,811          ops/s
-GroupStateParamSequenceTest.s:test2    3    c  thrpt        79,776          ops/s
+GroupStateParamSequenceTest.s          2    a  thrpt       174,171          ops/s
+GroupStateParamSequenceTest.s:test1    2    a  thrpt        92,300          ops/s
+GroupStateParamSequenceTest.s:test2    2    a  thrpt        81,871          ops/s
+GroupStateParamSequenceTest.s          2    b  thrpt       164,292          ops/s
+GroupStateParamSequenceTest.s:test1    2    b  thrpt        79,884          ops/s
+GroupStateParamSequenceTest.s:test2    2    b  thrpt        84,408          ops/s
+GroupStateParamSequenceTest.s          2    c  thrpt       175,983          ops/s
+GroupStateParamSequenceTest.s:test1    2    c  thrpt        91,726          ops/s
+GroupStateParamSequenceTest.s:test2    2    c  thrpt        84,257          ops/s
+GroupStateParamSequenceTest.s          3    a  thrpt       174,164          ops/s
+GroupStateParamSequenceTest.s:test1    3    a  thrpt        94,399          ops/s
+GroupStateParamSequenceTest.s:test2    3    a  thrpt        79,765          ops/s
+GroupStateParamSequenceTest.s          3    b  thrpt       159,691          ops/s
+GroupStateParamSequenceTest.s:test1    3    b  thrpt        79,911          ops/s
+GroupStateParamSequenceTest.s:test2    3    b  thrpt        79,780          ops/s
+GroupStateParamSequenceTest.s          3    c  thrpt       162,638          ops/s
+GroupStateParamSequenceTest.s:test1    3    c  thrpt        82,811          ops/s
+GroupStateParamSequenceTest.s:test2    3    c  thrpt        79,828          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -574,22 +574,22 @@ GroupStateParamSequenceTest.s:test2    3    c  thrpt        79,776          ops/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 147,855 ops/s
-Iteration   1: 159,444 ops/s
-                 test1: 79,968 ops/s
-                 test2: 79,476 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 161,629 ops/s
+Iteration   1: 177,847 ops/s
+                 test1: 97,979 ops/s
+                 test2: 79,868 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  159,444 ops/s
+  177,847 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,968 ops/s
+  97,979 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,476 ops/s
+  79,868 ops/s
 
 
 # JMH version: 1.37
@@ -607,22 +607,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 16,67% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 176,583 ops/s
-Iteration   1: 168,882 ops/s
-                 test1: 89,133 ops/s
-                 test2: 79,749 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 157,749 ops/s
+Iteration   1: 172,064 ops/s
+                 test1: 91,187 ops/s
+                 test2: 80,877 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  168,882 ops/s
+  172,064 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  89,133 ops/s
+  91,187 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,749 ops/s
+  80,877 ops/s
 
 
 # JMH version: 1.37
@@ -640,22 +640,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 176,644 ops/s
-Iteration   1: 161,860 ops/s
-                 test1: 81,960 ops/s
-                 test2: 79,899 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 143,205 ops/s
+Iteration   1: 171,092 ops/s
+                 test1: 85,657 ops/s
+                 test2: 85,434 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  161,860 ops/s
+  171,092 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  81,960 ops/s
+  85,657 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,899 ops/s
+  85,434 ops/s
 
 
 # JMH version: 1.37
@@ -671,24 +671,24 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 # Benchmark: org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s
 # Parameters: (x = 2, y = c)
 
-# Run progress: 50,00% complete, ETA 00:00:01
+# Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 111,995 ops/s
-Iteration   1: 160,568 ops/s
-                 test1: 80,959 ops/s
-                 test2: 79,609 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 128,763 ops/s
+Iteration   1: 159,778 ops/s
+                 test1: 79,880 ops/s
+                 test2: 79,899 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  160,568 ops/s
+  159,778 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  80,959 ops/s
+  79,880 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  79,609 ops/s
+  79,899 ops/s
 
 
 # JMH version: 1.37
@@ -706,22 +706,22 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 143,151 ops/s
-Iteration   1: 162,441 ops/s
-                 test1: 79,989 ops/s
-                 test2: 82,452 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 158,563 ops/s
+Iteration   1: 159,604 ops/s
+                 test1: 79,839 ops/s
+                 test2: 79,764 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  162,441 ops/s
+  159,604 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  79,989 ops/s
+  79,839 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  82,452 ops/s
+  79,764 ops/s
 
 
 # JMH version: 1.37
@@ -739,25 +739,25 @@ Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2"
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 138,107 ops/s
-Iteration   1: 172,518 ops/s
-                 test1: 86,387 ops/s
-                 test2: 86,131 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 146,383 ops/s
+Iteration   1: 161,756 ops/s
+                 test1: 81,719 ops/s
+                 test2: 80,038 ops/s
 
 
 
 Result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s":
-  172,518 ops/s
+  161,756 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test1":
-  86,387 ops/s
+  81,719 ops/s
 
 Secondary result "org.openjdk.jmh.it.params.GroupStateParamSequenceTest.s:test2":
-  86,131 ops/s
+  80,038 ops/s
 
 
-# Run complete. Total time: 00:00:02
+# Run complete. Total time: 00:00:01
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -766,21 +766,21 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            (x)  (y)   Mode  Cnt    Score   Error  Units
-GroupStateParamSequenceTest.s          1    b  thrpt       159,444          ops/s
-GroupStateParamSequenceTest.s:test1    1    b  thrpt        79,968          ops/s
-GroupStateParamSequenceTest.s:test2    1    b  thrpt        79,476          ops/s
-GroupStateParamSequenceTest.s          1    c  thrpt       168,882          ops/s
-GroupStateParamSequenceTest.s:test1    1    c  thrpt        89,133          ops/s
-GroupStateParamSequenceTest.s:test2    1    c  thrpt        79,749          ops/s
-GroupStateParamSequenceTest.s          2    b  thrpt       161,860          ops/s
-GroupStateParamSequenceTest.s:test1    2    b  thrpt        81,960          ops/s
-GroupStateParamSequenceTest.s:test2    2    b  thrpt        79,899          ops/s
-GroupStateParamSequenceTest.s          2    c  thrpt       160,568          ops/s
-GroupStateParamSequenceTest.s:test1    2    c  thrpt        80,959          ops/s
-GroupStateParamSequenceTest.s:test2    2    c  thrpt        79,609          ops/s
-GroupStateParamSequenceTest.s          3    b  thrpt       162,441          ops/s
-GroupStateParamSequenceTest.s:test1    3    b  thrpt        79,989          ops/s
-GroupStateParamSequenceTest.s:test2    3    b  thrpt        82,452          ops/s
-GroupStateParamSequenceTest.s          3    c  thrpt       172,518          ops/s
-GroupStateParamSequenceTest.s:test1    3    c  thrpt        86,387          ops/s
-GroupStateParamSequenceTest.s:test2    3    c  thrpt        86,131          ops/s
+GroupStateParamSequenceTest.s          1    b  thrpt       177,847          ops/s
+GroupStateParamSequenceTest.s:test1    1    b  thrpt        97,979          ops/s
+GroupStateParamSequenceTest.s:test2    1    b  thrpt        79,868          ops/s
+GroupStateParamSequenceTest.s          1    c  thrpt       172,064          ops/s
+GroupStateParamSequenceTest.s:test1    1    c  thrpt        91,187          ops/s
+GroupStateParamSequenceTest.s:test2    1    c  thrpt        80,877          ops/s
+GroupStateParamSequenceTest.s          2    b  thrpt       171,092          ops/s
+GroupStateParamSequenceTest.s:test1    2    b  thrpt        85,657          ops/s
+GroupStateParamSequenceTest.s:test2    2    b  thrpt        85,434          ops/s
+GroupStateParamSequenceTest.s          2    c  thrpt       159,778          ops/s
+GroupStateParamSequenceTest.s:test1    2    c  thrpt        79,880          ops/s
+GroupStateParamSequenceTest.s:test2    2    c  thrpt        79,899          ops/s
+GroupStateParamSequenceTest.s          3    b  thrpt       159,604          ops/s
+GroupStateParamSequenceTest.s:test1    3    b  thrpt        79,839          ops/s
+GroupStateParamSequenceTest.s:test2    3    b  thrpt        79,764          ops/s
+GroupStateParamSequenceTest.s          3    c  thrpt       161,756          ops/s
+GroupStateParamSequenceTest.s:test1    3    c  thrpt        81,719          ops/s
+GroupStateParamSequenceTest.s:test2    3    c  thrpt        80,038          ops/s

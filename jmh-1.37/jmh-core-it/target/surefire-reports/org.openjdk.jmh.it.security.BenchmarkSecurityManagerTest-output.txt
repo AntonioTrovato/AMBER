@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 93,499 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 73,073 ops/s
 
 
 Result "org.openjdk.jmh.it.security.BenchmarkSecurityManagerTest.test":
-  93,499 ops/s
+  73,073 ops/s
 
 
 # JMH version: 1.37
@@ -35,12 +35,12 @@ Result "org.openjdk.jmh.it.security.BenchmarkSecurityManagerTest.test":
 
 # Run progress: 25,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,011 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 s/op
 
 
 Result "org.openjdk.jmh.it.security.BenchmarkSecurityManagerTest.test":
-  0,011 s/op
+  0,013 s/op
 
 
 # JMH version: 1.37
@@ -57,7 +57,7 @@ Result "org.openjdk.jmh.it.security.BenchmarkSecurityManagerTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
                  p0.00:   0,013 s/op
                  p0.50:   0,013 s/op
@@ -85,7 +85,7 @@ Iteration   1: 0,013 s/op
 
 # Run progress: 75,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -99,8 +99,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                    Mode  Cnt   Score   Error  Units
-BenchmarkSecurityManagerTest.test           thrpt       93,499          ops/s
-BenchmarkSecurityManagerTest.test            avgt        0,011           s/op
+BenchmarkSecurityManagerTest.test           thrpt       73,073          ops/s
+BenchmarkSecurityManagerTest.test            avgt        0,013           s/op
 BenchmarkSecurityManagerTest.test          sample        0,013           s/op
 BenchmarkSecurityManagerTest.test:p0.00    sample        0,013           s/op
 BenchmarkSecurityManagerTest.test:p0.50    sample        0,013           s/op

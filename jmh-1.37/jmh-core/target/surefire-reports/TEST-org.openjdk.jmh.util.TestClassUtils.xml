@@ -61,8 +61,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase name="testSemiDifferentPackages" classname="org.openjdk.jmh.util.TestClassUtils" time="0"/>
-  <testcase name="testDifferentPackages" classname="org.openjdk.jmh.util.TestClassUtils" time="0.001"/>
-  <testcase name="testDenseClasses1" classname="org.openjdk.jmh.util.TestClassUtils" time="0"/>
+  <testcase name="testDifferentPackages" classname="org.openjdk.jmh.util.TestClassUtils" time="0"/>
+  <testcase name="testDenseClasses1" classname="org.openjdk.jmh.util.TestClassUtils" time="0.001"/>
   <testcase name="testDenseClasses2" classname="org.openjdk.jmh.util.TestClassUtils" time="0"/>
   <testcase name="testDenseClasses3" classname="org.openjdk.jmh.util.TestClassUtils" time="0"/>
 </testsuite>

@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 77,047 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,170 ops/s
 
 
 Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
-  77,047 ops/s
+  77,170 ops/s
 
 
 # JMH version: 1.37
@@ -35,12 +35,12 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 
 # Run progress: 25,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,011 s/op
 
 
 Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
-  0,013 s/op
+  0,011 s/op
 
 
 # JMH version: 1.37
@@ -57,7 +57,7 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
                  p0.00:   0,013 s/op
                  p0.50:   0,013 s/op
@@ -85,8 +85,8 @@ Iteration   1: 0,013 s/op
 
 # Run progress: 75,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,015 s/op
 
 
 
@@ -99,8 +99,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          Mode  Cnt   Score   Error  Units
-ResultFileNameTest.test           thrpt       77,047          ops/s
-ResultFileNameTest.test            avgt        0,013           s/op
+ResultFileNameTest.test           thrpt       77,170          ops/s
+ResultFileNameTest.test            avgt        0,011           s/op
 ResultFileNameTest.test          sample        0,013           s/op
 ResultFileNameTest.test:p0.00    sample        0,013           s/op
 ResultFileNameTest.test:p0.50    sample        0,013           s/op
@@ -110,7 +110,7 @@ ResultFileNameTest.test:p0.99    sample        0,013           s/op
 ResultFileNameTest.test:p0.999   sample        0,013           s/op
 ResultFileNameTest.test:p0.9999  sample        0,013           s/op
 ResultFileNameTest.test:p1.00    sample        0,013           s/op
-ResultFileNameTest.test              ss        0,013           s/op
+ResultFileNameTest.test              ss        0,015           s/op
 
 Benchmark result is saved to /var/folders/kn/kd67nwcs41113fgwjn39d7fm0000gn/T//jmhresultfilenametest.result
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
@@ -128,12 +128,12 @@ Benchmark result is saved to /var/folders/kn/kd67nwcs41113fgwjn39d7fm0000gn/T//j
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 65,898 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,438 ops/s
 
 
 Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
-  65,898 ops/s
+  80,438 ops/s
 
 
 # JMH version: 1.37
@@ -148,9 +148,9 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.openjdk.jmh.it.result.ResultFileNameTest.test
 
-# Run progress: 25,00% complete, ETA 00:00:00
+# Run progress: 25,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 s/op
 
 
@@ -172,16 +172,16 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
 
 
 
@@ -200,8 +200,8 @@ Iteration   1: 0,013 s/op
 
 # Run progress: 75,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,015 s/op
 
 
 
@@ -214,18 +214,18 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          Mode  Cnt   Score   Error  Units
-ResultFileNameTest.test           thrpt       65,898          ops/s
+ResultFileNameTest.test           thrpt       80,438          ops/s
 ResultFileNameTest.test            avgt        0,012           s/op
-ResultFileNameTest.test          sample        0,013           s/op
-ResultFileNameTest.test:p0.00    sample        0,013           s/op
-ResultFileNameTest.test:p0.50    sample        0,013           s/op
-ResultFileNameTest.test:p0.90    sample        0,013           s/op
-ResultFileNameTest.test:p0.95    sample        0,013           s/op
-ResultFileNameTest.test:p0.99    sample        0,013           s/op
-ResultFileNameTest.test:p0.999   sample        0,013           s/op
-ResultFileNameTest.test:p0.9999  sample        0,013           s/op
-ResultFileNameTest.test:p1.00    sample        0,013           s/op
-ResultFileNameTest.test              ss        0,012           s/op
+ResultFileNameTest.test          sample    2   0,012           s/op
+ResultFileNameTest.test:p0.00    sample        0,011           s/op
+ResultFileNameTest.test:p0.50    sample        0,012           s/op
+ResultFileNameTest.test:p0.90    sample        0,012           s/op
+ResultFileNameTest.test:p0.95    sample        0,012           s/op
+ResultFileNameTest.test:p0.99    sample        0,012           s/op
+ResultFileNameTest.test:p0.999   sample        0,012           s/op
+ResultFileNameTest.test:p0.9999  sample        0,012           s/op
+ResultFileNameTest.test:p1.00    sample        0,012           s/op
+ResultFileNameTest.test              ss        0,015           s/op
 
 Benchmark result is saved to /var/folders/kn/kd67nwcs41113fgwjn39d7fm0000gn/T//jmhResultFileNameTest.result
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
@@ -243,12 +243,12 @@ Benchmark result is saved to /var/folders/kn/kd67nwcs41113fgwjn39d7fm0000gn/T//j
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 78,005 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 75,445 ops/s
 
 
 Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
-  78,005 ops/s
+  75,445 ops/s
 
 
 # JMH version: 1.37
@@ -265,7 +265,7 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 
 # Run progress: 25,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -287,16 +287,16 @@ Result "org.openjdk.jmh.it.result.ResultFileNameTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
 
 
 
@@ -315,8 +315,8 @@ Iteration   1: 0,013 s/op
 
 # Run progress: 75,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 s/op
 
 
 
@@ -329,17 +329,17 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          Mode  Cnt   Score   Error  Units
-ResultFileNameTest.test           thrpt       78,005          ops/s
+ResultFileNameTest.test           thrpt       75,445          ops/s
 ResultFileNameTest.test            avgt        0,013           s/op
-ResultFileNameTest.test          sample        0,013           s/op
-ResultFileNameTest.test:p0.00    sample        0,013           s/op
-ResultFileNameTest.test:p0.50    sample        0,013           s/op
-ResultFileNameTest.test:p0.90    sample        0,013           s/op
-ResultFileNameTest.test:p0.95    sample        0,013           s/op
-ResultFileNameTest.test:p0.99    sample        0,013           s/op
-ResultFileNameTest.test:p0.999   sample        0,013           s/op
-ResultFileNameTest.test:p0.9999  sample        0,013           s/op
-ResultFileNameTest.test:p1.00    sample        0,013           s/op
-ResultFileNameTest.test              ss        0,012           s/op
+ResultFileNameTest.test          sample        0,012           s/op
+ResultFileNameTest.test:p0.00    sample        0,012           s/op
+ResultFileNameTest.test:p0.50    sample        0,012           s/op
+ResultFileNameTest.test:p0.90    sample        0,012           s/op
+ResultFileNameTest.test:p0.95    sample        0,012           s/op
+ResultFileNameTest.test:p0.99    sample        0,012           s/op
+ResultFileNameTest.test:p0.999   sample        0,012           s/op
+ResultFileNameTest.test:p0.9999  sample        0,012           s/op
+ResultFileNameTest.test:p1.00    sample        0,012           s/op
+ResultFileNameTest.test              ss        0,013           s/op
 
 Benchmark result is saved to /var/folders/kn/kd67nwcs41113fgwjn39d7fm0000gn/T//JMHRESULTFILENAMETEST.RESULT

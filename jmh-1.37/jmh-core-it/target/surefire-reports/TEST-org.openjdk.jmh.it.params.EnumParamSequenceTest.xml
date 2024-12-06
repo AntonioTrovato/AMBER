@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="4.286" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="4.24" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -66,7 +66,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="full" classname="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="2.774"/>
+  <testcase name="full" classname="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="2.729"/>
   <testcase name="constrainedA" classname="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="0.75"/>
-  <testcase name="constrainedB" classname="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="0.762"/>
+  <testcase name="constrainedB" classname="org.openjdk.jmh.it.params.EnumParamSequenceTest" time="0.761"/>
 </testsuite>

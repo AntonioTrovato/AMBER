@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.it.ccontrol.CompilerControlExcludeTest" time="0.014" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.it.ccontrol.CompilerControlExcludeTest" time="0.016" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -67,5 +67,5 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testStandalone" classname="org.openjdk.jmh.it.ccontrol.CompilerControlExcludeTest" time="0.013"/>
-  <testcase name="testBenchmark" classname="org.openjdk.jmh.it.ccontrol.CompilerControlExcludeTest" time="0.001"/>
+  <testcase name="testBenchmark" classname="org.openjdk.jmh.it.ccontrol.CompilerControlExcludeTest" time="0.003"/>
 </testsuite>

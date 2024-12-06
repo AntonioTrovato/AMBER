@@ -13,24 +13,24 @@
 
 # Run progress: 0,00% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 81,110 ops/s
-# Warmup Iteration   2: 81,144 ops/s
-# Warmup Iteration   3: 81,863 ops/s
-Iteration   1: 81,388 ops/s
-                 class.load:        82,655 classes/sec
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,691 ops/s
+# Warmup Iteration   2: 81,749 ops/s
+# Warmup Iteration   3: 81,301 ops/s
+Iteration   1: 80,879 ops/s
+                 class.load:        83,183 classes/sec
                  class.load.norm:   1,000 classes/op
                  class.unload:      ≈ 0 classes/sec
                  class.unload.norm: ≈ 0 classes/op
 
-Iteration   2: 80,480 ops/s
-                 class.load:        83,608 classes/sec
+Iteration   2: 80,847 ops/s
+                 class.load:        81,192 classes/sec
                  class.load.norm:   1,000 classes/op
                  class.unload:      ≈ 0 classes/sec
                  class.unload.norm: ≈ 0 classes/op
 
-Iteration   3: 81,438 ops/s
-                 class.load:        82,627 classes/sec
+Iteration   3: 81,775 ops/s
+                 class.load:        84,290 classes/sec
                  class.load.norm:   1,000 classes/op
                  class.unload:      ≈ 0 classes/sec
                  class.unload.norm: ≈ 0 classes/op
@@ -38,14 +38,14 @@ Iteration   3: 81,438 ops/s
 
 
 Result "org.openjdk.jmh.it.profilers.ClassloadProfilerTest.work":
-  81,102 ±(99.9%) 9,836 ops/s [Average]
-  (min, avg, max) = (80,480, 81,102, 81,438), stdev = 0,539
-  CI (99.9%): [71,266, 90,939] (assumes normal distribution)
+  81,167 ±(99.9%) 9,612 ops/s [Average]
+  (min, avg, max) = (80,847, 81,167, 81,775), stdev = 0,527
+  CI (99.9%): [71,555, 90,779] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.ClassloadProfilerTest.work:class.load":
-  82,963 ±(99.9%) 10,192 classes/sec [Average]
-  (min, avg, max) = (82,627, 82,963, 83,608), stdev = 0,559
-  CI (99.9%): [72,771, 93,156] (assumes normal distribution)
+  82,888 ±(99.9%) 28,644 classes/sec [Average]
+  (min, avg, max) = (81,192, 82,888, 84,290), stdev = 1,570
+  CI (99.9%): [54,245, 111,532] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.ClassloadProfilerTest.work:class.load.norm":
   1,000 ±(99.9%) 0,001 classes/op [Average]
@@ -68,8 +68,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                      Mode  Cnt   Score    Error        Units
-ClassloadProfilerTest.work                    thrpt    3  81,102 ±  9,836        ops/s
-ClassloadProfilerTest.work:class.load         thrpt    3  82,963 ± 10,192  classes/sec
+ClassloadProfilerTest.work                    thrpt    3  81,167 ±  9,612        ops/s
+ClassloadProfilerTest.work:class.load         thrpt    3  82,888 ± 28,644  classes/sec
 ClassloadProfilerTest.work:class.load.norm    thrpt    3   1,000 ±  0,001   classes/op
 ClassloadProfilerTest.work:class.unload       thrpt    3     ≈ 0           classes/sec
 ClassloadProfilerTest.work:class.unload.norm  thrpt    3     ≈ 0            classes/op

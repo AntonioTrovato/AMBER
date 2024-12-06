@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 75,700 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 77,561 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
-  75,700 ops/s
+  77,561 ops/s
 
 
 # JMH version: 1.37
@@ -33,14 +33,14 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2
 
-# Run progress: 6,64% complete, ETA 00:00:07
+# Run progress: 6,64% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 76,136 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,400 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
-  76,136 ops/s
+  80,400 ops/s
 
 
 # JMH version: 1.37
@@ -55,14 +55,14 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3
 
-# Run progress: 13,29% complete, ETA 00:00:06
+# Run progress: 13,29% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 72,866 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 75,299 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3":
-  72,866 ops/s
+  75,299 ops/s
 
 
 # JMH version: 1.37
@@ -77,14 +77,14 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4
 
-# Run progress: 19,93% complete, ETA 00:00:06
+# Run progress: 19,93% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 76,744 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 75,972 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4":
-  76,744 ops/s
+  75,972 ops/s
 
 
 # JMH version: 1.37
@@ -101,12 +101,12 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4":
 
 # Run progress: 26,58% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 79,586 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,218 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test5":
-  79,586 ops/s
+  80,218 ops/s
 
 
 # JMH version: 1.37
@@ -121,14 +121,14 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test5":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1
 
-# Run progress: 33,22% complete, ETA 00:00:05
+# Run progress: 33,22% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 s/op
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
-  0,012 s/op
+  0,013 s/op
 
 
 # JMH version: 1.37
@@ -145,7 +145,7 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
 
 # Run progress: 39,87% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -167,7 +167,7 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
 
 # Run progress: 46,51% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -189,7 +189,7 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3":
 
 # Run progress: 53,16% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -211,7 +211,7 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4":
 
 # Run progress: 59,80% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,013 s/op
 
 
@@ -233,73 +233,8 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test5":
 
 # Run progress: 66,45% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,014 s/op
-                 p0.95:   0,014 s/op
-                 p0.99:   0,014 s/op
-                 p0.999:  0,014 s/op
-                 p0.9999: 0,014 s/op
-                 p1.00:   0,014 s/op
-
-
-
-Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
-  N = 9
-  mean =      0,012 ±(99.9%) 0,002 s/op
-
-  Histogram, s/op:
-    [0,010, 0,010) = 1 
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 1 
-    [0,013, 0,013) = 6 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,015) = 1 
-    [0,015, 0,015) = 0 
-
-  Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
-     p(90,0000) =      0,014 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,014 s/op
-     p(99,9000) =      0,014 s/op
-     p(99,9900) =      0,014 s/op
-     p(99,9990) =      0,014 s/op
-     p(99,9999) =      0,014 s/op
-    p(100,0000) =      0,014 s/op
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Dprepended -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default -Dappended
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: <none>
-# Measurement: 1 iterations, 100 ms each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Sampling time
-# Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2
-
-# Run progress: 73,09% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,003 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,016 s/op
@@ -311,21 +246,19 @@ Iteration   1: 0,012 ±(99.9%) 0,003 s/op
 
 
 
-Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
-  N = 9
-  mean =      0,012 ±(99.9%) 0,003 s/op
+Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test1":
+  N = 8
+  mean =      0,013 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 0 
-    [0,011, 0,011) = 1 
-    [0,011, 0,012) = 2 
+    [0,011, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 5 
-    [0,013, 0,014) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 4 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 1 
     [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
-    [0,015, 0,015) = 0 
     [0,015, 0,016) = 0 
     [0,016, 0,016) = 0 
     [0,016, 0,017) = 1 
@@ -347,6 +280,68 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
 # VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Dprepended -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default -Dappended
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: <none>
+# Measurement: 1 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2
+
+# Run progress: 73,09% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,017 s/op
+                 p0.95:   0,017 s/op
+                 p0.99:   0,017 s/op
+                 p0.999:  0,017 s/op
+                 p0.9999: 0,017 s/op
+                 p1.00:   0,017 s/op
+
+
+
+Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
+  N = 9
+  mean =      0,013 ±(99.9%) 0,003 s/op
+
+  Histogram, s/op:
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 1 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 3 
+    [0,013, 0,014) = 1 
+    [0,014, 0,014) = 0 
+    [0,014, 0,015) = 0 
+    [0,015, 0,015) = 0 
+    [0,015, 0,016) = 0 
+    [0,016, 0,016) = 0 
+    [0,016, 0,017) = 0 
+    [0,017, 0,017) = 0 
+    [0,017, 0,018) = 1 
+    [0,018, 0,018) = 0 
+
+  Percentiles, s/op:
+      p(0,0000) =      0,011 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,017 s/op
+     p(95,0000) =      0,017 s/op
+     p(99,0000) =      0,017 s/op
+     p(99,9000) =      0,017 s/op
+     p(99,9900) =      0,017 s/op
+     p(99,9990) =      0,017 s/op
+     p(99,9999) =      0,017 s/op
+    p(100,0000) =      0,017 s/op
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
 # VM options: -Dprepended -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default -DappendedUp
 # Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
 # Warmup: <none>
@@ -358,16 +353,16 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test2":
 
 # Run progress: 79,73% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,003 s/op
                  p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,015 s/op
-                 p0.95:   0,015 s/op
-                 p0.99:   0,015 s/op
-                 p0.999:  0,015 s/op
-                 p0.9999: 0,015 s/op
-                 p1.00:   0,015 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,017 s/op
+                 p0.95:   0,017 s/op
+                 p0.99:   0,017 s/op
+                 p0.999:  0,017 s/op
+                 p0.9999: 0,017 s/op
+                 p1.00:   0,017 s/op
 
 
 
@@ -378,27 +373,30 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3":
   Histogram, s/op:
     [0,010, 0,011) = 1 
     [0,011, 0,011) = 1 
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 1 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 0 
     [0,012, 0,013) = 0 
-    [0,013, 0,013) = 3 
-    [0,013, 0,014) = 0 
+    [0,013, 0,013) = 4 
+    [0,013, 0,014) = 1 
     [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
     [0,015, 0,015) = 0 
-    [0,015, 0,016) = 1 
+    [0,015, 0,016) = 0 
+    [0,016, 0,016) = 0 
+    [0,016, 0,017) = 0 
+    [0,017, 0,017) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,015 s/op
-     p(95,0000) =      0,015 s/op
-     p(99,0000) =      0,015 s/op
-     p(99,9000) =      0,015 s/op
-     p(99,9900) =      0,015 s/op
-     p(99,9990) =      0,015 s/op
-     p(99,9999) =      0,015 s/op
-    p(100,0000) =      0,015 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,017 s/op
+     p(95,0000) =      0,017 s/op
+     p(99,0000) =      0,017 s/op
+     p(99,9000) =      0,017 s/op
+     p(99,9900) =      0,017 s/op
+     p(99,9990) =      0,017 s/op
+     p(99,9999) =      0,017 s/op
+    p(100,0000) =      0,017 s/op
 
 
 # JMH version: 1.37
@@ -415,8 +413,8 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test3":
 
 # Run progress: 86,38% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,016 s/op
@@ -429,16 +427,16 @@ Iteration   1: 0,013 ±(99.9%) 0,003 s/op
 
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4":
-  N = 8
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  N = 9
+  mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
     [0,010, 0,011) = 0 
     [0,011, 0,011) = 1 
-    [0,011, 0,012) = 0 
-    [0,012, 0,012) = 1 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 2 
     [0,012, 0,013) = 0 
-    [0,013, 0,013) = 5 
+    [0,013, 0,013) = 4 
     [0,013, 0,014) = 0 
     [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
@@ -472,10 +470,10 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test4":
 
 # Run progress: 93,02% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,003 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,002 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
                  p0.90:   0,016 s/op
                  p0.95:   0,016 s/op
                  p0.99:   0,016 s/op
@@ -487,24 +485,23 @@ Iteration   1: 0,013 ±(99.9%) 0,003 s/op
 
 Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test5":
   N = 9
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,013 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 1 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 4 
-    [0,013, 0,014) = 1 
+    [0,011, 0,012) = 0 
+    [0,012, 0,012) = 2 
+    [0,012, 0,012) = 3 
+    [0,012, 0,013) = 3 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 0 
     [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
-    [0,015, 0,015) = 0 
     [0,015, 0,016) = 0 
+    [0,016, 0,016) = 1 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
+      p(0,0000) =      0,012 s/op
+     p(50,0000) =      0,012 s/op
      p(90,0000) =      0,016 s/op
      p(95,0000) =      0,016 s/op
      p(99,0000) =      0,016 s/op
@@ -529,8 +526,8 @@ Result "org.openjdk.jmh.it.fork.ForkedJvmAppendPrependArgs2_Test.test5":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,021 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,019 s/op
 
 
 
@@ -548,8 +545,8 @@ Iteration   1: 0,021 s/op
 
 # Run progress: 99,73% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,018 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,020 s/op
 
 
 
@@ -567,8 +564,8 @@ Iteration   1: 0,018 s/op
 
 # Run progress: 99,80% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,022 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,017 s/op
 
 
 
@@ -586,8 +583,8 @@ Iteration   1: 0,022 s/op
 
 # Run progress: 99,87% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,018 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,020 s/op
 
 
 
@@ -605,8 +602,8 @@ Iteration   1: 0,018 s/op
 
 # Run progress: 99,93% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,016 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,017 s/op
 
 
 
@@ -619,44 +616,44 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                         Mode  Cnt   Score   Error  Units
-ForkedJvmAppendPrependArgs2_Test.test1           thrpt       75,700          ops/s
-ForkedJvmAppendPrependArgs2_Test.test2           thrpt       76,136          ops/s
-ForkedJvmAppendPrependArgs2_Test.test3           thrpt       72,866          ops/s
-ForkedJvmAppendPrependArgs2_Test.test4           thrpt       76,744          ops/s
-ForkedJvmAppendPrependArgs2_Test.test5           thrpt       79,586          ops/s
-ForkedJvmAppendPrependArgs2_Test.test1            avgt        0,012           s/op
+ForkedJvmAppendPrependArgs2_Test.test1           thrpt       77,561          ops/s
+ForkedJvmAppendPrependArgs2_Test.test2           thrpt       80,400          ops/s
+ForkedJvmAppendPrependArgs2_Test.test3           thrpt       75,299          ops/s
+ForkedJvmAppendPrependArgs2_Test.test4           thrpt       75,972          ops/s
+ForkedJvmAppendPrependArgs2_Test.test5           thrpt       80,218          ops/s
+ForkedJvmAppendPrependArgs2_Test.test1            avgt        0,013           s/op
 ForkedJvmAppendPrependArgs2_Test.test2            avgt        0,013           s/op
 ForkedJvmAppendPrependArgs2_Test.test3            avgt        0,013           s/op
 ForkedJvmAppendPrependArgs2_Test.test4            avgt        0,013           s/op
 ForkedJvmAppendPrependArgs2_Test.test5            avgt        0,013           s/op
-ForkedJvmAppendPrependArgs2_Test.test1          sample    9   0,012 ± 0,002   s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.00    sample        0,010           s/op
+ForkedJvmAppendPrependArgs2_Test.test1          sample    8   0,013 ± 0,003   s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.00    sample        0,011           s/op
 ForkedJvmAppendPrependArgs2_Test.test1:p0.50    sample        0,013           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.90    sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.95    sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.99    sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.999   sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p0.9999  sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test1:p1.00    sample        0,014           s/op
-ForkedJvmAppendPrependArgs2_Test.test2          sample    9   0,012 ± 0,003   s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.90    sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.95    sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.99    sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.999   sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p0.9999  sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1:p1.00    sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test2          sample    9   0,013 ± 0,003   s/op
 ForkedJvmAppendPrependArgs2_Test.test2:p0.00    sample        0,011           s/op
 ForkedJvmAppendPrependArgs2_Test.test2:p0.50    sample        0,013           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p0.90    sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p0.95    sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p0.99    sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p0.999   sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p0.9999  sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test2:p1.00    sample        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p0.90    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p0.95    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p0.99    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p0.999   sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p0.9999  sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test2:p1.00    sample        0,017           s/op
 ForkedJvmAppendPrependArgs2_Test.test3          sample    9   0,012 ± 0,003   s/op
 ForkedJvmAppendPrependArgs2_Test.test3:p0.00    sample        0,010           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.50    sample        0,012           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.90    sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.95    sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.99    sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.999   sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p0.9999  sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test3:p1.00    sample        0,015           s/op
-ForkedJvmAppendPrependArgs2_Test.test4          sample    8   0,013 ± 0,003   s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.50    sample        0,013           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.90    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.95    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.99    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.999   sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p0.9999  sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test3:p1.00    sample        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test4          sample    9   0,012 ± 0,002   s/op
 ForkedJvmAppendPrependArgs2_Test.test4:p0.00    sample        0,011           s/op
 ForkedJvmAppendPrependArgs2_Test.test4:p0.50    sample        0,013           s/op
 ForkedJvmAppendPrependArgs2_Test.test4:p0.90    sample        0,016           s/op
@@ -665,17 +662,17 @@ ForkedJvmAppendPrependArgs2_Test.test4:p0.99    sample        0,016           s/
 ForkedJvmAppendPrependArgs2_Test.test4:p0.999   sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test4:p0.9999  sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test4:p1.00    sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test5          sample    9   0,013 ± 0,003   s/op
-ForkedJvmAppendPrependArgs2_Test.test5:p0.00    sample        0,010           s/op
-ForkedJvmAppendPrependArgs2_Test.test5:p0.50    sample        0,013           s/op
+ForkedJvmAppendPrependArgs2_Test.test5          sample    9   0,013 ± 0,002   s/op
+ForkedJvmAppendPrependArgs2_Test.test5:p0.00    sample        0,012           s/op
+ForkedJvmAppendPrependArgs2_Test.test5:p0.50    sample        0,012           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p0.90    sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p0.95    sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p0.99    sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p0.999   sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p0.9999  sample        0,016           s/op
 ForkedJvmAppendPrependArgs2_Test.test5:p1.00    sample        0,016           s/op
-ForkedJvmAppendPrependArgs2_Test.test1              ss        0,021           s/op
-ForkedJvmAppendPrependArgs2_Test.test2              ss        0,018           s/op
-ForkedJvmAppendPrependArgs2_Test.test3              ss        0,022           s/op
-ForkedJvmAppendPrependArgs2_Test.test4              ss        0,018           s/op
-ForkedJvmAppendPrependArgs2_Test.test5              ss        0,016           s/op
+ForkedJvmAppendPrependArgs2_Test.test1              ss        0,019           s/op
+ForkedJvmAppendPrependArgs2_Test.test2              ss        0,020           s/op
+ForkedJvmAppendPrependArgs2_Test.test3              ss        0,017           s/op
+ForkedJvmAppendPrependArgs2_Test.test4              ss        0,020           s/op
+ForkedJvmAppendPrependArgs2_Test.test5              ss        0,017           s/op

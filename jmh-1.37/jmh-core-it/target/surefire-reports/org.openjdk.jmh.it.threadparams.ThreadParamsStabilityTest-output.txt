@@ -13,23 +13,23 @@
 
 # Run progress: 0,00% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1062155283,333 ops/s
-# Warmup Iteration   2: 986949188,725 ops/s
-# Warmup Iteration   3: 1034776906,826 ops/s
-# Warmup Iteration   4: 1022819568,991 ops/s
-# Warmup Iteration   5: 1203409359,691 ops/s
-Iteration   1: 1014780301,766 ops/s
-Iteration   2: 1240311596,071 ops/s
-Iteration   3: 1217512302,400 ops/s
-Iteration   4: 1269430000,750 ops/s
-Iteration   5: 1263779038,623 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1272314174,302 ops/s
+# Warmup Iteration   2: 569878275,660 ops/s
+# Warmup Iteration   3: 921531605,111 ops/s
+# Warmup Iteration   4: 1089954896,523 ops/s
+# Warmup Iteration   5: 1333569936,054 ops/s
+Iteration   1: 1061854108,573 ops/s
+Iteration   2: 781429800,635 ops/s
+Iteration   3: 433324062,424 ops/s
+Iteration   4: 799934141,070 ops/s
+Iteration   5: 665202528,720 ops/s
 
 
 Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
-  1201162647,922 ±(99.9%) 408964735,837 ops/s [Average]
-  (min, avg, max) = (1014780301,766, 1201162647,922, 1269430000,750), stdev = 106206843,174
-  CI (99.9%): [792197912,085, 1610127383,760] (assumes normal distribution)
+  748348928,284 ±(99.9%) 878493137,881 ops/s [Average]
+  (min, avg, max) = (433324062,424, 748348928,284, 1061854108,573), stdev = 228141878,133
+  CI (99.9%): [≈ 0, 1626842066,165] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -46,14 +46,14 @@ Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
 
 # Run progress: 33,22% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
 # Warmup Iteration   4: ≈ 10⁻⁹ s/op
 # Warmup Iteration   5: ≈ 10⁻⁹ s/op
 Iteration   1: ≈ 10⁻⁹ s/op
-Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
 Iteration   3: ≈ 10⁻⁹ s/op
 Iteration   4: ≈ 10⁻⁹ s/op
 Iteration   5: ≈ 10⁻⁹ s/op
@@ -77,21 +77,21 @@ Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
 
 # Run progress: 66,45% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁶ s/op
 # Warmup Iteration   2: ≈ 10⁻⁷ s/op
-# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
 # Warmup Iteration   4: ≈ 10⁻⁷ s/op
 # Warmup Iteration   5: ≈ 10⁻⁸ s/op
-Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 10⁻⁷ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁵ s/op
-                 p0.9999: ≈ 10⁻⁴ s/op
-                 p1.00:   ≈ 10⁻⁴ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
 
 Iteration   2: ≈ 10⁻⁷ s/op
                  p0.00:   ≈ 0 s/op
@@ -103,17 +103,27 @@ Iteration   2: ≈ 10⁻⁷ s/op
                  p0.9999: ≈ 10⁻⁴ s/op
                  p1.00:   ≈ 10⁻⁴ s/op
 
-Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 10⁻⁷ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁶ s/op
+                 p0.9999: ≈ 10⁻⁶ s/op
+                 p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁵ s/op
                  p0.9999: ≈ 10⁻⁴ s/op
                  p1.00:   ≈ 10⁻⁴ s/op
 
-Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 10⁻⁷ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
@@ -123,37 +133,27 @@ Iteration   4: ≈ 10⁻⁸ s/op
                  p0.9999: ≈ 10⁻⁶ s/op
                  p1.00:   ≈ 10⁻⁶ s/op
 
-Iteration   5: ≈ 10⁻⁷ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 10⁻⁷ s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻³ s/op
-                 p1.00:   ≈ 10⁻³ s/op
-
 
 
 Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
-  N = 13807
+  N = 13055
   mean =     ≈ 10⁻⁷ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 13803 
-    [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 13052 
     [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
 
   Percentiles, s/op:
@@ -164,9 +164,9 @@ Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
      p(99,0000) =     ≈ 10⁻⁷ s/op
      p(99,9000) =     ≈ 10⁻⁷ s/op
      p(99,9900) =     ≈ 10⁻⁴ s/op
-     p(99,9990) =     ≈ 10⁻³ s/op
-     p(99,9999) =     ≈ 10⁻³ s/op
-    p(100,0000) =     ≈ 10⁻³ s/op
+     p(99,9990) =     ≈ 10⁻⁴ s/op
+     p(99,9999) =     ≈ 10⁻⁴ s/op
+    p(100,0000) =     ≈ 10⁻⁴ s/op
 
 
 # JMH version: 1.37
@@ -183,47 +183,52 @@ Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁵ s/op
-# Warmup Iteration   2: 0,011 s/op
+# Warmup Iteration   2: 0,002 s/op
 # Warmup Iteration   3: ≈ 10⁻⁵ s/op
-# Warmup Iteration   4: ≈ 10⁻⁵ s/op
-# Warmup Iteration   5: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
 Iteration   1: ≈ 10⁻⁶ s/op
 Iteration   2: ≈ 10⁻⁶ s/op
-Iteration   3: ≈ 10⁻⁵ s/op
-Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
 Iteration   5: ≈ 10⁻⁶ s/op
 
 
 Result "org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest.test1":
   N = 5
-  mean =     ≈ 10⁻⁵ ±(99.9%) 0,001 s/op
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 3 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
 
   Percentiles, s/op:
       p(0,0000) =     ≈ 10⁻⁶ s/op
      p(50,0000) =     ≈ 10⁻⁶ s/op
-     p(90,0000) =     ≈ 10⁻⁵ s/op
-     p(95,0000) =     ≈ 10⁻⁵ s/op
-     p(99,0000) =     ≈ 10⁻⁵ s/op
-     p(99,9000) =     ≈ 10⁻⁵ s/op
-     p(99,9900) =     ≈ 10⁻⁵ s/op
-     p(99,9990) =     ≈ 10⁻⁵ s/op
-     p(99,9999) =     ≈ 10⁻⁵ s/op
-    p(100,0000) =     ≈ 10⁻⁵ s/op
+     p(90,0000) =     ≈ 10⁻⁶ s/op
+     p(95,0000) =     ≈ 10⁻⁶ s/op
+     p(99,0000) =     ≈ 10⁻⁶ s/op
+     p(99,9000) =     ≈ 10⁻⁶ s/op
+     p(99,9900) =     ≈ 10⁻⁶ s/op
+     p(99,9990) =     ≈ 10⁻⁶ s/op
+     p(99,9999) =     ≈ 10⁻⁶ s/op
+    p(100,0000) =     ≈ 10⁻⁶ s/op
 
 
 # Run complete. Total time: 00:00:04
@@ -234,16 +239,16 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                  Mode    Cnt           Score           Error  Units
-ThreadParamsStabilityTest.test1           thrpt      5  1201162647,922 ± 408964735,837  ops/s
-ThreadParamsStabilityTest.test1            avgt      5          ≈ 10⁻⁹                   s/op
-ThreadParamsStabilityTest.test1          sample  13807          ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.00    sample                    ≈ 0                   s/op
-ThreadParamsStabilityTest.test1:p0.50    sample                 ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.90    sample                 ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.95    sample                 ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.99    sample                 ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.999   sample                 ≈ 10⁻⁷                   s/op
-ThreadParamsStabilityTest.test1:p0.9999  sample                 ≈ 10⁻⁴                   s/op
-ThreadParamsStabilityTest.test1:p1.00    sample                 ≈ 10⁻³                   s/op
-ThreadParamsStabilityTest.test1              ss      5          ≈ 10⁻⁵                   s/op
+Benchmark                                  Mode    Cnt          Score           Error  Units
+ThreadParamsStabilityTest.test1           thrpt      5  748348928,284 ± 878493137,881  ops/s
+ThreadParamsStabilityTest.test1            avgt      5         ≈ 10⁻⁹                   s/op
+ThreadParamsStabilityTest.test1          sample  13055         ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.00    sample                   ≈ 0                   s/op
+ThreadParamsStabilityTest.test1:p0.50    sample                ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.90    sample                ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.95    sample                ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.99    sample                ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.999   sample                ≈ 10⁻⁷                   s/op
+ThreadParamsStabilityTest.test1:p0.9999  sample                ≈ 10⁻⁴                   s/op
+ThreadParamsStabilityTest.test1:p1.00    sample                ≈ 10⁻⁴                   s/op
+ThreadParamsStabilityTest.test1              ss      5         ≈ 10⁻⁶                   s/op

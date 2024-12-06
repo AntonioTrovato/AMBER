@@ -16,7 +16,7 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
@@ -63,7 +63,7 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
@@ -110,7 +110,7 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
@@ -157,7 +157,7 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing

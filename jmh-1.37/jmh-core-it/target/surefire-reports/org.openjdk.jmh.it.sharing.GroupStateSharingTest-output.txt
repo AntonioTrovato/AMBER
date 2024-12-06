@@ -13,79 +13,79 @@
 
 # Run progress: 0,00% complete, ETA 00:00:03
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 340,299 ops/s
-                 test1: 170,619 ops/s
-                 test2: 169,680 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 334,038 ops/s
+                 test1: 169,122 ops/s
+                 test2: 164,916 ops/s
 
-Iteration   2: 336,041 ops/s
-                 test1: 169,105 ops/s
-                 test2: 166,936 ops/s
+Iteration   2: 322,055 ops/s
+                 test1: 164,680 ops/s
+                 test2: 157,375 ops/s
 
 
-# Run progress: 6,64% complete, ETA 00:00:23
+# Run progress: 6,64% complete, ETA 00:00:22
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 328,437 ops/s
-                 test1: 164,854 ops/s
-                 test2: 163,582 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 334,077 ops/s
+                 test1: 167,286 ops/s
+                 test2: 166,791 ops/s
 
-Iteration   2: 339,743 ops/s
-                 test1: 171,905 ops/s
-                 test2: 167,838 ops/s
+Iteration   2: 254,541 ops/s
+                 test1: 127,870 ops/s
+                 test2: 126,672 ops/s
 
 
 # Run progress: 13,29% complete, ETA 00:00:21
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 334,706 ops/s
-                 test1: 165,206 ops/s
-                 test2: 169,500 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 341,137 ops/s
+                 test1: 172,715 ops/s
+                 test2: 168,422 ops/s
 
-Iteration   2: 331,056 ops/s
-                 test1: 166,341 ops/s
-                 test2: 164,715 ops/s
+Iteration   2: 329,244 ops/s
+                 test1: 164,066 ops/s
+                 test2: 165,178 ops/s
 
 
-# Run progress: 19,93% complete, ETA 00:00:20
+# Run progress: 19,93% complete, ETA 00:00:19
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 325,584 ops/s
-                 test1: 162,047 ops/s
-                 test2: 163,537 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 334,987 ops/s
+                 test1: 164,294 ops/s
+                 test2: 170,693 ops/s
 
-Iteration   2: 326,232 ops/s
-                 test1: 164,810 ops/s
-                 test2: 161,422 ops/s
+Iteration   2: 331,885 ops/s
+                 test1: 165,111 ops/s
+                 test2: 166,774 ops/s
 
 
-# Run progress: 26,58% complete, ETA 00:00:19
+# Run progress: 26,58% complete, ETA 00:00:17
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 344,277 ops/s
-                 test1: 174,857 ops/s
-                 test2: 169,419 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 335,677 ops/s
+                 test1: 163,661 ops/s
+                 test2: 172,017 ops/s
 
-Iteration   2: 330,528 ops/s
-                 test1: 164,256 ops/s
-                 test2: 166,272 ops/s
+Iteration   2: 333,103 ops/s
+                 test1: 167,536 ops/s
+                 test2: 165,566 ops/s
 
 
 
 Result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1":
-  333,690 ±(99.9%) 9,625 ops/s [Average]
-  (min, avg, max) = (325,584, 333,690, 344,277), stdev = 6,367
-  CI (99.9%): [324,065, 343,316] (assumes normal distribution)
+  325,075 ±(99.9%) 38,189 ops/s [Average]
+  (min, avg, max) = (254,541, 325,075, 341,137), stdev = 25,259
+  CI (99.9%): [286,886, 363,263] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1":
-  167,400 ±(99.9%) 6,107 ops/s [Average]
-  (min, avg, max) = (162,047, 167,400, 174,857), stdev = 4,039
-  CI (99.9%): [161,294, 173,507] (assumes normal distribution)
+  162,634 ±(99.9%) 18,951 ops/s [Average]
+  (min, avg, max) = (127,870, 162,634, 172,715), stdev = 12,535
+  CI (99.9%): [143,683, 181,585] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2":
-  166,290 ±(99.9%) 4,379 ops/s [Average]
-  (min, avg, max) = (161,422, 166,290, 169,680), stdev = 2,896
-  CI (99.9%): [161,911, 170,669] (assumes normal distribution)
+  162,440 ±(99.9%) 19,916 ops/s [Average]
+  (min, avg, max) = (126,672, 162,440, 172,017), stdev = 13,173
+  CI (99.9%): [142,525, 182,356] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -100,9 +100,9 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2"
 # Benchmark mode: Average time, time/op
 # Benchmark: org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1
 
-# Run progress: 33,22% complete, ETA 00:00:17
+# Run progress: 33,22% complete, ETA 00:00:15
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,002 s/op
                  test1: 0,012 s/op
                  test2: 0,012 s/op
@@ -112,9 +112,45 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  test2: 0,012 s/op
 
 
-# Run progress: 39,87% complete, ETA 00:00:15
+# Run progress: 39,87% complete, ETA 00:00:14
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+
+# Run progress: 46,51% complete, ETA 00:00:12
+# Fork: 3 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+
+# Run progress: 53,16% complete, ETA 00:00:10
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,002 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+
+# Run progress: 59,80% complete, ETA 00:00:08
+# Fork: 5 of 5
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,002 s/op
                  test1: 0,012 s/op
                  test2: 0,012 s/op
@@ -124,57 +160,21 @@ Iteration   2: 0,012 ±(99.9%) 0,002 s/op
                  test2: 0,012 s/op
 
 
-# Run progress: 46,51% complete, ETA 00:00:13
-# Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-
-# Run progress: 53,16% complete, ETA 00:00:11
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   2: 0,013 ±(99.9%) 0,002 s/op
-                 test1: 0,013 s/op
-                 test2: 0,013 s/op
-
-
-# Run progress: 59,80% complete, ETA 00:00:09
-# Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,001 s/op
-                 test1: 0,013 s/op
-                 test2: 0,013 s/op
-
-Iteration   2: 0,013 ±(99.9%) 0,001 s/op
-                 test1: 0,013 s/op
-                 test2: 0,013 s/op
-
-
 
 Result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1":
   0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
-  CI (99.9%): [0,012, 0,013] (assumes normal distribution)
+  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
+  CI (99.9%): [0,012, 0,012] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1":
   0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
-  CI (99.9%): [0,012, 0,013] (assumes normal distribution)
+  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
+  CI (99.9%): [0,012, 0,012] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2":
   0,012 ±(99.9%) 0,001 s/op [Average]
-  (min, avg, max) = (0,012, 0,012, 0,013), stdev = 0,001
-  CI (99.9%): [0,012, 0,013] (assumes normal distribution)
+  (min, avg, max) = (0,012, 0,012, 0,012), stdev = 0,001
+  CI (99.9%): [0,012, 0,012] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -191,7 +191,67 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2"
 
 # Run progress: 66,45% complete, ETA 00:00:07
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,014 s/op
+                 p0.95:         0,016 s/op
+                 p0.99:         0,018 s/op
+                 p0.999:        0,018 s/op
+                 p0.9999:       0,018 s/op
+                 p1.00:         0,018 s/op
+                 test1:         0,013 ±(99.9%) 0,002 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,013 s/op
+                 test1:p0.90:   0,016 s/op
+                 test1:p0.95:   0,018 s/op
+                 test1:p0.99:   0,018 s/op
+                 test1:p0.999:  0,018 s/op
+                 test1:p0.9999: 0,018 s/op
+                 test1:p1.00:   0,018 s/op
+                 test2:         0,013 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,010 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,014 s/op
+                 test2:p0.95:   0,014 s/op
+                 test2:p0.99:   0,014 s/op
+                 test2:p0.999:  0,014 s/op
+                 test2:p0.9999: 0,014 s/op
+                 test2:p1.00:   0,014 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,014 s/op
+                 p0.99:         0,015 s/op
+                 p0.999:        0,015 s/op
+                 p0.9999:       0,015 s/op
+                 p1.00:         0,015 s/op
+                 test1:         0,012 ±(99.9%) 0,001 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,012 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,014 s/op
+                 test2:p0.95:   0,015 s/op
+                 test2:p0.99:   0,015 s/op
+                 test2:p0.999:  0,015 s/op
+                 test2:p0.9999: 0,015 s/op
+                 test2:p1.00:   0,015 s/op
+
+
+# Run progress: 73,09% complete, ETA 00:00:06
+# Fork: 2 of 5
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:         0,010 s/op
                  p0.50:         0,013 s/op
@@ -203,7 +263,7 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p1.00:         0,013 s/op
                  test1:         0,012 ±(99.9%) 0,001 s/op
                  test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,012 s/op
+                 test1:p0.50:   0,013 s/op
                  test1:p0.90:   0,013 s/op
                  test1:p0.95:   0,013 s/op
                  test1:p0.99:   0,013 s/op
@@ -219,66 +279,6 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  test2:p0.999:  0,013 s/op
                  test2:p0.9999: 0,013 s/op
                  test2:p1.00:   0,013 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,014 s/op
-                 p0.99:         0,014 s/op
-                 p0.999:        0,014 s/op
-                 p0.9999:       0,014 s/op
-                 p1.00:         0,014 s/op
-                 test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,013 s/op
-                 test1:p0.95:   0,014 s/op
-                 test1:p0.99:   0,014 s/op
-                 test1:p0.999:  0,014 s/op
-                 test1:p0.9999: 0,014 s/op
-                 test1:p1.00:   0,014 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,014 s/op
-                 test2:p0.95:   0,014 s/op
-                 test2:p0.99:   0,014 s/op
-                 test2:p0.999:  0,014 s/op
-                 test2:p0.9999: 0,014 s/op
-                 test2:p1.00:   0,014 s/op
-
-
-# Run progress: 73,09% complete, ETA 00:00:06
-# Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,011 s/op
-                 p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,014 s/op
-                 p0.99:         0,014 s/op
-                 p0.999:        0,014 s/op
-                 p0.9999:       0,014 s/op
-                 p1.00:         0,014 s/op
-                 test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,012 s/op
-                 test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,013 s/op
-                 test1:p0.95:   0,014 s/op
-                 test1:p0.99:   0,014 s/op
-                 test1:p0.999:  0,014 s/op
-                 test1:p0.9999: 0,014 s/op
-                 test1:p1.00:   0,014 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,013 s/op
-                 test2:p0.95:   0,014 s/op
-                 test2:p0.99:   0,014 s/op
-                 test2:p0.999:  0,014 s/op
-                 test2:p0.9999: 0,014 s/op
-                 test2:p1.00:   0,014 s/op
 
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:         0,010 s/op
@@ -300,7 +300,7 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  test1:p1.00:   0,013 s/op
                  test2:         0,012 ±(99.9%) 0,001 s/op
                  test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,011 s/op
+                 test2:p0.50:   0,012 s/op
                  test2:p0.90:   0,013 s/op
                  test2:p0.95:   0,013 s/op
                  test2:p0.99:   0,013 s/op
@@ -311,70 +311,10 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 
 # Run progress: 79,73% complete, ETA 00:00:04
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,012 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,013 s/op
-                 p0.99:         0,014 s/op
-                 p0.999:        0,014 s/op
-                 p0.9999:       0,014 s/op
-                 p1.00:         0,014 s/op
-                 test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,012 s/op
-                 test1:p0.90:   0,013 s/op
-                 test1:p0.95:   0,014 s/op
-                 test1:p0.99:   0,014 s/op
-                 test1:p0.999:  0,014 s/op
-                 test1:p0.9999: 0,014 s/op
-                 test1:p1.00:   0,014 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,012 s/op
-                 test2:p0.90:   0,013 s/op
-                 test2:p0.95:   0,013 s/op
-                 test2:p0.99:   0,013 s/op
-                 test2:p0.999:  0,013 s/op
-                 test2:p0.9999: 0,013 s/op
-                 test2:p1.00:   0,013 s/op
-
-Iteration   2: 0,013 ±(99.9%) 0,001 s/op
                  p0.00:         0,010 s/op
                  p0.50:         0,013 s/op
-                 p0.90:         0,013 s/op
-                 p0.95:         0,018 s/op
-                 p0.99:         0,018 s/op
-                 p0.999:        0,018 s/op
-                 p0.9999:       0,018 s/op
-                 p1.00:         0,018 s/op
-                 test1:         0,013 ±(99.9%) 0,002 s/op
-                 test1:p0.00:   0,010 s/op
-                 test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,014 s/op
-                 test1:p0.95:   0,018 s/op
-                 test1:p0.99:   0,018 s/op
-                 test1:p0.999:  0,018 s/op
-                 test1:p0.9999: 0,018 s/op
-                 test1:p1.00:   0,018 s/op
-                 test2:         0,013 ±(99.9%) 0,002 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,015 s/op
-                 test2:p0.95:   0,018 s/op
-                 test2:p0.99:   0,018 s/op
-                 test2:p0.999:  0,018 s/op
-                 test2:p0.9999: 0,018 s/op
-                 test2:p1.00:   0,018 s/op
-
-
-# Run progress: 86,38% complete, ETA 00:00:03
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,012 s/op
                  p0.90:         0,013 s/op
                  p0.95:         0,013 s/op
                  p0.99:         0,013 s/op
@@ -382,7 +322,7 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999:       0,013 s/op
                  p1.00:         0,013 s/op
                  test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,011 s/op
+                 test1:p0.00:   0,010 s/op
                  test1:p0.50:   0,012 s/op
                  test1:p0.90:   0,013 s/op
                  test1:p0.95:   0,013 s/op
@@ -391,8 +331,8 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  test1:p0.9999: 0,013 s/op
                  test1:p1.00:   0,013 s/op
                  test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,012 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
                  test2:p0.90:   0,013 s/op
                  test2:p0.95:   0,013 s/op
                  test2:p0.99:   0,013 s/op
@@ -402,48 +342,16 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
 
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:         0,010 s/op
-                 p0.50:         0,012 s/op
-                 p0.90:         0,014 s/op
-                 p0.95:         0,015 s/op
-                 p0.99:         0,015 s/op
-                 p0.999:        0,015 s/op
-                 p0.9999:       0,015 s/op
-                 p1.00:         0,015 s/op
-                 test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,011 s/op
-                 test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,014 s/op
-                 test1:p0.95:   0,015 s/op
-                 test1:p0.99:   0,015 s/op
-                 test1:p0.999:  0,015 s/op
-                 test1:p0.9999: 0,015 s/op
-                 test1:p1.00:   0,015 s/op
-                 test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,012 s/op
-                 test2:p0.90:   0,014 s/op
-                 test2:p0.95:   0,015 s/op
-                 test2:p0.99:   0,015 s/op
-                 test2:p0.999:  0,015 s/op
-                 test2:p0.9999: 0,015 s/op
-                 test2:p1.00:   0,015 s/op
-
-
-# Run progress: 93,02% complete, ETA 00:00:01
-# Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:         0,010 s/op
-                 p0.50:         0,012 s/op
+                 p0.50:         0,013 s/op
                  p0.90:         0,013 s/op
-                 p0.95:         0,014 s/op
+                 p0.95:         0,013 s/op
                  p0.99:         0,014 s/op
                  p0.999:        0,014 s/op
                  p0.9999:       0,014 s/op
                  p1.00:         0,014 s/op
                  test1:         0,012 ±(99.9%) 0,001 s/op
-                 test1:p0.00:   0,011 s/op
-                 test1:p0.50:   0,012 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,013 s/op
                  test1:p0.90:   0,013 s/op
                  test1:p0.95:   0,013 s/op
                  test1:p0.99:   0,013 s/op
@@ -451,20 +359,84 @@ Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  test1:p0.9999: 0,013 s/op
                  test1:p1.00:   0,013 s/op
                  test2:         0,012 ±(99.9%) 0,001 s/op
-                 test2:p0.00:   0,010 s/op
-                 test2:p0.50:   0,013 s/op
-                 test2:p0.90:   0,014 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,012 s/op
+                 test2:p0.90:   0,013 s/op
                  test2:p0.95:   0,014 s/op
                  test2:p0.99:   0,014 s/op
                  test2:p0.999:  0,014 s/op
                  test2:p0.9999: 0,014 s/op
                  test2:p1.00:   0,014 s/op
 
-Iteration   2: 0,013 ±(99.9%) 0,001 s/op
+
+# Run progress: 86,38% complete, ETA 00:00:02
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,011 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,013 s/op
+                 p0.99:         0,013 s/op
+                 p0.999:        0,013 s/op
+                 p0.9999:       0,013 s/op
+                 p1.00:         0,013 s/op
+                 test1:         0,012 ±(99.9%) 0,001 s/op
+                 test1:p0.00:   0,011 s/op
+                 test1:p0.50:   0,013 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,013 s/op
+                 test2:p0.95:   0,013 s/op
+                 test2:p0.99:   0,013 s/op
+                 test2:p0.999:  0,013 s/op
+                 test2:p0.9999: 0,013 s/op
+                 test2:p1.00:   0,013 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,013 s/op
+                 p0.99:         0,013 s/op
+                 p0.999:        0,013 s/op
+                 p0.9999:       0,013 s/op
+                 p1.00:         0,013 s/op
+                 test1:         0,012 ±(99.9%) 0,001 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,013 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,013 s/op
+                 test2:p0.95:   0,013 s/op
+                 test2:p0.99:   0,013 s/op
+                 test2:p0.999:  0,013 s/op
+                 test2:p0.9999: 0,013 s/op
+                 test2:p1.00:   0,013 s/op
+
+
+# Run progress: 93,02% complete, ETA 00:00:01
+# Fork: 5 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,001 s/op
                  p0.00:         0,010 s/op
                  p0.50:         0,013 s/op
                  p0.90:         0,015 s/op
-                 p0.95:         0,017 s/op
+                 p0.95:         0,015 s/op
                  p0.99:         0,017 s/op
                  p0.999:        0,017 s/op
                  p0.9999:       0,017 s/op
@@ -472,15 +444,15 @@ Iteration   2: 0,013 ±(99.9%) 0,001 s/op
                  test1:         0,013 ±(99.9%) 0,002 s/op
                  test1:p0.00:   0,010 s/op
                  test1:p0.50:   0,013 s/op
-                 test1:p0.90:   0,017 s/op
+                 test1:p0.90:   0,015 s/op
                  test1:p0.95:   0,017 s/op
                  test1:p0.99:   0,017 s/op
                  test1:p0.999:  0,017 s/op
                  test1:p0.9999: 0,017 s/op
                  test1:p1.00:   0,017 s/op
-                 test2:         0,013 ±(99.9%) 0,002 s/op
-                 test2:p0.00:   0,011 s/op
-                 test2:p0.50:   0,012 s/op
+                 test2:         0,013 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,010 s/op
+                 test2:p0.50:   0,013 s/op
                  test2:p0.90:   0,015 s/op
                  test2:p0.95:   0,015 s/op
                  test2:p0.99:   0,015 s/op
@@ -488,37 +460,64 @@ Iteration   2: 0,013 ±(99.9%) 0,001 s/op
                  test2:p0.9999: 0,015 s/op
                  test2:p1.00:   0,015 s/op
 
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:         0,010 s/op
+                 p0.50:         0,013 s/op
+                 p0.90:         0,013 s/op
+                 p0.95:         0,013 s/op
+                 p0.99:         0,013 s/op
+                 p0.999:        0,013 s/op
+                 p0.9999:       0,013 s/op
+                 p1.00:         0,013 s/op
+                 test1:         0,012 ±(99.9%) 0,001 s/op
+                 test1:p0.00:   0,010 s/op
+                 test1:p0.50:   0,013 s/op
+                 test1:p0.90:   0,013 s/op
+                 test1:p0.95:   0,013 s/op
+                 test1:p0.99:   0,013 s/op
+                 test1:p0.999:  0,013 s/op
+                 test1:p0.9999: 0,013 s/op
+                 test1:p1.00:   0,013 s/op
+                 test2:         0,012 ±(99.9%) 0,001 s/op
+                 test2:p0.00:   0,011 s/op
+                 test2:p0.50:   0,013 s/op
+                 test2:p0.90:   0,013 s/op
+                 test2:p0.95:   0,013 s/op
+                 test2:p0.99:   0,013 s/op
+                 test2:p0.999:  0,013 s/op
+                 test2:p0.9999: 0,013 s/op
+                 test2:p1.00:   0,013 s/op
+
 
 
 Result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1":
-  N = 343
+  N = 338
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 21 
-    [0,011, 0,011) = 31 
-    [0,011, 0,012) = 36 
-    [0,012, 0,012) = 36 
-    [0,012, 0,013) = 48 
-    [0,013, 0,013) = 129 
-    [0,013, 0,014) = 14 
-    [0,014, 0,014) = 11 
-    [0,014, 0,015) = 5 
+    [0,010, 0,011) = 24 
+    [0,011, 0,011) = 25 
+    [0,011, 0,012) = 28 
+    [0,012, 0,012) = 28 
+    [0,012, 0,013) = 32 
+    [0,013, 0,013) = 177 
+    [0,013, 0,014) = 11 
+    [0,014, 0,014) = 6 
+    [0,014, 0,015) = 0 
     [0,015, 0,015) = 3 
-    [0,015, 0,016) = 5 
-    [0,016, 0,016) = 0 
+    [0,015, 0,016) = 1 
+    [0,016, 0,016) = 1 
     [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
-    [0,017, 0,018) = 2 
-    [0,018, 0,018) = 0 
-    [0,018, 0,019) = 2 
+    [0,017, 0,017) = 1 
+    [0,017, 0,018) = 0 
+    [0,018, 0,018) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
+     p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,017 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,016 s/op
      p(99,9000) =      0,018 s/op
      p(99,9900) =      0,018 s/op
      p(99,9990) =      0,018 s/op
@@ -530,29 +529,28 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1"
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 11 
-    [0,011, 0,011) = 19 
-    [0,011, 0,012) = 14 
-    [0,012, 0,012) = 16 
-    [0,012, 0,013) = 22 
-    [0,013, 0,013) = 68 
+    [0,010, 0,011) = 18 
+    [0,011, 0,011) = 13 
+    [0,011, 0,012) = 13 
+    [0,012, 0,012) = 15 
+    [0,012, 0,013) = 11 
+    [0,013, 0,013) = 89 
     [0,013, 0,014) = 8 
-    [0,014, 0,014) = 5 
-    [0,014, 0,015) = 3 
+    [0,014, 0,014) = 1 
+    [0,014, 0,015) = 0 
     [0,015, 0,015) = 1 
-    [0,015, 0,016) = 2 
-    [0,016, 0,016) = 0 
+    [0,015, 0,016) = 0 
+    [0,016, 0,016) = 1 
     [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
-    [0,017, 0,018) = 2 
-    [0,018, 0,018) = 0 
-    [0,018, 0,019) = 1 
+    [0,017, 0,017) = 1 
+    [0,017, 0,018) = 0 
+    [0,018, 0,018) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
      p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,014 s/op
+     p(95,0000) =      0,013 s/op
      p(99,0000) =      0,017 s/op
      p(99,9000) =      0,018 s/op
      p(99,9900) =      0,018 s/op
@@ -561,39 +559,33 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1"
     p(100,0000) =      0,018 s/op
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2":
-  N = 171
+  N = 166
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 10 
+    [0,010, 0,011) = 6 
     [0,011, 0,011) = 12 
-    [0,011, 0,012) = 22 
-    [0,012, 0,012) = 20 
-    [0,012, 0,013) = 26 
-    [0,013, 0,013) = 61 
-    [0,013, 0,014) = 6 
-    [0,014, 0,014) = 6 
-    [0,014, 0,015) = 2 
+    [0,011, 0,012) = 15 
+    [0,012, 0,012) = 13 
+    [0,012, 0,013) = 21 
+    [0,013, 0,013) = 88 
+    [0,013, 0,014) = 3 
+    [0,014, 0,014) = 5 
+    [0,014, 0,015) = 0 
     [0,015, 0,015) = 2 
-    [0,015, 0,016) = 3 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
-    [0,017, 0,018) = 0 
-    [0,018, 0,018) = 0 
-    [0,018, 0,019) = 1 
+    [0,015, 0,016) = 1 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
+     p(50,0000) =      0,013 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,014 s/op
-     p(99,0000) =      0,016 s/op
-     p(99,9000) =      0,018 s/op
-     p(99,9900) =      0,018 s/op
-     p(99,9990) =      0,018 s/op
-     p(99,9999) =      0,018 s/op
-    p(100,0000) =      0,018 s/op
+     p(99,0000) =      0,015 s/op
+     p(99,9000) =      0,015 s/op
+     p(99,9900) =      0,015 s/op
+     p(99,9990) =      0,015 s/op
+     p(99,9999) =      0,015 s/op
+    p(100,0000) =      0,015 s/op
 
 
 # JMH version: 1.37
@@ -610,100 +602,135 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2"
 
 # Run progress: 99,67% complete, ETA 00:00:00
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,014 ±(99.9%) 0,003 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,014 ±(99.9%) 0,001 s/op
                  test1: 0,014 s/op
                  test2: 0,014 s/op
 
-Iteration   2: 0,013 ±(99.9%) 0,001 s/op
-                 test1: 0,013 s/op
-                 test2: 0,013 s/op
+Iteration   2: 0,012 ±(99.9%) 0,007 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
 
 
 # Run progress: 99,73% complete, ETA 00:00:00
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,017 ±(99.9%) 0,001 s/op
-                 test1: 0,017 s/op
-                 test2: 0,017 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,003 s/op
+                 test1: 0,013 s/op
+                 test2: 0,013 s/op
 
-Iteration   2: 0,011 ±(99.9%) 0,001 s/op
+Iteration   2: 0,012 ±(99.9%) 0,004 s/op
                  test1: 0,011 s/op
-                 test2: 0,011 s/op
+                 test2: 0,013 s/op
 
 
 # Run progress: 99,80% complete, ETA 00:00:00
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,008 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-Iteration   2: 0,011 ±(99.9%) 0,001 s/op
-                 test1: 0,011 s/op
-                 test2: 0,011 s/op
-
-
-# Run progress: 99,87% complete, ETA 00:00:00
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,003 s/op
-                 test1: 0,013 s/op
-                 test2: 0,012 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,002 s/op
-                 test1: 0,012 s/op
-                 test2: 0,012 s/op
-
-
-# Run progress: 99,93% complete, ETA 00:00:00
-# Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,004 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,007 s/op
                  test1: 0,012 s/op
                  test2: 0,012 s/op
 
 Iteration   2: 0,013 ±(99.9%) 0,001 s/op
                  test1: 0,013 s/op
                  test2: 0,013 s/op
+
+
+# Run progress: 99,87% complete, ETA 00:00:00
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,015 ±(99.9%) 0,013 s/op
+                 test1: 0,013 s/op
+                 test2: 0,016 s/op
+
+Iteration   2: 0,011 ±(99.9%) 0,002 s/op
+                 test1: 0,011 s/op
+                 test2: 0,011 s/op
+
+
+# Run progress: 99,93% complete, ETA 00:00:00
+# Fork: 5 of 5
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,007 s/op
+                 test1: 0,012 s/op
+                 test2: 0,012 s/op
+
+Iteration   2: 0,012 ±(99.9%) 0,008 s/op
+                 test1: 0,013 s/op
+                 test2: 0,011 s/op
 
 
 
 Result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1":
   N = 10
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,011, 0,012) = 2 
+    [0,010, 0,010) = 0 
+    [0,010, 0,011) = 0 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 0 
+    [0,011, 0,012) = 0 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 2 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 3 
-    [0,012, 0,013) = 3 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 1 
+    [0,013, 0,013) = 1 
+    [0,013, 0,013) = 0 
     [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
     [0,014, 0,014) = 1 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 0 
     [0,014, 0,015) = 0 
-    [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
-    [0,017, 0,018) = 1 
-    [0,018, 0,018) = 0 
+    [0,015, 0,015) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,017 s/op
-     p(95,0000) =      0,017 s/op
-     p(99,0000) =      0,017 s/op
-     p(99,9000) =      0,017 s/op
-     p(99,9900) =      0,017 s/op
-     p(99,9990) =      0,017 s/op
-     p(99,9999) =      0,017 s/op
-    p(100,0000) =      0,017 s/op
+     p(90,0000) =      0,015 s/op
+     p(95,0000) =      0,015 s/op
+     p(99,0000) =      0,015 s/op
+     p(99,9000) =      0,015 s/op
+     p(99,9900) =      0,015 s/op
+     p(99,9990) =      0,015 s/op
+     p(99,9999) =      0,015 s/op
+    p(100,0000) =      0,015 s/op
 
 Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1":
   N = 10
-  mean =      0,013 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,001 s/op
+
+  Histogram, s/op:
+    [0,011, 0,011) = 1 
+    [0,011, 0,012) = 1 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 2 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 0 
+    [0,013, 0,013) = 2 
+    [0,013, 0,014) = 0 
+    [0,014, 0,014) = 1 
+    [0,014, 0,014) = 0 
+
+  Percentiles, s/op:
+      p(0,0000) =      0,011 s/op
+     p(50,0000) =      0,012 s/op
+     p(90,0000) =      0,014 s/op
+     p(95,0000) =      0,014 s/op
+     p(99,0000) =      0,014 s/op
+     p(99,9000) =      0,014 s/op
+     p(99,9900) =      0,014 s/op
+     p(99,9990) =      0,014 s/op
+     p(99,9999) =      0,014 s/op
+    p(100,0000) =      0,014 s/op
+
+Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2":
+  N = 10
+  mean =      0,013 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
     [0,010, 0,011) = 0 
@@ -713,59 +740,25 @@ Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test1"
     [0,012, 0,013) = 2 
     [0,013, 0,013) = 3 
     [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,015) = 1 
+    [0,014, 0,014) = 1 
+    [0,014, 0,015) = 0 
     [0,015, 0,015) = 0 
     [0,015, 0,016) = 0 
     [0,016, 0,016) = 0 
-    [0,016, 0,017) = 0 
+    [0,016, 0,017) = 1 
     [0,017, 0,017) = 0 
-    [0,017, 0,018) = 1 
-    [0,018, 0,018) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,011 s/op
      p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,017 s/op
-     p(95,0000) =      0,017 s/op
-     p(99,0000) =      0,017 s/op
-     p(99,9000) =      0,017 s/op
-     p(99,9900) =      0,017 s/op
-     p(99,9990) =      0,017 s/op
-     p(99,9999) =      0,017 s/op
-    p(100,0000) =      0,017 s/op
-
-Secondary result "org.openjdk.jmh.it.sharing.GroupStateSharingTest.group1:test2":
-  N = 10
-  mean =      0,013 ±(99.9%) 0,003 s/op
-
-  Histogram, s/op:
-    [0,011, 0,012) = 2 
-    [0,012, 0,012) = 1 
-    [0,012, 0,012) = 3 
-    [0,012, 0,013) = 2 
-    [0,013, 0,014) = 0 
-    [0,014, 0,014) = 0 
-    [0,014, 0,014) = 1 
-    [0,014, 0,015) = 0 
-    [0,015, 0,016) = 0 
-    [0,016, 0,016) = 0 
-    [0,016, 0,017) = 0 
-    [0,017, 0,017) = 0 
-    [0,017, 0,018) = 1 
-    [0,018, 0,018) = 0 
-
-  Percentiles, s/op:
-      p(0,0000) =      0,011 s/op
-     p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,017 s/op
-     p(95,0000) =      0,017 s/op
-     p(99,0000) =      0,017 s/op
-     p(99,9000) =      0,017 s/op
-     p(99,9900) =      0,017 s/op
-     p(99,9990) =      0,017 s/op
-     p(99,9999) =      0,017 s/op
-    p(100,0000) =      0,017 s/op
+     p(90,0000) =      0,016 s/op
+     p(95,0000) =      0,016 s/op
+     p(99,0000) =      0,016 s/op
+     p(99,9000) =      0,016 s/op
+     p(99,9900) =      0,016 s/op
+     p(99,9990) =      0,016 s/op
+     p(99,9999) =      0,016 s/op
+    p(100,0000) =      0,016 s/op
 
 
 # Run complete. Total time: 00:00:29
@@ -777,18 +770,18 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                     Mode  Cnt    Score    Error  Units
-GroupStateSharingTest.group1                 thrpt   10  333,690 ±  9,625  ops/s
-GroupStateSharingTest.group1:test1           thrpt   10  167,400 ±  6,107  ops/s
-GroupStateSharingTest.group1:test2           thrpt   10  166,290 ±  4,379  ops/s
+GroupStateSharingTest.group1                 thrpt   10  325,075 ± 38,189  ops/s
+GroupStateSharingTest.group1:test1           thrpt   10  162,634 ± 18,951  ops/s
+GroupStateSharingTest.group1:test2           thrpt   10  162,440 ± 19,916  ops/s
 GroupStateSharingTest.group1                  avgt   10    0,012 ±  0,001   s/op
 GroupStateSharingTest.group1:test1            avgt   10    0,012 ±  0,001   s/op
 GroupStateSharingTest.group1:test2            avgt   10    0,012 ±  0,001   s/op
-GroupStateSharingTest.group1                sample  343    0,012 ±  0,001   s/op
+GroupStateSharingTest.group1                sample  338    0,012 ±  0,001   s/op
 GroupStateSharingTest.group1:p0.00          sample         0,010            s/op
-GroupStateSharingTest.group1:p0.50          sample         0,012            s/op
+GroupStateSharingTest.group1:p0.50          sample         0,013            s/op
 GroupStateSharingTest.group1:p0.90          sample         0,013            s/op
-GroupStateSharingTest.group1:p0.95          sample         0,014            s/op
-GroupStateSharingTest.group1:p0.99          sample         0,017            s/op
+GroupStateSharingTest.group1:p0.95          sample         0,013            s/op
+GroupStateSharingTest.group1:p0.99          sample         0,016            s/op
 GroupStateSharingTest.group1:p0.999         sample         0,018            s/op
 GroupStateSharingTest.group1:p0.9999        sample         0,018            s/op
 GroupStateSharingTest.group1:p1.00          sample         0,018            s/op
@@ -796,20 +789,20 @@ GroupStateSharingTest.group1:test1          sample  172    0,012 ±  0,001   s/o
 GroupStateSharingTest.group1:test1:p0.00    sample         0,010            s/op
 GroupStateSharingTest.group1:test1:p0.50    sample         0,013            s/op
 GroupStateSharingTest.group1:test1:p0.90    sample         0,013            s/op
-GroupStateSharingTest.group1:test1:p0.95    sample         0,014            s/op
+GroupStateSharingTest.group1:test1:p0.95    sample         0,013            s/op
 GroupStateSharingTest.group1:test1:p0.99    sample         0,017            s/op
 GroupStateSharingTest.group1:test1:p0.999   sample         0,018            s/op
 GroupStateSharingTest.group1:test1:p0.9999  sample         0,018            s/op
 GroupStateSharingTest.group1:test1:p1.00    sample         0,018            s/op
-GroupStateSharingTest.group1:test2          sample  171    0,012 ±  0,001   s/op
+GroupStateSharingTest.group1:test2          sample  166    0,012 ±  0,001   s/op
 GroupStateSharingTest.group1:test2:p0.00    sample         0,010            s/op
-GroupStateSharingTest.group1:test2:p0.50    sample         0,012            s/op
+GroupStateSharingTest.group1:test2:p0.50    sample         0,013            s/op
 GroupStateSharingTest.group1:test2:p0.90    sample         0,013            s/op
 GroupStateSharingTest.group1:test2:p0.95    sample         0,014            s/op
-GroupStateSharingTest.group1:test2:p0.99    sample         0,016            s/op
-GroupStateSharingTest.group1:test2:p0.999   sample         0,018            s/op
-GroupStateSharingTest.group1:test2:p0.9999  sample         0,018            s/op
-GroupStateSharingTest.group1:test2:p1.00    sample         0,018            s/op
-GroupStateSharingTest.group1                    ss   10    0,013 ±  0,003   s/op
-GroupStateSharingTest.group1:test1              ss   10    0,013 ±  0,003   s/op
-GroupStateSharingTest.group1:test2              ss   10    0,013 ±  0,003   s/op
+GroupStateSharingTest.group1:test2:p0.99    sample         0,015            s/op
+GroupStateSharingTest.group1:test2:p0.999   sample         0,015            s/op
+GroupStateSharingTest.group1:test2:p0.9999  sample         0,015            s/op
+GroupStateSharingTest.group1:test2:p1.00    sample         0,015            s/op
+GroupStateSharingTest.group1                    ss   10    0,012 ±  0,002   s/op
+GroupStateSharingTest.group1:test1              ss   10    0,012 ±  0,001   s/op
+GroupStateSharingTest.group1:test2              ss   10    0,013 ±  0,002   s/op

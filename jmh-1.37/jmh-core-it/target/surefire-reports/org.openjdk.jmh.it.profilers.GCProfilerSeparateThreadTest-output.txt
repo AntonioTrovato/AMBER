@@ -13,68 +13,68 @@
 
 # Run progress: 0,00% complete, ETA 00:00:10
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 3129,534 ops/s
-# Warmup Iteration   2: 2277,492 ops/s
-# Warmup Iteration   3: 3219,706 ops/s
-# Warmup Iteration   4: 3547,618 ops/s
-# Warmup Iteration   5: 3685,700 ops/s
-Iteration   1: 4045,497 ops/s
-                 gc.alloc.rate:      3855,241 MB/sec
-                 gc.alloc.rate.norm: 1000019,136 B/op
-                 gc.count:           90,000 counts
-                 gc.time:            180,000 ms
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 2700,350 ops/s
+# Warmup Iteration   2: 2116,130 ops/s
+# Warmup Iteration   3: 2803,551 ops/s
+# Warmup Iteration   4: 2870,164 ops/s
+# Warmup Iteration   5: 4603,072 ops/s
+Iteration   1: 9184,281 ops/s
+                 gc.alloc.rate:      8755,762 MB/sec
+                 gc.alloc.rate.norm: 1000017,416 B/op
+                 gc.count:           204,000 counts
+                 gc.time:            110,000 ms
 
-Iteration   2: 7287,999 ops/s
-                 gc.alloc.rate:      6946,739 MB/sec
-                 gc.alloc.rate.norm: 1000017,779 B/op
-                 gc.count:           163,000 counts
-                 gc.time:            163,000 ms
+Iteration   2: 5189,055 ops/s
+                 gc.alloc.rate:      4947,942 MB/sec
+                 gc.alloc.rate.norm: 1000018,444 B/op
+                 gc.count:           116,000 counts
+                 gc.time:            112,000 ms
 
-Iteration   3: 6006,036 ops/s
-                 gc.alloc.rate:      5713,100 MB/sec
-                 gc.alloc.rate.norm: 1000018,205 B/op
-                 gc.count:           133,000 counts
-                 gc.time:            116,000 ms
+Iteration   3: 7070,251 ops/s
+                 gc.alloc.rate:      6732,223 MB/sec
+                 gc.alloc.rate.norm: 1000017,868 B/op
+                 gc.count:           158,000 counts
+                 gc.time:            128,000 ms
 
-Iteration   4: 4659,538 ops/s
-                 gc.alloc.rate:      4442,519 MB/sec
-                 gc.alloc.rate.norm: 1000018,786 B/op
-                 gc.count:           104,000 counts
-                 gc.time:            183,000 ms
+Iteration   4: 6352,082 ops/s
+                 gc.alloc.rate:      6048,146 MB/sec
+                 gc.alloc.rate.norm: 1000018,047 B/op
+                 gc.count:           142,000 counts
+                 gc.time:            117,000 ms
 
-Iteration   5: 6021,825 ops/s
-                 gc.alloc.rate:      5741,813 MB/sec
-                 gc.alloc.rate.norm: 1000018,154 B/op
-                 gc.count:           135,000 counts
-                 gc.time:            134,000 ms
+Iteration   5: 6236,907 ops/s
+                 gc.alloc.rate:      5945,684 MB/sec
+                 gc.alloc.rate.norm: 1000018,084 B/op
+                 gc.count:           139,000 counts
+                 gc.time:            106,000 ms
 
 
 
 Result "org.openjdk.jmh.it.profilers.GCProfilerSeparateThreadTest.separateAlloc":
-  5604,179 ±(99.9%) 4905,984 ops/s [Average]
-  (min, avg, max) = (4045,497, 5604,179, 7287,999), stdev = 1274,069
-  CI (99.9%): [698,195, 10510,163] (assumes normal distribution)
+  6806,515 ±(99.9%) 5734,250 ops/s [Average]
+  (min, avg, max) = (5189,055, 6806,515, 9184,281), stdev = 1489,166
+  CI (99.9%): [1072,265, 12540,765] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate":
-  5339,883 ±(99.9%) 4673,518 MB/sec [Average]
-  (min, avg, max) = (3855,241, 5339,883, 6946,739), stdev = 1213,698
-  CI (99.9%): [666,364, 10013,401] (assumes normal distribution)
+  6485,951 ±(99.9%) 5466,600 MB/sec [Average]
+  (min, avg, max) = (4947,942, 6485,951, 8755,762), stdev = 1419,659
+  CI (99.9%): [1019,351, 11952,552] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate.norm":
-  1000018,412 ±(99.9%) 2,087 B/op [Average]
-  (min, avg, max) = (1000017,779, 1000018,412, 1000019,136), stdev = 0,542
-  CI (99.9%): [1000016,325, 1000020,499] (assumes normal distribution)
+  1000017,972 ±(99.9%) 1,442 B/op [Average]
+  (min, avg, max) = (1000017,416, 1000017,972, 1000018,444), stdev = 0,374
+  CI (99.9%): [1000016,530, 1000019,414] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.GCProfilerSeparateThreadTest.separateAlloc:gc.count":
-  625,000 ±(99.9%) 0,001 counts [Sum]
-  (min, avg, max) = (90,000, 125,000, 163,000), stdev = 28,609
-  CI (99.9%): [625,000, 625,000] (assumes normal distribution)
+  759,000 ±(99.9%) 0,001 counts [Sum]
+  (min, avg, max) = (116,000, 151,800, 204,000), stdev = 32,805
+  CI (99.9%): [759,000, 759,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.GCProfilerSeparateThreadTest.separateAlloc:gc.time":
-  776,000 ±(99.9%) 0,001 ms [Sum]
-  (min, avg, max) = (116,000, 155,200, 183,000), stdev = 29,304
-  CI (99.9%): [776,000, 776,000] (assumes normal distribution)
+  573,000 ±(99.9%) 0,001 ms [Sum]
+  (min, avg, max) = (106,000, 114,600, 128,000), stdev = 8,473
+  CI (99.9%): [573,000, 573,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:10
@@ -86,9 +86,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                                       Mode  Cnt        Score      Error   Units
-GCProfilerSeparateThreadTest.separateAlloc                     thrpt    5     5604,179 ± 4905,984   ops/s
-GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate       thrpt    5     5339,883 ± 4673,518  MB/sec
-GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate.norm  thrpt    5  1000018,412 ±    2,087    B/op
-GCProfilerSeparateThreadTest.separateAlloc:gc.count            thrpt    5      625,000             counts
-GCProfilerSeparateThreadTest.separateAlloc:gc.time             thrpt    5      776,000                 ms
-Reported by profiler: 1000018.4120080884, target: 1000000
+GCProfilerSeparateThreadTest.separateAlloc                     thrpt    5     6806,515 ± 5734,250   ops/s
+GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate       thrpt    5     6485,951 ± 5466,600  MB/sec
+GCProfilerSeparateThreadTest.separateAlloc:gc.alloc.rate.norm  thrpt    5  1000017,972 ±    1,442    B/op
+GCProfilerSeparateThreadTest.separateAlloc:gc.count            thrpt    5      759,000             counts
+GCProfilerSeparateThreadTest.separateAlloc:gc.time             thrpt    5      573,000                 ms
+Reported by profiler: 1000017.97181581, target: 1000000

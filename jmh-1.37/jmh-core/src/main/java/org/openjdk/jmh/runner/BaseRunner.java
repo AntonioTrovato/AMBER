@@ -253,9 +253,6 @@ abstract class BaseRunner {
     }
 
     private boolean dynamicHaltIsApplicable(BenchmarkParams benchParams) {
-        //System.out.println("dynamic halt: " + benchParams.getDynamicHaltPresent().get());
-        //System.out.println("warmup time" + benchParams.getWarmup().getTime().getTime());
-        //System.out.println("measurement time" + benchParams.getMeasurement().getTime().getTime());
         return !benchParams.getDynamicHaltHost().isEmpty() && !benchParams.getDynamicHaltPort().isEmpty() && !benchParams.getDynamicHaltModel().isEmpty();
     }
 
@@ -278,8 +275,10 @@ abstract class BaseRunner {
 
         if (!dynamicHaltIsApplicable(benchParams)) {
             out.println("The Dynamic Halt is NOT Active");
-        }else
+        }else {
+            wp.setTime(100,TimeUnit.MILLISECONDS);
             wpIterations = 500;
+        }
 
         if(benchParams.getMode() == Mode.Throughput)
             thrpt = true;
@@ -332,8 +331,10 @@ abstract class BaseRunner {
             IterationParams mp = benchParams.getMeasurement();
             int mtIterations = mp.getCount();
 
-            if (dynamicHaltIsApplicable(benchParams))
+            if (dynamicHaltIsApplicable(benchParams)) {
+                mp.setTime(100,TimeUnit.MILLISECONDS);
                 mtIterations = 100;
+            }
 
             for (int i = 1; i <= mtIterations; i++) {
                 currentIterations++;

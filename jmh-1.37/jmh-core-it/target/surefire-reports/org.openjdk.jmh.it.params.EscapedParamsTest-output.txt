@@ -17,12 +17,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 80,955 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 79,360 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EscapedParamsTest.test":
-  80,955 ops/s
+  79,360 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -37,4 +37,4 @@ Benchmark               (param_n)  (param_nr)  (param_plain)  (param_r)  (param_
 EscapedParamsTest.test     value
      value
           value     value     value
-  thrpt       80,955          ops/s
+  thrpt       79,360          ops/s

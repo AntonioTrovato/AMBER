@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.336 sec - in org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.366 sec - in org.openjdk.jmh.it.threadparams.ThreadParamsStabilityTest

@@ -15,17 +15,17 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 328,437 ops/s
-Iteration   2: 328,988 ops/s
-Iteration   3: 332,046 ops/s
-Iteration   4: 333,175 ops/s
-Iteration   5: 331,726 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 330,662 ops/s
+Iteration   2: 332,419 ops/s
+Iteration   3: 329,062 ops/s
+Iteration   4: 331,823 ops/s
+Iteration   5: 332,599 ops/s
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
-  330,874 ±(99.9%) 7,912 ops/s [Average]
-  (min, avg, max) = (328,437, 330,874, 333,175), stdev = 2,055
-  CI (99.9%): [322,962, 338,786] (assumes normal distribution)
+  331,313 ±(99.9%) 5,656 ops/s [Average]
+  (min, avg, max) = (329,062, 331,313, 332,599), stdev = 1,469
+  CI (99.9%): [325,657, 336,969] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -44,7 +44,7 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
@@ -73,7 +73,7 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
@@ -90,23 +90,23 @@ Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
-                 p0.999:  0,014 s/op
-                 p0.9999: 0,014 s/op
-                 p1.00:   0,014 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
 
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+                 p0.99:   0,014 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
 
 Iteration   4: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
+                 p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -126,25 +126,29 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
 
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
-  N = 1661
+  N = 1657
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 75 
-    [0,010, 0,011) = 34 
-    [0,011, 0,011) = 61 
-    [0,011, 0,011) = 51 
-    [0,011, 0,011) = 63 
-    [0,011, 0,012) = 68 
-    [0,012, 0,012) = 50 
-    [0,012, 0,012) = 71 
-    [0,012, 0,012) = 56 
-    [0,012, 0,013) = 200 
-    [0,013, 0,013) = 928 
-    [0,013, 0,013) = 1 
+    [0,010, 0,010) = 44 
+    [0,010, 0,011) = 62 
+    [0,011, 0,011) = 76 
+    [0,011, 0,011) = 48 
+    [0,011, 0,011) = 53 
+    [0,011, 0,012) = 67 
+    [0,012, 0,012) = 75 
+    [0,012, 0,012) = 75 
+    [0,012, 0,012) = 52 
+    [0,012, 0,013) = 171 
+    [0,013, 0,013) = 929 
+    [0,013, 0,013) = 2 
     [0,013, 0,013) = 0 
     [0,013, 0,014) = 0 
-    [0,014, 0,014) = 3 
+    [0,014, 0,014) = 0 
+    [0,014, 0,014) = 2 
+    [0,014, 0,014) = 0 
+    [0,014, 0,015) = 1 
+    [0,015, 0,015) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
@@ -175,42 +179,42 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,013 ±(99.9%) 0,001 s/op
-Iteration   2: 0,010 ±(99.9%) 0,001 s/op
-Iteration   3: 0,011 ±(99.9%) 0,001 s/op
-Iteration   4: 0,011 ±(99.9%) 0,006 s/op
-Iteration   5: 0,013 ±(99.9%) 0,001 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+Iteration   2: 0,011 ±(99.9%) 0,001 s/op
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+Iteration   4: 0,012 ±(99.9%) 0,003 s/op
+Iteration   5: 0,012 ±(99.9%) 0,003 s/op
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateInvocationTest.T":
   N = 5
-  mean =      0,011 ±(99.9%) 0,004 s/op
+  mean =      0,012 ±(99.9%) 0,003 s/op
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
-    [0,010, 0,011) = 1 
+    [0,010, 0,011) = 0 
     [0,011, 0,011) = 0 
     [0,011, 0,011) = 1 
-    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 0 
     [0,011, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 0 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 2 
+    [0,012, 0,012) = 2 
+    [0,012, 0,013) = 2 
+    [0,013, 0,013) = 0 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,011 s/op
-     p(90,0000) =      0,013 s/op
-     p(95,0000) =      0,013 s/op
-     p(99,0000) =      0,013 s/op
-     p(99,9000) =      0,013 s/op
-     p(99,9900) =      0,013 s/op
-     p(99,9990) =      0,013 s/op
-     p(99,9999) =      0,013 s/op
-    p(100,0000) =      0,013 s/op
+      p(0,0000) =      0,011 s/op
+     p(50,0000) =      0,012 s/op
+     p(90,0000) =      0,012 s/op
+     p(95,0000) =      0,012 s/op
+     p(99,0000) =      0,012 s/op
+     p(99,9000) =      0,012 s/op
+     p(99,9900) =      0,012 s/op
+     p(99,9990) =      0,012 s/op
+     p(99,9999) =      0,012 s/op
+    p(100,0000) =      0,012 s/op
 
 
 # Run complete. Total time: 00:00:15
@@ -222,9 +226,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 Mode   Cnt    Score    Error  Units
-RaceGroupStateInvocationTest.T           thrpt     5  330,874 ±  7,912  ops/s
+RaceGroupStateInvocationTest.T           thrpt     5  331,313 ±  5,656  ops/s
 RaceGroupStateInvocationTest.T            avgt     5    0,012 ±  0,001   s/op
-RaceGroupStateInvocationTest.T          sample  1661    0,012 ±  0,001   s/op
+RaceGroupStateInvocationTest.T          sample  1657    0,012 ±  0,001   s/op
 RaceGroupStateInvocationTest.T:p0.00    sample          0,010            s/op
 RaceGroupStateInvocationTest.T:p0.50    sample          0,013            s/op
 RaceGroupStateInvocationTest.T:p0.90    sample          0,013            s/op
@@ -233,4 +237,4 @@ RaceGroupStateInvocationTest.T:p0.99    sample          0,013            s/op
 RaceGroupStateInvocationTest.T:p0.999   sample          0,014            s/op
 RaceGroupStateInvocationTest.T:p0.9999  sample          0,014            s/op
 RaceGroupStateInvocationTest.T:p1.00    sample          0,014            s/op
-RaceGroupStateInvocationTest.T              ss     5    0,011 ±  0,004   s/op
+RaceGroupStateInvocationTest.T              ss     5    0,012 ±  0,003   s/op

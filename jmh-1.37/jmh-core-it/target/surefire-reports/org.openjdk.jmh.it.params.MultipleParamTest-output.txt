@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,028 ops/s
-Iteration   1: 79,817 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 75,485 ops/s
+Iteration   1: 75,624 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,817 ops/s
+  75,624 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 3,70% complete, ETA 00:00:07
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,287 ops/s
-Iteration   1: 79,774 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,364 ops/s
+Iteration   1: 79,858 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,774 ops/s
+  79,858 ops/s
 
 
 # JMH version: 1.37
@@ -60,15 +60,15 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 # Benchmark: org.openjdk.jmh.it.params.MultipleParamTest.test
 # Parameters: (x = 1, y = 4, z = 9)
 
-# Run progress: 7,41% complete, ETA 00:00:07
+# Run progress: 7,41% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,944 ops/s
-Iteration   1: 79,794 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,204 ops/s
+Iteration   1: 91,438 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,794 ops/s
+  91,438 ops/s
 
 
 # JMH version: 1.37
@@ -86,13 +86,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 11,11% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 67,961 ops/s
-Iteration   1: 79,826 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 66,706 ops/s
+Iteration   1: 86,361 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,826 ops/s
+  86,361 ops/s
 
 
 # JMH version: 1.37
@@ -110,13 +110,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 14,81% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 63,609 ops/s
-Iteration   1: 79,842 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,241 ops/s
+Iteration   1: 81,846 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,842 ops/s
+  81,846 ops/s
 
 
 # JMH version: 1.37
@@ -134,13 +134,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 18,52% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,119 ops/s
-Iteration   1: 93,765 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 72,993 ops/s
+Iteration   1: 79,845 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  93,765 ops/s
+  79,845 ops/s
 
 
 # JMH version: 1.37
@@ -158,13 +158,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 22,22% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,401 ops/s
-Iteration   1: 79,881 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 57,844 ops/s
+Iteration   1: 79,753 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,881 ops/s
+  79,753 ops/s
 
 
 # JMH version: 1.37
@@ -182,13 +182,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 25,93% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,277 ops/s
-Iteration   1: 90,427 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 72,457 ops/s
+Iteration   1: 79,673 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  90,427 ops/s
+  79,673 ops/s
 
 
 # JMH version: 1.37
@@ -206,13 +206,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 29,63% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 72,260 ops/s
-Iteration   1: 89,684 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 78,748 ops/s
+Iteration   1: 79,918 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  89,684 ops/s
+  79,918 ops/s
 
 
 # JMH version: 1.37
@@ -230,13 +230,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,575 ops/s
-Iteration   1: 79,807 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 78,636 ops/s
+Iteration   1: 90,191 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,807 ops/s
+  90,191 ops/s
 
 
 # JMH version: 1.37
@@ -254,13 +254,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 37,04% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,083 ops/s
-Iteration   1: 79,802 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 65,566 ops/s
+Iteration   1: 98,695 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,802 ops/s
+  98,695 ops/s
 
 
 # JMH version: 1.37
@@ -278,13 +278,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 40,74% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 72,138 ops/s
-Iteration   1: 94,086 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,332 ops/s
+Iteration   1: 94,823 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  94,086 ops/s
+  94,823 ops/s
 
 
 # JMH version: 1.37
@@ -302,13 +302,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 44,44% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 64,207 ops/s
-Iteration   1: 79,779 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 85,018 ops/s
+Iteration   1: 84,362 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,779 ops/s
+  84,362 ops/s
 
 
 # JMH version: 1.37
@@ -326,13 +326,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 48,15% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 55,971 ops/s
-Iteration   1: 79,804 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 87,343 ops/s
+Iteration   1: 88,492 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,804 ops/s
+  88,492 ops/s
 
 
 # JMH version: 1.37
@@ -350,13 +350,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 51,85% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,279 ops/s
-Iteration   1: 79,848 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 84,023 ops/s
+Iteration   1: 83,785 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,848 ops/s
+  83,785 ops/s
 
 
 # JMH version: 1.37
@@ -374,13 +374,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 55,56% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 60,344 ops/s
-Iteration   1: 92,186 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 71,909 ops/s
+Iteration   1: 70,329 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  92,186 ops/s
+  70,329 ops/s
 
 
 # JMH version: 1.37
@@ -398,13 +398,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 59,26% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 63,453 ops/s
-Iteration   1: 79,820 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 61,981 ops/s
+Iteration   1: 79,556 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,820 ops/s
+  79,556 ops/s
 
 
 # JMH version: 1.37
@@ -422,13 +422,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 62,96% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,085 ops/s
-Iteration   1: 79,843 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,089 ops/s
+Iteration   1: 79,581 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,843 ops/s
+  79,581 ops/s
 
 
 # JMH version: 1.37
@@ -446,13 +446,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,863 ops/s
-Iteration   1: 79,549 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,499 ops/s
+Iteration   1: 79,821 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,549 ops/s
+  79,821 ops/s
 
 
 # JMH version: 1.37
@@ -470,13 +470,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 70,37% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 75,476 ops/s
-Iteration   1: 79,802 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,685 ops/s
+Iteration   1: 87,572 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,802 ops/s
+  87,572 ops/s
 
 
 # JMH version: 1.37
@@ -494,13 +494,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 74,07% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,691 ops/s
-Iteration   1: 98,979 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,229 ops/s
+Iteration   1: 86,091 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  98,979 ops/s
+  86,091 ops/s
 
 
 # JMH version: 1.37
@@ -518,13 +518,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 77,78% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 79,487 ops/s
-Iteration   1: 79,814 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 87,498 ops/s
+Iteration   1: 80,245 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,814 ops/s
+  80,245 ops/s
 
 
 # JMH version: 1.37
@@ -542,13 +542,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 81,48% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,088 ops/s
-Iteration   1: 79,852 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 89,283 ops/s
+Iteration   1: 79,831 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,852 ops/s
+  79,831 ops/s
 
 
 # JMH version: 1.37
@@ -566,13 +566,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 85,19% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 64,749 ops/s
-Iteration   1: 79,708 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,515 ops/s
+Iteration   1: 97,346 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,708 ops/s
+  97,346 ops/s
 
 
 # JMH version: 1.37
@@ -590,13 +590,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 88,89% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 73,293 ops/s
-Iteration   1: 79,854 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 84,512 ops/s
+Iteration   1: 92,086 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,854 ops/s
+  92,086 ops/s
 
 
 # JMH version: 1.37
@@ -614,13 +614,13 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 92,59% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 55,736 ops/s
-Iteration   1: 95,012 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,054 ops/s
+Iteration   1: 93,233 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  95,012 ops/s
+  93,233 ops/s
 
 
 # JMH version: 1.37
@@ -638,16 +638,16 @@ Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
 
 # Run progress: 96,30% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 84,694 ops/s
-Iteration   1: 79,787 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 76,758 ops/s
+Iteration   1: 84,040 ops/s
 
 
 Result "org.openjdk.jmh.it.params.MultipleParamTest.test":
-  79,787 ops/s
+  84,040 ops/s
 
 
-# Run complete. Total time: 00:00:07
+# Run complete. Total time: 00:00:08
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -656,30 +656,30 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark               (x)  (y)  (z)   Mode  Cnt   Score   Error  Units
-MultipleParamTest.test    1    4    7  thrpt       79,817          ops/s
-MultipleParamTest.test    1    4    8  thrpt       79,774          ops/s
-MultipleParamTest.test    1    4    9  thrpt       79,794          ops/s
-MultipleParamTest.test    1    5    7  thrpt       79,826          ops/s
-MultipleParamTest.test    1    5    8  thrpt       79,842          ops/s
-MultipleParamTest.test    1    5    9  thrpt       93,765          ops/s
-MultipleParamTest.test    1    6    7  thrpt       79,881          ops/s
-MultipleParamTest.test    1    6    8  thrpt       90,427          ops/s
-MultipleParamTest.test    1    6    9  thrpt       89,684          ops/s
-MultipleParamTest.test    2    4    7  thrpt       79,807          ops/s
-MultipleParamTest.test    2    4    8  thrpt       79,802          ops/s
-MultipleParamTest.test    2    4    9  thrpt       94,086          ops/s
-MultipleParamTest.test    2    5    7  thrpt       79,779          ops/s
-MultipleParamTest.test    2    5    8  thrpt       79,804          ops/s
-MultipleParamTest.test    2    5    9  thrpt       79,848          ops/s
-MultipleParamTest.test    2    6    7  thrpt       92,186          ops/s
-MultipleParamTest.test    2    6    8  thrpt       79,820          ops/s
-MultipleParamTest.test    2    6    9  thrpt       79,843          ops/s
-MultipleParamTest.test    3    4    7  thrpt       79,549          ops/s
-MultipleParamTest.test    3    4    8  thrpt       79,802          ops/s
-MultipleParamTest.test    3    4    9  thrpt       98,979          ops/s
-MultipleParamTest.test    3    5    7  thrpt       79,814          ops/s
-MultipleParamTest.test    3    5    8  thrpt       79,852          ops/s
-MultipleParamTest.test    3    5    9  thrpt       79,708          ops/s
-MultipleParamTest.test    3    6    7  thrpt       79,854          ops/s
-MultipleParamTest.test    3    6    8  thrpt       95,012          ops/s
-MultipleParamTest.test    3    6    9  thrpt       79,787          ops/s
+MultipleParamTest.test    1    4    7  thrpt       75,624          ops/s
+MultipleParamTest.test    1    4    8  thrpt       79,858          ops/s
+MultipleParamTest.test    1    4    9  thrpt       91,438          ops/s
+MultipleParamTest.test    1    5    7  thrpt       86,361          ops/s
+MultipleParamTest.test    1    5    8  thrpt       81,846          ops/s
+MultipleParamTest.test    1    5    9  thrpt       79,845          ops/s
+MultipleParamTest.test    1    6    7  thrpt       79,753          ops/s
+MultipleParamTest.test    1    6    8  thrpt       79,673          ops/s
+MultipleParamTest.test    1    6    9  thrpt       79,918          ops/s
+MultipleParamTest.test    2    4    7  thrpt       90,191          ops/s
+MultipleParamTest.test    2    4    8  thrpt       98,695          ops/s
+MultipleParamTest.test    2    4    9  thrpt       94,823          ops/s
+MultipleParamTest.test    2    5    7  thrpt       84,362          ops/s
+MultipleParamTest.test    2    5    8  thrpt       88,492          ops/s
+MultipleParamTest.test    2    5    9  thrpt       83,785          ops/s
+MultipleParamTest.test    2    6    7  thrpt       70,329          ops/s
+MultipleParamTest.test    2    6    8  thrpt       79,556          ops/s
+MultipleParamTest.test    2    6    9  thrpt       79,581          ops/s
+MultipleParamTest.test    3    4    7  thrpt       79,821          ops/s
+MultipleParamTest.test    3    4    8  thrpt       87,572          ops/s
+MultipleParamTest.test    3    4    9  thrpt       86,091          ops/s
+MultipleParamTest.test    3    5    7  thrpt       80,245          ops/s
+MultipleParamTest.test    3    5    8  thrpt       79,831          ops/s
+MultipleParamTest.test    3    5    9  thrpt       97,346          ops/s
+MultipleParamTest.test    3    6    7  thrpt       92,086          ops/s
+MultipleParamTest.test    3    6    8  thrpt       93,233          ops/s
+MultipleParamTest.test    3    6    9  thrpt       84,040          ops/s

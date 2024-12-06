@@ -13,9 +13,9 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,640 ops/s
-Iteration   1: 79,785 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,316 ops/s
+Iteration   1: 87,586 ops/s
 <JMH had finished, but forked VM did not exit, are there stray running threads? Waiting 24 seconds more...>
 
 Non-finished threads:
@@ -27,7 +27,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -42,7 +42,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -57,7 +57,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -72,7 +72,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -87,7 +87,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -102,7 +102,7 @@ Thread[Thread-2,5,main]
   at java.lang.Thread.sleep(Thread.java:342)
   at java.util.concurrent.TimeUnit.sleep(TimeUnit.java:386)
   at org.openjdk.jmh.it.errors.ForkedStuckThreadTest.lambda$setup$0(ForkedStuckThreadTest.java:48)
-  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/727604411.run(Unknown Source)
+  at org.openjdk.jmh.it.errors.ForkedStuckThreadTest$$Lambda$6/477299399.run(Unknown Source)
   at java.lang.Thread.run(Thread.java:750)
 
 
@@ -110,7 +110,7 @@ Thread[Thread-2,5,main]
 
 
 Result "org.openjdk.jmh.it.errors.ForkedStuckThreadTest.bench":
-  79,785 ops/s
+  87,586 ops/s
 
 
 # Run complete. Total time: 00:00:30
@@ -122,4 +122,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                     Mode  Cnt   Score   Error  Units
-ForkedStuckThreadTest.bench  thrpt       79,785          ops/s
+ForkedStuckThreadTest.bench  thrpt       87,586          ops/s

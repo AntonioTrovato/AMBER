@@ -13,66 +13,66 @@
 
 # Run progress: 0,00% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,294 ops/s
-# Warmup Iteration   2: 82,777 ops/s
-# Warmup Iteration   3: 83,276 ops/s
-Iteration   1: 80,543 ops/s
-                 mempool.Code Cache.used:             2132,000 KiB
-                 mempool.Compressed Class Space.used: 753,055 KiB
-                 mempool.Metaspace.used:              6562,023 KiB
-                 mempool.PS Eden Space.used:          11803,367 KiB
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,944 ops/s
+# Warmup Iteration   2: 81,947 ops/s
+# Warmup Iteration   3: 81,251 ops/s
+Iteration   1: 83,358 ops/s
+                 mempool.Code Cache.used:             2193,000 KiB
+                 mempool.Compressed Class Space.used: 753,125 KiB
+                 mempool.Metaspace.used:              6587,977 KiB
+                 mempool.PS Eden Space.used:          11803,531 KiB
                  mempool.PS Old Gen.used:             ≈ 0 KiB
                  mempool.PS Survivor Space.used:      ≈ 0 KiB
-                 mempool.total.codeheap.used:         2132,000 KiB
-                 mempool.total.used:                  21250,445 KiB
+                 mempool.total.codeheap.used:         2193,000 KiB
+                 mempool.total.used:                  21337,633 KiB
 
-Iteration   2: 83,039 ops/s
-                 mempool.Code Cache.used:             2137,188 KiB
-                 mempool.Compressed Class Space.used: 753,055 KiB
-                 mempool.Metaspace.used:              6562,500 KiB
-                 mempool.PS Eden Space.used:          11803,367 KiB
+Iteration   2: 83,371 ops/s
+                 mempool.Code Cache.used:             2210,500 KiB
+                 mempool.Compressed Class Space.used: 753,125 KiB
+                 mempool.Metaspace.used:              6592,906 KiB
+                 mempool.PS Eden Space.used:          11803,531 KiB
                  mempool.PS Old Gen.used:             ≈ 0 KiB
                  mempool.PS Survivor Space.used:      ≈ 0 KiB
-                 mempool.total.codeheap.used:         2137,188 KiB
-                 mempool.total.used:                  21256,109 KiB
+                 mempool.total.codeheap.used:         2210,500 KiB
+                 mempool.total.used:                  21360,063 KiB
 
-Iteration   3: 82,427 ops/s
-                 mempool.Code Cache.used:             2141,625 KiB
-                 mempool.Compressed Class Space.used: 753,055 KiB
-                 mempool.Metaspace.used:              6563,742 KiB
-                 mempool.PS Eden Space.used:          11803,367 KiB
+Iteration   3: 82,744 ops/s
+                 mempool.Code Cache.used:             2216,438 KiB
+                 mempool.Compressed Class Space.used: 753,125 KiB
+                 mempool.Metaspace.used:              6594,148 KiB
+                 mempool.PS Eden Space.used:          11803,531 KiB
                  mempool.PS Old Gen.used:             ≈ 0 KiB
                  mempool.PS Survivor Space.used:      ≈ 0 KiB
-                 mempool.total.codeheap.used:         2141,625 KiB
-                 mempool.total.used:                  21261,789 KiB
+                 mempool.total.codeheap.used:         2216,438 KiB
+                 mempool.total.used:                  21367,242 KiB
 
 
 
 Result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work":
-  82,003 ±(99.9%) 23,733 ops/s [Average]
-  (min, avg, max) = (80,543, 82,003, 83,039), stdev = 1,301
-  CI (99.9%): [58,270, 105,736] (assumes normal distribution)
+  83,157 ±(99.9%) 6,540 ops/s [Average]
+  (min, avg, max) = (82,744, 83,157, 83,371), stdev = 0,359
+  CI (99.9%): [76,617, 89,698] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.Code Cache.used":
-  2141,625 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (2132,000, 2136,938, 2141,625), stdev = 4,817
-  CI (99.9%): [2141,625, 2141,625] (assumes normal distribution)
+  2216,438 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (2193,000, 2206,646, 2216,438), stdev = 12,185
+  CI (99.9%): [2216,438, 2216,438] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.Compressed Class Space.used":
-  753,055 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (753,055, 753,055, 753,055), stdev = 0,001
-  CI (99.9%): [753,055, 753,055] (assumes normal distribution)
+  753,125 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (753,125, 753,125, 753,125), stdev = 0,001
+  CI (99.9%): [753,125, 753,125] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.Metaspace.used":
-  6563,742 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (6562,023, 6562,755, 6563,742), stdev = 0,887
-  CI (99.9%): [6563,742, 6563,742] (assumes normal distribution)
+  6594,148 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (6587,977, 6591,677, 6594,148), stdev = 3,264
+  CI (99.9%): [6594,148, 6594,148] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.PS Eden Space.used":
-  11803,367 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (11803,367, 11803,367, 11803,367), stdev = 0,001
-  CI (99.9%): [11803,367, 11803,367] (assumes normal distribution)
+  11803,531 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (11803,531, 11803,531, 11803,531), stdev = 0,001
+  CI (99.9%): [11803,531, 11803,531] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.PS Old Gen.used":
   ≈ 0 KiB
@@ -81,14 +81,14 @@ Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.
   ≈ 0 KiB
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.total.codeheap.used":
-  2141,625 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (2132,000, 2136,938, 2141,625), stdev = 4,817
-  CI (99.9%): [2141,625, 2141,625] (assumes normal distribution)
+  2216,438 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (2193,000, 2206,646, 2216,438), stdev = 12,185
+  CI (99.9%): [2216,438, 2216,438] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.MemPoolProfilerTest.work:mempool.total.used":
-  21261,789 ±(99.9%) 0,001 KiB [Maximum]
-  (min, avg, max) = (21250,445, 21256,115, 21261,789), stdev = 5,672
-  CI (99.9%): [21261,789, 21261,789] (assumes normal distribution)
+  21367,242 ±(99.9%) 0,001 KiB [Maximum]
+  (min, avg, max) = (21337,633, 21354,979, 21367,242), stdev = 15,445
+  CI (99.9%): [21367,242, 21367,242] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:06
@@ -99,13 +99,13 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                                                      Mode  Cnt      Score    Error  Units
-MemPoolProfilerTest.work                                      thrpt    3     82,003 ± 23,733  ops/s
-MemPoolProfilerTest.work:mempool.Code Cache.used              thrpt    3   2141,625             KiB
-MemPoolProfilerTest.work:mempool.Compressed Class Space.used  thrpt    3    753,055             KiB
-MemPoolProfilerTest.work:mempool.Metaspace.used               thrpt    3   6563,742             KiB
-MemPoolProfilerTest.work:mempool.PS Eden Space.used           thrpt    3  11803,367             KiB
-MemPoolProfilerTest.work:mempool.PS Old Gen.used              thrpt    3        ≈ 0             KiB
-MemPoolProfilerTest.work:mempool.PS Survivor Space.used       thrpt    3        ≈ 0             KiB
-MemPoolProfilerTest.work:mempool.total.codeheap.used          thrpt    3   2141,625             KiB
-MemPoolProfilerTest.work:mempool.total.used                   thrpt    3  21261,789             KiB
+Benchmark                                                      Mode  Cnt      Score   Error  Units
+MemPoolProfilerTest.work                                      thrpt    3     83,157 ± 6,540  ops/s
+MemPoolProfilerTest.work:mempool.Code Cache.used              thrpt    3   2216,438            KiB
+MemPoolProfilerTest.work:mempool.Compressed Class Space.used  thrpt    3    753,125            KiB
+MemPoolProfilerTest.work:mempool.Metaspace.used               thrpt    3   6594,148            KiB
+MemPoolProfilerTest.work:mempool.PS Eden Space.used           thrpt    3  11803,531            KiB
+MemPoolProfilerTest.work:mempool.PS Old Gen.used              thrpt    3        ≈ 0            KiB
+MemPoolProfilerTest.work:mempool.PS Survivor Space.used       thrpt    3        ≈ 0            KiB
+MemPoolProfilerTest.work:mempool.total.codeheap.used          thrpt    3   2216,438            KiB
+MemPoolProfilerTest.work:mempool.total.used                   thrpt    3  21367,242            KiB

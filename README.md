@@ -6,7 +6,7 @@ This repository contains:
 - `jpt-service`: the dockerized Flask web application exposing the TSC models
 - `jmh-core-1.37-all.jar`: the ready to use .jar file of AMBER
 
-Please, consider that in order to use AMBER you have to run the docker service. In order to to that, follow the instructions in the `jpt-service` folder.
+Please, consider that in order to use AMBER you have to run the docker service. In order to do that, follow the instructions in the `jpt-service` folder.
 
 ## AMBER Jar File Generation
 To regenerate the AMBER jar file, the only step is to run in the `jmh-core` module of the `jmh-1.37` folder `mvn clean install`.
@@ -106,3 +106,25 @@ Then reload the project. The JMH Gradle plugin needs for the benchmarks to be co
     jmhJar
 ```
 You are ready to run the microbenchmarks, and to have a look at all the possible options run `java -cp "libs/jmh-core-1.37-all.jar:build/libs/rxjava-3.0.0-SNAPSHOT-jmh.jar" org.openjdk.jmh.Main -h`. The dynamic halt can be configured both in the command line options and annotations.
+
+## Configuring the Dynamic Halt
+Once the setup of AMBER is done, to configure the Dynamic Halt of your microbenchmarks you have two possibilities.
+The first one consists in using the following annotation:
+```
+@DynamicHalt(model = "model_name")
+```
+The `model_name` could be one of `oscnn`, `fcn` or `rocket`.
+
+Otherwise, you can use the command line option:
+```
+-hmodel "model_name"
+```
+
+Please, consider that as default AMBER configure the connection with the dockerized `jpt_service` at host `localhost` and port `50001`. If, following the instruction of the `README.md` file in the `jpt_service` folder, you've decided to run the service on a different host or on a different port, you should explicitly tell AMBER the host or port you have chosen.
+To do so, you can use the following annotation's parameters:
+```
+@DynamicHalt(model = "model_name",host="new_host",port="new_port")
+```
+Or the following command line options:
+```
+-hmodel "model_name" -host "new_host" -hport "new_port"

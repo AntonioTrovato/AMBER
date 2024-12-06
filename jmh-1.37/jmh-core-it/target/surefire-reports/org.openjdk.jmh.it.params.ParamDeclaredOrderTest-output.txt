@@ -16,11 +16,11 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,754 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 79,666 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,754 ops/s
+  79,666 ops/s
 
 
 # JMH version: 1.37
@@ -40,11 +40,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 79,671 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,253 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  79,671 ops/s
+  80,253 ops/s
 
 
 # JMH version: 1.37
@@ -64,11 +64,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 79,683 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 83,639 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  79,683 ops/s
+  83,639 ops/s
 
 
 # JMH version: 1.37
@@ -88,11 +88,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,352 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,760 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,352 ops/s
+  82,760 ops/s
 
 
 # JMH version: 1.37
@@ -112,11 +112,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 78,247 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 83,675 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  78,247 ops/s
+  83,675 ops/s
 
 
 # JMH version: 1.37
@@ -136,11 +136,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 82,107 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,593 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  82,107 ops/s
+  82,593 ops/s
 
 
 # JMH version: 1.37
@@ -160,11 +160,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,526 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,345 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,526 ops/s
+  82,345 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -176,13 +176,13 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                    (v)   Mode  Cnt   Score   Error  Units
-ParamDeclaredOrderTest.test    1  thrpt       81,754          ops/s
-ParamDeclaredOrderTest.test    2  thrpt       79,671          ops/s
-ParamDeclaredOrderTest.test    4  thrpt       79,683          ops/s
-ParamDeclaredOrderTest.test    8  thrpt       81,352          ops/s
-ParamDeclaredOrderTest.test   16  thrpt       78,247          ops/s
-ParamDeclaredOrderTest.test   32  thrpt       82,107          ops/s
-ParamDeclaredOrderTest.test   64  thrpt       81,526          ops/s
+ParamDeclaredOrderTest.test    1  thrpt       79,666          ops/s
+ParamDeclaredOrderTest.test    2  thrpt       80,253          ops/s
+ParamDeclaredOrderTest.test    4  thrpt       83,639          ops/s
+ParamDeclaredOrderTest.test    8  thrpt       82,760          ops/s
+ParamDeclaredOrderTest.test   16  thrpt       83,675          ops/s
+ParamDeclaredOrderTest.test   32  thrpt       82,593          ops/s
+ParamDeclaredOrderTest.test   64  thrpt       82,345          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -201,11 +201,11 @@ ParamDeclaredOrderTest.test   64  thrpt       81,526          ops/s
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 83,389 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,121 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  83,389 ops/s
+  82,121 ops/s
 
 
 # JMH version: 1.37
@@ -225,11 +225,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,913 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,372 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,913 ops/s
+  82,372 ops/s
 
 
 # JMH version: 1.37
@@ -249,11 +249,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,534 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 81,953 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,534 ops/s
+  81,953 ops/s
 
 
 # JMH version: 1.37
@@ -273,11 +273,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 81,669 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 81,004 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  81,669 ops/s
+  81,004 ops/s
 
 
 # JMH version: 1.37
@@ -297,11 +297,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 82,165 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,866 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  82,165 ops/s
+  82,866 ops/s
 
 
 # JMH version: 1.37
@@ -321,11 +321,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 82,380 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,752 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  82,380 ops/s
+  82,752 ops/s
 
 
 # JMH version: 1.37
@@ -345,11 +345,11 @@ Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 83,571 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 80,739 ops/s
 
 Result "org.openjdk.jmh.it.params.ParamDeclaredOrderTest.test":
-  83,571 ops/s
+  80,739 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -361,10 +361,10 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                    (v)   Mode  Cnt   Score   Error  Units
-ParamDeclaredOrderTest.test    1  thrpt       83,389          ops/s
-ParamDeclaredOrderTest.test    2  thrpt       81,913          ops/s
-ParamDeclaredOrderTest.test    4  thrpt       81,534          ops/s
-ParamDeclaredOrderTest.test    8  thrpt       81,669          ops/s
-ParamDeclaredOrderTest.test   16  thrpt       82,165          ops/s
-ParamDeclaredOrderTest.test   32  thrpt       82,380          ops/s
-ParamDeclaredOrderTest.test   64  thrpt       83,571          ops/s
+ParamDeclaredOrderTest.test    1  thrpt       82,121          ops/s
+ParamDeclaredOrderTest.test    2  thrpt       82,372          ops/s
+ParamDeclaredOrderTest.test    4  thrpt       81,953          ops/s
+ParamDeclaredOrderTest.test    8  thrpt       81,004          ops/s
+ParamDeclaredOrderTest.test   16  thrpt       82,866          ops/s
+ParamDeclaredOrderTest.test   32  thrpt       82,752          ops/s
+ParamDeclaredOrderTest.test   64  thrpt       80,739          ops/s

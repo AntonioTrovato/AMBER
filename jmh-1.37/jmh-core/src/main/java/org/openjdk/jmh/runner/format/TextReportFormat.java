@@ -148,7 +148,10 @@ class TextReportFormat extends AbstractOutputFormat {
     public void iteration(BenchmarkParams benchmarkParams, IterationParams params, int iteration) {
         switch (params.getType()) {
             case WARMUP:
-                out.print(String.format("# Warmup Iteration %3d: ", iteration));
+                if (benchmarkParams.getDynamicHaltModel().isEmpty())
+                    out.print(String.format("# Warmup Iteration %3d: ", iteration));
+                else
+                    out.print(String.format("# Iteration %3d: ", iteration));
                 break;
             case MEASUREMENT:
                 out.print(String.format("Iteration %3d: ", iteration));

@@ -13,35 +13,35 @@
 
 # Run progress: 0,00% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 83,817 ops/s
-# Warmup Iteration   2: 83,160 ops/s
-# Warmup Iteration   3: 83,933 ops/s
-Iteration   1: 81,657 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,494 ops/s
+# Warmup Iteration   2: 82,665 ops/s
+# Warmup Iteration   3: 81,938 ops/s
+Iteration   1: 82,261 ops/s
                  stack: <delayed till summary>
 
-Iteration   2: 82,182 ops/s
+Iteration   2: 82,119 ops/s
                  stack: <delayed till summary>
 
-Iteration   3: 81,961 ops/s
+Iteration   3: 83,661 ops/s
                  stack: <delayed till summary>
 
 
 
 Result "org.openjdk.jmh.it.profilers.StackProfilerTest.work":
-  81,933 ±(99.9%) 4,806 ops/s [Average]
-  (min, avg, max) = (81,657, 81,933, 82,182), stdev = 0,263
-  CI (99.9%): [77,127, 86,740] (assumes normal distribution)
+  82,680 ±(99.9%) 15,544 ops/s [Average]
+  (min, avg, max) = (82,119, 82,680, 83,661), stdev = 0,852
+  CI (99.9%): [67,136, 98,224] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.StackProfilerTest.work:stack":
 Stack profiler:
 
 ....[Thread state distributions]....................................................................
- 99,2%         TIMED_WAITING
-  0,8%         RUNNABLE
+ 98,8%         TIMED_WAITING
+  1,2%         RUNNABLE
 
 ....[Thread state: TIMED_WAITING]...................................................................
- 99,2% 100,0% java.lang.Thread.sleep
+ 98,8% 100,0% java.lang.Thread.sleep
               java.lang.Thread.sleep
               java.util.concurrent.TimeUnit.sleep
               org.openjdk.jmh.it.Fixtures.work
@@ -54,17 +54,29 @@ Stack profiler:
 
 
 ....[Thread state: RUNNABLE]........................................................................
-  0,4%  50,0% java.lang.Thread.isInterrupted
-              java.lang.Thread.interrupted
-              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.checkInterruptWhileWaiting
-              java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await
-              java.util.concurrent.LinkedBlockingQueue.take
-              java.util.concurrent.ThreadPoolExecutor.getTask
-              java.util.concurrent.ThreadPoolExecutor.runWorker
-              java.util.concurrent.ThreadPoolExecutor$Worker.run
-              java.lang.Thread.run
+  0,4%  33,3% java.lang.Thread.sleep
+              java.lang.Thread.sleep
+              java.util.concurrent.TimeUnit.sleep
+              org.openjdk.jmh.it.Fixtures.work
+              org.openjdk.jmh.it.profilers.StackProfilerTest.somethingInTheMiddle
+              org.openjdk.jmh.it.profilers.StackProfilerTest.work
+              org.openjdk.jmh.it.profilers.jmh_generated.StackProfilerTest_work_jmhTest.work_thrpt_jmhStub
+              org.openjdk.jmh.it.profilers.jmh_generated.StackProfilerTest_work_jmhTest.work_Throughput
+              sun.reflect.NativeMethodAccessorImpl.invoke0
+              sun.reflect.NativeMethodAccessorImpl.invoke
 
-  0,4%  50,0% sun.misc.Unsafe.unpark
+  0,4%  33,3% java.lang.Object.hashCode
+              java.util.concurrent.ConcurrentHashMap.putVal
+              java.util.concurrent.ConcurrentHashMap.put
+              org.openjdk.jmh.runner.BenchmarkHandler.getWorkerData
+              org.openjdk.jmh.runner.BenchmarkHandler.access$300
+              org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+              org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+              java.util.concurrent.FutureTask.run
+              java.util.concurrent.Executors$RunnableAdapter.call
+              java.util.concurrent.FutureTask.run
+
+  0,4%  33,3% sun.misc.Unsafe.unpark
               java.util.concurrent.locks.LockSupport.unpark
               java.util.concurrent.locks.AbstractQueuedSynchronizer.unparkSuccessor
               java.util.concurrent.locks.AbstractQueuedSynchronizer.doReleaseShared
@@ -86,6 +98,6 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                      Mode  Cnt   Score   Error  Units
-StackProfilerTest.work        thrpt    3  81,933 ± 4,806  ops/s
-StackProfilerTest.work:stack  thrpt          NaN            ---
+Benchmark                      Mode  Cnt   Score    Error  Units
+StackProfilerTest.work        thrpt    3  82,680 ± 15,544  ops/s
+StackProfilerTest.work:stack  thrpt          NaN             ---

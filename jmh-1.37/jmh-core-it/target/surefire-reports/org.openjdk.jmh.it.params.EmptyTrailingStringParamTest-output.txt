@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 78,726 ops/s
-Iteration   1: 80,474 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,743 ops/s
+Iteration   1: 83,214 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
-  80,474 ops/s
+  83,214 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 81,563 ops/s
-Iteration   1: 81,868 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 78,316 ops/s
+Iteration   1: 81,026 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
-  81,868 ops/s
+  81,026 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -56,8 +56,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          (x)   Mode  Cnt   Score   Error  Units
-EmptyTrailingStringParamTest.test  val  thrpt       80,474          ops/s
-EmptyTrailingStringParamTest.test       thrpt       81,868          ops/s
+EmptyTrailingStringParamTest.test  val  thrpt       83,214          ops/s
+EmptyTrailingStringParamTest.test       thrpt       81,026          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -74,13 +74,13 @@ EmptyTrailingStringParamTest.test       thrpt       81,868          ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,820 ops/s
-Iteration   1: 81,083 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,724 ops/s
+Iteration   1: 78,850 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
-  81,083 ops/s
+  78,850 ops/s
 
 
 # JMH version: 1.37
@@ -98,13 +98,13 @@ Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,243 ops/s
-Iteration   1: 80,864 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 79,184 ops/s
+Iteration   1: 83,286 ops/s
 
 
 Result "org.openjdk.jmh.it.params.EmptyTrailingStringParamTest.test":
-  80,864 ops/s
+  83,286 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -116,5 +116,5 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          (x)   Mode  Cnt   Score   Error  Units
-EmptyTrailingStringParamTest.test  val  thrpt       81,083          ops/s
-EmptyTrailingStringParamTest.test       thrpt       80,864          ops/s
+EmptyTrailingStringParamTest.test  val  thrpt       78,850          ops/s
+EmptyTrailingStringParamTest.test       thrpt       83,286          ops/s

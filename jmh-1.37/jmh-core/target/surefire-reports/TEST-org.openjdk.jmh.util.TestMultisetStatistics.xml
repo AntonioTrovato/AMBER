@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.util.TestMultisetStatistics" time="0.025" tests="32" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.util.TestMultisetStatistics" time="0.026" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -65,30 +65,30 @@
   <testcase name="testEmpty" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testHistogram_increasing" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testGetN" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testToString" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
-  <testcase name="testGetConfidenceInterval" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.016"/>
+  <testcase name="testToString" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
+  <testcase name="testGetConfidenceInterval" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.018"/>
   <testcase name="testGetStandardDeviation" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testHistogram_0_42" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testRawDataIterator_duplicates" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
+  <testcase name="testRawDataIterator_duplicates" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.002"/>
   <testcase name="testGetMean" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testRawDataIterator_no_duplicates" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testGetVariance" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testHistogram_rightBound" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
+  <testcase name="testHistogram_rightBound" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
   <testcase name="testHistogram_42_43" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testSignificant_Always" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.004"/>
+  <testcase name="testSignificant_Always" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.003"/>
   <testcase name="testHistogram_emptyLevels_middle" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testSignificant_Sometimes" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
   <testcase name="testAdd_double" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testHistogram_43_100" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testHistogram_emptyLevels_left" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testPercentile_100" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testSignificant_Never" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
+  <testcase name="testSignificant_Never" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testGetMax" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testGetMin" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
+  <testcase name="testGetMin" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
   <testcase name="testGetSum" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testHistogram_MinMax" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testSingle" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
-  <testcase name="testPercentile_00" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0.001"/>
+  <testcase name="testPercentile_00" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testPercentile_50" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testPercentile_90" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>
   <testcase name="testPercentile_99" classname="org.openjdk.jmh.util.TestMultisetStatistics" time="0"/>

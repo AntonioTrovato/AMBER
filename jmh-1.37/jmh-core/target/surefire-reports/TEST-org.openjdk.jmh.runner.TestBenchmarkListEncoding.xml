@@ -60,8 +60,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="test_ASCII_UTF8" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0"/>
+  <testcase name="test_ASCII_UTF8" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0.001"/>
   <testcase name="test_UTF8_ASCII" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0"/>
-  <testcase name="test_UTF8_UTF8" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0.001"/>
+  <testcase name="test_UTF8_UTF8" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0"/>
   <testcase name="test_ASCII_ASCII" classname="org.openjdk.jmh.runner.TestBenchmarkListEncoding" time="0"/>
 </testsuite>

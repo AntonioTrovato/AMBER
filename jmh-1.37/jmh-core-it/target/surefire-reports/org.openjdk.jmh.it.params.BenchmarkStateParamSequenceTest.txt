@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.params.BenchmarkStateParamSequenceTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.383 sec - in org.openjdk.jmh.it.params.BenchmarkStateParamSequenceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.953 sec - in org.openjdk.jmh.it.params.BenchmarkStateParamSequenceTest

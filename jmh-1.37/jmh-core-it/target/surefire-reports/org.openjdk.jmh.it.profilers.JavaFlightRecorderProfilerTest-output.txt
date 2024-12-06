@@ -14,22 +14,22 @@
 # Run progress: 0,00% complete, ETA 00:00:06
 # Fork: 1 of 1
 # Preparing profilers: JavaFlightRecorderProfiler 
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 83,377 ops/s
-# Warmup Iteration   2: 83,656 ops/s
-# Warmup Iteration   3: 82,811 ops/s
-Iteration   1: 83,246 ops/s
-Iteration   2: 82,718 ops/s
-Iteration   3: 82,849 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,445 ops/s
+# Warmup Iteration   2: 83,624 ops/s
+# Warmup Iteration   3: 83,289 ops/s
+Iteration   1: 82,932 ops/s
+Iteration   2: 82,732 ops/s
+Iteration   3: 82,660 ops/s
                  jfr: (text only)
 
 # Processing profiler results: JavaFlightRecorderProfiler 
 
 
 Result "org.openjdk.jmh.it.profilers.JavaFlightRecorderProfilerTest.work":
-  82,938 ±(99.9%) 5,020 ops/s [Average]
-  (min, avg, max) = (82,718, 82,938, 83,246), stdev = 0,275
-  CI (99.9%): [77,917, 87,958] (assumes normal distribution)
+  82,775 ±(99.9%) 2,572 ops/s [Average]
+  (min, avg, max) = (82,660, 82,775, 82,932), stdev = 0,141
+  CI (99.9%): [80,203, 85,346] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.profilers.JavaFlightRecorderProfilerTest.work:jfr":
 JFR profiler results:
@@ -45,5 +45,5 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                 Mode  Cnt   Score   Error  Units
-JavaFlightRecorderProfilerTest.work      thrpt    3  82,938 ± 5,020  ops/s
+JavaFlightRecorderProfilerTest.work      thrpt    3  82,775 ± 2,572  ops/s
 JavaFlightRecorderProfilerTest.work:jfr  thrpt          NaN            ---

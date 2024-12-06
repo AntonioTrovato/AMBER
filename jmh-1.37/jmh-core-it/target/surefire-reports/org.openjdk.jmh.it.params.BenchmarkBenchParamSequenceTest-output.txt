@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 62,870 ops/s
-Iteration   1: 79,848 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,437 ops/s
+Iteration   1: 86,505 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,848 ops/s
+  86,505 ops/s
 
 
 # JMH version: 1.37
@@ -38,13 +38,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 11,11% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,747 ops/s
-Iteration   1: 81,567 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,073 ops/s
+Iteration   1: 99,121 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  81,567 ops/s
+  99,121 ops/s
 
 
 # JMH version: 1.37
@@ -62,13 +62,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 22,22% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 59,819 ops/s
-Iteration   1: 79,793 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,824 ops/s
+Iteration   1: 79,632 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,793 ops/s
+  79,632 ops/s
 
 
 # JMH version: 1.37
@@ -86,13 +86,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,864 ops/s
-Iteration   1: 85,451 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 71,869 ops/s
+Iteration   1: 79,831 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  85,451 ops/s
+  79,831 ops/s
 
 
 # JMH version: 1.37
@@ -110,13 +110,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 44,44% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,567 ops/s
-Iteration   1: 79,829 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 65,974 ops/s
+Iteration   1: 86,726 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,829 ops/s
+  86,726 ops/s
 
 
 # JMH version: 1.37
@@ -134,13 +134,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 55,56% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,764 ops/s
-Iteration   1: 79,844 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 60,186 ops/s
+Iteration   1: 79,789 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,844 ops/s
+  79,789 ops/s
 
 
 # JMH version: 1.37
@@ -158,13 +158,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,602 ops/s
-Iteration   1: 89,493 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 68,200 ops/s
+Iteration   1: 78,163 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  89,493 ops/s
+  78,163 ops/s
 
 
 # JMH version: 1.37
@@ -182,13 +182,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 77,78% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 75,295 ops/s
-Iteration   1: 83,317 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,559 ops/s
+Iteration   1: 79,847 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  83,317 ops/s
+  79,847 ops/s
 
 
 # JMH version: 1.37
@@ -206,13 +206,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 88,89% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 62,117 ops/s
-Iteration   1: 79,916 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 60,768 ops/s
+Iteration   1: 82,674 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,916 ops/s
+  82,674 ops/s
 
 
 # Run complete. Total time: 00:00:02
@@ -224,15 +224,15 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                             (x)  (y)   Mode  Cnt   Score   Error  Units
-BenchmarkBenchParamSequenceTest.test    1    a  thrpt       79,848          ops/s
-BenchmarkBenchParamSequenceTest.test    1    b  thrpt       81,567          ops/s
-BenchmarkBenchParamSequenceTest.test    1    c  thrpt       79,793          ops/s
-BenchmarkBenchParamSequenceTest.test    2    a  thrpt       85,451          ops/s
-BenchmarkBenchParamSequenceTest.test    2    b  thrpt       79,829          ops/s
-BenchmarkBenchParamSequenceTest.test    2    c  thrpt       79,844          ops/s
-BenchmarkBenchParamSequenceTest.test    3    a  thrpt       89,493          ops/s
-BenchmarkBenchParamSequenceTest.test    3    b  thrpt       83,317          ops/s
-BenchmarkBenchParamSequenceTest.test    3    c  thrpt       79,916          ops/s
+BenchmarkBenchParamSequenceTest.test    1    a  thrpt       86,505          ops/s
+BenchmarkBenchParamSequenceTest.test    1    b  thrpt       99,121          ops/s
+BenchmarkBenchParamSequenceTest.test    1    c  thrpt       79,632          ops/s
+BenchmarkBenchParamSequenceTest.test    2    a  thrpt       79,831          ops/s
+BenchmarkBenchParamSequenceTest.test    2    b  thrpt       86,726          ops/s
+BenchmarkBenchParamSequenceTest.test    2    c  thrpt       79,789          ops/s
+BenchmarkBenchParamSequenceTest.test    3    a  thrpt       78,163          ops/s
+BenchmarkBenchParamSequenceTest.test    3    b  thrpt       79,847          ops/s
+BenchmarkBenchParamSequenceTest.test    3    c  thrpt       82,674          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -249,13 +249,13 @@ BenchmarkBenchParamSequenceTest.test    3    c  thrpt       79,916          ops/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 83,976 ops/s
-Iteration   1: 84,640 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,241 ops/s
+Iteration   1: 87,349 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  84,640 ops/s
+  87,349 ops/s
 
 
 # JMH version: 1.37
@@ -273,13 +273,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 16,67% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,780 ops/s
-Iteration   1: 79,810 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,250 ops/s
+Iteration   1: 79,760 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,810 ops/s
+  79,760 ops/s
 
 
 # JMH version: 1.37
@@ -297,13 +297,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 33,33% complete, ETA 00:00:01
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 61,873 ops/s
-Iteration   1: 79,846 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,650 ops/s
+Iteration   1: 79,839 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,846 ops/s
+  79,839 ops/s
 
 
 # JMH version: 1.37
@@ -321,13 +321,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 50,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 60,485 ops/s
-Iteration   1: 79,713 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,551 ops/s
+Iteration   1: 98,473 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,713 ops/s
+  98,473 ops/s
 
 
 # JMH version: 1.37
@@ -345,13 +345,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 84,619 ops/s
-Iteration   1: 79,754 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 76,480 ops/s
+Iteration   1: 79,837 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,754 ops/s
+  79,837 ops/s
 
 
 # JMH version: 1.37
@@ -369,13 +369,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 70,467 ops/s
-Iteration   1: 79,862 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,283 ops/s
+Iteration   1: 97,092 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,862 ops/s
+  97,092 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -387,12 +387,12 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                             (x)  (y)   Mode  Cnt   Score   Error  Units
-BenchmarkBenchParamSequenceTest.test    2    a  thrpt       84,640          ops/s
-BenchmarkBenchParamSequenceTest.test    2    b  thrpt       79,810          ops/s
-BenchmarkBenchParamSequenceTest.test    2    c  thrpt       79,846          ops/s
-BenchmarkBenchParamSequenceTest.test    3    a  thrpt       79,713          ops/s
-BenchmarkBenchParamSequenceTest.test    3    b  thrpt       79,754          ops/s
-BenchmarkBenchParamSequenceTest.test    3    c  thrpt       79,862          ops/s
+BenchmarkBenchParamSequenceTest.test    2    a  thrpt       87,349          ops/s
+BenchmarkBenchParamSequenceTest.test    2    b  thrpt       79,760          ops/s
+BenchmarkBenchParamSequenceTest.test    2    c  thrpt       79,839          ops/s
+BenchmarkBenchParamSequenceTest.test    3    a  thrpt       98,473          ops/s
+BenchmarkBenchParamSequenceTest.test    3    b  thrpt       79,837          ops/s
+BenchmarkBenchParamSequenceTest.test    3    c  thrpt       97,092          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -409,80 +409,8 @@ BenchmarkBenchParamSequenceTest.test    3    c  thrpt       79,862          ops/
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,995 ops/s
-Iteration   1: 79,830 ops/s
-
-
-Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,830 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
-# Parameters: (x = 1, y = c)
-
-# Run progress: 16,67% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 68,014 ops/s
-Iteration   1: 79,768 ops/s
-
-
-Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,768 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
-# Parameters: (x = 2, y = b)
-
-# Run progress: 33,33% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 62,361 ops/s
-Iteration   1: 79,732 ops/s
-
-
-Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,732 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
-# Parameters: (x = 2, y = c)
-
-# Run progress: 50,00% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,948 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 61,304 ops/s
 Iteration   1: 79,825 ops/s
 
 
@@ -501,17 +429,89 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
+# Parameters: (x = 1, y = c)
+
+# Run progress: 16,67% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 51,389 ops/s
+Iteration   1: 80,148 ops/s
+
+
+Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
+  80,148 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
+# Parameters: (x = 2, y = b)
+
+# Run progress: 33,33% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,043 ops/s
+Iteration   1: 79,878 ops/s
+
+
+Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
+  79,878 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
+# Parameters: (x = 2, y = c)
+
+# Run progress: 50,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,637 ops/s
+Iteration   1: 84,405 ops/s
+
+
+Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
+  84,405 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test
 # Parameters: (x = 3, y = b)
 
 # Run progress: 66,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 64,589 ops/s
-Iteration   1: 79,803 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 65,842 ops/s
+Iteration   1: 92,064 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,803 ops/s
+  92,064 ops/s
 
 
 # JMH version: 1.37
@@ -529,13 +529,13 @@ Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,191 ops/s
-Iteration   1: 79,817 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,528 ops/s
+Iteration   1: 96,345 ops/s
 
 
 Result "org.openjdk.jmh.it.params.BenchmarkBenchParamSequenceTest.test":
-  79,817 ops/s
+  96,345 ops/s
 
 
 # Run complete. Total time: 00:00:01
@@ -547,9 +547,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                             (x)  (y)   Mode  Cnt   Score   Error  Units
-BenchmarkBenchParamSequenceTest.test    1    b  thrpt       79,830          ops/s
-BenchmarkBenchParamSequenceTest.test    1    c  thrpt       79,768          ops/s
-BenchmarkBenchParamSequenceTest.test    2    b  thrpt       79,732          ops/s
-BenchmarkBenchParamSequenceTest.test    2    c  thrpt       79,825          ops/s
-BenchmarkBenchParamSequenceTest.test    3    b  thrpt       79,803          ops/s
-BenchmarkBenchParamSequenceTest.test    3    c  thrpt       79,817          ops/s
+BenchmarkBenchParamSequenceTest.test    1    b  thrpt       79,825          ops/s
+BenchmarkBenchParamSequenceTest.test    1    c  thrpt       80,148          ops/s
+BenchmarkBenchParamSequenceTest.test    2    b  thrpt       79,878          ops/s
+BenchmarkBenchParamSequenceTest.test    2    c  thrpt       84,405          ops/s
+BenchmarkBenchParamSequenceTest.test    3    b  thrpt       92,064          ops/s
+BenchmarkBenchParamSequenceTest.test    3    c  thrpt       96,345          ops/s

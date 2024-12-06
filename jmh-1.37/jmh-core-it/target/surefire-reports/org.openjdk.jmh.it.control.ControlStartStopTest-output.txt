@@ -13,79 +13,79 @@
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 489734443,855 ops/s
-# Warmup Iteration   2: 512676073,126 ops/s
-# Warmup Iteration   3: 519401086,389 ops/s
-# Warmup Iteration   4: 517845433,837 ops/s
-# Warmup Iteration   5: 516633199,265 ops/s
-Iteration   1: 515152144,589 ops/s
-Iteration   2: 515267921,656 ops/s
-Iteration   3: 514770056,142 ops/s
-Iteration   4: 515795417,227 ops/s
-Iteration   5: 515755618,593 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 492557909,779 ops/s
+# Warmup Iteration   2: 514383476,625 ops/s
+# Warmup Iteration   3: 519115988,841 ops/s
+# Warmup Iteration   4: 519139483,131 ops/s
+# Warmup Iteration   5: 517233595,313 ops/s
+Iteration   1: 516852967,536 ops/s
+Iteration   2: 515780463,582 ops/s
+Iteration   3: 518058592,766 ops/s
+Iteration   4: 513082006,585 ops/s
+Iteration   5: 512699882,437 ops/s
 
 # Run progress: 20,00% complete, ETA 00:00:04
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 484835883,855 ops/s
-# Warmup Iteration   2: 510187390,445 ops/s
-# Warmup Iteration   3: 518657079,139 ops/s
-# Warmup Iteration   4: 519158330,303 ops/s
-# Warmup Iteration   5: 518529794,742 ops/s
-Iteration   1: 512897360,389 ops/s
-Iteration   2: 525998874,917 ops/s
-Iteration   3: 521554172,852 ops/s
-Iteration   4: 520373521,205 ops/s
-Iteration   5: 518540259,454 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 485309512,898 ops/s
+# Warmup Iteration   2: 510779971,419 ops/s
+# Warmup Iteration   3: 516054009,199 ops/s
+# Warmup Iteration   4: 518989687,493 ops/s
+# Warmup Iteration   5: 518118472,801 ops/s
+Iteration   1: 519262411,960 ops/s
+Iteration   2: 526324150,951 ops/s
+Iteration   3: 522429797,782 ops/s
+Iteration   4: 518433630,015 ops/s
+Iteration   5: 519088716,217 ops/s
 
 # Run progress: 40,00% complete, ETA 00:00:03
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 492408825,172 ops/s
-# Warmup Iteration   2: 513022915,085 ops/s
-# Warmup Iteration   3: 515147162,896 ops/s
-# Warmup Iteration   4: 518303086,891 ops/s
-# Warmup Iteration   5: 518552061,088 ops/s
-Iteration   1: 517875791,323 ops/s
-Iteration   2: 528910628,846 ops/s
-Iteration   3: 518408468,597 ops/s
-Iteration   4: 518308013,126 ops/s
-Iteration   5: 519171916,998 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 492787140,474 ops/s
+# Warmup Iteration   2: 513773860,108 ops/s
+# Warmup Iteration   3: 519367676,071 ops/s
+# Warmup Iteration   4: 519234311,181 ops/s
+# Warmup Iteration   5: 519424135,309 ops/s
+Iteration   1: 519923704,185 ops/s
+Iteration   2: 527365920,675 ops/s
+Iteration   3: 521655876,908 ops/s
+Iteration   4: 518615149,909 ops/s
+Iteration   5: 517727242,549 ops/s
 
 # Run progress: 60,00% complete, ETA 00:00:02
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 495967346,573 ops/s
-# Warmup Iteration   2: 513979172,628 ops/s
-# Warmup Iteration   3: 519083422,853 ops/s
-# Warmup Iteration   4: 517041577,909 ops/s
-# Warmup Iteration   5: 517904250,401 ops/s
-Iteration   1: 521540832,704 ops/s
-Iteration   2: 527110670,527 ops/s
-Iteration   3: 518979583,933 ops/s
-Iteration   4: 518729027,719 ops/s
-Iteration   5: 516049006,191 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 486871367,323 ops/s
+# Warmup Iteration   2: 512126315,928 ops/s
+# Warmup Iteration   3: 519587434,538 ops/s
+# Warmup Iteration   4: 519477631,661 ops/s
+# Warmup Iteration   5: 518806512,852 ops/s
+Iteration   1: 519277859,854 ops/s
+Iteration   2: 525691976,956 ops/s
+Iteration   3: 523375394,103 ops/s
+Iteration   4: 517762819,224 ops/s
+Iteration   5: 519520878,420 ops/s
 
 # Run progress: 80,00% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 493106722,284 ops/s
-# Warmup Iteration   2: 513663796,613 ops/s
-# Warmup Iteration   3: 519003027,505 ops/s
-# Warmup Iteration   4: 519136790,147 ops/s
-# Warmup Iteration   5: 518707125,825 ops/s
-Iteration   1: 521077537,856 ops/s
-Iteration   2: 527404508,787 ops/s
-Iteration   3: 520529893,375 ops/s
-Iteration   4: 517666136,295 ops/s
-Iteration   5: 518775993,799 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 489574514,036 ops/s
+# Warmup Iteration   2: 513437137,206 ops/s
+# Warmup Iteration   3: 518787713,972 ops/s
+# Warmup Iteration   4: 518812233,969 ops/s
+# Warmup Iteration   5: 519734978,989 ops/s
+Iteration   1: 519156982,307 ops/s
+Iteration   2: 520270665,144 ops/s
+Iteration   3: 527276371,055 ops/s
+Iteration   4: 517635523,891 ops/s
+Iteration   5: 518464257,426 ops/s
 
 
 Result "org.openjdk.jmh.it.control.ControlStartStopTest.ping":
-  519465734,284 ±(99.9%) 3123661,206 ops/s [Average]
-  (min, avg, max) = (512897360,389, 519465734,284, 528910628,846), stdev = 4169998,341
-  CI (99.9%): [516342073,078, 522589395,490] (assumes normal distribution)
+  519829329,697 ±(99.9%) 2888820,005 ops/s [Average]
+  (min, avg, max) = (512699882,437, 519829329,697, 527365920,675), stdev = 3856492,057
+  CI (99.9%): [516940509,693, 522718149,702] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:06
@@ -97,7 +97,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                   Mode  Cnt          Score         Error  Units
-ControlStartStopTest.ping  thrpt   25  519465734,284 ± 3123661,206  ops/s
+ControlStartStopTest.ping  thrpt   25  519829329,697 ± 2888820,005  ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -113,7 +113,7 @@ ControlStartStopTest.ping  thrpt   25  519465734,284 ± 3123661,206  ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
@@ -127,7 +127,7 @@ Iteration   5: ≈ 10⁻⁹ s/op
 
 # Run progress: 20,00% complete, ETA 00:00:04
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
@@ -141,7 +141,7 @@ Iteration   5: ≈ 10⁻⁹ s/op
 
 # Run progress: 40,00% complete, ETA 00:00:03
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
@@ -155,7 +155,7 @@ Iteration   5: ≈ 10⁻⁹ s/op
 
 # Run progress: 60,00% complete, ETA 00:00:02
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
@@ -169,7 +169,7 @@ Iteration   5: ≈ 10⁻⁹ s/op
 
 # Run progress: 80,00% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁹ s/op
 # Warmup Iteration   2: ≈ 10⁻⁹ s/op
 # Warmup Iteration   3: ≈ 10⁻⁹ s/op
@@ -211,7 +211,7 @@ ControlStartStopTest.ping  avgt   25  ≈ 10⁻⁹             s/op
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁶ s/op
 # Warmup Iteration   2: ≈ 10⁻⁸ s/op
 # Warmup Iteration   3: ≈ 10⁻⁸ s/op
@@ -233,9 +233,9 @@ Iteration   2: ≈ 10⁻⁸ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁶ s/op
+                 p0.9999: ≈ 10⁻⁵ s/op
+                 p1.00:   ≈ 10⁻⁵ s/op
 
 Iteration   3: ≈ 10⁻⁷ s/op
                  p0.00:   ≈ 0 s/op
@@ -244,18 +244,77 @@ Iteration   3: ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁵ s/op
-                 p0.9999: ≈ 10⁻⁴ s/op
-                 p1.00:   ≈ 10⁻⁴ s/op
+                 p0.9999: ≈ 10⁻⁵ s/op
+                 p1.00:   ≈ 10⁻⁵ s/op
 
 Iteration   4: ≈ 10⁻⁸ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 0 s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
+
+
+# Run progress: 20,00% complete, ETA 00:00:04
+# Fork: 2 of 5
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
                  p0.9999: ≈ 10⁻⁶ s/op
                  p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 p0.00:   ≈ 0 s/op
+                 p0.50:   ≈ 10⁻⁷ s/op
+                 p0.90:   ≈ 10⁻⁷ s/op
+                 p0.95:   ≈ 10⁻⁷ s/op
+                 p0.99:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
 
 Iteration   5: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
@@ -268,45 +327,15 @@ Iteration   5: ≈ 10⁻⁸ s/op
                  p1.00:   ≈ 10⁻⁷ s/op
 
 
-# Run progress: 20,00% complete, ETA 00:00:04
-# Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Run progress: 40,00% complete, ETA 00:00:03
+# Fork: 3 of 5
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁶ s/op
 # Warmup Iteration   2: ≈ 10⁻⁸ s/op
 # Warmup Iteration   3: ≈ 10⁻⁸ s/op
 # Warmup Iteration   4: ≈ 10⁻⁸ s/op
 # Warmup Iteration   5: ≈ 10⁻⁸ s/op
 Iteration   1: ≈ 10⁻⁸ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 0 s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁶ s/op
-                 p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   2: ≈ 10⁻⁸ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 0 s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
-
-Iteration   3: ≈ 10⁻⁸ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 0 s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
-
-Iteration   4: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 0 s/op
                  p0.90:   ≈ 10⁻⁷ s/op
@@ -316,44 +345,15 @@ Iteration   4: ≈ 10⁻⁸ s/op
                  p0.9999: ≈ 10⁻⁵ s/op
                  p1.00:   ≈ 10⁻⁵ s/op
 
-Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 0 s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁵ s/op
-                 p0.9999: ≈ 10⁻⁵ s/op
-                 p1.00:   ≈ 10⁻⁵ s/op
-
-
-# Run progress: 40,00% complete, ETA 00:00:03
-# Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: ≈ 10⁻⁶ s/op
-# Warmup Iteration   2: ≈ 10⁻⁸ s/op
-# Warmup Iteration   3: ≈ 10⁻⁸ s/op
-# Warmup Iteration   4: ≈ 10⁻⁸ s/op
-# Warmup Iteration   5: ≈ 10⁻⁸ s/op
-Iteration   1: ≈ 10⁻⁸ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 0 s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
-
-Iteration   2: ≈ 10⁻⁸ s/op
-                 p0.00:   ≈ 0 s/op
-                 p0.50:   ≈ 0 s/op
-                 p0.90:   ≈ 10⁻⁷ s/op
-                 p0.95:   ≈ 10⁻⁷ s/op
-                 p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁴ s/op
+                 p1.00:   ≈ 10⁻⁴ s/op
 
 Iteration   3: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
@@ -388,7 +388,7 @@ Iteration   5: ≈ 10⁻⁸ s/op
 
 # Run progress: 60,00% complete, ETA 00:00:02
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁶ s/op
 # Warmup Iteration   2: ≈ 10⁻⁸ s/op
 # Warmup Iteration   3: ≈ 10⁻⁸ s/op
@@ -401,8 +401,8 @@ Iteration   1: ≈ 10⁻⁸ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁶ s/op
-                 p1.00:   ≈ 10⁻⁶ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
 
 Iteration   2: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
@@ -447,9 +447,9 @@ Iteration   5: ≈ 10⁻⁸ s/op
 
 # Run progress: 80,00% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁶ s/op
-# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
 # Warmup Iteration   3: ≈ 10⁻⁸ s/op
 # Warmup Iteration   4: ≈ 10⁻⁸ s/op
 # Warmup Iteration   5: ≈ 10⁻⁸ s/op
@@ -459,9 +459,9 @@ Iteration   1: ≈ 10⁻⁸ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁶ s/op
-                 p0.9999: ≈ 10⁻⁵ s/op
-                 p1.00:   ≈ 10⁻⁵ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁷ s/op
+                 p1.00:   ≈ 10⁻⁷ s/op
 
 Iteration   2: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
@@ -469,17 +469,17 @@ Iteration   2: ≈ 10⁻⁸ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁶ s/op
-                 p0.9999: ≈ 10⁻⁵ s/op
-                 p1.00:   ≈ 10⁻⁵ s/op
+                 p0.999:  ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁶ s/op
+                 p1.00:   ≈ 10⁻⁶ s/op
 
-Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
                  p0.50:   ≈ 0 s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁵ s/op
+                 p0.999:  ≈ 10⁻⁶ s/op
                  p0.9999: ≈ 10⁻⁵ s/op
                  p1.00:   ≈ 10⁻⁵ s/op
 
@@ -490,8 +490,8 @@ Iteration   4: ≈ 10⁻⁸ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
                  p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
+                 p0.9999: ≈ 10⁻⁶ s/op
+                 p1.00:   ≈ 10⁻⁶ s/op
 
 Iteration   5: ≈ 10⁻⁸ s/op
                  p0.00:   ≈ 0 s/op
@@ -499,28 +499,32 @@ Iteration   5: ≈ 10⁻⁸ s/op
                  p0.90:   ≈ 10⁻⁷ s/op
                  p0.95:   ≈ 10⁻⁷ s/op
                  p0.99:   ≈ 10⁻⁷ s/op
-                 p0.999:  ≈ 10⁻⁷ s/op
-                 p0.9999: ≈ 10⁻⁷ s/op
-                 p1.00:   ≈ 10⁻⁷ s/op
+                 p0.999:  ≈ 10⁻⁶ s/op
+                 p0.9999: ≈ 10⁻⁶ s/op
+                 p1.00:   ≈ 10⁻⁶ s/op
 
 
 
 Result "org.openjdk.jmh.it.control.ControlStartStopTest.ping":
-  N = 64691
+  N = 57136
   mean =     ≈ 10⁻⁸ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 64680 
+    [ 0,000,  0,000) = 57120 
+    [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 2 
+    [ 0,000,  0,000) = 2 
+    [ 0,000,  0,000) = 2 
     [ 0,000,  0,000) = 4 
     [ 0,000,  0,000) = 3 
-    [ 0,000,  0,000) = 2 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
 
   Percentiles, s/op:
       p(0,0000) =        ≈ 0 s/op
@@ -544,7 +548,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                            Mode    Cnt   Score    Error  Units
-ControlStartStopTest.ping          sample  64691  ≈ 10⁻⁸            s/op
+ControlStartStopTest.ping          sample  57136  ≈ 10⁻⁸            s/op
 ControlStartStopTest.ping:p0.00    sample            ≈ 0            s/op
 ControlStartStopTest.ping:p0.50    sample            ≈ 0            s/op
 ControlStartStopTest.ping:p0.90    sample         ≈ 10⁻⁷            s/op
@@ -568,7 +572,7 @@ ControlStartStopTest.ping:p1.00    sample         ≈ 10⁻⁴            s/op
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,004 s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -582,8 +586,8 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 20,00% complete, ETA 00:00:00
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,006 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,004 s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
 # Warmup Iteration   4: ≈ 10⁻⁶ s/op
@@ -596,7 +600,7 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 40,00% complete, ETA 00:00:00
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,003 s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -610,8 +614,8 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 60,00% complete, ETA 00:00:00
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,003 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,004 s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
 # Warmup Iteration   4: ≈ 10⁻⁶ s/op
@@ -624,7 +628,7 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 80,00% complete, ETA 00:00:00
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,004 s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -642,20 +646,23 @@ Result "org.openjdk.jmh.it.control.ControlStartStopTest.ping":
   mean =     ≈ 10⁻⁶ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
+    [ 0,000,  0,000) = 3 
+    [ 0,000,  0,000) = 3 
+    [ 0,000,  0,000) = 8 
+    [ 0,000,  0,000) = 8 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 2 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 9 
-    [ 0,000,  0,000) = 14 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
 
   Percentiles, s/op:

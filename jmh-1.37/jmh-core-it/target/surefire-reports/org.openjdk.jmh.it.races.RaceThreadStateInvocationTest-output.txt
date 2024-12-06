@@ -15,17 +15,17 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 334,270 ops/s
-Iteration   2: 329,223 ops/s
-Iteration   3: 335,910 ops/s
-Iteration   4: 330,304 ops/s
-Iteration   5: 332,171 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 330,465 ops/s
+Iteration   2: 332,241 ops/s
+Iteration   3: 333,571 ops/s
+Iteration   4: 333,766 ops/s
+Iteration   5: 331,024 ops/s
 
 Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
-  332,376 ±(99.9%) 10,608 ops/s [Average]
-  (min, avg, max) = (329,223, 332,376, 335,910), stdev = 2,755
-  CI (99.9%): [321,768, 342,983] (assumes normal distribution)
+  332,213 ±(99.9%) 5,687 ops/s [Average]
+  (min, avg, max) = (330,465, 332,213, 333,766), stdev = 1,477
+  CI (99.9%): [326,526, 337,901] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -44,7 +44,7 @@ Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
 Iteration   2: 0,012 ±(99.9%) 0,001 s/op
 Iteration   3: 0,012 ±(99.9%) 0,001 s/op
@@ -73,28 +73,8 @@ Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,014 s/op
-                 p0.9999: 0,014 s/op
-                 p1.00:   0,014 s/op
-
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,014 s/op
-                 p0.999:  0,020 s/op
-                 p0.9999: 0,020 s/op
-                 p1.00:   0,020 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
@@ -104,15 +84,35 @@ Iteration   3: 0,012 ±(99.9%) 0,001 s/op
                  p0.9999: 0,015 s/op
                  p1.00:   0,015 s/op
 
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
+Iteration   2: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
+
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
+
+Iteration   4: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,014 s/op
+                 p0.999:  0,016 s/op
+                 p0.9999: 0,016 s/op
+                 p1.00:   0,016 s/op
 
 Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,010 s/op
@@ -120,31 +120,27 @@ Iteration   5: 0,012 ±(99.9%) 0,001 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+                 p0.999:  0,014 s/op
+                 p0.9999: 0,014 s/op
+                 p1.00:   0,014 s/op
 
 
 Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
-  N = 1650
+  N = 1652
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,011) = 287 
-    [0,011, 0,013) = 319 
-    [0,013, 0,014) = 1034 
-    [0,014, 0,015) = 8 
-    [0,015, 0,016) = 1 
-    [0,016, 0,018) = 0 
-    [0,018, 0,019) = 0 
-    [0,019, 0,020) = 0 
-    [0,020, 0,021) = 1 
-    [0,021, 0,023) = 0 
-    [0,023, 0,024) = 0 
-    [0,024, 0,025) = 0 
-    [0,025, 0,026) = 0 
-    [0,026, 0,028) = 0 
-    [0,028, 0,029) = 0 
+    [0,010, 0,011) = 111 
+    [0,011, 0,011) = 106 
+    [0,011, 0,012) = 135 
+    [0,012, 0,012) = 156 
+    [0,012, 0,013) = 135 
+    [0,013, 0,013) = 974 
+    [0,013, 0,014) = 20 
+    [0,014, 0,014) = 6 
+    [0,014, 0,015) = 7 
+    [0,015, 0,015) = 1 
+    [0,015, 0,016) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
@@ -152,11 +148,11 @@ Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
      p(99,0000) =      0,013 s/op
-     p(99,9000) =      0,017 s/op
-     p(99,9900) =      0,020 s/op
-     p(99,9990) =      0,020 s/op
-     p(99,9999) =      0,020 s/op
-    p(100,0000) =      0,020 s/op
+     p(99,9000) =      0,015 s/op
+     p(99,9900) =      0,016 s/op
+     p(99,9990) =      0,016 s/op
+     p(99,9999) =      0,016 s/op
+    p(100,0000) =      0,016 s/op
 
 
 # JMH version: 1.37
@@ -175,42 +171,49 @@ Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,001 s/op
-Iteration   2: 0,012 ±(99.9%) 0,007 s/op
-Iteration   3: 0,010 ±(99.9%) 0,001 s/op
-Iteration   4: 0,012 ±(99.9%) 0,001 s/op
-Iteration   5: 0,012 ±(99.9%) 0,005 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,007 s/op
+Iteration   2: 0,013 ±(99.9%) 0,001 s/op
+Iteration   3: 0,012 ±(99.9%) 0,001 s/op
+Iteration   4: 0,013 ±(99.9%) 0,004 s/op
+Iteration   5: 0,013 ±(99.9%) 0,001 s/op
 
 Result "org.openjdk.jmh.it.races.RaceThreadStateInvocationTest.test":
   N = 5
-  mean =      0,012 ±(99.9%) 0,003 s/op
+  mean =      0,012 ±(99.9%) 0,002 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 0 
-    [0,010, 0,011) = 1 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,011) = 0 
-    [0,011, 0,012) = 0 
     [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
-    [0,012, 0,012) = 1 
-    [0,012, 0,013) = 2 
-    [0,013, 0,013) = 0 
-    [0,013, 0,013) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 1 
+    [0,013, 0,013) = 3 
 
   Percentiles, s/op:
-      p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,012 s/op
-     p(90,0000) =      0,012 s/op
-     p(95,0000) =      0,012 s/op
-     p(99,0000) =      0,012 s/op
-     p(99,9000) =      0,012 s/op
-     p(99,9900) =      0,012 s/op
-     p(99,9990) =      0,012 s/op
-     p(99,9999) =      0,012 s/op
-    p(100,0000) =      0,012 s/op
+      p(0,0000) =      0,012 s/op
+     p(50,0000) =      0,013 s/op
+     p(90,0000) =      0,013 s/op
+     p(95,0000) =      0,013 s/op
+     p(99,0000) =      0,013 s/op
+     p(99,9000) =      0,013 s/op
+     p(99,9900) =      0,013 s/op
+     p(99,9990) =      0,013 s/op
+     p(99,9999) =      0,013 s/op
+    p(100,0000) =      0,013 s/op
 
 
 # Run complete. Total time: 00:00:15
@@ -222,15 +225,15 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                     Mode   Cnt    Score    Error  Units
-RaceThreadStateInvocationTest.test           thrpt     5  332,376 ± 10,608  ops/s
+RaceThreadStateInvocationTest.test           thrpt     5  332,213 ±  5,687  ops/s
 RaceThreadStateInvocationTest.test            avgt     5    0,012 ±  0,001   s/op
-RaceThreadStateInvocationTest.test          sample  1650    0,012 ±  0,001   s/op
+RaceThreadStateInvocationTest.test          sample  1652    0,012 ±  0,001   s/op
 RaceThreadStateInvocationTest.test:p0.00    sample          0,010            s/op
 RaceThreadStateInvocationTest.test:p0.50    sample          0,013            s/op
 RaceThreadStateInvocationTest.test:p0.90    sample          0,013            s/op
 RaceThreadStateInvocationTest.test:p0.95    sample          0,013            s/op
 RaceThreadStateInvocationTest.test:p0.99    sample          0,013            s/op
-RaceThreadStateInvocationTest.test:p0.999   sample          0,017            s/op
-RaceThreadStateInvocationTest.test:p0.9999  sample          0,020            s/op
-RaceThreadStateInvocationTest.test:p1.00    sample          0,020            s/op
-RaceThreadStateInvocationTest.test              ss     5    0,012 ±  0,003   s/op
+RaceThreadStateInvocationTest.test:p0.999   sample          0,015            s/op
+RaceThreadStateInvocationTest.test:p0.9999  sample          0,016            s/op
+RaceThreadStateInvocationTest.test:p1.00    sample          0,016            s/op
+RaceThreadStateInvocationTest.test              ss     5    0,012 ±  0,002   s/op

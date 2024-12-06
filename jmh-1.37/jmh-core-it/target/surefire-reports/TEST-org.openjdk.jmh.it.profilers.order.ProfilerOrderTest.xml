@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="4.15" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="3.795" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -66,8 +66,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testExternal_API" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="1.16"/>
-  <testcase name="testExternal_CLI" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.991"/>
-  <testcase name="testInternal_API" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="1.019"/>
-  <testcase name="testInternal_CLI" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.98"/>
+  <testcase name="testExternal_API" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.98"/>
+  <testcase name="testExternal_CLI" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.899"/>
+  <testcase name="testInternal_API" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.946"/>
+  <testcase name="testInternal_CLI" classname="org.openjdk.jmh.it.profilers.order.ProfilerOrderTest" time="0.97"/>
 </testsuite>

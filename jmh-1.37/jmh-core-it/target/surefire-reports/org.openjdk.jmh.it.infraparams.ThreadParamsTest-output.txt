@@ -13,23 +13,23 @@
 
 # Run progress: 0,00% complete, ETA 00:00:10
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 334,357 ops/s
-# Warmup Iteration   2: 329,886 ops/s
-# Warmup Iteration   3: 334,708 ops/s
-# Warmup Iteration   4: 332,569 ops/s
-# Warmup Iteration   5: 328,362 ops/s
-Iteration   1: 332,864 ops/s
-Iteration   2: 319,039 ops/s
-Iteration   3: 322,004 ops/s
-Iteration   4: 328,098 ops/s
-Iteration   5: 329,259 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 332,468 ops/s
+# Warmup Iteration   2: 331,880 ops/s
+# Warmup Iteration   3: 332,071 ops/s
+# Warmup Iteration   4: 333,564 ops/s
+# Warmup Iteration   5: 332,371 ops/s
+Iteration   1: 330,458 ops/s
+Iteration   2: 319,134 ops/s
+Iteration   3: 327,347 ops/s
+Iteration   4: 326,942 ops/s
+Iteration   5: 330,804 ops/s
 
 
 Result "org.openjdk.jmh.it.infraparams.ThreadParamsTest.test":
-  326,253 ±(99.9%) 21,632 ops/s [Average]
-  (min, avg, max) = (319,039, 326,253, 332,864), stdev = 5,618
-  CI (99.9%): [304,621, 347,884] (assumes normal distribution)
+  326,937 ±(99.9%) 18,103 ops/s [Average]
+  (min, avg, max) = (319,134, 326,937, 330,804), stdev = 4,701
+  CI (99.9%): [308,834, 345,040] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:10
@@ -41,4 +41,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark               Mode  Cnt    Score    Error  Units
-ThreadParamsTest.test  thrpt    5  326,253 ± 21,632  ops/s
+ThreadParamsTest.test  thrpt    5  326,937 ± 18,103  ops/s

@@ -13,7 +13,7 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure: VM prematurely exited before JMH had finished with it, explicit System.exit was called?>
 <forked VM failed with exit code 1>
 <stdout last='20 lines'>

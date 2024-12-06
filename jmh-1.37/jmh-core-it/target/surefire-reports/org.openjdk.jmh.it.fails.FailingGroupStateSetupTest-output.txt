@@ -13,7 +13,7 @@
 
 # Run progress: 0,00% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: <failure>
 
 java.lang.AssertionError

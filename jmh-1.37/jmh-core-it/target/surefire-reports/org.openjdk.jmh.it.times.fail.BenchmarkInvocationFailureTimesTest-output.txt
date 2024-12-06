@@ -16,12 +16,63 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
 	at org.openjdk.jmh.it.times.fail.BenchmarkInvocationFailureTimesTest.setup(BenchmarkInvocationFailureTimesTest.java:46)
 	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_Throughput(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.lang.IllegalStateException: More threads than expected
+	at org.openjdk.jmh.runner.InfraControlL2.announceWarmupReady(InfraControl.java:222)
+	at org.openjdk.jmh.runner.InfraControl.announceWarmupReady(InfraControl.java:40)
+	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_Throughput(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.lang.IllegalStateException: More threads than expected
+	at org.openjdk.jmh.runner.InfraControlL2.announceWarmupReady(InfraControl.java:222)
+	at org.openjdk.jmh.runner.InfraControl.announceWarmupReady(InfraControl.java:40)
+	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_Throughput(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.lang.IllegalStateException: More threads than expected
+	at org.openjdk.jmh.runner.InfraControlL2.announceWarmupReady(InfraControl.java:222)
+	at org.openjdk.jmh.runner.InfraControl.announceWarmupReady(InfraControl.java:40)
+	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_Throughput(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,46 +114,12 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
 	at org.openjdk.jmh.it.times.fail.BenchmarkInvocationFailureTimesTest.setup(BenchmarkInvocationFailureTimesTest.java:46)
 	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_AverageTime(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:266)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
-	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-
-java.lang.IllegalStateException: More threads than expected
-	at org.openjdk.jmh.runner.InfraControlL2.announceWarmupReady(InfraControl.java:222)
-	at org.openjdk.jmh.runner.InfraControl.announceWarmupReady(InfraControl.java:40)
-	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_AverageTime(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:260)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:527)
-	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:504)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-
-java.lang.IllegalStateException: More threads than expected
-	at org.openjdk.jmh.runner.InfraControlL2.announceWarmupReady(InfraControl.java:222)
-	at org.openjdk.jmh.runner.InfraControl.announceWarmupReady(InfraControl.java:40)
-	at org.openjdk.jmh.it.times.fail.jmh_generated.BenchmarkInvocationFailureTimesTest_test_jmhTest.test_AverageTime(BenchmarkInvocationFailureTimesTest_test_jmhTest.java:260)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,7 +195,7 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing
@@ -293,7 +310,7 @@ Benchmark  Mode  Cnt  Score   Error  Units
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: <failure>
 
 java.lang.IllegalStateException: Failing

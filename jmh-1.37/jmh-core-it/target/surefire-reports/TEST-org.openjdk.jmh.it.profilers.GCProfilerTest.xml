@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openjdk.jmh.it.profilers.GCProfilerTest" time="45.797" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.openjdk.jmh.it.profilers.GCProfilerTest" time="46.043" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2024.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -66,8 +66,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testAll" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.797"/>
-  <testcase name="testAlloc" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.335"/>
-  <testcase name="testChurn" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.335"/>
-  <testcase name="testDefault" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.33"/>
+  <testcase name="testAll" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="12.044"/>
+  <testcase name="testAlloc" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.33"/>
+  <testcase name="testChurn" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.406"/>
+  <testcase name="testDefault" classname="org.openjdk.jmh.it.profilers.GCProfilerTest" time="11.263"/>
 </testsuite>

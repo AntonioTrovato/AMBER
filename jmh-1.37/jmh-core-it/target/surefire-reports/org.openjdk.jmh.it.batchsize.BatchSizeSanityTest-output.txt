@@ -13,32 +13,32 @@
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,019 ops/ms
                  ops:  19,000 #
-                 time: 1021196667,000 #
+                 time: 1016270375,000 #
 
-Iteration   2: 0,018 ops/ms
+Iteration   2: 0,019 ops/ms
                  ops:  19,000 #
-                 time: 1027565792,000 #
+                 time: 1021187666,000 #
 
 Iteration   3: 0,019 ops/ms
                  ops:  19,000 #
-                 time: 1009357667,000 #
+                 time: 1007666042,000 #
 
 Iteration   4: 0,019 ops/ms
                  ops:  19,000 #
-                 time: 1020915584,000 #
+                 time: 1017203208,000 #
 
 Iteration   5: 0,019 ops/ms
                  ops:  19,000 #
-                 time: 1003701291,000 #
+                 time: 1020100417,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   0,019 ±(99.9%) 0,001 ops/ms [Average]
-  (min, avg, max) = (0,018, 0,019, 0,019), stdev = 0,001
+  (min, avg, max) = (0,019, 0,019, 0,019), stdev = 0,001
   CI (99.9%): [0,018, 0,019] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
@@ -47,9 +47,9 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [95,000, 95,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5082737001,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1003701291,000, 1016547400,200, 1027565792,000), stdev = 9731603,856
-  CI (99.9%): [5082737001,000, 5082737001,000] (assumes normal distribution)
+  5082427708,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1007666042,000, 1016485541,600, 1021187666,000), stdev = 5327340,165
+  CI (99.9%): [5082427708,000, 5082427708,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -60,10 +60,10 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                       Mode  Cnt           Score   Error   Units
-BatchSizeSanityTest.test       thrpt    5           0,019 ± 0,001  ops/ms
-BatchSizeSanityTest.test:ops   thrpt    5          95,000               #
-BatchSizeSanityTest.test:time  thrpt    5  5082737001,000               #
+Benchmark                       Mode  Cnt           Score    Error   Units
+BatchSizeSanityTest.test       thrpt    5           0,019 ±  0,001  ops/ms
+BatchSizeSanityTest.test:ops   thrpt    5          95,000                #
+BatchSizeSanityTest.test:time  thrpt    5  5082427708,000                #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -79,43 +79,43 @@ BatchSizeSanityTest.test:time  thrpt    5  5082737001,000               #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 53,410 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 53,681 ms/op
                  ops:  19,000 #
-                 time: 1014894500,000 #
+                 time: 1020020875,000 #
 
-Iteration   2: 53,455 ms/op
+Iteration   2: 53,886 ms/op
                  ops:  19,000 #
-                 time: 1015672709,000 #
+                 time: 1023863042,000 #
 
-Iteration   3: 53,428 ms/op
+Iteration   3: 53,750 ms/op
                  ops:  19,000 #
-                 time: 1015187083,000 #
+                 time: 1021269125,000 #
 
-Iteration   4: 52,878 ms/op
+Iteration   4: 53,563 ms/op
                  ops:  19,000 #
-                 time: 1004692417,000 #
+                 time: 1017721333,000 #
 
-Iteration   5: 53,603 ms/op
-                 ops:  19,000 #
-                 time: 1018478542,000 #
+Iteration   5: 52,678 ms/op
+                 ops:  20,000 #
+                 time: 1053593541,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
-  53,355 ±(99.9%) 1,068 ms/op [Average]
-  (min, avg, max) = (52,878, 53,355, 53,603), stdev = 0,277
-  CI (99.9%): [52,287, 54,423] (assumes normal distribution)
+  53,512 ±(99.9%) 1,850 ms/op [Average]
+  (min, avg, max) = (52,678, 53,512, 53,886), stdev = 0,480
+  CI (99.9%): [51,662, 55,361] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
-  95,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
-  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+  96,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
+  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5068925251,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1004692417,000, 1013785050,200, 1018478542,000), stdev = 5278841,596
-  CI (99.9%): [5068925251,000, 5068925251,000] (assumes normal distribution)
+  5136467916,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1017721333,000, 1027293583,200, 1053593541,000), stdev = 14868345,135
+  CI (99.9%): [5136467916,000, 5136467916,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -127,9 +127,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt           Score   Error  Units
-BatchSizeSanityTest.test       avgt    5          53,355 ± 1,068  ms/op
-BatchSizeSanityTest.test:ops   avgt    5          95,000              #
-BatchSizeSanityTest.test:time  avgt    5  5068925251,000              #
+BatchSizeSanityTest.test       avgt    5          53,512 ± 1,850  ms/op
+BatchSizeSanityTest.test:ops   avgt    5          96,000              #
+BatchSizeSanityTest.test:time  avgt    5  5136467916,000              #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -145,109 +145,107 @@ BatchSizeSanityTest.test:time  avgt    5  5068925251,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 52,936 ±(99.9%) 1,434 ms/op
-                 ops:     19,000 #
-                 p0.00:   50,332 ms/op
-                 p0.50:   52,888 ms/op
-                 p0.90:   54,985 ms/op
-                 p0.95:   54,985 ms/op
-                 p0.99:   54,985 ms/op
-                 p0.999:  54,985 ms/op
-                 p0.9999: 54,985 ms/op
-                 p1.00:   54,985 ms/op
-                 time:    1008592625,000 #
-
-Iteration   2: 53,108 ±(99.9%) 1,486 ms/op
-                 ops:     19,000 #
-                 p0.00:   50,659 ms/op
-                 p0.50:   53,084 ms/op
-                 p0.90:   54,985 ms/op
-                 p0.95:   56,361 ms/op
-                 p0.99:   56,361 ms/op
-                 p0.999:  56,361 ms/op
-                 p0.9999: 56,361 ms/op
-                 p1.00:   56,361 ms/op
-                 time:    1010081625,000 #
-
-Iteration   3: 52,648 ±(99.9%) 1,764 ms/op
-                 ops:     20,000 #
-                 p0.00:   50,135 ms/op
-                 p0.50:   51,937 ms/op
-                 p0.90:   55,044 ms/op
-                 p0.95:   55,050 ms/op
-                 p0.99:   55,050 ms/op
-                 p0.999:  55,050 ms/op
-                 p0.9999: 55,050 ms/op
-                 p1.00:   55,050 ms/op
-                 time:    1053927625,000 #
-
-Iteration   4: 53,174 ±(99.9%) 1,566 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 53,788 ±(99.9%) 1,416 ms/op
                  ops:     19,000 #
                  p0.00:   50,201 ms/op
-                 p0.50:   52,888 ms/op
-                 p0.90:   55,050 ms/op
-                 p0.95:   55,050 ms/op
-                 p0.99:   55,050 ms/op
-                 p0.999:  55,050 ms/op
-                 p0.9999: 55,050 ms/op
-                 p1.00:   55,050 ms/op
-                 time:    1011232167,000 #
-
-Iteration   5: 53,284 ±(99.9%) 1,557 ms/op
-                 ops:     19,000 #
-                 p0.00:   50,332 ms/op
-                 p0.50:   53,871 ms/op
+                 p0.50:   54,198 ms/op
                  p0.90:   54,985 ms/op
-                 p0.95:   55,247 ms/op
-                 p0.99:   55,247 ms/op
-                 p0.999:  55,247 ms/op
-                 p0.9999: 55,247 ms/op
-                 p1.00:   55,247 ms/op
-                 time:    1013470333,000 #
+                 p0.95:   55,509 ms/op
+                 p0.99:   55,509 ms/op
+                 p0.999:  55,509 ms/op
+                 p0.9999: 55,509 ms/op
+                 p1.00:   55,509 ms/op
+                 time:    1024953417,000 #
+
+Iteration   2: 53,357 ±(99.9%) 1,435 ms/op
+                 ops:     19,000 #
+                 p0.00:   51,184 ms/op
+                 p0.50:   53,215 ms/op
+                 p0.90:   55,050 ms/op
+                 p0.95:   55,771 ms/op
+                 p0.99:   55,771 ms/op
+                 p0.999:  55,771 ms/op
+                 p0.9999: 55,771 ms/op
+                 p1.00:   55,771 ms/op
+                 time:    1014778333,000 #
+
+Iteration   3: 53,702 ±(99.9%) 1,703 ms/op
+                 ops:     19,000 #
+                 p0.00:   50,201 ms/op
+                 p0.50:   54,985 ms/op
+                 p0.90:   55,247 ms/op
+                 p0.95:   55,443 ms/op
+                 p0.99:   55,443 ms/op
+                 p0.999:  55,443 ms/op
+                 p0.9999: 55,443 ms/op
+                 p1.00:   55,443 ms/op
+                 time:    1021503417,000 #
+
+Iteration   4: 53,602 ±(99.9%) 1,543 ms/op
+                 ops:     19,000 #
+                 p0.00:   50,266 ms/op
+                 p0.50:   54,395 ms/op
+                 p0.90:   55,050 ms/op
+                 p0.95:   55,378 ms/op
+                 p0.99:   55,378 ms/op
+                 p0.999:  55,378 ms/op
+                 p0.9999: 55,378 ms/op
+                 p1.00:   55,378 ms/op
+                 time:    1019402000,000 #
+
+Iteration   5: 53,898 ±(99.9%) 1,170 ms/op
+                 ops:     19,000 #
+                 p0.00:   51,708 ms/op
+                 p0.50:   54,788 ms/op
+                 p0.90:   55,050 ms/op
+                 p0.95:   55,312 ms/op
+                 p0.99:   55,312 ms/op
+                 p0.999:  55,312 ms/op
+                 p0.9999: 55,312 ms/op
+                 p1.00:   55,312 ms/op
+                 time:    1025188875,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
-  N = 96
-  mean =     53,026 ±(99.9%) 0,602 ms/op
+  N = 95
+  mean =     53,669 ±(99.9%) 0,559 ms/op
 
   Histogram, ms/op:
-    [50,000, 50,500) = 10 
-    [50,500, 51,000) = 8 
+    [50,000, 50,500) = 4 
+    [50,500, 51,000) = 4 
     [51,000, 51,500) = 7 
-    [51,500, 52,000) = 6 
-    [52,000, 52,500) = 8 
-    [52,500, 53,000) = 9 
-    [53,000, 53,500) = 6 
-    [53,500, 54,000) = 4 
-    [54,000, 54,500) = 7 
-    [54,500, 55,000) = 25 
-    [55,000, 55,500) = 5 
-    [55,500, 56,000) = 0 
-    [56,000, 56,500) = 1 
+    [51,500, 52,000) = 3 
+    [52,000, 52,500) = 10 
+    [52,500, 53,000) = 1 
+    [53,000, 53,500) = 8 
+    [53,500, 54,000) = 7 
+    [54,000, 54,500) = 6 
+    [54,500, 55,000) = 36 
+    [55,000, 55,500) = 7 
 
   Percentiles, ms/op:
-      p(0,0000) =     50,135 ms/op
-     p(50,0000) =     52,986 ms/op
-     p(90,0000) =     54,985 ms/op
-     p(95,0000) =     55,050 ms/op
-     p(99,0000) =     56,361 ms/op
-     p(99,9000) =     56,361 ms/op
-     p(99,9900) =     56,361 ms/op
-     p(99,9990) =     56,361 ms/op
-     p(99,9999) =     56,361 ms/op
-    p(100,0000) =     56,361 ms/op
+      p(0,0000) =     50,201 ms/op
+     p(50,0000) =     54,198 ms/op
+     p(90,0000) =     55,011 ms/op
+     p(95,0000) =     55,325 ms/op
+     p(99,0000) =     55,771 ms/op
+     p(99,9000) =     55,771 ms/op
+     p(99,9900) =     55,771 ms/op
+     p(99,9990) =     55,771 ms/op
+     p(99,9999) =     55,771 ms/op
+    p(100,0000) =     55,771 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
-  96,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
-  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5097304375,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1008592625,000, 1019460875,000, 1053927625,000), stdev = 19349704,604
-  CI (99.9%): [5097304375,000, 5097304375,000] (assumes normal distribution)
+  5105826042,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1014778333,000, 1021165208,400, 1025188875,000), stdev = 4317287,447
+  CI (99.9%): [5105826042,000, 5105826042,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -259,17 +257,17 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt           Score   Error  Units
-BatchSizeSanityTest.test          sample   96          53,026 ± 0,602  ms/op
-BatchSizeSanityTest.test:ops      sample    5          96,000              #
-BatchSizeSanityTest.test:p0.00    sample               50,135          ms/op
-BatchSizeSanityTest.test:p0.50    sample               52,986          ms/op
-BatchSizeSanityTest.test:p0.90    sample               54,985          ms/op
-BatchSizeSanityTest.test:p0.95    sample               55,050          ms/op
-BatchSizeSanityTest.test:p0.99    sample               56,361          ms/op
-BatchSizeSanityTest.test:p0.999   sample               56,361          ms/op
-BatchSizeSanityTest.test:p0.9999  sample               56,361          ms/op
-BatchSizeSanityTest.test:p1.00    sample               56,361          ms/op
-BatchSizeSanityTest.test:time     sample    5  5097304375,000              #
+BatchSizeSanityTest.test          sample   95          53,669 ± 0,559  ms/op
+BatchSizeSanityTest.test:ops      sample    5          95,000              #
+BatchSizeSanityTest.test:p0.00    sample               50,201          ms/op
+BatchSizeSanityTest.test:p0.50    sample               54,198          ms/op
+BatchSizeSanityTest.test:p0.90    sample               55,011          ms/op
+BatchSizeSanityTest.test:p0.95    sample               55,325          ms/op
+BatchSizeSanityTest.test:p0.99    sample               55,771          ms/op
+BatchSizeSanityTest.test:p0.999   sample               55,771          ms/op
+BatchSizeSanityTest.test:p0.9999  sample               55,771          ms/op
+BatchSizeSanityTest.test:p1.00    sample               55,771          ms/op
+BatchSizeSanityTest.test:time     sample    5  5105826042,000              #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -285,61 +283,55 @@ BatchSizeSanityTest.test:time     sample    5  5097304375,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 53,797 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 55,403 ms/op
                  ops:  1,000 #
-                 time: 53883375,000 #
+                 time: 55467959,000 #
 
-Iteration   2: 55,037 ms/op
+Iteration   2: 51,335 ms/op
                  ops:  1,000 #
-                 time: 55110542,000 #
+                 time: 51379584,000 #
 
-Iteration   3: 55,028 ms/op
+Iteration   3: 55,032 ms/op
                  ops:  1,000 #
-                 time: 55054416,000 #
+                 time: 55088959,000 #
 
-Iteration   4: 55,526 ms/op
+Iteration   4: 54,966 ms/op
                  ops:  1,000 #
-                 time: 55555083,000 #
+                 time: 55085708,000 #
 
-Iteration   5: 52,463 ms/op
+Iteration   5: 55,441 ms/op
                  ops:  1,000 #
-                 time: 52505541,000 #
+                 time: 55517833,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   N = 5
-  mean =     54,370 ±(99.9%) 4,786 ms/op
+  mean =     54,435 ±(99.9%) 6,724 ms/op
 
   Histogram, ms/op:
-    [52,000, 52,250) = 0 
-    [52,250, 52,500) = 1 
-    [52,500, 52,750) = 0 
-    [52,750, 53,000) = 0 
-    [53,000, 53,250) = 0 
-    [53,250, 53,500) = 0 
-    [53,500, 53,750) = 0 
-    [53,750, 54,000) = 1 
-    [54,000, 54,250) = 0 
-    [54,250, 54,500) = 0 
-    [54,500, 54,750) = 0 
-    [54,750, 55,000) = 0 
-    [55,000, 55,250) = 2 
-    [55,250, 55,500) = 0 
-    [55,500, 55,750) = 1 
+    [51,000, 51,500) = 1 
+    [51,500, 52,000) = 0 
+    [52,000, 52,500) = 0 
+    [52,500, 53,000) = 0 
+    [53,000, 53,500) = 0 
+    [53,500, 54,000) = 0 
+    [54,000, 54,500) = 0 
+    [54,500, 55,000) = 1 
+    [55,000, 55,500) = 3 
 
   Percentiles, ms/op:
-      p(0,0000) =     52,463 ms/op
-     p(50,0000) =     55,028 ms/op
-     p(90,0000) =     55,526 ms/op
-     p(95,0000) =     55,526 ms/op
-     p(99,0000) =     55,526 ms/op
-     p(99,9000) =     55,526 ms/op
-     p(99,9900) =     55,526 ms/op
-     p(99,9990) =     55,526 ms/op
-     p(99,9999) =     55,526 ms/op
-    p(100,0000) =     55,526 ms/op
+      p(0,0000) =     51,335 ms/op
+     p(50,0000) =     55,032 ms/op
+     p(90,0000) =     55,441 ms/op
+     p(95,0000) =     55,441 ms/op
+     p(99,0000) =     55,441 ms/op
+     p(99,9000) =     55,441 ms/op
+     p(99,9900) =     55,441 ms/op
+     p(99,9990) =     55,441 ms/op
+     p(99,9999) =     55,441 ms/op
+    p(100,0000) =     55,441 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   5,000 ±(99.9%) 0,001 # [Sum]
@@ -347,9 +339,9 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [5,000, 5,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  272108957,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (52505541,000, 54421791,400, 55555083,000), stdev = 1237017,476
-  CI (99.9%): [272108957,000, 272108957,000] (assumes normal distribution)
+  272540043,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (51379584,000, 54508008,600, 55517833,000), stdev = 1760648,356
+  CI (99.9%): [272540043,000, 272540043,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:00
@@ -361,9 +353,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt          Score   Error  Units
-BatchSizeSanityTest.test         ss    5         54,370 ± 4,786  ms/op
+BatchSizeSanityTest.test         ss    5         54,435 ± 6,724  ms/op
 BatchSizeSanityTest.test:ops     ss    5          5,000              #
-BatchSizeSanityTest.test:time    ss    5  272108957,000              #
+BatchSizeSanityTest.test:time    ss    5  272540043,000              #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -379,26 +371,26 @@ BatchSizeSanityTest.test:time    ss    5  272108957,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,002 ops/ms
                  ops:  19,000 #
-                 time: 1010342542,000 #
+                 time: 1030738750,000 #
 
 Iteration   2: 0,002 ops/ms
                  ops:  19,000 #
-                 time: 1023753500,000 #
+                 time: 1017960625,000 #
 
 Iteration   3: 0,002 ops/ms
                  ops:  19,000 #
-                 time: 1020861042,000 #
+                 time: 1023445458,000 #
 
 Iteration   4: 0,002 ops/ms
-                 ops:  20,000 #
-                 time: 1051311250,000 #
+                 ops:  19,000 #
+                 time: 1018259834,000 #
 
 Iteration   5: 0,002 ops/ms
                  ops:  19,000 #
-                 time: 1007566083,000 #
+                 time: 1011325709,000 #
 
 
 
@@ -408,14 +400,14 @@ Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   CI (99.9%): [0,002, 0,002] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
-  96,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
-  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5113834417,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1007566083,000, 1022766883,400, 1051311250,000), stdev = 17355223,280
-  CI (99.9%): [5113834417,000, 5113834417,000] (assumes normal distribution)
+  5101730376,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1011325709,000, 1020346075,200, 1030738750,000), stdev = 7228825,019
+  CI (99.9%): [5101730376,000, 5101730376,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -428,8 +420,8 @@ Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                       Mode  Cnt           Score    Error   Units
 BatchSizeSanityTest.test       thrpt    5           0,002 ±  0,001  ops/ms
-BatchSizeSanityTest.test:ops   thrpt    5          96,000                #
-BatchSizeSanityTest.test:time  thrpt    5  5113834417,000                #
+BatchSizeSanityTest.test:ops   thrpt    5          95,000                #
+BatchSizeSanityTest.test:time  thrpt    5  5101730376,000                #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -445,43 +437,43 @@ BatchSizeSanityTest.test:time  thrpt    5  5113834417,000                #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 536,578 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 537,665 ms/op
                  ops:  19,000 #
-                 time: 1019685625,000 #
+                 time: 1021659708,000 #
 
-Iteration   2: 535,151 ms/op
+Iteration   2: 541,672 ms/op
                  ops:  19,000 #
-                 time: 1016809542,000 #
+                 time: 1029205542,000 #
 
-Iteration   3: 538,901 ms/op
-                 ops:  19,000 #
-                 time: 1023942792,000 #
+Iteration   3: 528,957 ms/op
+                 ops:  20,000 #
+                 time: 1057940417,000 #
 
-Iteration   4: 533,719 ms/op
+Iteration   4: 540,196 ms/op
                  ops:  19,000 #
-                 time: 1014084708,000 #
+                 time: 1026410542,000 #
 
-Iteration   5: 540,230 ms/op
+Iteration   5: 536,495 ms/op
                  ops:  19,000 #
-                 time: 1026479833,000 #
+                 time: 1019370416,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
-  536,916 ±(99.9%) 10,255 ms/op [Average]
-  (min, avg, max) = (533,719, 536,916, 540,230), stdev = 2,663
-  CI (99.9%): [526,660, 547,171] (assumes normal distribution)
+  536,997 ±(99.9%) 19,005 ms/op [Average]
+  (min, avg, max) = (528,957, 536,997, 541,672), stdev = 4,935
+  CI (99.9%): [517,993, 556,002] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
-  95,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
-  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
+  96,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
+  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5101002500,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1014084708,000, 1020200500,000, 1026479833,000), stdev = 5064616,880
-  CI (99.9%): [5101002500,000, 5101002500,000] (assumes normal distribution)
+  5154586625,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1019370416,000, 1030917325,000, 1057940417,000), stdev = 15592653,521
+  CI (99.9%): [5154586625,000, 5154586625,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -493,9 +485,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt           Score    Error  Units
-BatchSizeSanityTest.test       avgt    5         536,916 ± 10,255  ms/op
-BatchSizeSanityTest.test:ops   avgt    5          95,000               #
-BatchSizeSanityTest.test:time  avgt    5  5101002500,000               #
+BatchSizeSanityTest.test       avgt    5         536,997 ± 19,005  ms/op
+BatchSizeSanityTest.test:ops   avgt    5          96,000               #
+BatchSizeSanityTest.test:time  avgt    5  5154586625,000               #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -511,20 +503,56 @@ BatchSizeSanityTest.test:time  avgt    5  5101002500,000               #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 536,347 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 534,512 ms/op
                  ops:     20,000 #
-                 p0.00:   535,822 ms/op
-                 p0.50:   536,347 ms/op
-                 p0.90:   536,871 ms/op
-                 p0.95:   536,871 ms/op
-                 p0.99:   536,871 ms/op
-                 p0.999:  536,871 ms/op
-                 p0.9999: 536,871 ms/op
-                 p1.00:   536,871 ms/op
-                 time:    1075511208,000 #
+                 p0.00:   533,201 ms/op
+                 p0.50:   534,512 ms/op
+                 p0.90:   535,822 ms/op
+                 p0.95:   535,822 ms/op
+                 p0.99:   535,822 ms/op
+                 p0.999:  535,822 ms/op
+                 p0.9999: 535,822 ms/op
+                 p1.00:   535,822 ms/op
+                 time:    1071136625,000 #
 
-Iteration   2: 538,444 ms/op
+Iteration   2: 532,677 ms/op
+                 ops:     20,000 #
+                 p0.00:   526,385 ms/op
+                 p0.50:   532,677 ms/op
+                 p0.90:   538,968 ms/op
+                 p0.95:   538,968 ms/op
+                 p0.99:   538,968 ms/op
+                 p0.999:  538,968 ms/op
+                 p0.9999: 538,968 ms/op
+                 p1.00:   538,968 ms/op
+                 time:    1065965583,000 #
+
+Iteration   3: 542,114 ms/op
+                 ops:     20,000 #
+                 p0.00:   542,114 ms/op
+                 p0.50:   542,114 ms/op
+                 p0.90:   542,114 ms/op
+                 p0.95:   542,114 ms/op
+                 p0.99:   542,114 ms/op
+                 p0.999:  542,114 ms/op
+                 p0.9999: 542,114 ms/op
+                 p1.00:   542,114 ms/op
+                 time:    1085756042,000 #
+
+Iteration   4: 531,104 ms/op
+                 ops:     20,000 #
+                 p0.00:   527,958 ms/op
+                 p0.50:   531,104 ms/op
+                 p0.90:   534,249 ms/op
+                 p0.95:   534,249 ms/op
+                 p0.99:   534,249 ms/op
+                 p0.999:  534,249 ms/op
+                 p0.9999: 534,249 ms/op
+                 p1.00:   534,249 ms/op
+                 time:    1062767000,000 #
+
+Iteration   5: 538,444 ms/op
                  ops:     20,000 #
                  p0.00:   535,822 ms/op
                  p0.50:   538,444 ms/op
@@ -534,74 +562,38 @@ Iteration   2: 538,444 ms/op
                  p0.999:  541,065 ms/op
                  p0.9999: 541,065 ms/op
                  p1.00:   541,065 ms/op
-                 time:    1077976209,000 #
-
-Iteration   3: 533,463 ms/op
-                 ops:     20,000 #
-                 p0.00:   532,152 ms/op
-                 p0.50:   533,463 ms/op
-                 p0.90:   534,774 ms/op
-                 p0.95:   534,774 ms/op
-                 p0.99:   534,774 ms/op
-                 p0.999:  534,774 ms/op
-                 p0.9999: 534,774 ms/op
-                 p1.00:   534,774 ms/op
-                 time:    1067131625,000 #
-
-Iteration   4: 533,987 ms/op
-                 ops:     20,000 #
-                 p0.00:   532,677 ms/op
-                 p0.50:   533,987 ms/op
-                 p0.90:   535,298 ms/op
-                 p0.95:   535,298 ms/op
-                 p0.99:   535,298 ms/op
-                 p0.999:  535,298 ms/op
-                 p0.9999: 535,298 ms/op
-                 p1.00:   535,298 ms/op
-                 time:    1068789459,000 #
-
-Iteration   5: 531,628 ms/op
-                 ops:     20,000 #
-                 p0.00:   525,337 ms/op
-                 p0.50:   531,628 ms/op
-                 p0.90:   537,919 ms/op
-                 p0.95:   537,919 ms/op
-                 p0.99:   537,919 ms/op
-                 p0.999:  537,919 ms/op
-                 p0.9999: 537,919 ms/op
-                 p1.00:   537,919 ms/op
-                 time:    1064593125,000 #
+                 time:    1077302958,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   N = 10
-  mean =    534,774 ±(99.9%) 6,308 ms/op
+  mean =    535,770 ±(99.9%) 8,384 ms/op
 
   Histogram, ms/op:
     [520,000, 522,500) = 0 
     [522,500, 525,000) = 0 
     [525,000, 527,500) = 1 
-    [527,500, 530,000) = 0 
-    [530,000, 532,500) = 1 
+    [527,500, 530,000) = 1 
+    [530,000, 532,500) = 0 
     [532,500, 535,000) = 2 
-    [535,000, 537,500) = 4 
+    [535,000, 537,500) = 2 
     [537,500, 540,000) = 1 
-    [540,000, 542,500) = 1 
+    [540,000, 542,500) = 3 
     [542,500, 545,000) = 0 
     [545,000, 547,500) = 0 
 
   Percentiles, ms/op:
-      p(0,0000) =    525,337 ms/op
-     p(50,0000) =    535,560 ms/op
-     p(90,0000) =    540,751 ms/op
-     p(95,0000) =    541,065 ms/op
-     p(99,0000) =    541,065 ms/op
-     p(99,9000) =    541,065 ms/op
-     p(99,9900) =    541,065 ms/op
-     p(99,9990) =    541,065 ms/op
-     p(99,9999) =    541,065 ms/op
-    p(100,0000) =    541,065 ms/op
+      p(0,0000) =    526,385 ms/op
+     p(50,0000) =    535,822 ms/op
+     p(90,0000) =    542,114 ms/op
+     p(95,0000) =    542,114 ms/op
+     p(99,0000) =    542,114 ms/op
+     p(99,9000) =    542,114 ms/op
+     p(99,9900) =    542,114 ms/op
+     p(99,9990) =    542,114 ms/op
+     p(99,9999) =    542,114 ms/op
+    p(100,0000) =    542,114 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   100,000 ±(99.9%) 0,001 # [Sum]
@@ -609,9 +601,9 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [100,000, 100,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5354001626,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1064593125,000, 1070800325,200, 1077976209,000), stdev = 5694690,585
-  CI (99.9%): [5354001626,000, 5354001626,000] (assumes normal distribution)
+  5362928208,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1062767000,000, 1072585641,600, 1085756042,000), stdev = 9192973,792
+  CI (99.9%): [5362928208,000, 5362928208,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -623,17 +615,17 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt           Score   Error  Units
-BatchSizeSanityTest.test          sample   10         534,774 ± 6,308  ms/op
+BatchSizeSanityTest.test          sample   10         535,770 ± 8,384  ms/op
 BatchSizeSanityTest.test:ops      sample    5         100,000              #
-BatchSizeSanityTest.test:p0.00    sample              525,337          ms/op
-BatchSizeSanityTest.test:p0.50    sample              535,560          ms/op
-BatchSizeSanityTest.test:p0.90    sample              540,751          ms/op
-BatchSizeSanityTest.test:p0.95    sample              541,065          ms/op
-BatchSizeSanityTest.test:p0.99    sample              541,065          ms/op
-BatchSizeSanityTest.test:p0.999   sample              541,065          ms/op
-BatchSizeSanityTest.test:p0.9999  sample              541,065          ms/op
-BatchSizeSanityTest.test:p1.00    sample              541,065          ms/op
-BatchSizeSanityTest.test:time     sample    5  5354001626,000              #
+BatchSizeSanityTest.test:p0.00    sample              526,385          ms/op
+BatchSizeSanityTest.test:p0.50    sample              535,822          ms/op
+BatchSizeSanityTest.test:p0.90    sample              542,114          ms/op
+BatchSizeSanityTest.test:p0.95    sample              542,114          ms/op
+BatchSizeSanityTest.test:p0.99    sample              542,114          ms/op
+BatchSizeSanityTest.test:p0.999   sample              542,114          ms/op
+BatchSizeSanityTest.test:p0.9999  sample              542,114          ms/op
+BatchSizeSanityTest.test:p1.00    sample              542,114          ms/op
+BatchSizeSanityTest.test:time     sample    5  5362928208,000              #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -649,57 +641,57 @@ BatchSizeSanityTest.test:time     sample    5  5354001626,000              #
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 531,096 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 536,415 ms/op
                  ops:  10,000 #
-                 time: 531244041,000 #
+                 time: 536542000,000 #
 
-Iteration   2: 530,788 ms/op
+Iteration   2: 533,913 ms/op
                  ops:  10,000 #
-                 time: 530814709,000 #
+                 time: 533942084,000 #
 
-Iteration   3: 540,661 ms/op
+Iteration   3: 526,366 ms/op
                  ops:  10,000 #
-                 time: 540684792,000 #
+                 time: 526390208,000 #
 
-Iteration   4: 533,398 ms/op
+Iteration   4: 540,755 ms/op
                  ops:  10,000 #
-                 time: 533419250,000 #
+                 time: 540779375,000 #
 
-Iteration   5: 529,818 ms/op
+Iteration   5: 535,004 ms/op
                  ops:  10,000 #
-                 time: 529839958,000 #
+                 time: 535017708,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   N = 5
-  mean =    533,152 ±(99.9%) 16,936 ms/op
+  mean =    534,491 ±(99.9%) 20,152 ms/op
 
   Histogram, ms/op:
     [520,000, 522,500) = 0 
     [522,500, 525,000) = 0 
-    [525,000, 527,500) = 0 
-    [527,500, 530,000) = 1 
-    [530,000, 532,500) = 2 
+    [525,000, 527,500) = 1 
+    [527,500, 530,000) = 0 
+    [530,000, 532,500) = 0 
     [532,500, 535,000) = 1 
-    [535,000, 537,500) = 0 
+    [535,000, 537,500) = 2 
     [537,500, 540,000) = 0 
     [540,000, 542,500) = 1 
     [542,500, 545,000) = 0 
     [545,000, 547,500) = 0 
 
   Percentiles, ms/op:
-      p(0,0000) =    529,818 ms/op
-     p(50,0000) =    531,096 ms/op
-     p(90,0000) =    540,661 ms/op
-     p(95,0000) =    540,661 ms/op
-     p(99,0000) =    540,661 ms/op
-     p(99,9000) =    540,661 ms/op
-     p(99,9900) =    540,661 ms/op
-     p(99,9990) =    540,661 ms/op
-     p(99,9999) =    540,661 ms/op
-    p(100,0000) =    540,661 ms/op
+      p(0,0000) =    526,366 ms/op
+     p(50,0000) =    535,004 ms/op
+     p(90,0000) =    540,755 ms/op
+     p(95,0000) =    540,755 ms/op
+     p(99,0000) =    540,755 ms/op
+     p(99,9000) =    540,755 ms/op
+     p(99,9900) =    540,755 ms/op
+     p(99,9990) =    540,755 ms/op
+     p(99,9999) =    540,755 ms/op
+    p(100,0000) =    540,755 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   50,000 ±(99.9%) 0,001 # [Sum]
@@ -707,9 +699,9 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [50,000, 50,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  2666002750,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (529839958,000, 533200550,000, 540684792,000), stdev = 4383932,348
-  CI (99.9%): [2666002750,000, 2666002750,000] (assumes normal distribution)
+  2672671375,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (526390208,000, 534534275,000, 540779375,000), stdev = 5242672,473
+  CI (99.9%): [2672671375,000, 2672671375,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:02
@@ -721,9 +713,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt           Score    Error  Units
-BatchSizeSanityTest.test         ss    5         533,152 ± 16,936  ms/op
+BatchSizeSanityTest.test         ss    5         534,491 ± 20,152  ms/op
 BatchSizeSanityTest.test:ops     ss    5          50,000               #
-BatchSizeSanityTest.test:time    ss    5  2666002750,000               #
+BatchSizeSanityTest.test:time    ss    5  2672671375,000               #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -739,26 +731,26 @@ BatchSizeSanityTest.test:time    ss    5  2666002750,000               #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: ≈ 10⁻⁴ ops/ms
                  ops:  19,000 #
-                 time: 1023134959,000 #
+                 time: 1009025167,000 #
 
 Iteration   2: ≈ 10⁻⁴ ops/ms
                  ops:  19,000 #
-                 time: 1019077084,000 #
+                 time: 1009382167,000 #
 
 Iteration   3: ≈ 10⁻⁴ ops/ms
                  ops:  19,000 #
-                 time: 1015508000,000 #
+                 time: 1011740375,000 #
 
 Iteration   4: ≈ 10⁻⁴ ops/ms
                  ops:  19,000 #
-                 time: 1007203875,000 #
+                 time: 1018388625,000 #
 
 Iteration   5: ≈ 10⁻⁴ ops/ms
-                 ops:  20,000 #
-                 time: 1058090167,000 #
+                 ops:  19,000 #
+                 time: 1016285833,000 #
 
 
 
@@ -766,14 +758,14 @@ Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   ≈ 10⁻⁴ ops/ms
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
-  96,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (19,000, 19,200, 20,000), stdev = 0,447
-  CI (99.9%): [96,000, 96,000] (assumes normal distribution)
+  95,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (19,000, 19,000, 19,000), stdev = 0,001
+  CI (99.9%): [95,000, 95,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5123014085,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1007203875,000, 1024602817,000, 1058090167,000), stdev = 19618421,326
-  CI (99.9%): [5123014085,000, 5123014085,000] (assumes normal distribution)
+  5064822167,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1009025167,000, 1012964433,400, 1018388625,000), stdev = 4192323,971
+  CI (99.9%): [5064822167,000, 5064822167,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -786,8 +778,8 @@ Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                       Mode  Cnt           Score    Error   Units
 BatchSizeSanityTest.test       thrpt    5          ≈ 10⁻⁴           ops/ms
-BatchSizeSanityTest.test:ops   thrpt    5          96,000                #
-BatchSizeSanityTest.test:time  thrpt    5  5123014085,000                #
+BatchSizeSanityTest.test:ops   thrpt    5          95,000                #
+BatchSizeSanityTest.test:time  thrpt    5  5064822167,000                #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -803,33 +795,33 @@ BatchSizeSanityTest.test:time  thrpt    5  5123014085,000                #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 5318,298 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 5383,673 ms/op
                  ops:  19,000 #
-                 time: 1010601666,000 #
+                 time: 1022994625,000 #
 
-Iteration   2: 5324,860 ms/op
+Iteration   2: 5312,152 ms/op
                  ops:  19,000 #
-                 time: 1011748667,000 #
+                 time: 1009335291,000 #
 
-Iteration   3: 5386,170 ms/op
+Iteration   3: 5407,664 ms/op
                  ops:  19,000 #
-                 time: 1023397000,000 #
+                 time: 1027497166,000 #
 
-Iteration   4: 5348,048 ms/op
+Iteration   4: 5334,625 ms/op
                  ops:  19,000 #
-                 time: 1016152042,000 #
+                 time: 1013607292,000 #
 
-Iteration   5: 5371,173 ms/op
+Iteration   5: 5400,245 ms/op
                  ops:  19,000 #
-                 time: 1020545708,000 #
+                 time: 1026071459,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
-  5349,710 ±(99.9%) 112,215 ms/op [Average]
-  (min, avg, max) = (5318,298, 5349,710, 5386,170), stdev = 29,142
-  CI (99.9%): [5237,495, 5461,925] (assumes normal distribution)
+  5367,672 ±(99.9%) 162,128 ms/op [Average]
+  (min, avg, max) = (5312,152, 5367,672, 5407,664), stdev = 42,104
+  CI (99.9%): [5205,544, 5529,800] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   95,000 ±(99.9%) 0,001 # [Sum]
@@ -837,9 +829,9 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [95,000, 95,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  5082445083,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (1010601666,000, 1016489016,600, 1023397000,000), stdev = 5509590,345
-  CI (99.9%): [5082445083,000, 5082445083,000] (assumes normal distribution)
+  5099505833,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (1009335291,000, 1019901166,600, 1027497166,000), stdev = 8009241,299
+  CI (99.9%): [5099505833,000, 5099505833,000] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:05
@@ -851,9 +843,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt           Score     Error  Units
-BatchSizeSanityTest.test       avgt    5        5349,710 ± 112,215  ms/op
+BatchSizeSanityTest.test       avgt    5        5367,672 ± 162,128  ms/op
 BatchSizeSanityTest.test:ops   avgt    5          95,000                #
-BatchSizeSanityTest.test:time  avgt    5  5082445083,000                #
+BatchSizeSanityTest.test:time  avgt    5  5099505833,000                #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -869,8 +861,32 @@ BatchSizeSanityTest.test:time  avgt    5  5082445083,000                #
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 5351,932 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 5268,046 ms/op
+                 ops:     100,000 #
+                 p0.00:   5268,046 ms/op
+                 p0.50:   5268,046 ms/op
+                 p0.90:   5268,046 ms/op
+                 p0.95:   5268,046 ms/op
+                 p0.99:   5268,046 ms/op
+                 p0.999:  5268,046 ms/op
+                 p0.9999: 5268,046 ms/op
+                 p1.00:   5268,046 ms/op
+                 time:    5271532375,000 #
+
+Iteration   2: 5226,103 ms/op
+                 ops:     100,000 #
+                 p0.00:   5226,103 ms/op
+                 p0.50:   5226,103 ms/op
+                 p0.90:   5226,103 ms/op
+                 p0.95:   5226,103 ms/op
+                 p0.99:   5226,103 ms/op
+                 p0.999:  5226,103 ms/op
+                 p0.9999: 5226,103 ms/op
+                 p1.00:   5226,103 ms/op
+                 time:    5229941292,000 #
+
+Iteration   3: 5351,932 ms/op
                  ops:     100,000 #
                  p0.00:   5351,932 ms/op
                  p0.50:   5351,932 ms/op
@@ -880,84 +896,66 @@ Iteration   1: 5351,932 ms/op
                  p0.999:  5351,932 ms/op
                  p0.9999: 5351,932 ms/op
                  p1.00:   5351,932 ms/op
-                 time:    5359164584,000 #
+                 time:    5357350833,000 #
 
-Iteration   2: 5351,932 ms/op
+Iteration   4: 5360,321 ms/op
                  ops:     100,000 #
-                 p0.00:   5351,932 ms/op
-                 p0.50:   5351,932 ms/op
-                 p0.90:   5351,932 ms/op
-                 p0.95:   5351,932 ms/op
-                 p0.99:   5351,932 ms/op
-                 p0.999:  5351,932 ms/op
-                 p0.9999: 5351,932 ms/op
-                 p1.00:   5351,932 ms/op
-                 time:    5352581708,000 #
+                 p0.00:   5360,321 ms/op
+                 p0.50:   5360,321 ms/op
+                 p0.90:   5360,321 ms/op
+                 p0.95:   5360,321 ms/op
+                 p0.99:   5360,321 ms/op
+                 p0.999:  5360,321 ms/op
+                 p0.9999: 5360,321 ms/op
+                 p1.00:   5360,321 ms/op
+                 time:    5364227916,000 #
 
-Iteration   3: 5377,098 ms/op
+Iteration   5: 5318,377 ms/op
                  ops:     100,000 #
-                 p0.00:   5377,098 ms/op
-                 p0.50:   5377,098 ms/op
-                 p0.90:   5377,098 ms/op
-                 p0.95:   5377,098 ms/op
-                 p0.99:   5377,098 ms/op
-                 p0.999:  5377,098 ms/op
-                 p0.9999: 5377,098 ms/op
-                 p1.00:   5377,098 ms/op
-                 time:    5378287084,000 #
-
-Iteration   4: 5335,155 ms/op
-                 ops:     100,000 #
-                 p0.00:   5335,155 ms/op
-                 p0.50:   5335,155 ms/op
-                 p0.90:   5335,155 ms/op
-                 p0.95:   5335,155 ms/op
-                 p0.99:   5335,155 ms/op
-                 p0.999:  5335,155 ms/op
-                 p0.9999: 5335,155 ms/op
-                 p1.00:   5335,155 ms/op
-                 time:    5337593292,000 #
-
-Iteration   5: 5335,155 ms/op
-                 ops:     100,000 #
-                 p0.00:   5335,155 ms/op
-                 p0.50:   5335,155 ms/op
-                 p0.90:   5335,155 ms/op
-                 p0.95:   5335,155 ms/op
-                 p0.99:   5335,155 ms/op
-                 p0.999:  5335,155 ms/op
-                 p0.9999: 5335,155 ms/op
-                 p1.00:   5335,155 ms/op
-                 time:    5343243792,000 #
+                 p0.00:   5318,377 ms/op
+                 p0.50:   5318,377 ms/op
+                 p0.90:   5318,377 ms/op
+                 p0.95:   5318,377 ms/op
+                 p0.99:   5318,377 ms/op
+                 p0.999:  5318,377 ms/op
+                 p0.9999: 5318,377 ms/op
+                 p1.00:   5318,377 ms/op
+                 time:    5326552708,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   N = 5
-  mean =   5350,254 ±(99.9%) 66,198 ms/op
+  mean =   5304,956 ±(99.9%) 219,793 ms/op
 
   Histogram, ms/op:
-    [5330,000, 5335,000) = 0 
-    [5335,000, 5340,000) = 2 
-    [5340,000, 5345,000) = 0 
-    [5345,000, 5350,000) = 0 
-    [5350,000, 5355,000) = 2 
-    [5355,000, 5360,000) = 0 
-    [5360,000, 5365,000) = 0 
-    [5365,000, 5370,000) = 0 
-    [5370,000, 5375,000) = 0 
+    [5200,000, 5212,500) = 0 
+    [5212,500, 5225,000) = 0 
+    [5225,000, 5237,500) = 1 
+    [5237,500, 5250,000) = 0 
+    [5250,000, 5262,500) = 0 
+    [5262,500, 5275,000) = 1 
+    [5275,000, 5287,500) = 0 
+    [5287,500, 5300,000) = 0 
+    [5300,000, 5312,500) = 0 
+    [5312,500, 5325,000) = 1 
+    [5325,000, 5337,500) = 0 
+    [5337,500, 5350,000) = 0 
+    [5350,000, 5362,500) = 2 
+    [5362,500, 5375,000) = 0 
+    [5375,000, 5387,500) = 0 
 
   Percentiles, ms/op:
-      p(0,0000) =   5335,155 ms/op
-     p(50,0000) =   5351,932 ms/op
-     p(90,0000) =   5377,098 ms/op
-     p(95,0000) =   5377,098 ms/op
-     p(99,0000) =   5377,098 ms/op
-     p(99,9000) =   5377,098 ms/op
-     p(99,9900) =   5377,098 ms/op
-     p(99,9990) =   5377,098 ms/op
-     p(99,9999) =   5377,098 ms/op
-    p(100,0000) =   5377,098 ms/op
+      p(0,0000) =   5226,103 ms/op
+     p(50,0000) =   5318,377 ms/op
+     p(90,0000) =   5360,321 ms/op
+     p(95,0000) =   5360,321 ms/op
+     p(99,0000) =   5360,321 ms/op
+     p(99,9000) =   5360,321 ms/op
+     p(99,9900) =   5360,321 ms/op
+     p(99,9990) =   5360,321 ms/op
+     p(99,9999) =   5360,321 ms/op
+    p(100,0000) =   5360,321 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   500,000 ±(99.9%) 0,001 # [Sum]
@@ -965,12 +963,12 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [500,000, 500,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  26770870460,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (5337593292,000, 5354174092,000, 5378287084,000), stdev = 15837230,401
-  CI (99.9%): [26770870460,000, 26770870460,000] (assumes normal distribution)
+  26549605124,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (5229941292,000, 5309921024,800, 5364227916,000), stdev = 57762193,769
+  CI (99.9%): [26549605124,000, 26549605124,000] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:00:27
+# Run complete. Total time: 00:00:26
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -978,18 +976,18 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                           Mode  Cnt            Score    Error  Units
-BatchSizeSanityTest.test          sample    5         5350,254 ± 66,198  ms/op
-BatchSizeSanityTest.test:ops      sample    5          500,000               #
-BatchSizeSanityTest.test:p0.00    sample              5335,155           ms/op
-BatchSizeSanityTest.test:p0.50    sample              5351,932           ms/op
-BatchSizeSanityTest.test:p0.90    sample              5377,098           ms/op
-BatchSizeSanityTest.test:p0.95    sample              5377,098           ms/op
-BatchSizeSanityTest.test:p0.99    sample              5377,098           ms/op
-BatchSizeSanityTest.test:p0.999   sample              5377,098           ms/op
-BatchSizeSanityTest.test:p0.9999  sample              5377,098           ms/op
-BatchSizeSanityTest.test:p1.00    sample              5377,098           ms/op
-BatchSizeSanityTest.test:time     sample    5  26770870460,000               #
+Benchmark                           Mode  Cnt            Score     Error  Units
+BatchSizeSanityTest.test          sample    5         5304,956 ± 219,793  ms/op
+BatchSizeSanityTest.test:ops      sample    5          500,000                #
+BatchSizeSanityTest.test:p0.00    sample              5226,103            ms/op
+BatchSizeSanityTest.test:p0.50    sample              5318,377            ms/op
+BatchSizeSanityTest.test:p0.90    sample              5360,321            ms/op
+BatchSizeSanityTest.test:p0.95    sample              5360,321            ms/op
+BatchSizeSanityTest.test:p0.99    sample              5360,321            ms/op
+BatchSizeSanityTest.test:p0.999   sample              5360,321            ms/op
+BatchSizeSanityTest.test:p0.9999  sample              5360,321            ms/op
+BatchSizeSanityTest.test:p1.00    sample              5360,321            ms/op
+BatchSizeSanityTest.test:time     sample    5  26549605124,000                #
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -1005,59 +1003,61 @@ BatchSizeSanityTest.test:time     sample    5  26770870460,000               #
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 5335,455 ms/op
+The Dynamic Halt is NOT Active
+Iteration   1: 5342,573 ms/op
                  ops:  100,000 #
-                 time: 5335554125,000 #
+                 time: 5342643500,000 #
 
-Iteration   2: 5346,573 ms/op
+Iteration   2: 5340,624 ms/op
                  ops:  100,000 #
-                 time: 5346593708,000 #
+                 time: 5340645167,000 #
 
-Iteration   3: 5390,331 ms/op
+Iteration   3: 5341,511 ms/op
                  ops:  100,000 #
-                 time: 5390354250,000 #
+                 time: 5341535334,000 #
 
-Iteration   4: 5372,964 ms/op
+Iteration   4: 5356,218 ms/op
                  ops:  100,000 #
-                 time: 5372979292,000 #
+                 time: 5356234500,000 #
 
-Iteration   5: 5378,347 ms/op
+Iteration   5: 5374,785 ms/op
                  ops:  100,000 #
-                 time: 5378362375,000 #
+                 time: 5374799792,000 #
 
 
 
 Result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test":
   N = 5
-  mean =   5364,734 ±(99.9%) 88,132 ms/op
+  mean =   5351,142 ±(99.9%) 56,512 ms/op
 
   Histogram, ms/op:
-    [5330,000, 5335,000) = 0 
-    [5335,000, 5340,000) = 1 
-    [5340,000, 5345,000) = 0 
-    [5345,000, 5350,000) = 1 
-    [5350,000, 5355,000) = 0 
-    [5355,000, 5360,000) = 0 
-    [5360,000, 5365,000) = 0 
-    [5365,000, 5370,000) = 0 
-    [5370,000, 5375,000) = 1 
-    [5375,000, 5380,000) = 1 
-    [5380,000, 5385,000) = 0 
-    [5385,000, 5390,000) = 0 
-    [5390,000, 5395,000) = 1 
+    [5340,000, 5342,500) = 2 
+    [5342,500, 5345,000) = 1 
+    [5345,000, 5347,500) = 0 
+    [5347,500, 5350,000) = 0 
+    [5350,000, 5352,500) = 0 
+    [5352,500, 5355,000) = 0 
+    [5355,000, 5357,500) = 1 
+    [5357,500, 5360,000) = 0 
+    [5360,000, 5362,500) = 0 
+    [5362,500, 5365,000) = 0 
+    [5365,000, 5367,500) = 0 
+    [5367,500, 5370,000) = 0 
+    [5370,000, 5372,500) = 0 
+    [5372,500, 5375,000) = 1 
+    [5375,000, 5377,500) = 0 
 
   Percentiles, ms/op:
-      p(0,0000) =   5335,455 ms/op
-     p(50,0000) =   5372,964 ms/op
-     p(90,0000) =   5390,331 ms/op
-     p(95,0000) =   5390,331 ms/op
-     p(99,0000) =   5390,331 ms/op
-     p(99,9000) =   5390,331 ms/op
-     p(99,9900) =   5390,331 ms/op
-     p(99,9990) =   5390,331 ms/op
-     p(99,9999) =   5390,331 ms/op
-    p(100,0000) =   5390,331 ms/op
+      p(0,0000) =   5340,624 ms/op
+     p(50,0000) =   5342,573 ms/op
+     p(90,0000) =   5374,785 ms/op
+     p(95,0000) =   5374,785 ms/op
+     p(99,0000) =   5374,785 ms/op
+     p(99,9000) =   5374,785 ms/op
+     p(99,9900) =   5374,785 ms/op
+     p(99,9990) =   5374,785 ms/op
+     p(99,9999) =   5374,785 ms/op
+    p(100,0000) =   5374,785 ms/op
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   500,000 ±(99.9%) 0,001 # [Sum]
@@ -1065,12 +1065,12 @@ Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:ops":
   CI (99.9%): [500,000, 500,000] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.batchsize.BatchSizeSanityTest.test:time":
-  26823843750,000 ±(99.9%) 0,001 # [Sum]
-  (min, avg, max) = (5335554125,000, 5364768750,000, 5390354250,000), stdev = 22861779,876
-  CI (99.9%): [26823843750,000, 26823843750,000] (assumes normal distribution)
+  26755858293,000 ±(99.9%) 0,001 # [Sum]
+  (min, avg, max) = (5340645167,000, 5351171658,600, 5374799792,000), stdev = 14665574,633
+  CI (99.9%): [26755858293,000, 26755858293,000] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:00:27
+# Run complete. Total time: 00:00:26
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -1079,6 +1079,6 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt            Score    Error  Units
-BatchSizeSanityTest.test         ss    5         5364,734 ± 88,132  ms/op
+BatchSizeSanityTest.test         ss    5         5351,142 ± 56,512  ms/op
 BatchSizeSanityTest.test:ops     ss    5          500,000               #
-BatchSizeSanityTest.test:time    ss    5  26823843750,000               #
+BatchSizeSanityTest.test:time    ss    5  26755858293,000               #

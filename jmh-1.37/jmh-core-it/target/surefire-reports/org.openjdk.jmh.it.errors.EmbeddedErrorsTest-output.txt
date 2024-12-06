@@ -15,12 +15,12 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 707,401 ops/s
-Iteration   1: 757,497 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 731,942 ops/s
+Iteration   1: 769,998 ops/s
 
 Result "org.openjdk.jmh.it.errors.EmbeddedErrorsTest.test00_normal":
-  757,497 ops/s
+  769,998 ops/s
 
 
 # JMH version: 1.37
@@ -39,7 +39,7 @@ Result "org.openjdk.jmh.it.errors.EmbeddedErrorsTest.test00_normal":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException
@@ -76,12 +76,12 @@ java.lang.IllegalStateException
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 760,155 ops/s
-Iteration   1: 706,379 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 552,321 ops/s
+Iteration   1: 766,957 ops/s
 
 Result "org.openjdk.jmh.it.errors.EmbeddedErrorsTest.test02_normal":
-  706,379 ops/s
+  766,957 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -93,8 +93,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                          Mode  Cnt    Score   Error  Units
-EmbeddedErrorsTest.test00_normal  thrpt       757,497          ops/s
-EmbeddedErrorsTest.test02_normal  thrpt       706,379          ops/s
+EmbeddedErrorsTest.test00_normal  thrpt       769,998          ops/s
+EmbeddedErrorsTest.test02_normal  thrpt       766,957          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -112,12 +112,12 @@ EmbeddedErrorsTest.test02_normal  thrpt       706,379          ops/s
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 699,688 ops/s
-Iteration   1: 696,028 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 785,436 ops/s
+Iteration   1: 713,288 ops/s
 
 Result "org.openjdk.jmh.it.errors.EmbeddedErrorsTest.test00_normal":
-  696,028 ops/s
+  713,288 ops/s
 
 
 # JMH version: 1.37
@@ -136,7 +136,7 @@ Result "org.openjdk.jmh.it.errors.EmbeddedErrorsTest.test00_normal":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: <failure>
 
 java.lang.IllegalStateException

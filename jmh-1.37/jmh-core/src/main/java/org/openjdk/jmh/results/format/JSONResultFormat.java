@@ -24,6 +24,7 @@
  */
 package org.openjdk.jmh.results.format;
 
+import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.infra.BenchmarkParams;
 import org.openjdk.jmh.results.BenchmarkResult;
 import org.openjdk.jmh.results.IterationResult;
@@ -37,6 +38,7 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 class JSONResultFormat implements ResultFormat {
@@ -60,6 +62,15 @@ class JSONResultFormat implements ResultFormat {
         pw.println("[");
         for (RunResult runResult : results) {
             BenchmarkParams params = runResult.getParams();
+            if(!params.getDynamicHaltModel().isEmpty()) {
+                if(params.getMode() == Mode.SingleShotTime){
+                    params.getWarmup().setTime(0, TimeUnit.MILLISECONDS);
+                    params.getMeasurement().setTime(0, TimeUnit.MILLISECONDS);
+                } else {
+                    params.getWarmup().setTime(100, TimeUnit.MILLISECONDS);
+                    params.getMeasurement().setTime(100, TimeUnit.MILLISECONDS);
+                }
+            }
 
             String dynamicHaltHost = params.getDynamicHaltHost();
             String dynamicHaltPort = params.getDynamicHaltPort();

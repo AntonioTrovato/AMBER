@@ -15,11 +15,11 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 80,383 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 83,397 ops/s
 
 Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
-  80,383 ops/s
+  83,397 ops/s
 
 
 # JMH version: 1.37
@@ -38,7 +38,7 @@ Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 s/op
 
 Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
@@ -61,7 +61,7 @@ Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 Iteration   1: 0,012 ±(99.9%) 0,001 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
@@ -78,17 +78,21 @@ Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 0 
-    [0,010, 0,011) = 0 
     [0,011, 0,011) = 0 
-    [0,011, 0,011) = 2 
-    [0,011, 0,011) = 2 
+    [0,011, 0,011) = 0 
+    [0,011, 0,011) = 1 
     [0,011, 0,012) = 0 
+    [0,012, 0,012) = 1 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
     [0,012, 0,012) = 0 
-    [0,012, 0,013) = 0 
-    [0,013, 0,013) = 5 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 0 
+    [0,012, 0,012) = 1 
+    [0,012, 0,012) = 0 
+    [0,012, 0,013) = 6 
+    [0,013, 0,013) = 0 
+    [0,013, 0,013) = 0 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
@@ -120,8 +124,8 @@ Result "org.openjdk.jmh.it.dagorder.MixedGTBIterationDagOrderTest.group":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,010 s/op
 
 
 # Run complete. Total time: 00:00:00
@@ -133,7 +137,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                      Mode  Cnt   Score   Error  Units
-MixedGTBIterationDagOrderTest.group           thrpt       80,383          ops/s
+MixedGTBIterationDagOrderTest.group           thrpt       83,397          ops/s
 MixedGTBIterationDagOrderTest.group            avgt        0,012           s/op
 MixedGTBIterationDagOrderTest.group          sample    9   0,012 ± 0,001   s/op
 MixedGTBIterationDagOrderTest.group:p0.00    sample        0,011           s/op
@@ -144,4 +148,4 @@ MixedGTBIterationDagOrderTest.group:p0.99    sample        0,013           s/op
 MixedGTBIterationDagOrderTest.group:p0.999   sample        0,013           s/op
 MixedGTBIterationDagOrderTest.group:p0.9999  sample        0,013           s/op
 MixedGTBIterationDagOrderTest.group:p1.00    sample        0,013           s/op
-MixedGTBIterationDagOrderTest.group              ss        0,012           s/op
+MixedGTBIterationDagOrderTest.group              ss        0,010           s/op

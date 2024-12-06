@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.openjdk.jmh.it.errors.ForkedHalt42Test
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 sec - in org.openjdk.jmh.it.errors.ForkedHalt42Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.743 sec - in org.openjdk.jmh.it.errors.ForkedHalt42Test

@@ -13,12 +13,12 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 86,075 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 82,078 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkSeparateClasspathJARTest.test":
-  86,075 ops/s
+  82,078 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -30,7 +30,7 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt   Score   Error  Units
-ForkSeparateClasspathJARTest.test  thrpt       86,075          ops/s
+ForkSeparateClasspathJARTest.test  thrpt       82,078          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -46,12 +46,12 @@ ForkSeparateClasspathJARTest.test  thrpt       86,075          ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 83,595 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 81,193 ops/s
 
 
 Result "org.openjdk.jmh.it.fork.ForkSeparateClasspathJARTest.test":
-  83,595 ops/s
+  81,193 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -63,4 +63,4 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                           Mode  Cnt   Score   Error  Units
-ForkSeparateClasspathJARTest.test  thrpt       83,595          ops/s
+ForkSeparateClasspathJARTest.test  thrpt       81,193          ops/s

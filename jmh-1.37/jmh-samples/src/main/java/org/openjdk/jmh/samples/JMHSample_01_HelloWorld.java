@@ -71,7 +71,8 @@ public class JMHSample_01_HelloWorld {
      */
 
     @Benchmark
-    @DynamicHalt(model="fcn")
+    @Warmup(iterations = 1)
+    @Measurement(iterations = 1)
     public void wellHelloThere() {
         // this method was intentionally left blank.
     }

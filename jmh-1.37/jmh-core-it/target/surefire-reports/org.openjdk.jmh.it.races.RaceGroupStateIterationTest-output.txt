@@ -15,62 +15,62 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 318,735 ops/s
-Iteration   2: 341,971 ops/s
-Iteration   3: 329,075 ops/s
-Iteration   4: 327,257 ops/s
-Iteration   5: 325,970 ops/s
-Iteration   6: 325,502 ops/s
-Iteration   7: 323,843 ops/s
-Iteration   8: 330,475 ops/s
-Iteration   9: 348,071 ops/s
-Iteration  10: 328,362 ops/s
-Iteration  11: 330,429 ops/s
-Iteration  12: 326,553 ops/s
-Iteration  13: 335,544 ops/s
-Iteration  14: 333,947 ops/s
-Iteration  15: 335,697 ops/s
-Iteration  16: 325,210 ops/s
-Iteration  17: 323,000 ops/s
-Iteration  18: 337,089 ops/s
-Iteration  19: 333,398 ops/s
-Iteration  20: 339,481 ops/s
-Iteration  21: 339,899 ops/s
-Iteration  22: 363,527 ops/s
-Iteration  23: 345,993 ops/s
-Iteration  24: 350,218 ops/s
-Iteration  25: 327,793 ops/s
-Iteration  26: 321,647 ops/s
-Iteration  27: 331,003 ops/s
-Iteration  28: 340,603 ops/s
-Iteration  29: 319,767 ops/s
-Iteration  30: 325,092 ops/s
-Iteration  31: 330,309 ops/s
-Iteration  32: 319,596 ops/s
-Iteration  33: 346,260 ops/s
-Iteration  34: 319,601 ops/s
-Iteration  35: 323,279 ops/s
-Iteration  36: 335,953 ops/s
-Iteration  37: 331,900 ops/s
-Iteration  38: 323,977 ops/s
-Iteration  39: 319,647 ops/s
-Iteration  40: 319,756 ops/s
-Iteration  41: 330,763 ops/s
-Iteration  42: 372,980 ops/s
-Iteration  43: 341,069 ops/s
-Iteration  44: 323,746 ops/s
-Iteration  45: 353,663 ops/s
-Iteration  46: 340,661 ops/s
-Iteration  47: 319,563 ops/s
-Iteration  48: 330,030 ops/s
-Iteration  49: 326,972 ops/s
-Iteration  50: 322,749 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 345,756 ops/s
+Iteration   2: 365,365 ops/s
+Iteration   3: 343,230 ops/s
+Iteration   4: 322,501 ops/s
+Iteration   5: 324,117 ops/s
+Iteration   6: 325,382 ops/s
+Iteration   7: 335,925 ops/s
+Iteration   8: 323,469 ops/s
+Iteration   9: 322,069 ops/s
+Iteration  10: 321,589 ops/s
+Iteration  11: 347,977 ops/s
+Iteration  12: 327,004 ops/s
+Iteration  13: 343,301 ops/s
+Iteration  14: 349,090 ops/s
+Iteration  15: 319,599 ops/s
+Iteration  16: 339,472 ops/s
+Iteration  17: 359,350 ops/s
+Iteration  18: 332,752 ops/s
+Iteration  19: 319,426 ops/s
+Iteration  20: 339,000 ops/s
+Iteration  21: 333,170 ops/s
+Iteration  22: 322,653 ops/s
+Iteration  23: 319,521 ops/s
+Iteration  24: 345,602 ops/s
+Iteration  25: 362,784 ops/s
+Iteration  26: 363,315 ops/s
+Iteration  27: 336,067 ops/s
+Iteration  28: 343,262 ops/s
+Iteration  29: 319,823 ops/s
+Iteration  30: 319,925 ops/s
+Iteration  31: 321,695 ops/s
+Iteration  32: 341,284 ops/s
+Iteration  33: 322,908 ops/s
+Iteration  34: 347,315 ops/s
+Iteration  35: 342,280 ops/s
+Iteration  36: 337,350 ops/s
+Iteration  37: 331,219 ops/s
+Iteration  38: 328,651 ops/s
+Iteration  39: 333,503 ops/s
+Iteration  40: 350,159 ops/s
+Iteration  41: 348,741 ops/s
+Iteration  42: 342,127 ops/s
+Iteration  43: 338,625 ops/s
+Iteration  44: 334,288 ops/s
+Iteration  45: 328,690 ops/s
+Iteration  46: 326,486 ops/s
+Iteration  47: 327,908 ops/s
+Iteration  48: 326,806 ops/s
+Iteration  49: 320,970 ops/s
+Iteration  50: 341,668 ops/s
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
-  332,353 ±(99.9%) 5,741 ops/s [Average]
-  (min, avg, max) = (318,735, 332,353, 372,980), stdev = 11,598
-  CI (99.9%): [326,611, 338,094] (assumes normal distribution)
+  335,303 ±(99.9%) 6,228 ops/s [Average]
+  (min, avg, max) = (319,426, 335,303, 365,365), stdev = 12,580
+  CI (99.9%): [329,076, 341,531] (assumes normal distribution)
 
 
 # JMH version: 1.37
@@ -85,61 +85,61 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T
 
-# Run progress: 32,26% complete, ETA 00:00:04
+# Run progress: 32,26% complete, ETA 00:00:03
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,007 s/op
-Iteration   2: 0,012 ±(99.9%) 0,001 s/op
-Iteration   3: 0,012 ±(99.9%) 0,005 s/op
-Iteration   4: 0,012 ±(99.9%) 0,003 s/op
-Iteration   5: 0,012 ±(99.9%) 0,004 s/op
-Iteration   6: 0,012 ±(99.9%) 0,007 s/op
-Iteration   7: 0,012 ±(99.9%) 0,007 s/op
-Iteration   8: 0,012 ±(99.9%) 0,004 s/op
-Iteration   9: 0,012 ±(99.9%) 0,007 s/op
-Iteration  10: 0,012 ±(99.9%) 0,001 s/op
-Iteration  11: 0,012 ±(99.9%) 0,001 s/op
-Iteration  12: 0,012 ±(99.9%) 0,001 s/op
-Iteration  13: 0,012 ±(99.9%) 0,004 s/op
-Iteration  14: 0,012 ±(99.9%) 0,002 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,001 s/op
+Iteration   2: 0,012 ±(99.9%) 0,004 s/op
+Iteration   3: 0,012 ±(99.9%) 0,002 s/op
+Iteration   4: 0,012 ±(99.9%) 0,005 s/op
+Iteration   5: 0,012 ±(99.9%) 0,005 s/op
+Iteration   6: 0,012 ±(99.9%) 0,002 s/op
+Iteration   7: 0,012 ±(99.9%) 0,003 s/op
+Iteration   8: 0,012 ±(99.9%) 0,005 s/op
+Iteration   9: 0,012 ±(99.9%) 0,002 s/op
+Iteration  10: 0,012 ±(99.9%) 0,003 s/op
+Iteration  11: 0,012 ±(99.9%) 0,002 s/op
+Iteration  12: 0,012 ±(99.9%) 0,002 s/op
+Iteration  13: 0,011 ±(99.9%) 0,005 s/op
+Iteration  14: 0,012 ±(99.9%) 0,003 s/op
 Iteration  15: 0,012 ±(99.9%) 0,004 s/op
-Iteration  16: 0,012 ±(99.9%) 0,006 s/op
-Iteration  17: 0,012 ±(99.9%) 0,003 s/op
-Iteration  18: 0,012 ±(99.9%) 0,002 s/op
-Iteration  19: 0,012 ±(99.9%) 0,002 s/op
-Iteration  20: 0,012 ±(99.9%) 0,002 s/op
-Iteration  21: 0,013 ±(99.9%) 0,001 s/op
-Iteration  22: 0,012 ±(99.9%) 0,007 s/op
-Iteration  23: 0,012 ±(99.9%) 0,006 s/op
-Iteration  24: 0,012 ±(99.9%) 0,007 s/op
-Iteration  25: 0,012 ±(99.9%) 0,001 s/op
-Iteration  26: 0,012 ±(99.9%) 0,008 s/op
-Iteration  27: 0,012 ±(99.9%) 0,006 s/op
-Iteration  28: 0,012 ±(99.9%) 0,003 s/op
+Iteration  16: 0,012 ±(99.9%) 0,007 s/op
+Iteration  17: 0,013 ±(99.9%) 0,001 s/op
+Iteration  18: 0,012 ±(99.9%) 0,006 s/op
+Iteration  19: 0,012 ±(99.9%) 0,001 s/op
+Iteration  20: 0,012 ±(99.9%) 0,004 s/op
+Iteration  21: 0,011 ±(99.9%) 0,004 s/op
+Iteration  22: 0,012 ±(99.9%) 0,002 s/op
+Iteration  23: 0,013 ±(99.9%) 0,001 s/op
+Iteration  24: 0,013 ±(99.9%) 0,001 s/op
+Iteration  25: 0,013 ±(99.9%) 0,001 s/op
+Iteration  26: 0,012 ±(99.9%) 0,003 s/op
+Iteration  27: 0,012 ±(99.9%) 0,004 s/op
+Iteration  28: 0,012 ±(99.9%) 0,006 s/op
 Iteration  29: 0,012 ±(99.9%) 0,002 s/op
-Iteration  30: 0,011 ±(99.9%) 0,001 s/op
-Iteration  31: 0,012 ±(99.9%) 0,003 s/op
-Iteration  32: 0,013 ±(99.9%) 0,004 s/op
-Iteration  33: 0,012 ±(99.9%) 0,002 s/op
-Iteration  34: 0,012 ±(99.9%) 0,001 s/op
-Iteration  35: 0,012 ±(99.9%) 0,002 s/op
-Iteration  36: 0,012 ±(99.9%) 0,002 s/op
+Iteration  30: 0,012 ±(99.9%) 0,005 s/op
+Iteration  31: 0,012 ±(99.9%) 0,001 s/op
+Iteration  32: 0,012 ±(99.9%) 0,006 s/op
+Iteration  33: 0,012 ±(99.9%) 0,003 s/op
+Iteration  34: 0,013 ±(99.9%) 0,001 s/op
+Iteration  35: 0,013 ±(99.9%) 0,001 s/op
+Iteration  36: 0,012 ±(99.9%) 0,006 s/op
 Iteration  37: 0,012 ±(99.9%) 0,001 s/op
-Iteration  38: 0,012 ±(99.9%) 0,003 s/op
-Iteration  39: 0,012 ±(99.9%) 0,001 s/op
-Iteration  40: 0,011 ±(99.9%) 0,003 s/op
-Iteration  41: 0,011 ±(99.9%) 0,001 s/op
-Iteration  42: 0,012 ±(99.9%) 0,006 s/op
-Iteration  43: 0,012 ±(99.9%) 0,002 s/op
-Iteration  44: 0,012 ±(99.9%) 0,006 s/op
-Iteration  45: 0,011 ±(99.9%) 0,002 s/op
-Iteration  46: 0,013 ±(99.9%) 0,001 s/op
-Iteration  47: 0,011 ±(99.9%) 0,006 s/op
-Iteration  48: 0,012 ±(99.9%) 0,003 s/op
-Iteration  49: 0,012 ±(99.9%) 0,005 s/op
-Iteration  50: 0,011 ±(99.9%) 0,006 s/op
+Iteration  38: 0,011 ±(99.9%) 0,004 s/op
+Iteration  39: 0,012 ±(99.9%) 0,005 s/op
+Iteration  40: 0,011 ±(99.9%) 0,006 s/op
+Iteration  41: 0,012 ±(99.9%) 0,006 s/op
+Iteration  42: 0,012 ±(99.9%) 0,002 s/op
+Iteration  43: 0,012 ±(99.9%) 0,003 s/op
+Iteration  44: 0,012 ±(99.9%) 0,002 s/op
+Iteration  45: 0,012 ±(99.9%) 0,006 s/op
+Iteration  46: 0,012 ±(99.9%) 0,001 s/op
+Iteration  47: 0,012 ±(99.9%) 0,003 s/op
+Iteration  48: 0,012 ±(99.9%) 0,001 s/op
+Iteration  49: 0,012 ±(99.9%) 0,004 s/op
+Iteration  50: 0,012 ±(99.9%) 0,002 s/op
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
   0,012 ±(99.9%) 0,001 s/op [Average]
@@ -163,258 +163,8 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   2: 0,011 ±(99.9%) 0,004 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,011 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   3: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   4: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   5: 0,011 ±(99.9%) 0,005 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,010 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   6: 0,012 ±(99.9%) 0,005 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   7: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration   8: 0,011 ±(99.9%) 0,005 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,011 s/op
-                 p0.90:   0,012 s/op
-                 p0.95:   0,012 s/op
-                 p0.99:   0,012 s/op
-                 p0.999:  0,012 s/op
-                 p0.9999: 0,012 s/op
-                 p1.00:   0,012 s/op
-
-Iteration   9: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  10: 0,011 ±(99.9%) 0,007 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,010 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  11: 0,011 ±(99.9%) 0,004 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,011 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  12: 0,012 ±(99.9%) 0,006 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,012 s/op
-                 p0.95:   0,012 s/op
-                 p0.99:   0,012 s/op
-                 p0.999:  0,012 s/op
-                 p0.9999: 0,012 s/op
-                 p1.00:   0,012 s/op
-
-Iteration  13: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,012 s/op
-                 p0.95:   0,012 s/op
-                 p0.99:   0,012 s/op
-                 p0.999:  0,012 s/op
-                 p0.9999: 0,012 s/op
-                 p1.00:   0,012 s/op
-
-Iteration  14: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  15: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  16: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  17: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  18: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  19: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  20: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  21: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  22: 0,012 ±(99.9%) 0,001 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  23: 0,012 ±(99.9%) 0,006 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  24: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  25: 0,012 ±(99.9%) 0,006 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  26: 0,013 ±(99.9%) 0,001 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,013 ±(99.9%) 0,001 s/op
                  p0.00:   0,013 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
@@ -424,7 +174,7 @@ Iteration  26: 0,013 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  27: 0,012 ±(99.9%) 0,008 s/op
+Iteration   2: 0,012 ±(99.9%) 0,007 s/op
                  p0.00:   0,010 s/op
                  p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
@@ -434,8 +184,258 @@ Iteration  27: 0,012 ±(99.9%) 0,008 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  28: 0,012 ±(99.9%) 0,002 s/op
+Iteration   3: 0,012 ±(99.9%) 0,003 s/op
                  p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   4: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   5: 0,011 ±(99.9%) 0,005 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   6: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   7: 0,011 ±(99.9%) 0,004 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   8: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration   9: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
+
+Iteration  10: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  11: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  12: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  13: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  14: 0,011 ±(99.9%) 0,007 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
+
+Iteration  15: 0,012 ±(99.9%) 0,006 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  16: 0,012 ±(99.9%) 0,006 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  17: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  18: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  19: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  20: 0,012 ±(99.9%) 0,006 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
+
+Iteration  21: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  22: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  23: 0,011 ±(99.9%) 0,001 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,011 s/op
+                 p0.95:   0,011 s/op
+                 p0.99:   0,011 s/op
+                 p0.999:  0,011 s/op
+                 p0.9999: 0,011 s/op
+                 p1.00:   0,011 s/op
+
+Iteration  24: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  25: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
+
+Iteration  26: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  27: 0,012 ±(99.9%) 0,006 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  28: 0,012 ±(99.9%) 0,007 s/op
+                 p0.00:   0,010 s/op
                  p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -446,86 +446,6 @@ Iteration  28: 0,012 ±(99.9%) 0,002 s/op
 
 Iteration  29: 0,012 ±(99.9%) 0,003 s/op
                  p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  30: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  31: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  32: 0,012 ±(99.9%) 0,008 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  33: 0,011 ±(99.9%) 0,008 s/op
-                 p0.00:   0,010 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  34: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  35: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  36: 0,012 ±(99.9%) 0,003 s/op
-                 p0.00:   0,012 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  37: 0,012 ±(99.9%) 0,004 s/op
-                 p0.00:   0,011 s/op
                  p0.50:   0,011 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -534,7 +454,67 @@ Iteration  37: 0,012 ±(99.9%) 0,004 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  38: 0,013 ±(99.9%) 0,001 s/op
+Iteration  30: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  31: 0,012 ±(99.9%) 0,008 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  32: 0,012 ±(99.9%) 0,004 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  33: 0,012 ±(99.9%) 0,002 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  34: 0,011 ±(99.9%) 0,005 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,010 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  35: 0,012 ±(99.9%) 0,006 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  36: 0,013 ±(99.9%) 0,001 s/op
                  p0.00:   0,012 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
@@ -544,8 +524,8 @@ Iteration  38: 0,013 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  39: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
+Iteration  37: 0,012 ±(99.9%) 0,008 s/op
+                 p0.00:   0,010 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -554,7 +534,47 @@ Iteration  39: 0,013 ±(99.9%) 0,001 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  40: 0,011 ±(99.9%) 0,002 s/op
+Iteration  38: 0,011 ±(99.9%) 0,004 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  39: 0,011 ±(99.9%) 0,007 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  40: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  41: 0,012 ±(99.9%) 0,005 s/op
+                 p0.00:   0,011 s/op
+                 p0.50:   0,012 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  42: 0,011 ±(99.9%) 0,001 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,011 s/op
                  p0.90:   0,012 s/op
@@ -564,48 +584,38 @@ Iteration  40: 0,011 ±(99.9%) 0,002 s/op
                  p0.9999: 0,012 s/op
                  p1.00:   0,012 s/op
 
-Iteration  41: 0,012 ±(99.9%) 0,003 s/op
+Iteration  43: 0,012 ±(99.9%) 0,002 s/op
                  p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
 
-Iteration  42: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  43: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  44: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  45: 0,012 ±(99.9%) 0,004 s/op
+Iteration  44: 0,011 ±(99.9%) 0,007 s/op
                  p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  45: 0,012 ±(99.9%) 0,001 s/op
+                 p0.00:   0,012 s/op
+                 p0.50:   0,013 s/op
+                 p0.90:   0,013 s/op
+                 p0.95:   0,013 s/op
+                 p0.99:   0,013 s/op
+                 p0.999:  0,013 s/op
+                 p0.9999: 0,013 s/op
+                 p1.00:   0,013 s/op
+
+Iteration  46: 0,012 ±(99.9%) 0,007 s/op
+                 p0.00:   0,011 s/op
                  p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -614,7 +624,7 @@ Iteration  45: 0,012 ±(99.9%) 0,004 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  46: 0,012 ±(99.9%) 0,005 s/op
+Iteration  47: 0,012 ±(99.9%) 0,004 s/op
                  p0.00:   0,011 s/op
                  p0.50:   0,013 s/op
                  p0.90:   0,013 s/op
@@ -624,29 +634,19 @@ Iteration  46: 0,012 ±(99.9%) 0,005 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  47: 0,012 ±(99.9%) 0,002 s/op
-                 p0.00:   0,011 s/op
-                 p0.50:   0,012 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
-
-Iteration  48: 0,013 ±(99.9%) 0,001 s/op
-                 p0.00:   0,013 s/op
-                 p0.50:   0,013 s/op
-                 p0.90:   0,013 s/op
-                 p0.95:   0,013 s/op
-                 p0.99:   0,013 s/op
-                 p0.999:  0,013 s/op
-                 p0.9999: 0,013 s/op
-                 p1.00:   0,013 s/op
+Iteration  48: 0,011 ±(99.9%) 0,003 s/op
+                 p0.00:   0,010 s/op
+                 p0.50:   0,011 s/op
+                 p0.90:   0,012 s/op
+                 p0.95:   0,012 s/op
+                 p0.99:   0,012 s/op
+                 p0.999:  0,012 s/op
+                 p0.9999: 0,012 s/op
+                 p1.00:   0,012 s/op
 
 Iteration  49: 0,012 ±(99.9%) 0,006 s/op
                  p0.00:   0,011 s/op
-                 p0.50:   0,013 s/op
+                 p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
                  p0.99:   0,013 s/op
@@ -654,8 +654,8 @@ Iteration  49: 0,012 ±(99.9%) 0,006 s/op
                  p0.9999: 0,013 s/op
                  p1.00:   0,013 s/op
 
-Iteration  50: 0,012 ±(99.9%) 0,007 s/op
-                 p0.00:   0,010 s/op
+Iteration  50: 0,012 ±(99.9%) 0,003 s/op
+                 p0.00:   0,012 s/op
                  p0.50:   0,012 s/op
                  p0.90:   0,013 s/op
                  p0.95:   0,013 s/op
@@ -670,22 +670,22 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
   mean =      0,012 ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [0,010, 0,010) = 7 
-    [0,010, 0,011) = 10 
-    [0,011, 0,011) = 9 
-    [0,011, 0,011) = 11 
-    [0,011, 0,011) = 12 
-    [0,011, 0,012) = 12 
-    [0,012, 0,012) = 15 
-    [0,012, 0,012) = 4 
-    [0,012, 0,012) = 7 
-    [0,012, 0,013) = 23 
-    [0,013, 0,013) = 111 
-    [0,013, 0,013) = 1 
+    [0,010, 0,010) = 17 
+    [0,010, 0,011) = 5 
+    [0,011, 0,011) = 13 
+    [0,011, 0,011) = 15 
+    [0,011, 0,011) = 8 
+    [0,011, 0,012) = 17 
+    [0,012, 0,012) = 5 
+    [0,012, 0,012) = 11 
+    [0,012, 0,012) = 8 
+    [0,012, 0,013) = 44 
+    [0,013, 0,013) = 79 
+    [0,013, 0,013) = 0 
 
   Percentiles, s/op:
       p(0,0000) =      0,010 s/op
-     p(50,0000) =      0,013 s/op
+     p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
      p(99,0000) =      0,013 s/op
@@ -712,57 +712,57 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 0,012 ±(99.9%) 0,003 s/op
-Iteration   2: 0,012 ±(99.9%) 0,007 s/op
-Iteration   3: 0,013 ±(99.9%) 0,001 s/op
-Iteration   4: 0,011 ±(99.9%) 0,001 s/op
-Iteration   5: 0,013 ±(99.9%) 0,001 s/op
-Iteration   6: 0,013 ±(99.9%) 0,001 s/op
+The Dynamic Halt is NOT Active
+Iteration   1: 0,012 ±(99.9%) 0,006 s/op
+Iteration   2: 0,012 ±(99.9%) 0,004 s/op
+Iteration   3: 0,012 ±(99.9%) 0,007 s/op
+Iteration   4: 0,010 ±(99.9%) 0,001 s/op
+Iteration   5: 0,012 ±(99.9%) 0,004 s/op
+Iteration   6: 0,012 ±(99.9%) 0,006 s/op
 Iteration   7: 0,012 ±(99.9%) 0,004 s/op
 Iteration   8: 0,013 ±(99.9%) 0,001 s/op
 Iteration   9: 0,012 ±(99.9%) 0,003 s/op
-Iteration  10: 0,012 ±(99.9%) 0,005 s/op
+Iteration  10: 0,011 ±(99.9%) 0,001 s/op
 Iteration  11: 0,012 ±(99.9%) 0,001 s/op
-Iteration  12: 0,013 ±(99.9%) 0,001 s/op
+Iteration  12: 0,012 ±(99.9%) 0,007 s/op
 Iteration  13: 0,012 ±(99.9%) 0,003 s/op
-Iteration  14: 0,011 ±(99.9%) 0,004 s/op
-Iteration  15: 0,012 ±(99.9%) 0,007 s/op
-Iteration  16: 0,012 ±(99.9%) 0,001 s/op
-Iteration  17: 0,012 ±(99.9%) 0,003 s/op
+Iteration  14: 0,011 ±(99.9%) 0,003 s/op
+Iteration  15: 0,011 ±(99.9%) 0,003 s/op
+Iteration  16: 0,011 ±(99.9%) 0,002 s/op
+Iteration  17: 0,012 ±(99.9%) 0,001 s/op
 Iteration  18: 0,012 ±(99.9%) 0,002 s/op
-Iteration  19: 0,011 ±(99.9%) 0,008 s/op
-Iteration  20: 0,012 ±(99.9%) 0,005 s/op
-Iteration  21: 0,012 ±(99.9%) 0,001 s/op
-Iteration  22: 0,011 ±(99.9%) 0,001 s/op
-Iteration  23: 0,012 ±(99.9%) 0,005 s/op
-Iteration  24: 0,011 ±(99.9%) 0,003 s/op
-Iteration  25: 0,011 ±(99.9%) 0,003 s/op
-Iteration  26: 0,011 ±(99.9%) 0,008 s/op
-Iteration  27: 0,012 ±(99.9%) 0,001 s/op
-Iteration  28: 0,013 ±(99.9%) 0,001 s/op
-Iteration  29: 0,012 ±(99.9%) 0,001 s/op
-Iteration  30: 0,013 ±(99.9%) 0,001 s/op
-Iteration  31: 0,012 ±(99.9%) 0,003 s/op
-Iteration  32: 0,013 ±(99.9%) 0,001 s/op
-Iteration  33: 0,012 ±(99.9%) 0,001 s/op
-Iteration  34: 0,012 ±(99.9%) 0,006 s/op
+Iteration  19: 0,010 ±(99.9%) 0,003 s/op
+Iteration  20: 0,011 ±(99.9%) 0,001 s/op
+Iteration  21: 0,013 ±(99.9%) 0,001 s/op
+Iteration  22: 0,012 ±(99.9%) 0,002 s/op
+Iteration  23: 0,012 ±(99.9%) 0,001 s/op
+Iteration  24: 0,013 ±(99.9%) 0,001 s/op
+Iteration  25: 0,013 ±(99.9%) 0,001 s/op
+Iteration  26: 0,013 ±(99.9%) 0,001 s/op
+Iteration  27: 0,012 ±(99.9%) 0,004 s/op
+Iteration  28: 0,011 ±(99.9%) 0,001 s/op
+Iteration  29: 0,013 ±(99.9%) 0,001 s/op
+Iteration  30: 0,012 ±(99.9%) 0,004 s/op
+Iteration  31: 0,011 ±(99.9%) 0,001 s/op
+Iteration  32: 0,012 ±(99.9%) 0,001 s/op
+Iteration  33: 0,012 ±(99.9%) 0,002 s/op
+Iteration  34: 0,012 ±(99.9%) 0,003 s/op
 Iteration  35: 0,011 ±(99.9%) 0,001 s/op
-Iteration  36: 0,012 ±(99.9%) 0,004 s/op
-Iteration  37: 0,012 ±(99.9%) 0,007 s/op
-Iteration  38: 0,011 ±(99.9%) 0,008 s/op
-Iteration  39: 0,013 ±(99.9%) 0,001 s/op
-Iteration  40: 0,012 ±(99.9%) 0,001 s/op
-Iteration  41: 0,012 ±(99.9%) 0,003 s/op
-Iteration  42: 0,012 ±(99.9%) 0,002 s/op
-Iteration  43: 0,012 ±(99.9%) 0,004 s/op
-Iteration  44: 0,013 ±(99.9%) 0,001 s/op
-Iteration  45: 0,013 ±(99.9%) 0,001 s/op
-Iteration  46: 0,013 ±(99.9%) 0,001 s/op
-Iteration  47: 0,012 ±(99.9%) 0,004 s/op
+Iteration  36: 0,012 ±(99.9%) 0,001 s/op
+Iteration  37: 0,012 ±(99.9%) 0,001 s/op
+Iteration  38: 0,012 ±(99.9%) 0,001 s/op
+Iteration  39: 0,012 ±(99.9%) 0,001 s/op
+Iteration  40: 0,010 ±(99.9%) 0,001 s/op
+Iteration  41: 0,012 ±(99.9%) 0,001 s/op
+Iteration  42: 0,012 ±(99.9%) 0,003 s/op
+Iteration  43: 0,012 ±(99.9%) 0,002 s/op
+Iteration  44: 0,011 ±(99.9%) 0,004 s/op
+Iteration  45: 0,012 ±(99.9%) 0,001 s/op
+Iteration  46: 0,012 ±(99.9%) 0,002 s/op
+Iteration  47: 0,011 ±(99.9%) 0,005 s/op
 Iteration  48: 0,012 ±(99.9%) 0,002 s/op
-Iteration  49: 0,012 ±(99.9%) 0,005 s/op
-Iteration  50: 0,011 ±(99.9%) 0,009 s/op
+Iteration  49: 0,011 ±(99.9%) 0,001 s/op
+Iteration  50: 0,012 ±(99.9%) 0,002 s/op
 
 Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
   N = 50
@@ -770,20 +770,20 @@ Result "org.openjdk.jmh.it.races.RaceGroupStateIterationTest.T":
 
   Histogram, s/op:
     [0,010, 0,010) = 0 
-    [0,010, 0,011) = 0 
+    [0,010, 0,011) = 3 
     [0,011, 0,011) = 1 
-    [0,011, 0,011) = 1 
+    [0,011, 0,011) = 3 
     [0,011, 0,011) = 4 
-    [0,011, 0,012) = 4 
-    [0,012, 0,012) = 7 
+    [0,011, 0,012) = 3 
+    [0,012, 0,012) = 5 
     [0,012, 0,012) = 6 
-    [0,012, 0,012) = 9 
-    [0,012, 0,013) = 6 
-    [0,013, 0,013) = 12 
+    [0,012, 0,012) = 15 
+    [0,012, 0,013) = 4 
+    [0,013, 0,013) = 6 
     [0,013, 0,013) = 0 
 
   Percentiles, s/op:
-      p(0,0000) =      0,011 s/op
+      p(0,0000) =      0,010 s/op
      p(50,0000) =      0,012 s/op
      p(90,0000) =      0,013 s/op
      p(95,0000) =      0,013 s/op
@@ -804,11 +804,11 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                Mode  Cnt    Score    Error  Units
-RaceGroupStateIterationTest.T           thrpt   50  332,353 ±  5,741  ops/s
+RaceGroupStateIterationTest.T           thrpt   50  335,303 ±  6,228  ops/s
 RaceGroupStateIterationTest.T            avgt   50    0,012 ±  0,001   s/op
 RaceGroupStateIterationTest.T          sample  222    0,012 ±  0,001   s/op
 RaceGroupStateIterationTest.T:p0.00    sample         0,010            s/op
-RaceGroupStateIterationTest.T:p0.50    sample         0,013            s/op
+RaceGroupStateIterationTest.T:p0.50    sample         0,012            s/op
 RaceGroupStateIterationTest.T:p0.90    sample         0,013            s/op
 RaceGroupStateIterationTest.T:p0.95    sample         0,013            s/op
 RaceGroupStateIterationTest.T:p0.99    sample         0,013            s/op

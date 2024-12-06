@@ -13,164 +13,164 @@
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1501511,282 ops/s
-# Warmup Iteration   2: 113221,338 ops/s
-# Warmup Iteration   3: 1264232,384 ops/s
-# Warmup Iteration   4: 1600009,909 ops/s
-# Warmup Iteration   5: 1090522,449 ops/s
-Iteration   1: 1600009,518 ops/s
-                 ping: 1600000,000 ops/s
-                 pong: 9,518 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 480086,335 ops/s
+# Warmup Iteration   2: 706224,584 ops/s
+# Warmup Iteration   3: 727282,301 ops/s
+# Warmup Iteration   4: 1412438,897 ops/s
+# Warmup Iteration   5: 1333342,853 ops/s
+Iteration   1: 1715275,734 ops/s
+                 ping: 1715265,866 ops/s
+                 pong: 9,868 ops/s
 
-Iteration   2: 1412438,897 ops/s
-                 ping: 9,519 ops/s
-                 pong: 1412429,379 ops/s
+Iteration   2: 1262635,924 ops/s
+                 ping: 9,661 ops/s
+                 pong: 1262626,263 ops/s
 
-Iteration   3: 1333343,197 ops/s
-                 ping: 9,864 ops/s
-                 pong: 1333333,333 ops/s
+Iteration   3: 1715275,785 ops/s
+                 ping: 1715265,866 ops/s
+                 pong: 9,919 ops/s
 
-Iteration   4: 1091712,726 ops/s
-                 ping: 9,670 ops/s
-                 pong: 1091703,057 ops/s
+Iteration   4: 631323,025 ops/s
+                 ping: 631313,131 ops/s
+                 pong: 9,894 ops/s
 
-Iteration   5: 959702,401 ops/s
-                 ping: 959692,898 ops/s
-                 pong: 9,503 ops/s
+Iteration   5: 1262636,122 ops/s
+                 ping: 9,860 ops/s
+                 pong: 1262626,263 ops/s
 
 
 # Run progress: 20,00% complete, ETA 00:00:04
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 413916,610 ops/s
-# Warmup Iteration   2: 1848438,776 ops/s
-# Warmup Iteration   3: 1499259,893 ops/s
-# Warmup Iteration   4: 1412439,173 ops/s
-# Warmup Iteration   5: 1091712,573 ops/s
-Iteration   1: 1333342,853 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 315765,642 ops/s
+# Warmup Iteration   2: 774603,274 ops/s
+# Warmup Iteration   3: 1142866,790 ops/s
+# Warmup Iteration   4: 1333342,898 ops/s
+# Warmup Iteration   5: 1262636,227 ops/s
+Iteration   1: 1333342,891 ops/s
+                 ping: 1333333,333 ops/s
+                 pong: 9,557 ops/s
+
+Iteration   2: 436309,694 ops/s
                  ping: 9,519 ops/s
+                 pong: 436300,175 ops/s
+
+Iteration   3: 62025,489 ops/s
+                 ping: 9,985 ops/s
+                 pong: 62015,504 ops/s
+
+Iteration   4: 1600009,520 ops/s
+                 ping: 9,520 ops/s
+                 pong: 1600000,000 ops/s
+
+Iteration   5: 1333343,225 ops/s
+                 ping: 9,891 ops/s
                  pong: 1333333,333 ops/s
-
-Iteration   2: 1200490,136 ops/s
-                 ping: 9,944 ops/s
-                 pong: 1200480,192 ops/s
-
-Iteration   3: 19,902 ops/s
-                 ping: 9,951 ops/s
-                 pong: 9,951 ops/s
-
-Iteration   4: 1090522,061 ops/s
-                 ping: 1090512,541 ops/s
-                 pong: 9,520 ops/s
-
-Iteration   5: 615394,243 ops/s
-                 ping: 9,628 ops/s
-                 pong: 615384,615 ops/s
 
 
 # Run progress: 40,00% complete, ETA 00:00:03
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1712338,475 ops/s
-# Warmup Iteration   2: 2000009,520 ops/s
-# Warmup Iteration   3: 1499260,092 ops/s
-# Warmup Iteration   4: 774003,392 ops/s
-# Warmup Iteration   5: 1412439,307 ops/s
-Iteration   1: 1499260,219 ops/s
-                 ping: 9,844 ops/s
-                 pong: 1499250,375 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1333343,126 ops/s
+# Warmup Iteration   2: 69978,879 ops/s
+# Warmup Iteration   3: 706224,200 ops/s
+# Warmup Iteration   4: 1501511,060 ops/s
+# Warmup Iteration   5: 500009,743 ops/s
+Iteration   1: 2398091,055 ops/s
+                 ping: 2398081,535 ops/s
+                 pong: 9,521 ops/s
 
-Iteration   2: 1600009,631 ops/s
-                 ping: 9,631 ops/s
+Iteration   2: 1090522,171 ops/s
+                 ping: 9,630 ops/s
+                 pong: 1090512,541 ops/s
+
+Iteration   3: 1600009,593 ops/s
+                 ping: 9,593 ops/s
                  pong: 1600000,000 ops/s
 
-Iteration   3: 1410447,089 ops/s
-                 ping: 1410437,236 ops/s
-                 pong: 9,853 ops/s
+Iteration   4: 2178658,758 ops/s
+                 ping: 2178649,237 ops/s
+                 pong: 9,521 ops/s
 
-Iteration   4: 1410446,857 ops/s
-                 ping: 9,622 ops/s
-                 pong: 1410437,236 ops/s
-
-Iteration   5: 2666676,187 ops/s
-                 ping: 9,520 ops/s
-                 pong: 2666666,667 ops/s
+Iteration   5: 2000009,517 ops/s
+                 ping: 2000000,000 ops/s
+                 pong: 9,517 ops/s
 
 
 # Run progress: 60,00% complete, ETA 00:00:02
 # Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 19,146 ops/s
-# Warmup Iteration   2: 1712338,593 ops/s
-# Warmup Iteration   3: 1333342,854 ops/s
-# Warmup Iteration   4: 571438,088 ops/s
-# Warmup Iteration   5: 1501511,145 ops/s
-Iteration   1: 1712338,754 ops/s
-                 ping: 1712328,767 ops/s
-                 pong: 9,987 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 1501510,891 ops/s
+# Warmup Iteration   2: 1501511,016 ops/s
+# Warmup Iteration   3: 1501511,018 ops/s
+# Warmup Iteration   4: 1499259,895 ops/s
+# Warmup Iteration   5: 1715275,383 ops/s
+Iteration   1: 1200489,988 ops/s
+                 ping: 9,796 ops/s
+                 pong: 1200480,192 ops/s
 
-Iteration   2: 1712338,287 ops/s
-                 ping: 1712328,767 ops/s
-                 pong: 9,520 ops/s
+Iteration   2: 1000009,824 ops/s
+                 ping: 1000000,000 ops/s
+                 pong: 9,824 ops/s
 
-Iteration   3: 1410446,926 ops/s
-                 ping: 1410437,236 ops/s
-                 pong: 9,690 ops/s
-
-Iteration   4: 1142866,663 ops/s
+Iteration   3: 1501511,022 ops/s
                  ping: 9,520 ops/s
-                 pong: 1142857,143 ops/s
+                 pong: 1501501,502 ops/s
 
-Iteration   5: 1262636,192 ops/s
-                 ping: 9,929 ops/s
-                 pong: 1262626,263 ops/s
+Iteration   4: 1410446,981 ops/s
+                 ping: 9,745 ops/s
+                 pong: 1410437,236 ops/s
+
+Iteration   5: 1333342,853 ops/s
+                 ping: 1333333,333 ops/s
+                 pong: 9,520 ops/s
 
 
 # Run progress: 80,00% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 1845027,864 ops/s
-# Warmup Iteration   2: 1600009,518 ops/s
-# Warmup Iteration   3: 1262635,781 ops/s
-# Warmup Iteration   4: 85421,205 ops/s
-# Warmup Iteration   5: 1499259,893 ops/s
-Iteration   1: 1200490,070 ops/s
-                 ping: 1200480,192 ops/s
-                 pong: 9,878 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 374962,637 ops/s
+# Warmup Iteration   2: 1333342,877 ops/s
+# Warmup Iteration   3: 727282,523 ops/s
+# Warmup Iteration   4: 2398091,052 ops/s
+# Warmup Iteration   5: 1091712,604 ops/s
+Iteration   1: 1600009,521 ops/s
+                 ping: 1600000,000 ops/s
+                 pong: 9,521 ops/s
 
-Iteration   2: 2000009,519 ops/s
-                 ping: 9,519 ops/s
-                 pong: 2000000,000 ops/s
+Iteration   2: 1715275,496 ops/s
+                 ping: 1715265,866 ops/s
+                 pong: 9,630 ops/s
 
-Iteration   3: 1600009,831 ops/s
-                 ping: 9,831 ops/s
-                 pong: 1600000,000 ops/s
+Iteration   3: 1848438,416 ops/s
+                 ping: 1848428,835 ops/s
+                 pong: 9,581 ops/s
 
-Iteration   4: 1499259,892 ops/s
-                 ping: 1499250,375 ops/s
-                 pong: 9,517 ops/s
+Iteration   4: 1845028,322 ops/s
+                 ping: 1845018,450 ops/s
+                 pong: 9,872 ops/s
 
-Iteration   5: 61078,221 ops/s
-                 ping: 61068,702 ops/s
-                 pong: 9,519 ops/s
+Iteration   5: 960624,400 ops/s
+                 ping: 960614,793 ops/s
+                 pong: 9,607 ops/s
 
 
 
 Result "org.openjdk.jmh.it.control.ControlStopTest.pingpong":
-  1313011,611 ±(99.9%) 405618,132 ops/s [Average]
-  (min, avg, max) = (19,902, 1313011,611, 2666676,187), stdev = 541488,601
-  CI (99.9%): [907393,479, 1718629,743] (assumes normal distribution)
+  1401385,813 ±(99.9%) 393999,121 ops/s [Average]
+  (min, avg, max) = (62025,489, 1401385,813, 2398091,055), stdev = 525977,554
+  CI (99.9%): [1007386,692, 1795384,934] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
-  506267,289 ±(99.9%) 525202,378 ops/s [Average]
-  (min, avg, max) = (9,519, 506267,289, 1712328,767), stdev = 701130,148
-  CI (99.9%): [≈ 0, 1031469,667] (assumes normal distribution)
+  890987,079 ±(99.9%) 661833,309 ops/s [Average]
+  (min, avg, max) = (9,519, 890987,079, 2398081,535), stdev = 883528,532
+  CI (99.9%): [229153,770, 1552820,388] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
-  806744,322 ±(99.9%) 605084,038 ops/s [Average]
-  (min, avg, max) = (9,503, 806744,322, 2666666,667), stdev = 807769,880
-  CI (99.9%): [201660,283, 1411828,360] (assumes normal distribution)
+  510398,734 ±(99.9%) 498808,036 ops/s [Average]
+  (min, avg, max) = (9,517, 510398,734, 1600000,000), stdev = 665894,456
+  CI (99.9%): [11590,699, 1009206,770] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:06
@@ -182,9 +182,9 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                       Mode  Cnt        Score        Error  Units
-ControlStopTest.pingpong       thrpt   25  1313011,611 ± 405618,132  ops/s
-ControlStopTest.pingpong:ping  thrpt   25   506267,289 ± 525202,378  ops/s
-ControlStopTest.pingpong:pong  thrpt   25   806744,322 ± 605084,038  ops/s
+ControlStopTest.pingpong       thrpt   25  1401385,813 ± 393999,121  ops/s
+ControlStopTest.pingpong:ping  thrpt   25   890987,079 ± 661833,309  ops/s
+ControlStopTest.pingpong:pong  thrpt   25   510398,734 ± 498808,036  ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -200,41 +200,41 @@ ControlStopTest.pingpong:pong  thrpt   25   806744,322 ± 605084,038  ops/s
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,052 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,106 s/op
 # Warmup Iteration   2: 0,053 s/op
-# Warmup Iteration   3: 0,050 s/op
-# Warmup Iteration   4: 0,051 s/op
+# Warmup Iteration   3: 0,053 s/op
+# Warmup Iteration   4: 0,053 s/op
 # Warmup Iteration   5: 0,051 s/op
-Iteration   1: 0,053 s/op
+Iteration   1: 0,052 s/op
                  ping: ≈ 10⁻⁶ s/op
                  pong: 0,105 s/op
 
-Iteration   2: 0,050 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,101 s/op
+Iteration   2: 0,052 s/op
+                 ping: 0,104 s/op
+                 pong: ≈ 10⁻⁶ s/op
 
-Iteration   3: 0,052 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,103 s/op
+Iteration   3: 0,053 s/op
+                 ping: 0,105 s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 Iteration   4: 0,053 s/op
                  ping: ≈ 10⁻⁶ s/op
                  pong: 0,105 s/op
 
-Iteration   5: 0,051 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,101 s/op
+Iteration   5: 0,050 s/op
+                 ping: 0,101 s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 
 # Run progress: 20,00% complete, ETA 00:00:04
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,051 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,050 s/op
 # Warmup Iteration   2: 0,053 s/op
-# Warmup Iteration   3: 0,053 s/op
-# Warmup Iteration   4: 0,051 s/op
-# Warmup Iteration   5: 0,052 s/op
+# Warmup Iteration   3: 0,052 s/op
+# Warmup Iteration   4: 0,053 s/op
+# Warmup Iteration   5: 0,051 s/op
 Iteration   1: 0,051 s/op
                  ping: 0,102 s/op
                  pong: ≈ 10⁻⁶ s/op
@@ -243,12 +243,41 @@ Iteration   2: 0,053 s/op
                  ping: 0,105 s/op
                  pong: ≈ 10⁻⁶ s/op
 
-Iteration   3: 0,053 s/op
+Iteration   3: 0,050 s/op
+                 ping: 0,100 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   4: 0,051 s/op
+                 ping: 0,102 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   5: 0,052 s/op
                  ping: ≈ 10⁻⁶ s/op
                  pong: 0,105 s/op
 
+
+# Run progress: 40,00% complete, ETA 00:00:03
+# Fork: 3 of 5
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,051 s/op
+# Warmup Iteration   2: 0,051 s/op
+# Warmup Iteration   3: 0,052 s/op
+# Warmup Iteration   4: 0,053 s/op
+# Warmup Iteration   5: 0,053 s/op
+Iteration   1: 0,052 s/op
+                 ping: ≈ 10⁻⁶ s/op
+                 pong: 0,104 s/op
+
+Iteration   2: 0,051 s/op
+                 ping: 0,102 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   3: 0,053 s/op
+                 ping: 0,105 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
 Iteration   4: 0,051 s/op
-                 ping: 0,103 s/op
+                 ping: 0,101 s/op
                  pong: ≈ 10⁻⁶ s/op
 
 Iteration   5: 0,053 s/op
@@ -256,58 +285,29 @@ Iteration   5: 0,053 s/op
                  pong: 0,105 s/op
 
 
-# Run progress: 40,00% complete, ETA 00:00:03
-# Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+# Run progress: 60,00% complete, ETA 00:00:02
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,053 s/op
 # Warmup Iteration   2: 0,053 s/op
-# Warmup Iteration   3: 0,051 s/op
-# Warmup Iteration   4: 0,053 s/op
+# Warmup Iteration   3: 0,053 s/op
+# Warmup Iteration   4: 0,051 s/op
 # Warmup Iteration   5: 0,050 s/op
 Iteration   1: 0,053 s/op
                  ping: ≈ 10⁻⁶ s/op
                  pong: 0,105 s/op
 
-Iteration   2: 0,051 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,101 s/op
-
-Iteration   3: 0,053 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,105 s/op
-
-Iteration   4: 0,052 s/op
-                 ping: 0,104 s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   5: 0,052 s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: 0,104 s/op
-
-
-# Run progress: 60,00% complete, ETA 00:00:02
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,053 s/op
-# Warmup Iteration   2: 0,050 s/op
-# Warmup Iteration   3: 0,050 s/op
-# Warmup Iteration   4: 0,053 s/op
-# Warmup Iteration   5: 0,053 s/op
-Iteration   1: 0,051 s/op
-                 ping: 0,103 s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   2: 0,050 s/op
-                 ping: 0,100 s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   3: 0,053 s/op
+Iteration   2: 0,053 s/op
                  ping: 0,105 s/op
                  pong: ≈ 10⁻⁶ s/op
 
-Iteration   4: 0,053 s/op
+Iteration   3: 0,051 s/op
+                 ping: 0,103 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   4: 0,050 s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: 0,105 s/op
+                 pong: 0,101 s/op
 
 Iteration   5: 0,053 s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -316,30 +316,30 @@ Iteration   5: 0,053 s/op
 
 # Run progress: 80,00% complete, ETA 00:00:01
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,053 s/op
-# Warmup Iteration   2: 0,051 s/op
-# Warmup Iteration   3: 0,052 s/op
-# Warmup Iteration   4: 0,051 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,052 s/op
+# Warmup Iteration   2: 0,053 s/op
+# Warmup Iteration   3: 0,051 s/op
+# Warmup Iteration   4: 0,053 s/op
 # Warmup Iteration   5: 0,053 s/op
-Iteration   1: 0,052 s/op
-                 ping: 0,104 s/op
+Iteration   1: 0,050 s/op
+                 ping: 0,101 s/op
                  pong: ≈ 10⁻⁶ s/op
 
-Iteration   2: 0,051 s/op
-                 ping: 0,102 s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   3: 0,053 s/op
+Iteration   2: 0,053 s/op
                  ping: ≈ 10⁻⁶ s/op
                  pong: 0,105 s/op
 
-Iteration   4: 0,052 s/op
-                 ping: 0,103 s/op
+Iteration   3: 0,050 s/op
+                 ping: 0,100 s/op
                  pong: ≈ 10⁻⁶ s/op
 
-Iteration   5: 0,053 s/op
+Iteration   4: 0,052 s/op
                  ping: 0,105 s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   5: 0,052 s/op
+                 ping: 0,104 s/op
                  pong: ≈ 10⁻⁶ s/op
 
 
@@ -350,14 +350,14 @@ Result "org.openjdk.jmh.it.control.ControlStopTest.pingpong":
   CI (99.9%): [0,051, 0,052] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
-  0,045 ±(99.9%) 0,039 s/op [Average]
-  (min, avg, max) = (≈ 10⁻⁶, 0,045, 0,105), stdev = 0,052
-  CI (99.9%): [0,006, 0,085] (assumes normal distribution)
+  0,066 ±(99.9%) 0,038 s/op [Average]
+  (min, avg, max) = (≈ 10⁻⁶, 0,066, 0,105), stdev = 0,050
+  CI (99.9%): [0,028, 0,104] (assumes normal distribution)
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
-  0,058 ±(99.9%) 0,039 s/op [Average]
-  (min, avg, max) = (≈ 10⁻⁶, 0,058, 0,105), stdev = 0,053
-  CI (99.9%): [0,019, 0,098] (assumes normal distribution)
+  0,038 ±(99.9%) 0,038 s/op [Average]
+  (min, avg, max) = (≈ 10⁻⁶, 0,038, 0,105), stdev = 0,051
+  CI (99.9%): [≈ 0, 0,076] (assumes normal distribution)
 
 
 # Run complete. Total time: 00:00:06
@@ -370,8 +370,8 @@ Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt  Score   Error  Units
 ControlStopTest.pingpong       avgt   25  0,052 ± 0,001   s/op
-ControlStopTest.pingpong:ping  avgt   25  0,045 ± 0,039   s/op
-ControlStopTest.pingpong:pong  avgt   25  0,058 ± 0,039   s/op
+ControlStopTest.pingpong:ping  avgt   25  0,066 ± 0,038   s/op
+ControlStopTest.pingpong:pong  avgt   25  0,038 ± 0,038   s/op
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -387,49 +387,21 @@ ControlStopTest.pingpong:pong  avgt   25  0,058 ± 0,039   s/op
 
 # Run progress: 0,00% complete, ETA 00:00:05
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: 0,049 s/op
-# Warmup Iteration   2: 0,052 s/op
+# Warmup Iteration   2: 0,051 s/op
 # Warmup Iteration   3: 0,052 s/op
 # Warmup Iteration   4: 0,052 s/op
 # Warmup Iteration   5: 0,052 s/op
-Iteration   1: 0,050 s/op
+Iteration   1: 0,051 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,050 s/op
-                 p0.90:        0,100 s/op
-                 p0.95:        0,100 s/op
-                 p0.99:        0,100 s/op
-                 p0.999:       0,100 s/op
-                 p0.9999:      0,100 s/op
-                 p1.00:        0,100 s/op
-                 ping:         0,100 s/op
-                 ping:p0.00:   0,100 s/op
-                 ping:p0.50:   0,100 s/op
-                 ping:p0.90:   0,100 s/op
-                 ping:p0.95:   0,100 s/op
-                 ping:p0.99:   0,100 s/op
-                 ping:p0.999:  0,100 s/op
-                 ping:p0.9999: 0,100 s/op
-                 ping:p1.00:   0,100 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   2: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,104 s/op
-                 p0.95:        0,104 s/op
-                 p0.99:        0,104 s/op
-                 p0.999:       0,104 s/op
-                 p0.9999:      0,104 s/op
-                 p1.00:        0,104 s/op
+                 p0.50:        0,051 s/op
+                 p0.90:        0,101 s/op
+                 p0.95:        0,101 s/op
+                 p0.99:        0,101 s/op
+                 p0.999:       0,101 s/op
+                 p0.9999:      0,101 s/op
+                 p1.00:        0,101 s/op
                  ping:         ≈ 10⁻⁶ s/op
                  ping:p0.00:   ≈ 10⁻⁶ s/op
                  ping:p0.50:   ≈ 10⁻⁶ s/op
@@ -439,15 +411,43 @@ Iteration   2: 0,052 s/op
                  ping:p0.999:  ≈ 10⁻⁶ s/op
                  ping:p0.9999: ≈ 10⁻⁶ s/op
                  ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,104 s/op
-                 pong:p0.00:   0,104 s/op
-                 pong:p0.50:   0,104 s/op
-                 pong:p0.90:   0,104 s/op
-                 pong:p0.95:   0,104 s/op
-                 pong:p0.99:   0,104 s/op
-                 pong:p0.999:  0,104 s/op
-                 pong:p0.9999: 0,104 s/op
-                 pong:p1.00:   0,104 s/op
+                 pong:         0,101 s/op
+                 pong:p0.00:   0,101 s/op
+                 pong:p0.50:   0,101 s/op
+                 pong:p0.90:   0,101 s/op
+                 pong:p0.95:   0,101 s/op
+                 pong:p0.99:   0,101 s/op
+                 pong:p0.999:  0,101 s/op
+                 pong:p0.9999: 0,101 s/op
+                 pong:p1.00:   0,101 s/op
+
+Iteration   2: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,103 s/op
+                 p0.95:        0,103 s/op
+                 p0.99:        0,103 s/op
+                 p0.999:       0,103 s/op
+                 p0.9999:      0,103 s/op
+                 p1.00:        0,103 s/op
+                 ping:         0,103 s/op
+                 ping:p0.00:   0,103 s/op
+                 ping:p0.50:   0,103 s/op
+                 ping:p0.90:   0,103 s/op
+                 ping:p0.95:   0,103 s/op
+                 ping:p0.99:   0,103 s/op
+                 ping:p0.999:  0,103 s/op
+                 ping:p0.9999: 0,103 s/op
+                 ping:p1.00:   0,103 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
 
 Iteration   3: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
@@ -486,34 +486,34 @@ Iteration   4: 0,052 s/op
                  p0.999:       0,105 s/op
                  p0.9999:      0,105 s/op
                  p1.00:        0,105 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,105 s/op
-                 pong:p0.00:   0,105 s/op
-                 pong:p0.50:   0,105 s/op
-                 pong:p0.90:   0,105 s/op
-                 pong:p0.95:   0,105 s/op
-                 pong:p0.99:   0,105 s/op
-                 pong:p0.999:  0,105 s/op
-                 pong:p0.9999: 0,105 s/op
-                 pong:p1.00:   0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
 
 Iteration   5: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
+                 p0.90:        0,104 s/op
+                 p0.95:        0,104 s/op
+                 p0.99:        0,104 s/op
+                 p0.999:       0,104 s/op
+                 p0.9999:      0,104 s/op
+                 p1.00:        0,104 s/op
                  ping:         ≈ 10⁻⁶ s/op
                  ping:p0.00:   ≈ 10⁻⁶ s/op
                  ping:p0.50:   ≈ 10⁻⁶ s/op
@@ -523,321 +523,23 @@ Iteration   5: 0,052 s/op
                  ping:p0.999:  ≈ 10⁻⁶ s/op
                  ping:p0.9999: ≈ 10⁻⁶ s/op
                  ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,105 s/op
-                 pong:p0.00:   0,105 s/op
-                 pong:p0.50:   0,105 s/op
-                 pong:p0.90:   0,105 s/op
-                 pong:p0.95:   0,105 s/op
-                 pong:p0.99:   0,105 s/op
-                 pong:p0.999:  0,105 s/op
-                 pong:p0.9999: 0,105 s/op
-                 pong:p1.00:   0,105 s/op
+                 pong:         0,104 s/op
+                 pong:p0.00:   0,104 s/op
+                 pong:p0.50:   0,104 s/op
+                 pong:p0.90:   0,104 s/op
+                 pong:p0.95:   0,104 s/op
+                 pong:p0.99:   0,104 s/op
+                 pong:p0.999:  0,104 s/op
+                 pong:p0.9999: 0,104 s/op
+                 pong:p1.00:   0,104 s/op
 
 
 # Run progress: 20,00% complete, ETA 00:00:04
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,049 s/op
-# Warmup Iteration   2: 0,052 s/op
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,051 s/op
+# Warmup Iteration   2: 0,051 s/op
 # Warmup Iteration   3: 0,052 s/op
-# Warmup Iteration   4: 0,050 s/op
-# Warmup Iteration   5: 0,052 s/op
-Iteration   1: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,104 s/op
-                 p0.95:        0,104 s/op
-                 p0.99:        0,104 s/op
-                 p0.999:       0,104 s/op
-                 p0.9999:      0,104 s/op
-                 p1.00:        0,104 s/op
-                 ping:         0,104 s/op
-                 ping:p0.00:   0,104 s/op
-                 ping:p0.50:   0,104 s/op
-                 ping:p0.90:   0,104 s/op
-                 ping:p0.95:   0,104 s/op
-                 ping:p0.99:   0,104 s/op
-                 ping:p0.999:  0,104 s/op
-                 ping:p0.9999: 0,104 s/op
-                 ping:p1.00:   0,104 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   2: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         0,105 s/op
-                 ping:p0.00:   0,105 s/op
-                 ping:p0.50:   0,105 s/op
-                 ping:p0.90:   0,105 s/op
-                 ping:p0.95:   0,105 s/op
-                 ping:p0.99:   0,105 s/op
-                 ping:p0.999:  0,105 s/op
-                 ping:p0.9999: 0,105 s/op
-                 ping:p1.00:   0,105 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   3: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         0,105 s/op
-                 ping:p0.00:   0,105 s/op
-                 ping:p0.50:   0,105 s/op
-                 ping:p0.90:   0,105 s/op
-                 ping:p0.95:   0,105 s/op
-                 ping:p0.99:   0,105 s/op
-                 ping:p0.999:  0,105 s/op
-                 ping:p0.9999: 0,105 s/op
-                 ping:p1.00:   0,105 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   4: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,103 s/op
-                 p0.95:        0,103 s/op
-                 p0.99:        0,103 s/op
-                 p0.999:       0,103 s/op
-                 p0.9999:      0,103 s/op
-                 p1.00:        0,103 s/op
-                 ping:         0,103 s/op
-                 ping:p0.00:   0,103 s/op
-                 ping:p0.50:   0,103 s/op
-                 ping:p0.90:   0,103 s/op
-                 ping:p0.95:   0,103 s/op
-                 ping:p0.99:   0,103 s/op
-                 ping:p0.999:  0,103 s/op
-                 ping:p0.9999: 0,103 s/op
-                 ping:p1.00:   0,103 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   5: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         0,105 s/op
-                 ping:p0.00:   0,105 s/op
-                 ping:p0.50:   0,105 s/op
-                 ping:p0.90:   0,105 s/op
-                 ping:p0.95:   0,105 s/op
-                 ping:p0.99:   0,105 s/op
-                 ping:p0.999:  0,105 s/op
-                 ping:p0.9999: 0,105 s/op
-                 ping:p1.00:   0,105 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-
-# Run progress: 40,00% complete, ETA 00:00:03
-# Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,050 s/op
-# Warmup Iteration   2: 0,050 s/op
-# Warmup Iteration   3: 0,052 s/op
-# Warmup Iteration   4: 0,051 s/op
-# Warmup Iteration   5: 0,052 s/op
-Iteration   1: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         0,105 s/op
-                 ping:p0.00:   0,105 s/op
-                 ping:p0.50:   0,105 s/op
-                 ping:p0.90:   0,105 s/op
-                 ping:p0.95:   0,105 s/op
-                 ping:p0.99:   0,105 s/op
-                 ping:p0.999:  0,105 s/op
-                 ping:p0.9999: 0,105 s/op
-                 ping:p1.00:   0,105 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   2: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,104 s/op
-                 p0.95:        0,104 s/op
-                 p0.99:        0,104 s/op
-                 p0.999:       0,104 s/op
-                 p0.9999:      0,104 s/op
-                 p1.00:        0,104 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,104 s/op
-                 pong:p0.00:   0,104 s/op
-                 pong:p0.50:   0,104 s/op
-                 pong:p0.90:   0,104 s/op
-                 pong:p0.95:   0,104 s/op
-                 pong:p0.99:   0,104 s/op
-                 pong:p0.999:  0,104 s/op
-                 pong:p0.9999: 0,104 s/op
-                 pong:p1.00:   0,104 s/op
-
-Iteration   3: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,105 s/op
-                 pong:p0.00:   0,105 s/op
-                 pong:p0.50:   0,105 s/op
-                 pong:p0.90:   0,105 s/op
-                 pong:p0.95:   0,105 s/op
-                 pong:p0.99:   0,105 s/op
-                 pong:p0.999:  0,105 s/op
-                 pong:p0.9999: 0,105 s/op
-                 pong:p1.00:   0,105 s/op
-
-Iteration   4: 0,051 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,051 s/op
-                 p0.90:        0,103 s/op
-                 p0.95:        0,103 s/op
-                 p0.99:        0,103 s/op
-                 p0.999:       0,103 s/op
-                 p0.9999:      0,103 s/op
-                 p1.00:        0,103 s/op
-                 ping:         0,103 s/op
-                 ping:p0.00:   0,103 s/op
-                 ping:p0.50:   0,103 s/op
-                 ping:p0.90:   0,103 s/op
-                 ping:p0.95:   0,103 s/op
-                 ping:p0.99:   0,103 s/op
-                 ping:p0.999:  0,103 s/op
-                 ping:p0.9999: 0,103 s/op
-                 ping:p1.00:   0,103 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-Iteration   5: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         0,105 s/op
-                 ping:p0.00:   0,105 s/op
-                 ping:p0.50:   0,105 s/op
-                 ping:p0.90:   0,105 s/op
-                 ping:p0.95:   0,105 s/op
-                 ping:p0.99:   0,105 s/op
-                 ping:p0.999:  0,105 s/op
-                 ping:p0.9999: 0,105 s/op
-                 ping:p1.00:   0,105 s/op
-                 pong:         ≈ 10⁻⁶ s/op
-                 pong:p0.00:   ≈ 10⁻⁶ s/op
-                 pong:p0.50:   ≈ 10⁻⁶ s/op
-                 pong:p0.90:   ≈ 10⁻⁶ s/op
-                 pong:p0.95:   ≈ 10⁻⁶ s/op
-                 pong:p0.99:   ≈ 10⁻⁶ s/op
-                 pong:p0.999:  ≈ 10⁻⁶ s/op
-                 pong:p0.9999: ≈ 10⁻⁶ s/op
-                 pong:p1.00:   ≈ 10⁻⁶ s/op
-
-
-# Run progress: 60,00% complete, ETA 00:00:02
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,052 s/op
-# Warmup Iteration   2: 0,052 s/op
-# Warmup Iteration   3: 0,050 s/op
 # Warmup Iteration   4: 0,052 s/op
 # Warmup Iteration   5: 0,052 s/op
 Iteration   1: 0,052 s/op
@@ -849,28 +551,56 @@ Iteration   1: 0,052 s/op
                  p0.999:       0,105 s/op
                  p0.9999:      0,105 s/op
                  p1.00:        0,105 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,105 s/op
-                 pong:p0.00:   0,105 s/op
-                 pong:p0.50:   0,105 s/op
-                 pong:p0.90:   0,105 s/op
-                 pong:p0.95:   0,105 s/op
-                 pong:p0.99:   0,105 s/op
-                 pong:p0.999:  0,105 s/op
-                 pong:p0.9999: 0,105 s/op
-                 pong:p1.00:   0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
 
-Iteration   2: 0,052 s/op
+Iteration   2: 0,051 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
+                 p0.50:        0,051 s/op
+                 p0.90:        0,101 s/op
+                 p0.95:        0,101 s/op
+                 p0.99:        0,101 s/op
+                 p0.999:       0,101 s/op
+                 p0.9999:      0,101 s/op
+                 p1.00:        0,101 s/op
+                 ping:         0,101 s/op
+                 ping:p0.00:   0,101 s/op
+                 ping:p0.50:   0,101 s/op
+                 ping:p0.90:   0,101 s/op
+                 ping:p0.95:   0,101 s/op
+                 ping:p0.99:   0,101 s/op
+                 ping:p0.999:  0,101 s/op
+                 ping:p0.9999: 0,101 s/op
+                 ping:p1.00:   0,101 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   3: 0,053 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,053 s/op
                  p0.90:        0,105 s/op
                  p0.95:        0,105 s/op
                  p0.99:        0,105 s/op
@@ -896,7 +626,35 @@ Iteration   2: 0,052 s/op
                  pong:p0.9999: ≈ 10⁻⁶ s/op
                  pong:p1.00:   ≈ 10⁻⁶ s/op
 
-Iteration   3: 0,052 s/op
+Iteration   4: 0,051 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,051 s/op
+                 p0.90:        0,102 s/op
+                 p0.95:        0,102 s/op
+                 p0.99:        0,102 s/op
+                 p0.999:       0,102 s/op
+                 p0.9999:      0,102 s/op
+                 p1.00:        0,102 s/op
+                 ping:         ≈ 10⁻⁶ s/op
+                 ping:p0.00:   ≈ 10⁻⁶ s/op
+                 ping:p0.50:   ≈ 10⁻⁶ s/op
+                 ping:p0.90:   ≈ 10⁻⁶ s/op
+                 ping:p0.95:   ≈ 10⁻⁶ s/op
+                 ping:p0.99:   ≈ 10⁻⁶ s/op
+                 ping:p0.999:  ≈ 10⁻⁶ s/op
+                 ping:p0.9999: ≈ 10⁻⁶ s/op
+                 ping:p1.00:   ≈ 10⁻⁶ s/op
+                 pong:         0,102 s/op
+                 pong:p0.00:   0,102 s/op
+                 pong:p0.50:   0,102 s/op
+                 pong:p0.90:   0,102 s/op
+                 pong:p0.95:   0,102 s/op
+                 pong:p0.99:   0,102 s/op
+                 pong:p0.999:  0,102 s/op
+                 pong:p0.9999: 0,102 s/op
+                 pong:p1.00:   0,102 s/op
+
+Iteration   5: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,052 s/op
                  p0.90:        0,105 s/op
@@ -924,7 +682,16 @@ Iteration   3: 0,052 s/op
                  pong:p0.9999: 0,105 s/op
                  pong:p1.00:   0,105 s/op
 
-Iteration   4: 0,051 s/op
+
+# Run progress: 40,00% complete, ETA 00:00:03
+# Fork: 3 of 5
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,048 s/op
+# Warmup Iteration   2: 0,052 s/op
+# Warmup Iteration   3: 0,051 s/op
+# Warmup Iteration   4: 0,052 s/op
+# Warmup Iteration   5: 0,052 s/op
+Iteration   1: 0,051 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,051 s/op
                  p0.90:        0,102 s/op
@@ -952,6 +719,90 @@ Iteration   4: 0,051 s/op
                  pong:p0.9999: ≈ 10⁻⁶ s/op
                  pong:p1.00:   ≈ 10⁻⁶ s/op
 
+Iteration   2: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,105 s/op
+                 p0.95:        0,105 s/op
+                 p0.99:        0,105 s/op
+                 p0.999:       0,105 s/op
+                 p0.9999:      0,105 s/op
+                 p1.00:        0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   3: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,105 s/op
+                 p0.95:        0,105 s/op
+                 p0.99:        0,105 s/op
+                 p0.999:       0,105 s/op
+                 p0.9999:      0,105 s/op
+                 p1.00:        0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   4: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,105 s/op
+                 p0.95:        0,105 s/op
+                 p0.99:        0,105 s/op
+                 p0.999:       0,105 s/op
+                 p0.9999:      0,105 s/op
+                 p1.00:        0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
 Iteration   5: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,052 s/op
@@ -961,35 +812,63 @@ Iteration   5: 0,052 s/op
                  p0.999:       0,104 s/op
                  p0.9999:      0,104 s/op
                  p1.00:        0,104 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,104 s/op
-                 pong:p0.00:   0,104 s/op
-                 pong:p0.50:   0,104 s/op
-                 pong:p0.90:   0,104 s/op
-                 pong:p0.95:   0,104 s/op
-                 pong:p0.99:   0,104 s/op
-                 pong:p0.999:  0,104 s/op
-                 pong:p0.9999: 0,104 s/op
-                 pong:p1.00:   0,104 s/op
+                 ping:         0,104 s/op
+                 ping:p0.00:   0,104 s/op
+                 ping:p0.50:   0,104 s/op
+                 ping:p0.90:   0,104 s/op
+                 ping:p0.95:   0,104 s/op
+                 ping:p0.99:   0,104 s/op
+                 ping:p0.999:  0,104 s/op
+                 ping:p0.9999: 0,104 s/op
+                 ping:p1.00:   0,104 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
 
 
-# Run progress: 80,00% complete, ETA 00:00:01
-# Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 0,052 s/op
-# Warmup Iteration   2: 0,050 s/op
-# Warmup Iteration   3: 0,050 s/op
+# Run progress: 60,00% complete, ETA 00:00:02
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,051 s/op
+# Warmup Iteration   2: 0,052 s/op
+# Warmup Iteration   3: 0,051 s/op
 # Warmup Iteration   4: 0,052 s/op
-# Warmup Iteration   5: 0,051 s/op
+# Warmup Iteration   5: 0,052 s/op
 Iteration   1: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,105 s/op
+                 p0.95:        0,105 s/op
+                 p0.99:        0,105 s/op
+                 p0.999:       0,105 s/op
+                 p0.9999:      0,105 s/op
+                 p1.00:        0,105 s/op
+                 ping:         0,105 s/op
+                 ping:p0.00:   0,105 s/op
+                 ping:p0.50:   0,105 s/op
+                 ping:p0.90:   0,105 s/op
+                 ping:p0.95:   0,105 s/op
+                 ping:p0.99:   0,105 s/op
+                 ping:p0.999:  0,105 s/op
+                 ping:p0.9999: 0,105 s/op
+                 ping:p1.00:   0,105 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   2: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,052 s/op
                  p0.90:        0,105 s/op
@@ -1016,6 +895,127 @@ Iteration   1: 0,052 s/op
                  pong:p0.999:  0,105 s/op
                  pong:p0.9999: 0,105 s/op
                  pong:p1.00:   0,105 s/op
+
+Iteration   3: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,105 s/op
+                 p0.95:        0,105 s/op
+                 p0.99:        0,105 s/op
+                 p0.999:       0,105 s/op
+                 p0.9999:      0,105 s/op
+                 p1.00:        0,105 s/op
+                 ping:         ≈ 10⁻⁶ s/op
+                 ping:p0.00:   ≈ 10⁻⁶ s/op
+                 ping:p0.50:   ≈ 10⁻⁶ s/op
+                 ping:p0.90:   ≈ 10⁻⁶ s/op
+                 ping:p0.95:   ≈ 10⁻⁶ s/op
+                 ping:p0.99:   ≈ 10⁻⁶ s/op
+                 ping:p0.999:  ≈ 10⁻⁶ s/op
+                 ping:p0.9999: ≈ 10⁻⁶ s/op
+                 ping:p1.00:   ≈ 10⁻⁶ s/op
+                 pong:         0,105 s/op
+                 pong:p0.00:   0,105 s/op
+                 pong:p0.50:   0,105 s/op
+                 pong:p0.90:   0,105 s/op
+                 pong:p0.95:   0,105 s/op
+                 pong:p0.99:   0,105 s/op
+                 pong:p0.999:  0,105 s/op
+                 pong:p0.9999: 0,105 s/op
+                 pong:p1.00:   0,105 s/op
+
+Iteration   4: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,103 s/op
+                 p0.95:        0,103 s/op
+                 p0.99:        0,103 s/op
+                 p0.999:       0,103 s/op
+                 p0.9999:      0,103 s/op
+                 p1.00:        0,103 s/op
+                 ping:         0,103 s/op
+                 ping:p0.00:   0,103 s/op
+                 ping:p0.50:   0,103 s/op
+                 ping:p0.90:   0,103 s/op
+                 ping:p0.95:   0,103 s/op
+                 ping:p0.99:   0,103 s/op
+                 ping:p0.999:  0,103 s/op
+                 ping:p0.9999: 0,103 s/op
+                 ping:p1.00:   0,103 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   5: 0,050 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,050 s/op
+                 p0.90:        0,101 s/op
+                 p0.95:        0,101 s/op
+                 p0.99:        0,101 s/op
+                 p0.999:       0,101 s/op
+                 p0.9999:      0,101 s/op
+                 p1.00:        0,101 s/op
+                 ping:         ≈ 10⁻⁶ s/op
+                 ping:p0.00:   ≈ 10⁻⁶ s/op
+                 ping:p0.50:   ≈ 10⁻⁶ s/op
+                 ping:p0.90:   ≈ 10⁻⁶ s/op
+                 ping:p0.95:   ≈ 10⁻⁶ s/op
+                 ping:p0.99:   ≈ 10⁻⁶ s/op
+                 ping:p0.999:  ≈ 10⁻⁶ s/op
+                 ping:p0.9999: ≈ 10⁻⁶ s/op
+                 ping:p1.00:   ≈ 10⁻⁶ s/op
+                 pong:         0,101 s/op
+                 pong:p0.00:   0,101 s/op
+                 pong:p0.50:   0,101 s/op
+                 pong:p0.90:   0,101 s/op
+                 pong:p0.95:   0,101 s/op
+                 pong:p0.99:   0,101 s/op
+                 pong:p0.999:  0,101 s/op
+                 pong:p0.9999: 0,101 s/op
+                 pong:p1.00:   0,101 s/op
+
+
+# Run progress: 80,00% complete, ETA 00:00:01
+# Fork: 5 of 5
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 0,049 s/op
+# Warmup Iteration   2: 0,052 s/op
+# Warmup Iteration   3: 0,050 s/op
+# Warmup Iteration   4: 0,052 s/op
+# Warmup Iteration   5: 0,052 s/op
+Iteration   1: 0,052 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,052 s/op
+                 p0.90:        0,103 s/op
+                 p0.95:        0,103 s/op
+                 p0.99:        0,103 s/op
+                 p0.999:       0,103 s/op
+                 p0.9999:      0,103 s/op
+                 p1.00:        0,103 s/op
+                 ping:         0,103 s/op
+                 ping:p0.00:   0,103 s/op
+                 ping:p0.50:   0,103 s/op
+                 ping:p0.90:   0,103 s/op
+                 ping:p0.95:   0,103 s/op
+                 ping:p0.99:   0,103 s/op
+                 ping:p0.999:  0,103 s/op
+                 ping:p0.9999: 0,103 s/op
+                 ping:p1.00:   0,103 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
 
 Iteration   2: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
@@ -1076,40 +1076,40 @@ Iteration   3: 0,052 s/op
 Iteration   4: 0,052 s/op
                  p0.00:        ≈ 10⁻⁶ s/op
                  p0.50:        0,052 s/op
-                 p0.90:        0,105 s/op
-                 p0.95:        0,105 s/op
-                 p0.99:        0,105 s/op
-                 p0.999:       0,105 s/op
-                 p0.9999:      0,105 s/op
-                 p1.00:        0,105 s/op
-                 ping:         ≈ 10⁻⁶ s/op
-                 ping:p0.00:   ≈ 10⁻⁶ s/op
-                 ping:p0.50:   ≈ 10⁻⁶ s/op
-                 ping:p0.90:   ≈ 10⁻⁶ s/op
-                 ping:p0.95:   ≈ 10⁻⁶ s/op
-                 ping:p0.99:   ≈ 10⁻⁶ s/op
-                 ping:p0.999:  ≈ 10⁻⁶ s/op
-                 ping:p0.9999: ≈ 10⁻⁶ s/op
-                 ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,105 s/op
-                 pong:p0.00:   0,105 s/op
-                 pong:p0.50:   0,105 s/op
-                 pong:p0.90:   0,105 s/op
-                 pong:p0.95:   0,105 s/op
-                 pong:p0.99:   0,105 s/op
-                 pong:p0.999:  0,105 s/op
-                 pong:p0.9999: 0,105 s/op
-                 pong:p1.00:   0,105 s/op
-
-Iteration   5: 0,052 s/op
-                 p0.00:        ≈ 10⁻⁶ s/op
-                 p0.50:        0,052 s/op
                  p0.90:        0,104 s/op
                  p0.95:        0,104 s/op
                  p0.99:        0,104 s/op
                  p0.999:       0,104 s/op
                  p0.9999:      0,104 s/op
                  p1.00:        0,104 s/op
+                 ping:         0,104 s/op
+                 ping:p0.00:   0,104 s/op
+                 ping:p0.50:   0,104 s/op
+                 ping:p0.90:   0,104 s/op
+                 ping:p0.95:   0,104 s/op
+                 ping:p0.99:   0,104 s/op
+                 ping:p0.999:  0,104 s/op
+                 ping:p0.9999: 0,104 s/op
+                 ping:p1.00:   0,104 s/op
+                 pong:         ≈ 10⁻⁶ s/op
+                 pong:p0.00:   ≈ 10⁻⁶ s/op
+                 pong:p0.50:   ≈ 10⁻⁶ s/op
+                 pong:p0.90:   ≈ 10⁻⁶ s/op
+                 pong:p0.95:   ≈ 10⁻⁶ s/op
+                 pong:p0.99:   ≈ 10⁻⁶ s/op
+                 pong:p0.999:  ≈ 10⁻⁶ s/op
+                 pong:p0.9999: ≈ 10⁻⁶ s/op
+                 pong:p1.00:   ≈ 10⁻⁶ s/op
+
+Iteration   5: 0,051 s/op
+                 p0.00:        ≈ 10⁻⁶ s/op
+                 p0.50:        0,051 s/op
+                 p0.90:        0,103 s/op
+                 p0.95:        0,103 s/op
+                 p0.99:        0,103 s/op
+                 p0.999:       0,103 s/op
+                 p0.9999:      0,103 s/op
+                 p1.00:        0,103 s/op
                  ping:         ≈ 10⁻⁶ s/op
                  ping:p0.00:   ≈ 10⁻⁶ s/op
                  ping:p0.50:   ≈ 10⁻⁶ s/op
@@ -1119,15 +1119,15 @@ Iteration   5: 0,052 s/op
                  ping:p0.999:  ≈ 10⁻⁶ s/op
                  ping:p0.9999: ≈ 10⁻⁶ s/op
                  ping:p1.00:   ≈ 10⁻⁶ s/op
-                 pong:         0,104 s/op
-                 pong:p0.00:   0,104 s/op
-                 pong:p0.50:   0,104 s/op
-                 pong:p0.90:   0,104 s/op
-                 pong:p0.95:   0,104 s/op
-                 pong:p0.99:   0,104 s/op
-                 pong:p0.999:  0,104 s/op
-                 pong:p0.9999: 0,104 s/op
-                 pong:p1.00:   0,104 s/op
+                 pong:         0,103 s/op
+                 pong:p0.00:   0,103 s/op
+                 pong:p0.50:   0,103 s/op
+                 pong:p0.90:   0,103 s/op
+                 pong:p0.95:   0,103 s/op
+                 pong:p0.99:   0,103 s/op
+                 pong:p0.999:  0,103 s/op
+                 pong:p0.9999: 0,103 s/op
+                 pong:p1.00:   0,103 s/op
 
 
 
@@ -1166,10 +1166,10 @@ Result "org.openjdk.jmh.it.control.ControlStopTest.pingpong":
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
   N = 25
-  mean =      0,054 ±(99.9%) 0,040 s/op
+  mean =      0,067 ±(99.9%) 0,038 s/op
 
   Histogram, s/op:
-    [0,000, 0,013) = 12 
+    [0,000, 0,013) = 9 
     [0,013, 0,025) = 0 
     [0,025, 0,038) = 0 
     [0,038, 0,050) = 0 
@@ -1177,7 +1177,7 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
     [0,063, 0,075) = 0 
     [0,075, 0,088) = 0 
     [0,088, 0,100) = 0 
-    [0,100, 0,113) = 13 
+    [0,100, 0,113) = 16 
     [0,113, 0,125) = 0 
     [0,125, 0,138) = 0 
     [0,138, 0,150) = 0 
@@ -1187,7 +1187,7 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
 
   Percentiles, s/op:
       p(0,0000) =     ≈ 10⁻⁶ s/op
-     p(50,0000) =      0,100 s/op
+     p(50,0000) =      0,103 s/op
      p(90,0000) =      0,105 s/op
      p(95,0000) =      0,105 s/op
      p(99,0000) =      0,105 s/op
@@ -1199,10 +1199,10 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
   N = 25
-  mean =      0,050 ±(99.9%) 0,040 s/op
+  mean =      0,037 ±(99.9%) 0,038 s/op
 
   Histogram, s/op:
-    [0,000, 0,013) = 13 
+    [0,000, 0,013) = 16 
     [0,013, 0,025) = 0 
     [0,025, 0,038) = 0 
     [0,038, 0,050) = 0 
@@ -1210,7 +1210,7 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
     [0,063, 0,075) = 0 
     [0,075, 0,088) = 0 
     [0,088, 0,100) = 0 
-    [0,100, 0,113) = 12 
+    [0,100, 0,113) = 9 
     [0,113, 0,125) = 0 
     [0,125, 0,138) = 0 
     [0,138, 0,150) = 0 
@@ -1249,16 +1249,16 @@ ControlStopTest.pingpong:p0.99         sample        0,105           s/op
 ControlStopTest.pingpong:p0.999        sample        0,105           s/op
 ControlStopTest.pingpong:p0.9999       sample        0,105           s/op
 ControlStopTest.pingpong:p1.00         sample        0,105           s/op
-ControlStopTest.pingpong:ping          sample   25   0,054 ± 0,040   s/op
+ControlStopTest.pingpong:ping          sample   25   0,067 ± 0,038   s/op
 ControlStopTest.pingpong:ping:p0.00    sample       ≈ 10⁻⁶           s/op
-ControlStopTest.pingpong:ping:p0.50    sample        0,100           s/op
+ControlStopTest.pingpong:ping:p0.50    sample        0,103           s/op
 ControlStopTest.pingpong:ping:p0.90    sample        0,105           s/op
 ControlStopTest.pingpong:ping:p0.95    sample        0,105           s/op
 ControlStopTest.pingpong:ping:p0.99    sample        0,105           s/op
 ControlStopTest.pingpong:ping:p0.999   sample        0,105           s/op
 ControlStopTest.pingpong:ping:p0.9999  sample        0,105           s/op
 ControlStopTest.pingpong:ping:p1.00    sample        0,105           s/op
-ControlStopTest.pingpong:pong          sample   25   0,050 ± 0,040   s/op
+ControlStopTest.pingpong:pong          sample   25   0,037 ± 0,038   s/op
 ControlStopTest.pingpong:pong:p0.00    sample       ≈ 10⁻⁶           s/op
 ControlStopTest.pingpong:pong:p0.50    sample       ≈ 10⁻⁶           s/op
 ControlStopTest.pingpong:pong:p0.90    sample        0,105           s/op
@@ -1282,7 +1282,7 @@ ControlStopTest.pingpong:pong:p1.00    sample        0,105           s/op
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁵ s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -1290,10 +1290,10 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Warmup Iteration   5: ≈ 10⁻⁶ s/op
 Iteration   1: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁷ s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 Iteration   2: ≈ 10⁻⁶ s/op
-                 ping: ≈ 10⁻⁷ s/op
+                 ping: ≈ 10⁻⁶ s/op
                  pong: ≈ 10⁻⁶ s/op
 
 Iteration   3: ≈ 10⁻⁶ s/op
@@ -1302,7 +1302,7 @@ Iteration   3: ≈ 10⁻⁶ s/op
 
 Iteration   4: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁷ s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 Iteration   5: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -1311,7 +1311,7 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 20,00% complete, ETA 00:00:00
 # Fork: 2 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁵ s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -1319,7 +1319,7 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Warmup Iteration   5: ≈ 10⁻⁶ s/op
 Iteration   1: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁷ s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 Iteration   2: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -1331,7 +1331,7 @@ Iteration   3: ≈ 10⁻⁶ s/op
 
 Iteration   4: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁷ s/op
+                 pong: ≈ 10⁻⁶ s/op
 
 Iteration   5: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -1340,7 +1340,36 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 40,00% complete, ETA 00:00:00
 # Fork: 3 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+                 ping: ≈ 10⁻⁵ s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   2: ≈ 10⁻⁶ s/op
+                 ping: ≈ 10⁻⁶ s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   3: ≈ 10⁻⁶ s/op
+                 ping: ≈ 10⁻⁶ s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+Iteration   4: ≈ 10⁻⁵ s/op
+                 ping: ≈ 10⁻⁶ s/op
+                 pong: ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁶ s/op
+                 ping: ≈ 10⁻⁷ s/op
+                 pong: ≈ 10⁻⁶ s/op
+
+
+# Run progress: 60,00% complete, ETA 00:00:00
+# Fork: 4 of 5
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁵ s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -1348,7 +1377,7 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Warmup Iteration   5: ≈ 10⁻⁶ s/op
 Iteration   1: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
+                 pong: ≈ 10⁻⁷ s/op
 
 Iteration   2: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -1356,36 +1385,7 @@ Iteration   2: ≈ 10⁻⁶ s/op
 
 Iteration   3: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   4: ≈ 10⁻⁶ s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   5: ≈ 10⁻⁶ s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-
-# Run progress: 60,00% complete, ETA 00:00:00
-# Fork: 4 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: ≈ 10⁻⁵ s/op
-# Warmup Iteration   2: ≈ 10⁻⁶ s/op
-# Warmup Iteration   3: ≈ 10⁻⁶ s/op
-# Warmup Iteration   4: ≈ 10⁻⁶ s/op
-# Warmup Iteration   5: ≈ 10⁻⁶ s/op
-Iteration   1: ≈ 10⁻⁵ s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁴ s/op
-
-Iteration   2: ≈ 10⁻⁶ s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
-
-Iteration   3: ≈ 10⁻⁶ s/op
-                 ping: ≈ 10⁻⁶ s/op
-                 pong: ≈ 10⁻⁶ s/op
+                 pong: ≈ 10⁻⁷ s/op
 
 Iteration   4: ≈ 10⁻⁶ s/op
                  ping: ≈ 10⁻⁶ s/op
@@ -1398,7 +1398,7 @@ Iteration   5: ≈ 10⁻⁶ s/op
 
 # Run progress: 80,00% complete, ETA 00:00:00
 # Fork: 5 of 5
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
+The Dynamic Halt is NOT Active
 # Warmup Iteration   1: ≈ 10⁻⁵ s/op
 # Warmup Iteration   2: ≈ 10⁻⁶ s/op
 # Warmup Iteration   3: ≈ 10⁻⁶ s/op
@@ -1431,9 +1431,11 @@ Result "org.openjdk.jmh.it.control.ControlStopTest.pingpong":
   mean =     ≈ 10⁻⁶ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 24 
+    [ 0,000,  0,000) = 13 
+    [ 0,000,  0,000) = 8 
+    [ 0,000,  0,000) = 2 
     [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
@@ -1444,8 +1446,6 @@ Result "org.openjdk.jmh.it.control.ControlStopTest.pingpong":
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 0 
 
   Percentiles, s/op:
       p(0,0000) =     ≈ 10⁻⁶ s/op
@@ -1464,14 +1464,20 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
   mean =     ≈ 10⁻⁶ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 6 
-    [ 0,000,  0,000) = 6 
     [ 0,000,  0,000) = 0 
-    [ 0,000,  0,000) = 1 
-    [ 0,000,  0,000) = 5 
+    [ 0,000,  0,000) = 12 
+    [ 0,000,  0,000) = 4 
+    [ 0,000,  0,000) = 4 
     [ 0,000,  0,000) = 3 
     [ 0,000,  0,000) = 1 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 1 
 
   Percentiles, s/op:
@@ -1479,19 +1485,20 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:ping":
      p(50,0000) =     ≈ 10⁻⁶ s/op
      p(90,0000) =     ≈ 10⁻⁶ s/op
      p(95,0000) =     ≈ 10⁻⁶ s/op
-     p(99,0000) =     ≈ 10⁻⁶ s/op
-     p(99,9000) =     ≈ 10⁻⁶ s/op
-     p(99,9900) =     ≈ 10⁻⁶ s/op
-     p(99,9990) =     ≈ 10⁻⁶ s/op
-     p(99,9999) =     ≈ 10⁻⁶ s/op
-    p(100,0000) =     ≈ 10⁻⁶ s/op
+     p(99,0000) =     ≈ 10⁻⁵ s/op
+     p(99,9000) =     ≈ 10⁻⁵ s/op
+     p(99,9900) =     ≈ 10⁻⁵ s/op
+     p(99,9990) =     ≈ 10⁻⁵ s/op
+     p(99,9999) =     ≈ 10⁻⁵ s/op
+    p(100,0000) =     ≈ 10⁻⁵ s/op
 
 Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
   N = 25
   mean =     ≈ 10⁻⁶ ±(99.9%) 0,001 s/op
 
   Histogram, s/op:
-    [ 0,000,  0,000) = 24 
+    [ 0,000,  0,000) = 23 
+    [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
@@ -1499,6 +1506,9 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 0 
+    [ 0,000,  0,000) = 1 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
     [ 0,000,  0,000) = 0 
@@ -1507,13 +1517,13 @@ Secondary result "org.openjdk.jmh.it.control.ControlStopTest.pingpong:pong":
       p(0,0000) =     ≈ 10⁻⁷ s/op
      p(50,0000) =     ≈ 10⁻⁶ s/op
      p(90,0000) =     ≈ 10⁻⁶ s/op
-     p(95,0000) =     ≈ 10⁻⁴ s/op
-     p(99,0000) =     ≈ 10⁻⁴ s/op
-     p(99,9000) =     ≈ 10⁻⁴ s/op
-     p(99,9900) =     ≈ 10⁻⁴ s/op
-     p(99,9990) =     ≈ 10⁻⁴ s/op
-     p(99,9999) =     ≈ 10⁻⁴ s/op
-    p(100,0000) =     ≈ 10⁻⁴ s/op
+     p(95,0000) =     ≈ 10⁻⁵ s/op
+     p(99,0000) =     ≈ 10⁻⁵ s/op
+     p(99,9000) =     ≈ 10⁻⁵ s/op
+     p(99,9900) =     ≈ 10⁻⁵ s/op
+     p(99,9990) =     ≈ 10⁻⁵ s/op
+     p(99,9999) =     ≈ 10⁻⁵ s/op
+    p(100,0000) =     ≈ 10⁻⁵ s/op
 
 
 # Run complete. Total time: 00:00:00

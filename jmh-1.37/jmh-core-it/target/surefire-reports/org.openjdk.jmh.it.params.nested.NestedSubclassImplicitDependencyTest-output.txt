@@ -14,13 +14,13 @@
 
 # Run progress: 0,00% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,125 ops/s
-Iteration   1: 79,844 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 88,966 ops/s
+Iteration   1: 87,467 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,844 ops/s
+  87,467 ops/s
 
 
 # JMH version: 1.37
@@ -36,15 +36,15 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
 # Parameters: (x = 1, y = b)
 
-# Run progress: 5,56% complete, ETA 00:00:05
+# Run progress: 5,56% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,070 ops/s
-Iteration   1: 79,824 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,173 ops/s
+Iteration   1: 79,862 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,824 ops/s
+  79,862 ops/s
 
 
 # JMH version: 1.37
@@ -60,15 +60,15 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
 # Parameters: (x = 1, y = c)
 
-# Run progress: 11,11% complete, ETA 00:00:04
+# Run progress: 11,11% complete, ETA 00:00:06
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,075 ops/s
-Iteration   1: 79,779 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,428 ops/s
+Iteration   1: 90,784 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,779 ops/s
+  90,784 ops/s
 
 
 # JMH version: 1.37
@@ -84,15 +84,15 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
 # Parameters: (x = 2, y = a)
 
-# Run progress: 16,67% complete, ETA 00:00:04
+# Run progress: 16,67% complete, ETA 00:00:05
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 72,107 ops/s
-Iteration   1: 79,799 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,738 ops/s
+Iteration   1: 90,365 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,799 ops/s
+  90,365 ops/s
 
 
 # JMH version: 1.37
@@ -110,13 +110,13 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 
 # Run progress: 22,22% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 60,667 ops/s
-Iteration   1: 79,847 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,468 ops/s
+Iteration   1: 79,101 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,847 ops/s
+  79,101 ops/s
 
 
 # JMH version: 1.37
@@ -134,13 +134,13 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 
 # Run progress: 27,78% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,079 ops/s
-Iteration   1: 76,989 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 69,956 ops/s
+Iteration   1: 97,601 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  76,989 ops/s
+  97,601 ops/s
 
 
 # JMH version: 1.37
@@ -156,10 +156,374 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
 # Parameters: (x = 3, y = a)
 
-# Run progress: 33,33% complete, ETA 00:00:03
+# Run progress: 33,33% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,097 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 86,830 ops/s
+Iteration   1: 98,099 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  98,099 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 3, y = b)
+
+# Run progress: 38,89% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,712 ops/s
+Iteration   1: 98,024 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  98,024 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 3, y = c)
+
+# Run progress: 44,44% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,781 ops/s
+Iteration   1: 87,129 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  87,129 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 1, y = a)
+
+# Run progress: 50,00% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 94,950 ops/s
+Iteration   1: 79,849 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,849 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 1, y = b)
+
+# Run progress: 55,56% complete, ETA 00:00:02
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,471 ops/s
+Iteration   1: 83,306 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  83,306 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 1, y = c)
+
+# Run progress: 61,11% complete, ETA 00:00:02
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,783 ops/s
+Iteration   1: 91,576 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  91,576 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = a)
+
+# Run progress: 66,67% complete, ETA 00:00:02
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 86,255 ops/s
+Iteration   1: 79,862 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,862 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = b)
+
+# Run progress: 72,22% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,944 ops/s
+Iteration   1: 99,783 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  99,783 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = c)
+
+# Run progress: 77,78% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 71,776 ops/s
+Iteration   1: 79,622 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,622 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = a)
+
+# Run progress: 83,33% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,745 ops/s
+Iteration   1: 78,551 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  78,551 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = b)
+
+# Run progress: 88,89% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,301 ops/s
+Iteration   1: 79,804 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,804 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = c)
+
+# Run progress: 94,44% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,650 ops/s
+Iteration   1: 79,795 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,795 ops/s
+
+
+# Run complete. Total time: 00:00:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                      (x)  (y)   Mode  Cnt   Score   Error  Units
+NestedSubclassImplicitDependencyTest.S2.bench    1    a  thrpt       87,467          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    1    b  thrpt       79,862          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    1    c  thrpt       90,784          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    a  thrpt       90,365          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       79,101          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       97,601          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    a  thrpt       98,099          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       98,024          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       87,129          ops/s
+NestedSubclassImplicitDependencyTest.bench       1    a  thrpt       79,849          ops/s
+NestedSubclassImplicitDependencyTest.bench       1    b  thrpt       83,306          ops/s
+NestedSubclassImplicitDependencyTest.bench       1    c  thrpt       91,576          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    a  thrpt       79,862          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       99,783          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,622          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    a  thrpt       78,551          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       79,804          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,795          ops/s
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 2, y = a)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 73,185 ops/s
+Iteration   1: 79,838 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  79,838 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 2, y = b)
+
+# Run progress: 8,33% complete, ETA 00:00:04
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 60,121 ops/s
+Iteration   1: 86,067 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  86,067 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 2, y = c)
+
+# Run progress: 16,67% complete, ETA 00:00:04
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,988 ops/s
 Iteration   1: 79,791 ops/s
 
 
@@ -178,691 +542,17 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 3, y = b)
-
-# Run progress: 38,89% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 57,719 ops/s
-Iteration   1: 79,857 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,857 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 3, y = c)
-
-# Run progress: 44,44% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,053 ops/s
-Iteration   1: 95,517 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  95,517 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 1, y = a)
-
-# Run progress: 50,00% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 61,051 ops/s
-Iteration   1: 79,765 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,765 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 1, y = b)
-
-# Run progress: 55,56% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,028 ops/s
-Iteration   1: 67,935 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  67,935 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 1, y = c)
-
-# Run progress: 61,11% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,638 ops/s
-Iteration   1: 82,213 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  82,213 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = a)
-
-# Run progress: 66,67% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 78,133 ops/s
-Iteration   1: 79,404 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,404 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = b)
-
-# Run progress: 72,22% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 73,639 ops/s
-Iteration   1: 86,677 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  86,677 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = c)
-
-# Run progress: 77,78% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 62,376 ops/s
-Iteration   1: 79,600 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,600 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
 # Parameters: (x = 3, y = a)
 
-# Run progress: 83,33% complete, ETA 00:00:00
+# Run progress: 25,00% complete, ETA 00:00:04
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 58,236 ops/s
-Iteration   1: 81,476 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  81,476 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 3, y = b)
-
-# Run progress: 88,89% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 69,430 ops/s
-Iteration   1: 79,177 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,177 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 3, y = c)
-
-# Run progress: 94,44% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 66,238 ops/s
-Iteration   1: 79,840 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,840 ops/s
-
-
-# Run complete. Total time: 00:00:05
-
-REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
-why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
-experiments, perform baseline and negative tests that provide experimental control, make sure
-the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
-Do not assume the numbers tell you what you want them to tell.
-
-Benchmark                                      (x)  (y)   Mode  Cnt   Score   Error  Units
-NestedSubclassImplicitDependencyTest.S2.bench    1    a  thrpt       79,844          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    1    b  thrpt       79,824          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    1    c  thrpt       79,779          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    a  thrpt       79,799          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       79,847          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       76,989          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    a  thrpt       79,791          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       79,857          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       95,517          ops/s
-NestedSubclassImplicitDependencyTest.bench       1    a  thrpt       79,765          ops/s
-NestedSubclassImplicitDependencyTest.bench       1    b  thrpt       67,935          ops/s
-NestedSubclassImplicitDependencyTest.bench       1    c  thrpt       82,213          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    a  thrpt       79,404          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       86,677          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,600          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    a  thrpt       81,476          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       79,177          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,840          ops/s
-# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 2, y = a)
-
-# Run progress: 0,00% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,760 ops/s
-Iteration   1: 79,367 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 80,228 ops/s
+Iteration   1: 79,659 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,367 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 2, y = b)
-
-# Run progress: 8,33% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,652 ops/s
-Iteration   1: 79,571 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,571 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 2, y = c)
-
-# Run progress: 16,67% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,807 ops/s
-Iteration   1: 93,924 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  93,924 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 3, y = a)
-
-# Run progress: 25,00% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,723 ops/s
-Iteration   1: 79,819 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,819 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 3, y = b)
-
-# Run progress: 33,33% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 65,291 ops/s
-Iteration   1: 78,527 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  78,527 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 3, y = c)
-
-# Run progress: 41,67% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 54,541 ops/s
-Iteration   1: 82,524 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  82,524 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = a)
-
-# Run progress: 50,00% complete, ETA 00:00:02
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 69,102 ops/s
-Iteration   1: 97,131 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  97,131 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = b)
-
-# Run progress: 58,33% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,514 ops/s
-Iteration   1: 79,820 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,820 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = c)
-
-# Run progress: 66,67% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,409 ops/s
-Iteration   1: 79,054 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,054 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 3, y = a)
-
-# Run progress: 75,00% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 86,771 ops/s
-Iteration   1: 75,425 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  75,425 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 3, y = b)
-
-# Run progress: 83,33% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,893 ops/s
-Iteration   1: 83,938 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  83,938 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 3, y = c)
-
-# Run progress: 91,67% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 62,581 ops/s
-Iteration   1: 79,781 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,781 ops/s
-
-
-# Run complete. Total time: 00:00:04
-
-REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
-why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
-experiments, perform baseline and negative tests that provide experimental control, make sure
-the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
-Do not assume the numbers tell you what you want them to tell.
-
-Benchmark                                      (x)  (y)   Mode  Cnt   Score   Error  Units
-NestedSubclassImplicitDependencyTest.S2.bench    2    a  thrpt       79,367          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       79,571          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       93,924          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    a  thrpt       79,819          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       78,527          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       82,524          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    a  thrpt       97,131          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       79,820          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,054          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    a  thrpt       75,425          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       83,938          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,781          ops/s
-# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 1, y = b)
-
-# Run progress: 0,00% complete, ETA 00:00:00
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 80,397 ops/s
-Iteration   1: 79,843 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,843 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 1, y = c)
-
-# Run progress: 8,33% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,748 ops/s
-Iteration   1: 79,647 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,647 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 2, y = b)
-
-# Run progress: 16,67% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 63,987 ops/s
-Iteration   1: 97,368 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  97,368 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
-# Parameters: (x = 2, y = c)
-
-# Run progress: 25,00% complete, ETA 00:00:03
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 77,223 ops/s
-Iteration   1: 83,818 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  83,818 ops/s
+  79,659 ops/s
 
 
 # JMH version: 1.37
@@ -880,13 +570,13 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 
 # Run progress: 33,33% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,708 ops/s
-Iteration   1: 79,827 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 77,596 ops/s
+Iteration   1: 81,249 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  79,827 ops/s
+  81,249 ops/s
 
 
 # JMH version: 1.37
@@ -902,15 +592,15 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
 # Parameters: (x = 3, y = c)
 
-# Run progress: 41,67% complete, ETA 00:00:02
+# Run progress: 41,67% complete, ETA 00:00:03
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,605 ops/s
-Iteration   1: 78,615 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 65,284 ops/s
+Iteration   1: 79,824 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
-  78,615 ops/s
+  79,824 ops/s
 
 
 # JMH version: 1.37
@@ -924,41 +614,17 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 1, y = b)
+# Parameters: (x = 2, y = a)
 
 # Run progress: 50,00% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 74,065 ops/s
-Iteration   1: 77,833 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 76,851 ops/s
+Iteration   1: 79,577 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  77,833 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 1, y = c)
-
-# Run progress: 58,33% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 75,125 ops/s
-Iteration   1: 79,189 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,189 ops/s
+  79,577 ops/s
 
 
 # JMH version: 1.37
@@ -974,34 +640,10 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.be
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
 # Parameters: (x = 2, y = b)
 
-# Run progress: 66,67% complete, ETA 00:00:01
+# Run progress: 58,33% complete, ETA 00:00:02
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 76,301 ops/s
-Iteration   1: 79,523 ops/s
-
-
-Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,523 ops/s
-
-
-# JMH version: 1.37
-# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
-# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
-# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
-# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
-# Warmup: 1 iterations, 100 us each
-# Measurement: 1 iterations, 100 us each
-# Timeout: 10 min per iteration
-# Threads: 1 thread, will synchronize iterations
-# Benchmark mode: Throughput, ops/time
-# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
-# Parameters: (x = 2, y = c)
-
-# Run progress: 75,00% complete, ETA 00:00:01
-# Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 67,496 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 66,826 ops/s
 Iteration   1: 79,832 ops/s
 
 
@@ -1020,17 +662,65 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.be
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
 # Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = c)
+
+# Run progress: 66,67% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 60,770 ops/s
+Iteration   1: 79,782 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,782 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = a)
+
+# Run progress: 75,00% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,957 ops/s
+Iteration   1: 79,823 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,823 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
 # Parameters: (x = 3, y = b)
 
 # Run progress: 83,33% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 75,458 ops/s
-Iteration   1: 90,966 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 63,816 ops/s
+Iteration   1: 79,863 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  90,966 ops/s
+  79,863 ops/s
 
 
 # JMH version: 1.37
@@ -1048,16 +738,16 @@ Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.be
 
 # Run progress: 91,67% complete, ETA 00:00:00
 # Fork: 1 of 1
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 73,716 ops/s
-Iteration   1: 79,599 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 84,134 ops/s
+Iteration   1: 79,798 ops/s
 
 
 Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
-  79,599 ops/s
+  79,798 ops/s
 
 
-# Run complete. Total time: 00:00:04
+# Run complete. Total time: 00:00:05
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -1066,15 +756,325 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                      (x)  (y)   Mode  Cnt   Score   Error  Units
-NestedSubclassImplicitDependencyTest.S2.bench    1    b  thrpt       79,843          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    1    c  thrpt       79,647          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       97,368          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       83,818          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       79,827          ops/s
-NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       78,615          ops/s
-NestedSubclassImplicitDependencyTest.bench       1    b  thrpt       77,833          ops/s
-NestedSubclassImplicitDependencyTest.bench       1    c  thrpt       79,189          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       79,523          ops/s
-NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,832          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       90,966          ops/s
-NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,599          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    a  thrpt       79,838          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       86,067          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       79,791          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    a  thrpt       79,659          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       81,249          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       79,824          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    a  thrpt       79,577          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       79,832          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,782          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    a  thrpt       79,823          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       79,863          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,798          ops/s
+# WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 1, y = b)
+
+# Run progress: 0,00% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 80,185 ops/s
+Iteration   1: 80,991 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  80,991 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 1, y = c)
+
+# Run progress: 8,33% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,840 ops/s
+Iteration   1: 79,832 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  79,832 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 2, y = b)
+
+# Run progress: 16,67% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 68,361 ops/s
+Iteration   1: 79,383 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  79,383 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 2, y = c)
+
+# Run progress: 25,00% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,497 ops/s
+Iteration   1: 80,457 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  80,457 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 3, y = b)
+
+# Run progress: 33,33% complete, ETA 00:00:03
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 53,653 ops/s
+Iteration   1: 79,736 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  79,736 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench
+# Parameters: (x = 3, y = c)
+
+# Run progress: 41,67% complete, ETA 00:00:02
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 88,533 ops/s
+Iteration   1: 77,107 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.S2.bench":
+  77,107 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 1, y = b)
+
+# Run progress: 50,00% complete, ETA 00:00:02
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 68,628 ops/s
+Iteration   1: 96,462 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  96,462 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 1, y = c)
+
+# Run progress: 58,33% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 39,737 ops/s
+Iteration   1: 79,892 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,892 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = b)
+
+# Run progress: 66,67% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 64,922 ops/s
+Iteration   1: 79,879 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,879 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 2, y = c)
+
+# Run progress: 75,00% complete, ETA 00:00:01
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 74,499 ops/s
+Iteration   1: 79,878 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,878 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = b)
+
+# Run progress: 83,33% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,126 ops/s
+Iteration   1: 79,871 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,871 ops/s
+
+
+# JMH version: 1.37
+# VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
+# VM invoker: /Users/antoniotrovato/Library/Java/JavaVirtualMachines/corretto-1.8.0_432/Contents/Home/jre/bin/java
+# VM options: -Djmh.ignoreLock=true -Xms256m -Xmx256m -Djmh.core.it.profile=default
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 100 us each
+# Measurement: 1 iterations, 100 us each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench
+# Parameters: (x = 3, y = c)
+
+# Run progress: 91,67% complete, ETA 00:00:00
+# Fork: 1 of 1
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 67,757 ops/s
+Iteration   1: 79,896 ops/s
+
+
+Result "org.openjdk.jmh.it.params.nested.NestedSubclassImplicitDependencyTest.bench":
+  79,896 ops/s
+
+
+# Run complete. Total time: 00:00:03
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                      (x)  (y)   Mode  Cnt   Score   Error  Units
+NestedSubclassImplicitDependencyTest.S2.bench    1    b  thrpt       80,991          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    1    c  thrpt       79,832          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    b  thrpt       79,383          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    2    c  thrpt       80,457          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    b  thrpt       79,736          ops/s
+NestedSubclassImplicitDependencyTest.S2.bench    3    c  thrpt       77,107          ops/s
+NestedSubclassImplicitDependencyTest.bench       1    b  thrpt       96,462          ops/s
+NestedSubclassImplicitDependencyTest.bench       1    c  thrpt       79,892          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    b  thrpt       79,879          ops/s
+NestedSubclassImplicitDependencyTest.bench       2    c  thrpt       79,878          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    b  thrpt       79,871          ops/s
+NestedSubclassImplicitDependencyTest.bench       3    c  thrpt       79,896          ops/s

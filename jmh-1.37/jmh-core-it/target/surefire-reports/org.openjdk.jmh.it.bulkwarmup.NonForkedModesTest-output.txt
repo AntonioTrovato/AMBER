@@ -15,8 +15,8 @@
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,592 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,391 ops/s
 
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -34,8 +34,8 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 85,187 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,789 ops/s
 
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -53,12 +53,12 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 83,362 ops/s
-Iteration   1: 81,790 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 82,486 ops/s
+Iteration   1: 81,739 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
-  81,790 ops/s
+  81,739 ops/s
 
 
 # JMH version: 1.37
@@ -77,12 +77,12 @@ Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 79,861 ops/s
-Iteration   1: 81,975 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 85,208 ops/s
+Iteration   1: 81,937 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testSmall":
-  81,975 ops/s
+  81,937 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -94,8 +94,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt   Score   Error  Units
-NonForkedModesTest.testBig    thrpt       81,790          ops/s
-NonForkedModesTest.testSmall  thrpt       81,975          ops/s
+NonForkedModesTest.testBig    thrpt       81,739          ops/s
+NonForkedModesTest.testSmall  thrpt       81,937          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -113,8 +113,8 @@ NonForkedModesTest.testSmall  thrpt       81,975          ops/s
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 82,702 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 81,697 ops/s
 
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -132,8 +132,8 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 84,924 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,406 ops/s
 
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -151,11 +151,11 @@ The dynamic halt can be used only when the durations of warm-up and measurement 
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 84,159 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 84,941 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
-  84,159 ops/s
+  84,941 ops/s
 
 
 # JMH version: 1.37
@@ -174,11 +174,11 @@ Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-Iteration   1: 84,783 ops/s
+The Dynamic Halt is NOT Active
+Iteration   1: 83,793 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testSmall":
-  84,783 ops/s
+  83,793 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -190,8 +190,8 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt   Score   Error  Units
-NonForkedModesTest.testBig    thrpt       84,159          ops/s
-NonForkedModesTest.testSmall  thrpt       84,783          ops/s
+NonForkedModesTest.testBig    thrpt       84,941          ops/s
+NonForkedModesTest.testSmall  thrpt       83,793          ops/s
 # WARNING: JMH lock is ignored by user request, make sure no other JMH instances are running
 # JMH version: 1.37
 # VM version: JDK 1.8.0_432, OpenJDK 64-Bit Server VM, 25.432-b06
@@ -209,12 +209,12 @@ NonForkedModesTest.testSmall  thrpt       84,783          ops/s
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 84,775 ops/s
-Iteration   1: 82,847 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 83,411 ops/s
+Iteration   1: 83,533 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
-  82,847 ops/s
+  83,533 ops/s
 
 
 # JMH version: 1.37
@@ -233,12 +233,12 @@ Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testBig":
 # Fork: N/A, test runs in the host VM
 # *** WARNING: Non-forked runs may silently omit JVM options, mess up profilers, disable compiler hints, etc. ***
 # *** WARNING: Use non-forked runs only for debugging purposes, not for actual performance runs. ***
-The dynamic halt can be used only when the durations of warm-up and measurement iterations are at least 100ms, and when the total amount of iterations within a fork is at least 100.
-# Warmup Iteration   1: 85,064 ops/s
-Iteration   1: 83,128 ops/s
+The Dynamic Halt is NOT Active
+# Warmup Iteration   1: 85,503 ops/s
+Iteration   1: 82,540 ops/s
 
 Result "org.openjdk.jmh.it.bulkwarmup.NonForkedModesTest.testSmall":
-  83,128 ops/s
+  82,540 ops/s
 
 
 # Run complete. Total time: 00:00:00
@@ -250,5 +250,5 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                      Mode  Cnt   Score   Error  Units
-NonForkedModesTest.testBig    thrpt       82,847          ops/s
-NonForkedModesTest.testSmall  thrpt       83,128          ops/s
+NonForkedModesTest.testBig    thrpt       83,533          ops/s
+NonForkedModesTest.testSmall  thrpt       82,540          ops/s
